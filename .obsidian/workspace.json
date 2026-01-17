@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Konfig.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Konfig"
+              "title": "DAP1_21-Bäume"
             }
           }
         ]
@@ -204,8 +204,9 @@
   },
   "active": "df329055c3dc1d3c",
   "lastOpenFiles": [
-    "Unbenannt.base",
+    "WS-25/DAP1/Vorlesungen/DAP1_20-Doppelt_verkettete_Listen,_Queues.md",
     "Konfig.md",
+    "Unbenannt.base",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/DAP1/DAP1_Wiki/C++_Parameterübergabe_&_Const-Correctness.md",
     "Wiki/Rekursion.md",
