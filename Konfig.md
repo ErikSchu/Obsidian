@@ -71,3 +71,4 @@ Transaktion wird ausgeführt
 - `git add .` ; `git commit -m "first_backup"`
 
 - GitHub-Verknüpfung 
+	- Personal access token (classic) - repo: v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
