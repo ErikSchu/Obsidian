@@ -1,7 +1,7 @@
 #LinA1  ***Wintersemester 2025/26***  *Prof. Plaumann*
 
-## $I \text{ [Einführung]}$
-`Algebra ist nichts anderes als geschriebene Geometrie, Geometrie nichts anderes als gezeichnete Algebra.`
+## $I$ – Einführung
+` Algebra ist nichts anderes als geschriebene Geometrie, Geometrie nichts anderes als gezeichnete Algebra. `
 *~ Sophie Germain (1776-1831)*
 ##### § 1 Vektoren und Geraden
 ⤷ [[1.1_Vektoren]]
@@ -33,9 +33,8 @@
 ⤷ [[4.4_Anwendungsbeispiel]]
 
 ---
----
-## $II \text{ [Lineare Algebra und}$ $\text{Geometrie in } \mathbb{R}^n]$
-`The beauty of mathematics only shows itself to more patient followers`
+## $II$ – Lineare Algebra und Geometrie in $\mathbb{R}^n$
+` The beauty of mathematics only shows itself to more patient followers `
 *~ Maryam Mirzakhani (1977-2017)*
 ##### § 5 Lösungsräume
 ⤷ [[5.1_Das-Matrix-Vektor-Produkt]]
@@ -82,8 +81,7 @@
 ⤷ [[10.4_Anwendung-auf-lineare-Gleichungssysteme]]
 
 ---
----
-## $III \text{ [Zahlen und algebraische}$ $\text{Strukturen]}$
+## $III$ – Zahlen und algebraische Strukturen
 `The science of operations, as derived from mathematics more especially, is a science of itself and has ist own abstract truth and value`
 *~ Ada Lovelace (1815-1852)*
 ##### § 11 Gruppen
@@ -119,3 +117,5 @@ ___
 ⤷[[14.3_LGS-über-Körpern]]
 ⤷[[14.4_Lineare-Algebra-über-Körpern-Übersicht]]
 
+___
+## $IV$ – Vektorräume & lineare Abbuldungen

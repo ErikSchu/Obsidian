@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "DAP1_21-Bäume"
             }
+          },
+          {
+            "id": "4261391582ce74a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "§LinA1§"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,13 +217,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df329055c3dc1d3c",
+  "active": "4261391582ce74a3",
   "lastOpenFiles": [
-    "Konfig.md",
+    "4.3_Das-Eliminationsverfahren.md",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
     "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
+    "Konfig.md",
     "WS-25/DAP1/Vorlesungen/DAP1_20-Doppelt_verkettete_Listen,_Queues.md",
     "Unbenannt.base",
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/DAP1/DAP1_Wiki/C++_Parameterübergabe_&_Const-Correctness.md",
     "Wiki/Rekursion.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.4_Lineare-Algebra-über-Körpern-Übersicht.md",
@@ -237,8 +254,6 @@
     "Anhänge/Pasted image 20260113122008.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.1_Ringaxiome.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.1_Körperaxiome.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.4_Endliche-Körper.md",
     "Anhänge/Pasted image 20260109104621.png",
     "Anhänge/Pasted image 20260109104251.png",
     "Anhänge/test.cpp",
