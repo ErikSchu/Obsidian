@@ -82,7 +82,7 @@
 
 ---
 ## $III$ – Zahlen und algebraische Strukturen
-`The science of operations, as derived from mathematics more especially, is a science of itself and has ist own abstract truth and value`
+` The science of operations, as derived from mathematics more especially, is a science of itself and has ist own abstract truth and value. `
 *~ Ada Lovelace (1815-1852)*
 ##### § 11 Gruppen
 ⤷ [[11.1_Verknüpfungen]]
@@ -119,3 +119,6 @@ ___
 
 ___
 ## $IV$ – Vektorräume & lineare Abbuldungen
+` The power of mathematics is often to change one thing into another, to change geometry into language. ` *~ Marcus du Sautoy*
+##### § 15 Abstrakte Vektorräume
+⤷ [[15.1_Vektorräume]]
