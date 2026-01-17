@@ -164,7 +164,6 @@ ___
 >*\[C: kann man nicht sagen\]*
 
 ___
-
 #### Code zur Bestimmung der Höhe
 ```cpp
 public:
@@ -177,10 +176,9 @@ private:
 		if (current == nullptr) return -1; // height of empty BST 
 		int lHeight = getHeight(curent->left_) + 1; // left subtree
 		int rHeight = getHeight(current->right_) + 1; // right subtree
-		return lHeight > rHeight ? lHeight : rHeight
+		return lHeight > rHeight ? lHeight : rHeight; // max of both
 	}
 ```
-![[Pasted image 20260106133120.png]]
 
 ___
 
