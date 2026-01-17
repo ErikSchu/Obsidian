@@ -166,7 +166,20 @@ ___
 ___
 
 #### Code zur Bestimmung der Höhe
-
+```cpp
+public:
+	// return height of tree
+	int getHeight() const { return getHeight(root_); }
+	
+private:
+	// recursion
+	int hetHeight(BSTNode<T>* current) const {
+		if (current == nullptr) return -1; // height of empty BST 
+		int lHeight = getHeight(curent->left_) + 1; // left subtree
+		int rHeight = getHeight(current->right_) + 1; // right subtree
+		return lHeight > rHeight ? lHeight : rHeight
+	}
+```
 ![[Pasted image 20260106133120.png]]
 
 ___

@@ -72,3 +72,4 @@ Transaktion wird ausgeführt
 
 - GitHub-Verknüpfung 
 	- Personal access token (classic) - repo: v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
+	- `git config --global credential.helper store` → sonst fragt GitHub jedes man nach Passwort und Benutzername
