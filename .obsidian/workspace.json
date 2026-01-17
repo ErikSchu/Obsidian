@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "df18e67b6efe9150",
+    "type": "split",
+    "children": [
+      {
+        "id": "999b8a5f34d393e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df329055c3dc1d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Konfig.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Konfig"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa05ef1d544d888a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0e6ed0b7d891cdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8bf0ac404a25bbc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "c22b01b9b4b1922e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          },
+          {
+            "id": "d796d0e2fcd8f923",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "325b35e6f4d9646d",
+    "type": "split",
+    "children": [
+      {
+        "id": "beb7daba8f8a12bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cff17159019f62f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.5-Ordnungsrelationen.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweise für 13.5-Ordnungsrelationen"
+            }
+          },
+          {
+            "id": "fe0d8671bca9ce37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "temp_Code.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links von temp_Code öffnen"
+            }
+          },
+          {
+            "id": "c6183b324fa83600",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9d3b6af0fc4d6b02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "temp_Code.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung von temp_Code"
+            }
+          },
+          {
+            "id": "06fa836d94cf68cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle Eigenschaften"
+            }
+          },
+          {
+            "id": "fc4e3955932e56bc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Neue Base erstellen": false,
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "df329055c3dc1d3c",
+  "lastOpenFiles": [
+    "Unbenannt.base",
+    "Konfig.md",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/DAP1/DAP1_Wiki/C++_Parameterübergabe_&_Const-Correctness.md",
+    "Wiki/Rekursion.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.4_Lineare-Algebra-über-Körpern-Übersicht.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.3_LGS-über-Körpern.md",
+    "Anhänge/Pasted image 20260116094913.png",
+    "Anhänge/Pasted image 20260116094756.png",
+    "Anhänge/Pasted image 20260116094121.png",
+    "Anhänge/Pasted image 20260116093649.png",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.2_Der-komplexe-Vektorraum.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.1_Der-Vektorraum-über-Körpern.md",
+    "Anhänge/Pasted image 20260116085658.png",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.7_Angeordnete-Körper.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.6_Mengeninklusion-als-partielle-Ordnung.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.5_Ordnungsrelationen.md",
+    "^.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.4_Anwendung-auf-lineare-Gleichungssysteme.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.3_Berechnung-der-Inversen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.2_Umkehrabbildung-und-Invertierung.md",
+    "WS-25/RS/RS-Wiki/rs_wiki_dump/Multiplikation_von_Fließkommazahlen.md",
+    "WS-25/RS/RS-Wiki/§RS§.md",
+    "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_von_Fließkommazahlen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.1_Rang-einer-Matrix.md",
+    "WS-25/DAP1/Vorlesungen/DAP_23-Bäume(ctd.),_Masps.md",
+    "Anhänge/Pasted image 20260113122624.png",
+    "Anhänge/Pasted image 20260113122415.png",
+    "Anhänge/Pasted image 20260113122008.png",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.1_Ringaxiome.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.1_Körperaxiome.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.4_Endliche-Körper.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.3_Komplexe-Zahlen.md",
+    "Anhänge/Pasted image 20260109104621.png",
+    "Anhänge/Pasted image 20260109104251.png",
+    "Anhänge/test.cpp",
+    "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump",
+    "WS-25/DAP1/DAP1-Praktikum",
+    "Templates",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump",
+    "Unbenannt 1.base",
+    "WS-25/RS/RS-Wiki/rs_wiki_dump",
+    "WS-25/RS/RS-Wiki",
+    "Excalidraw",
+    "Unbenannt.canvas"
+  ]
+}

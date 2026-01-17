@@ -1,0 +1,12 @@
+{
+  "baseFontSizeAction": true,
+  "theme": "obsidian",
+  "accentColor": "#4c00ff",
+  "baseFontSize": 18,
+  "nativeMenus": false,
+  "cssTheme": "Prism",
+  "enabledCssSnippets": [
+    "dark-pdf"
+  ],
+  "interfaceFontFamily": ""
+}

@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:WS-25/DAP1 OR tag:#dap1  ",
+      "color": {
+        "a": 1,
+        "rgb": 34047
+      }
+    },
+    {
+      "query": "path:WS-25/LinA1 OR tag:#lina1  ",
+      "color": {
+        "a": 1,
+        "rgb": 41815
+      }
+    },
+    {
+      "query": "path:WS-25/RS  OR  tag:#rs OR  path:WS-25/RS/Praesenz OR path:WS-25/RS/RS-Wiki OR path:WS-25/RS/Uebungen   path:WS-25/RS/Vorlesungen  ",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.502286401925391,
+  "repelStrength": 9.96871239470517,
+  "linkStrength": 0.502286401925391,
+  "linkDistance": 30,
+  "scale": 0.3058830074927798,
+  "close": true
+}
