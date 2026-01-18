@@ -30,5 +30,10 @@ ___
 >	1. falls ` current == nullptr`: gib **false** zurück (baum leer ⇒ nicht gefunden)
 >	2. falls ` x = current->cont_ `: gib **true** zurück (gefunden!)
 >	3. falls ` x < current->cont_ `: gib das Ergebnis von $\text{find}(x, B_{current->left\_})$ zurück
->	4. sonst: gib das Ergebnis von $\text{find}(x, B_{current->right\_})$
+>	4. sonst: gib das Ergebnis von $\text{find}(x, B_{current->right\_})$ zurück
+
+#### Suchbäume enthalten eine Sortierung
+Die Sortierung der Schlüssel ist leicht, obwohl die Baumknoten nicht linear angeordnet sind. 
+>[!TIP] Es gilt **für jeden Knoten** ` node ` im Baum:
+>- `other->cont_`
 
