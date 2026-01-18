@@ -35,5 +35,6 @@ ___
 #### Suchbäume enthalten eine Sortierung
 Die Sortierung der Schlüssel ist leicht, obwohl die Baumknoten nicht linear angeordnet sind. 
 >[!TIP] Es gilt **für jeden Knoten** ` node ` im Baum:
->- `other->cont_`
+>- `other->cont_ < node->cont_` **für jeden Knoten** $\text{other}$ im Teilbaum mit Wurzel $\text{node.left\_}$
+>- `other->cont_ > node->cont_` **für jeden Knoten** $\text{other}$ im Teilbaum mit Wurzel $\text{node.right\_}$
 
