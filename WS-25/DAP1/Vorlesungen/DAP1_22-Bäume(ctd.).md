@@ -57,4 +57,5 @@ ___
 	- ***Preorder:*** *Wurzel*, linker Teilbaum, rechter Teilbaum
 	- ***Postorder:*** linker Teilbaum, rechter Teilbaum, *Wurzel*
 
-- Diese Traversierungen sind auch fpr 
+- Diese Traversierungen sind auch für allgemeine Bäume (ohne Suchbaumeigenschaft) definitert
+	- dann impliziert Inorder *keine* Sortierung
