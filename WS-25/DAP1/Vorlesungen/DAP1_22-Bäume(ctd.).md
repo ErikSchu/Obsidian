@@ -33,8 +33,28 @@ ___
 >	4. sonst: gib das Ergebnis von $\text{find}(x, B_{current->right\_})$ zurück
 
 #### Suchbäume enthalten eine Sortierung
+
 Die Sortierung der Schlüssel ist leicht, obwohl die Baumknoten nicht linear angeordnet sind. 
+
 >[!TIP] Es gilt **für jeden Knoten** ` node ` im Baum:
 >- `other->cont_ < node->cont_` **für jeden Knoten** $\text{other}$ im Teilbaum mit Wurzel $\text{node.left\_}$
 >- `other->cont_ > node->cont_` **für jeden Knoten** $\text{other}$ im Teilbaum mit Wurzel $\text{node.right\_}$
+> ___
+> $\leadsto$ das *Minimum* steht "ganz links", das *Maximum* "ganz rechts"
 
+- Sortierte Reihenfolge als **rekursiver** Algorithmus
+	- gib die sortierte Reihenfolge des *linken Teilbaums* der Wurzel aus (falls linker Teilbaum existiert)
+	- gib den Schlüssel der *Wurzel* aus
+	- gib die sortierte Reihenfolge des *rechten Teilbaums* der Wurzel aus (falls rechter Teilbaum existiert)
+
+___
+## Inorder, Preorder, Postorder
+
+- der **Algorithmus zur sortierten Ausgabe** nenn sich auch ***Inorder-Traversierung*** des Baums:
+	- linker Teilbaum, *Wurzel*, rechter Teilbaum
+
+- Es gibt auch andere Traversierungen:
+	- ***Preorder:*** *Wurzel*, linker Teilbaum, rechter Teilbaum
+	- ***Postorder:*** linker Teilbaum, rechter Teilbaum, *Wurzel*
+
+- Diese Traversierungen sind auch fpr 
