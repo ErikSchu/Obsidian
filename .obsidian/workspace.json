@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
+                "file": "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15.1_Vektorräume"
+              "title": "§LinA1§"
             }
           }
         ]
@@ -204,17 +204,19 @@
   },
   "active": "4261391582ce74a3",
   "lastOpenFiles": [
+    "16.4_Räume-linearer-Abbildungen.md",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
+    "6.1_Lineare-Unterräume.md",
     "Anhänge/Pasted image 20260118151209.png",
     "Anhänge/Pasted image 20260118150548.png",
     "Anhänge/Pasted image 20260118150053.png",
     "Anhänge/Pasted image 20260118145120.png",
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/RS/4.3_Das-Eliminationsverfahren.md",
     "Anhänge/Pasted image 20260118121302.png",
     "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
     "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Masps.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
     "Anhänge/Pasted image 20260117235332.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
     "Konfig.md",
@@ -230,7 +232,6 @@
     "Anhänge/Pasted image 20260116093649.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.2_Der-komplexe-Vektorraum.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.1_Der-Vektorraum-über-Körpern.md",
-    "Anhänge/Pasted image 20260116085658.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.7_Angeordnete-Körper.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.6_Mengeninklusion-als-partielle-Ordnung.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.5_Ordnungsrelationen.md",
@@ -240,7 +241,6 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.2_Umkehrabbildung-und-Invertierung.md",
     "WS-25/RS/RS-Wiki/rs_wiki_dump/Multiplikation_von_Fließkommazahlen.md",
     "WS-25/RS/RS-Wiki/§RS§.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_von_Fließkommazahlen.md",
     "Anhänge/test.cpp",
     "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump",
     "WS-25/DAP1/DAP1-Praktikum",

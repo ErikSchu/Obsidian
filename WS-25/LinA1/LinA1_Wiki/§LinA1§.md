@@ -121,4 +121,22 @@ ___
 ## $IV$ – Vektorräume & lineare Abbuldungen
 ` The power of mathematics is often to change one thing into another, to change geometry into language. ` *~ Marcus du Sautoy*
 ##### § 15 Abstrakte Vektorräume
-⤷ [[15.1_Vektorräume]]
+⤷[[15.1_Vektorräume]]
+⤷[[15.2_Funktionenräume]]
+⤷[[15.3_Lineare-Unabhängigkeit;_Basen_und_Dimensionen]]
+⤷[[15.4_Körpererweiterungen]]
+
+___
+##### § 16 Lineare Abbildungen
+⤷[[16.1_Grundlagen]]
+⤷[[16.2_Kern-und-Bild]]
+⤷[[16.3_Isomorphismen]]
+⤷[[16.4_Räume-linearer-Abbildungen]]
+⤷[[16.5_Prinzip-der-linearen-Ausdehnung]]
+
+___
+##### § 17 Koordinaten und darstellende Matrizen
+⤷[[17.1_Koordinatenvektoren]]
+⤷[[17.2_Darstellende-Matrizen]]
+⤷[[17.3_Eigenschaften-darstellender-Matrizen]]
+⤷[[17.4_Invertierbarkeit-und-Rang]]
