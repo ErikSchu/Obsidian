@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "999b8a5f34d393e0",
+        "id": "134a679d5fd173b4",
         "type": "tabs",
         "children": [
           {
-            "id": "4261391582ce74a3",
+            "id": "ecb24422f1b064ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+                "file": "15.2_Funktionenräume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "§LinA1§"
+              "title": "15.2_Funktionenräume"
             }
           }
         ]
@@ -202,10 +202,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4261391582ce74a3",
+  "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
-    "16.4_Räume-linearer-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "15.2_Funktionenräume.md",
+    "Unbenannt 2.base",
+    "Unbenannt 1.base",
+    "Unbenannt.base",
+    "WS-25/LinA1/Vorlesungen/LinA_11 - Orthonormalbasen, ctd. Orthogonalität.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/9.6_Orthogonalprojektionen.md",
+    "WS-25/LinA1/Vorlesungen/LinA_10 - Norm- & Skalarprodukt.md",
+    "WS-25/LinA1/Vorlesungen/LinA_09 - Basen & Dimensionen.md",
+    "WS-25/LinA1/Vorlesungen/LinA_08 - Lineare (Un-) Abhängigkeit, Basen & Erzeugendensysteme.md",
+    "WS-25/LinA1/Vorlesungen/LinA_07 - Lineare Unterräume & Linearkombinationen.md",
+    "WS-25/LinA1/Vorlesungen/LinA_06 - Homogenität, Geraden in der Ebene & lineare Unterräume.md",
+    "WS-25/LinA1/Vorlesungen/LinA_03 - Weiterführendes der Mengenlehre.md",
+    "WS-25/LinA1/Vorlesungen/LinA_04 - Grundlagen der Logik & linearer Gleichungssysteme.md",
+    "WS-25/LinA1/Vorlesungen/LinA_05 - Matritzen & Lösungsräume.md",
+    "WS-25/LinA1/Vorlesungen/LinA_12 -  Lineare Abbildungen.md",
+    "16.4_Räume-linearer-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
     "6.1_Lineare-Unterräume.md",
     "Anhänge/Pasted image 20260118151209.png",
@@ -221,35 +236,20 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
     "Konfig.md",
     "WS-25/DAP1/Vorlesungen/DAP1_20-Doppelt_verkettete_Listen,_Queues.md",
-    "Unbenannt.base",
     "WS-25/DAP1/DAP1_Wiki/C++_Parameterübergabe_&_Const-Correctness.md",
     "Wiki/Rekursion.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.4_Lineare-Algebra-über-Körpern-Übersicht.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.3_LGS-über-Körpern.md",
     "Anhänge/Pasted image 20260116094913.png",
     "Anhänge/Pasted image 20260116094756.png",
     "Anhänge/Pasted image 20260116094121.png",
     "Anhänge/Pasted image 20260116093649.png",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.2_Der-komplexe-Vektorraum.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.1_Der-Vektorraum-über-Körpern.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.7_Angeordnete-Körper.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.6_Mengeninklusion-als-partielle-Ordnung.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.5_Ordnungsrelationen.md",
-    "^.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.4_Anwendung-auf-lineare-Gleichungssysteme.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.3_Berechnung-der-Inversen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/10.2_Umkehrabbildung-und-Invertierung.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Multiplikation_von_Fließkommazahlen.md",
-    "WS-25/RS/RS-Wiki/§RS§.md",
     "Anhänge/test.cpp",
     "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump",
     "WS-25/DAP1/DAP1-Praktikum",
     "Templates",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump",
-    "Unbenannt 1.base",
     "WS-25/RS/RS-Wiki/rs_wiki_dump",
     "WS-25/RS/RS-Wiki",
-    "Excalidraw",
     "Unbenannt.canvas"
   ]
 }
