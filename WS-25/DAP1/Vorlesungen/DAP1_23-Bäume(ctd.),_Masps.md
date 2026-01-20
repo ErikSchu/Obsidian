@@ -151,10 +151,4 @@ ___
 >  ___
 >- ... weitere möglich
 
-##### Map auf Basis von [[DAP1_21-Bäume|BST]]
-```cpp
-template <typename U, typename V> struct Map : publich BST<KVpair<U, V>> {
-	
-	// operator[] for put:
-}
-```
+> [!notes] Map auf Basis von [[DAP1_21-Bäume|BST]]```

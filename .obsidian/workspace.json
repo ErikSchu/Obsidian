@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Masps.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_11 - Suchen in Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAP1_23-Bäume(ctd.),_Masps"
+              "title": "DAP1_11 - Suchen in Arrays"
             }
           }
         ]
@@ -202,12 +202,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ecb24422f1b064ba",
+  "active": "d796d0e2fcd8f923",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Masps.md",
     "Anhänge/Pasted image 20260120122602.png",
     "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Masps.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.2_Funktionenräume.md",
@@ -242,7 +242,6 @@
     "WS-25/DAP1/Vorlesungen/DAP1_20-Doppelt_verkettete_Listen,_Queues.md",
     "WS-25/DAP1/DAP1_Wiki/C++_Parameterübergabe_&_Const-Correctness.md",
     "Anhänge/Pasted image 20260116094913.png",
-    "Anhänge/Pasted image 20260116094756.png",
     "Anhänge/test.cpp",
     "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump",
     "WS-25/DAP1/DAP1-Praktikum",
