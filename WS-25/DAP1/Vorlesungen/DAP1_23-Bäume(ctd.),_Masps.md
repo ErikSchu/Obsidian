@@ -109,4 +109,31 @@ Oft sind die zu verwaltenden Objekte komplexer:
 
 Typische Lösung speichert ***Paare***
 ```cpp
+template <typename U, typename V>
+struct KVPair {
+	U key_;
+	V value_;
+	
+	KVPair(U key = {}, V val = {}) : key_{key}, value_{val} {}
+	
+	// Operatoren, die von BST für Schlüssel gebraucht werden
+		bool operator<(KVPair const& other) const { return key_ <
+			other.key_; }
+		bool operator<(KVPair const& other) const { return key_ <
+			other.key_; }
+};
 ```
+
+___
+
+## Allgemein: Maps
+
+![[Pasted image 20260120122602.png]]
+Eine Map speichert Paare vom Typ ` KVPair<U, V> `, so dass sie über ihren **Schlüssel** 
+($\text{Member key\_}$) aufgerufen werden können
+
+___
+
+## Allgemeiner Datentyp Map
+
+Eine ******
