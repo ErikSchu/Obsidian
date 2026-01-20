@@ -136,9 +136,25 @@ ___
 
 ## Allgemeiner Datentyp Map
 
->[!note] Eine ***Map*** über Paare vom Typ ($U,V$) hat folgende Operationen
+>[!note] Eine ***Map*** über *Paare vom Typ ($U,V$)* hat folgende Operationen
 >- `init(map_name, u, v)` **initialisiert** eine *leere Map*
+>  ___
 >- `put(map_name, u, v` *falls kein Eintrag* in der Map $\text{map\_name}$ *mit Schlüssel* $u \in U$ vorhanden ist, **füge Paar $(u,v)$ ein**; ansonsten **überschreibe** den Wert des Paares mit Schlüssel $u$ mit $v \in V$
+>  ___
 >- `erase(map_name, u)` **löscht** das *Paar mit dem Schlüssel $u \in U$* aus der Menge, falls in $\text{map\_name}$ vorhanden
+>  ___
 >- `at(map_name, u)` **gibt den Wert** des *Paares mit dem  Schlpssel $u \in U$* **zurück**, falls vorhanden
->- `find(map_name, u` **gibt true zurück** gdw. ein Paar mit 
+>  ___
+>- `find(map_name, u)` **gibt true zurück** gdw. ein *Paar mit Schlüssel $u \in U$* vorhanden
+>  ___
+>- `is_empty(map_name)`**gibt true zurück** gdw. die *Map leer* ist
+>  ___
+>- ... weitere möglich
+
+##### Map auf Basis von [[DAP1_21-Bäume|BST]]
+```cpp
+template <typename U, typename V> struct Map : publich BST<KVpair<U, V>> {
+	
+	// operator[] for put:
+}
+```
