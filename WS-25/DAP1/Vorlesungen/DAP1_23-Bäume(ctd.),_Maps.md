@@ -151,4 +151,11 @@ ___
 >  ___
 >- ... weitere möglich
 
-> [!notes] Map auf Basis von [[DAP1_21-Bäume|BST]]```
+> [!note] Map auf Basis von [[DAP1_21-Bäume|BST]]
+> ![[Pasted image 20260120132817.png]]
+
+## Ergänzung zur Vorlesung
+
+In ` BST.hpp `
+- `find` muss Rückgabetyp `BSTNode<T>*` haben (nicht `T*`)
+- `find` muss den neu erzeugten Knoten zurückgeben (und hat damit ebenfalls den Rückgabetyp `BSTNode<T>*`)
