@@ -78,6 +78,6 @@ ___
 
 - Exemplatische ***Betrachtung*** der *RISC-V-Assembler- & Maschienensprache*
 	- `add`-, `lw`-, `sw`-Befehle; RT-Semantik
-	- Speichermodell
+	- Speichermodell 
 	- Darstellung von Befehlen
 	- Prinzipien der Von-Neumann-Maschiene
