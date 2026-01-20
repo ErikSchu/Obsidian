@@ -1,8 +1,4 @@
 #dap1 
-
->[!note] [[DAP1_23-Bäume(ctd.),_Maps|Map]] auf Basis von [[DAP1_21-Bäume|BST]]
->![[Pasted image 20260120133404.png]]
-
 ## Anwendung: Worthäufigkeiten
 
 >[!example] .
@@ -10,4 +6,18 @@
 
 - Beispiel
 	- Eingabe:   ` T = To be or not to be, that is the question. `
-	- Ausgabe:   `  `
+	- Ausgabe:   ` TO : 1, be : 2, or : 1, not : 1, to: 1, ... `
+
+##### Lösung mit Map
+![[Pasted image 20260120133932.png]]
+⤷ Zusatzaufgabe: die häufigsten 10 Wörter ausgeben
+⤷ NB: ` std::map ` hat ein leicht anderes Interface
+
+___
+
+# Heaps & Priority Queues
+
+## Abstrakte Datenstruktur Priority Queue ("Prioritätswarteschlange")
+
+>[!note] Eine ***Prioritätswarteschlange*** (engl. *priority queue*, "PQ") mit Schlüsseln vom Typ $K$ und Werten vom Typ $V$ hat folgende Operationen:
+>- `init(pq_name, capacity, K, V)`

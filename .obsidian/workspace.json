@@ -20,6 +20,15 @@
               "icon": "lucide-file",
               "title": "DAP1_24-Maps(ctd.),_Heaps"
             }
+          },
+          {
+            "id": "7343d7383f5688ee",
+            "type": "leaf",
+            "state": {
+              "type": "beautitab-react-view",
+              "state": {},
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -204,9 +213,10 @@
   },
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
+    "Anhänge/Pasted image 20260120133932.png",
     "Anhänge/Pasted image 20260120133404.png",
     "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "Anhänge/Pasted image 20260120132817.png",
     "WS-25/DAP1/Vorlesungen/DAP1_11 - Suchen in Arrays.md",
     "Anhänge/Pasted image 20260120122602.png",
@@ -239,8 +249,6 @@
     "Anhänge/Pasted image 20260118150053.png",
     "Anhänge/Pasted image 20260118145120.png",
     "WS-25/RS/4.3_Das-Eliminationsverfahren.md",
-    "Anhänge/Pasted image 20260118121302.png",
-    "Anhänge/Pasted image 20260117235332.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
     "Konfig.md",
     "Anhänge/test.cpp",

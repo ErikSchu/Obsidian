@@ -1,23 +1,9 @@
-/* Haupt-Hintergrund komplett transparent */
-body {
-    background: transparent !important;
-}
-
-/* Haupt-Arbeitsbereich mit Blur */
+/* Test: Nur reine Transparenz ohne Blur */
 .workspace-split.mod-root {
-    backdrop-filter: blur(12px) saturate(150%);
-    background: rgba(10, 10, 10, 0.4) !important;
+    background: rgba(255, 0, 0, 0.5) !important;
 }
 
-/* Seitenleisten mit schwächerem Blur */
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split {
-    backdrop-filter: blur(8px) saturate(150%);
-    background: rgba(10, 10, 10, 0.3) !important;
-}
-
-/* Command Palette mit Blur */
-.prompt {
-    backdrop-filter: blur(6px);
-    background: rgba(20, 20, 20, 0.8);
+/* Wenn du roten Hintergrund siehst, funktioniert CSS */
+body {
+    background: yellow !important;
 }
