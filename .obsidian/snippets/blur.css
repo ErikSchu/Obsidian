@@ -1,9 +1,11 @@
-/* Test: Nur reine Transparenz ohne Blur */
-.workspace-split.mod-root {
-    background: rgba(255, 0, 0, 0.5) !important;
+/* Finale Lösung - alle möglichen Container */
+.workspace,
+.workspace-split,
+.workspace-leaf,
+.view-content,
+.markdown-preview-view,
+.markdown-rendered {
+    background: rgba(0, 0, 0, 0.3) !important;
 }
 
-/* Wenn du roten Hintergrund siehst, funktioniert CSS */
-body {
-    background: yellow !important;
-}
+/* Wenn das nicht geht, geht es nicht */

@@ -12,7 +12,7 @@
   "showTime": true,
   "timeFormat": "24-hour",
   "showGreeting": true,
-  "greetingText": "Hello, Beautiful.",
+  "greetingText": "Mahlzeit, Cheffe.",
   "showInlineSearch": true,
   "inlineSearchProvider": {
     "command": "switcher:open",
