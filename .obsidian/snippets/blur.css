@@ -1,1 +1,51 @@
-/* Leeres Snippet - keine Interferenzen */
+/* 1. Grundsätzliche Transparenz für das Hauptfenster */
+body {
+    background-color: transparent !important;
+}
+
+/* 2. CSS-Variablen überschreiben (für Prism & Co.)
+ * Wir machen die Hintergrundfarben semitransparent.
+ * rgba(20, 20, 20, 0.4) -> Dunkelgrau mit 40% Deckkraft.
+ * Ändere die '0.4' nach Belieben (0.0 = unsichtbar, 1.0 = solid).
+ */
+.theme-dark, .theme-light {
+    --bg-1: rgba(20, 20, 20, 0.4) !important;
+    --bg-2: rgba(20, 20, 20, 0.4) !important;
+    --bg-3: rgba(20, 20, 20, 0.4) !important;
+
+    /* Prism spezifische Variablen */
+    --background-primary: rgba(20, 20, 20, 0.4) !important;
+    --background-secondary: rgba(20, 20, 20, 0.4) !important;
+}
+
+/* 3. Der eigentliche Blur-Effekt
+ * Wir wenden ihn auf die Haupt-Strukturelemente an, NICHT auf den gesamten App-Container.
+ * Ich habe den Blur auf 10px reduziert, damit es nicht so matschig wirkt.
+ */
+.workspace-split,
+.workspace-ribbon,
+.status-bar {
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* 4. WICHTIG: Inhalt scharf halten!
+ * Wir müssen verhindern, dass innere Container den Blur erben oder selbst anwenden.
+ * Wir machen sie transparent und deaktivieren ihren eigenen Filter.
+ */
+.workspace-leaf,
+.workspace-tabs,
+.view-content,
+.view-header,
+.workspace-tab-header-container {
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Optional: Ein feiner Rand für bessere Abgrenzung der Bereiche */
+/*
+ . w*orkspace-split {
+ border-right: 1px solid rgba(255, 255, 255, 0.05);
+ }
+ */
