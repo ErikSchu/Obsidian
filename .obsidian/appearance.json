@@ -3,7 +3,7 @@
   "theme": "obsidian",
   "accentColor": "#4c00ff",
   "baseFontSize": 18,
-  "nativeMenus": false,
+  "nativeMenus": true,
   "cssTheme": "Tokyo Night",
   "enabledCssSnippets": [
     "dark-pdf",

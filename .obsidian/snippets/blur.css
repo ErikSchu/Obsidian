@@ -1,51 +1,37 @@
-/* 1. Grundsätzliche Transparenz für das Hauptfenster */
+/* 1. Hintergrund der App transparent schalten */
 body {
     background-color: transparent !important;
 }
 
-/* 2. CSS-Variablen überschreiben (für Prism & Co.)
- * Wir machen die Hintergrundfarben semitransparent.
- * rgba(20, 20, 20, 0.4) -> Dunkelgrau mit 40% Deckkraft.
- * Ändere die '0.4' nach Belieben (0.0 = unsichtbar, 1.0 = solid).
+/* 2. Prism-Variablen transparent machen
+ *  Wir nutzen hier RGBA. Der letzte Wert (0.5) ist die Deckkraft.
+ *  0.5 = 50% sichtbar.
+ *  Wenn es dir zu dunkel/hell ist, spiele mit diesem Wert (0.1 bis 0.9).
  */
 .theme-dark, .theme-light {
-    --bg-1: rgba(20, 20, 20, 0.4) !important;
-    --bg-2: rgba(20, 20, 20, 0.4) !important;
-    --bg-3: rgba(20, 20, 20, 0.4) !important;
+    /* Haupt-Hintergrund */
+    --bg-1: rgba(20, 20, 20, 0.5) !important;
 
-    /* Prism spezifische Variablen */
-    --background-primary: rgba(20, 20, 20, 0.4) !important;
-    --background-secondary: rgba(20, 20, 20, 0.4) !important;
+    /* Seitenleisten & Panels */
+    --bg-2: rgba(20, 20, 20, 0.5) !important;
+    --bg-3: rgba(20, 20, 20, 0.5) !important;
+
+    /* Prism-spezifische Overrides für Style Settings */
+    --background-primary: rgba(20, 20, 20, 0.5) !important;
+    --background-secondary: rgba(20, 20, 20, 0.5) !important;
+    --background-secondary-alt: rgba(20, 20, 20, 0.5) !important;
 }
 
-/* 3. Der eigentliche Blur-Effekt
- * Wir wenden ihn auf die Haupt-Strukturelemente an, NICHT auf den gesamten App-Container.
- * Ich habe den Blur auf 10px reduziert, damit es nicht so matschig wirkt.
- */
-.workspace-split,
-.workspace-ribbon,
-.status-bar {
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-}
-
-/* 4. WICHTIG: Inhalt scharf halten!
- * Wir müssen verhindern, dass innere Container den Blur erben oder selbst anwenden.
- * Wir machen sie transparent und deaktivieren ihren eigenen Filter.
- */
+/* 3. Sicherstellen, dass Arbeitsbereiche keine eigene Farbe haben */
 .workspace-leaf,
-.workspace-tabs,
 .view-content,
 .view-header,
 .workspace-tab-header-container {
     background-color: transparent !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
 }
 
-/* Optional: Ein feiner Rand für bessere Abgrenzung der Bereiche */
-/*
- . w*orkspace-split {
- border-right: 1px solid rgba(255, 255, 255, 0.05);
- }
- */
+/* Optional: Codeblöcke etwas abdunkeln, damit sie lesbar bleiben */
+.markdown-preview-view code,
+.cm-s-obsidian span.cm-inline-code {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
