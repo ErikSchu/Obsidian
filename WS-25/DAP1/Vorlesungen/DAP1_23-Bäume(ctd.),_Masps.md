@@ -136,4 +136,9 @@ ___
 
 ## Allgemeiner Datentyp Map
 
-Eine ******
+>[!note] Eine ***Map*** über Paare vom Typ ($U,V$) hat folgende Operationen
+>- `init(map_name, u, v)` **initialisiert** eine *leere Map*
+>- `put(map_name, u, v` *falls kein Eintrag* in der Map $\text{map\_name}$ *mit Schlüssel* $u \in U$ vorhanden ist, **füge Paar $(u,v)$ ein**; ansonsten **überschreibe** den Wert des Paares mit Schlüssel $u$ mit $v \in V$
+>- `erase(map_name, u)` **löscht** das *Paar mit dem Schlüssel $u \in U$* aus der Menge, falls in $\text{map\_name}$ vorhanden
+>- `at(map_name, u)` **gibt den Wert** des *Paares mit dem  Schlpssel $u \in U$* **zurück**, falls vorhanden
+>- `find(map_name, u` **gibt true zurück** gdw. ein Paar mit 
