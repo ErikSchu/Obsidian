@@ -1,0 +1,17 @@
+/* Macht alles durchsichtig */
+body {
+    background-color: transparent !important;
+}
+
+/* Entfernt Prism-Farben */
+.theme-dark, .theme-light {
+    --bg-1: transparent !important;
+    --bg-2: rgba(0,0,0,0.2) !important; /* Sidebar leicht abgedunkelt */
+    --bg-3: transparent !important;
+    --background-primary: transparent !important;
+}
+
+/* Verhindert Grafikfehler in Tabellen/Callouts */
+.callout, .markdown-rendered table {
+    background-color: rgba(20, 20, 20, 0.3) !important;
+}
