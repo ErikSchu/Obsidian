@@ -27,14 +27,18 @@ ein **Min-Heap** (dt. Haufen/Halde) ist ein *binärer Baum* für $n$ *key-value-
 **Konsequenz:** ***minimaler Schlüssel an Wurzel***
 *Heaps haben eine Höhe von* $O(\log n)$
 
+![[Pasted image 20260122004528.png]]
+![[Pasted image 20260122004558.png]]
+
 ___
 
 ## Array-Darstellung von Heaps
 
-*"implizite Datenstruktur"*
+![[Pasted image 20260122004700.png]]
 
-- *Elter* von Knoten an Position $i$: $\lfloor i/2 \rfloor$
-- *Kinder* von $i$ an Positionen $2i$ und $2i+1$ (falls vorhanden, d.h. $2i \leq n$)
+**"implizite Datenstruktur"**
+- *Elter* von Knoten an Position $k$: $\lfloor k/2 \rfloor$
+- *Kinder* von $i$ an Positionen $2k$ und $2k+1$ (falls vorhanden, d.h. $2i \leq n$)
 
 ___
 
@@ -64,16 +68,17 @@ class PQ {
 ```
 
 ⤷ **NB:** `KVPair` ist eine ***innere Klasse*** von `PQ` (ansonsten wie bei Map)
-⤷ d.h. kann *nur innerhalb von* `PQ` benutzt werden
-⤷ ist *generisch* (Typen $U,V$), aber *innerhalb von* `PQ ohne Template-Parameter benutzbar* (`KVPair` und nicht `KVPair<U,V>`)
+	⤷ d.h. kann *nur innerhalb von* `PQ` benutzt werden
+	⤷ ist *generisch* (Typen $U,V$), aber *innerhalb von* `PQ ohne Template-Parameter benutzbar* (`KVPair` und nicht `KVPair<U,V>`)
 
 ___
-
 ## Heap-Operationen
 
 durch *die Höhe* $O(\log n)$ implementieren *Heaps* den ADT PQ *schnell*:
 - `push`: $O(\log n)$
 - `extract_min`: $O(\log n)$
+
+![[Pasted image 20260122004917.png]]
 
 ___
 
