@@ -40,7 +40,6 @@ template <typename U, typename V> struct Map : public BST<KVPair<U, V>> {
 ```
 
 ___
-
 ## Anwendung: Worthäufigkeiten
 
 >[!example] 
@@ -82,7 +81,6 @@ for (int i = 0; i < sorted_alph.get_size(); ++i)
 // inherited from dap1::BST
 
 ___
-
 ## NB: `std::map` hat leicht anderes Interface
 
 ``` cpp
@@ -108,7 +106,6 @@ ___
 ```
 
 ___
-
 ## Anwendung: Worthäufigkeiten
 
 >[!example] 
@@ -150,7 +147,6 @@ for (int i = 0; i < sorted_alph.get_size(); ++i)
 NB: `std::map` hat leicht anderes Interface
 
 ___
-
 # Heaps & Priority Queues
 
 ## ADT Priority Queue ("Prioritätswarteschlange")
@@ -165,8 +161,6 @@ Eine ***Prioritätswarteschlange*** (engl. priority queue, "PQ") mit Schlüsseln
 
 Wie eine *Queue*, aber `pop` liefert die Elemente *aufsteigend geordnet* nach **"Priorität"**
 analog: *Maximum-PQs* (absteigend geordnet)
-
-___
 
 > [!question] Quiz PriorityQueue
 > In welcher Reihenfolge werden die Elemente durch folgende Operationen ausgegeben:
@@ -186,7 +180,6 @@ ___
 > **E:** nicht eindeutig
 
 ___
-
 ## Heaps
 
 ein **Min-Heap** (dt. Haufen/Halde) ist ein *binärer Baum* für *key-value-Paare* mit den **2** folgenden *Eigenschaften*:
