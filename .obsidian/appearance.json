@@ -4,9 +4,11 @@
   "accentColor": "#4c00ff",
   "baseFontSize": 18,
   "nativeMenus": true,
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "Prism",
   "enabledCssSnippets": [
     "dark-pdf"
   ],
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "DejaVu Serif",
+  "textFontFamily": "",
+  "monospaceFontFamily": "JetBrains Mono"
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/RS/RS-Wiki/rs_wiki_dump/Befehlsschnittstelle.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_07 - Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Befehlsschnittstelle"
+              "title": "DAP1_07 - Arrays"
             }
           }
         ]
@@ -204,16 +204,22 @@
   },
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_08-Arrays (ctd.).md",
+    "WS-25/DAP1/Vorlesungen/DAP1_09-Arrays (ctd.), Strings, Viper.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_10-Strings, Header-Dateien, Kommandozeileninterpreter.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_11-Suchen in Arrays.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_12-Generische Programmierung, Sortieren.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_13-Sortieren_ctd..md",
+    "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstriktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/RS/RS-Wiki/rs_wiki_dump/Befehlsschnittstelle.md",
     "WS-25/RS/RS-Wiki/§RS§.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "Anhänge/Pasted image 20260120133932.png",
     "Anhänge/Pasted image 20260120133404.png",
     "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
     "Anhänge/Pasted image 20260120132817.png",
-    "WS-25/DAP1/Vorlesungen/DAP1_11 - Suchen in Arrays.md",
     "Anhänge/Pasted image 20260120122602.png",
-    "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
@@ -233,16 +239,10 @@
     "WS-25/LinA1/Vorlesungen/LinA_03 - Weiterführendes der Mengenlehre.md",
     "WS-25/LinA1/Vorlesungen/LinA_04 - Grundlagen der Logik & linearer Gleichungssysteme.md",
     "WS-25/LinA1/Vorlesungen/LinA_05 - Matritzen & Lösungsräume.md",
-    "WS-25/LinA1/Vorlesungen/LinA_12 -  Lineare Abbildungen.md",
-    "16.4_Räume-linearer-Abbildungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
-    "6.1_Lineare-Unterräume.md",
     "Anhänge/Pasted image 20260118151209.png",
     "Anhänge/Pasted image 20260118150548.png",
     "Anhänge/Pasted image 20260118150053.png",
     "Anhänge/Pasted image 20260118145120.png",
-    "WS-25/RS/4.3_Das-Eliminationsverfahren.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/2.4_Teilmengen-und-Potenzmenge.md",
     "Anhänge/test.cpp",
     "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump",
     "WS-25/DAP1/DAP1-Praktikum",

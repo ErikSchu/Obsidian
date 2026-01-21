@@ -19,5 +19,3 @@ ___
 
 ## Abstrakte Datenstruktur Priority Queue ("Prioritätswarteschlange")
 
->[!note] Eine ***Prioritätswarteschlange*** (engl. *priority queue*, "PQ") mit Schlüsseln vom Typ $K$ und Werten vom Typ $V$ hat folgende Operationen:
->- `init(pq_name, capacity, K, V)`
