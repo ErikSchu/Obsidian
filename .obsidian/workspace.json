@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Inhalte.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inhalte"
+              "title": "DAP1_24-Maps(ctd.),_Heaps"
             }
           }
         ]
@@ -202,8 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d796d0e2fcd8f923",
+  "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
+    "WS-25/DAP1/Inhalte.md",
+    "WS-25/DAP1/Folien/vl24-deck.pdf",
     "WS-25/DAP1/Folien",
     "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
@@ -248,8 +250,6 @@
     "WS-25/DAP1/DAP1-Praktikum",
     "Templates",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump",
-    "WS-25/RS/RS-Wiki",
     "Unbenannt.canvas"
   ]
 }
