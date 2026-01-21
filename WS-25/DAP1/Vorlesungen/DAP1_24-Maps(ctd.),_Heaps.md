@@ -193,11 +193,11 @@ ___
 
 ## Array-Darstellung von Heaps
 
-![[Pasted image 20260120134001.png]]
+![[Pasted image 20260122000248.png]]
 
 *"implizite Datenstruktur"*
-- *Elter* von Knoten an Position $i$: $\lfloor i/2 \rfloor$
-- *Kinder* von $i$ an Positionen $2i$ und $2i+1$ (falls vorhanden, d.h. $\leq n$)
+- *Elter* von Knoten an Position $k$: $\lfloor k/2 \rfloor$
+- *Kinder* von $i$ an Positionen $2k$ und $2k+1$ (falls vorhanden, d.h. $\leq n$)
 
 ___
 
@@ -208,6 +208,7 @@ ___
 > public: PQ(int max_size) : array_ = new T[max_size + 1], n_{0} {}
 > };
 > ```
+> ![[Pasted image 20260122000626.png]]
 > **A:** (a)  
 > **B:** (b)  
 > **C:** (c)  
