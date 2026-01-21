@@ -8,13 +8,6 @@
 	- Eingabe:   ` T = To be or not to be, that is the question. `
 	- Ausgabe:   ` TO : 1, be : 2, or : 1, not : 1, to: 1, ... `
 
-##### Lösung mit Map
-![[Pasted image 20260120133932.png]]
-⤷ Zusatzaufgabe: die häufigsten 10 Wörter ausgeben
-⤷ NB: ` std::map ` hat ein leicht anderes Interface
-
-___
-
 ## Map auf Basis von BST
 
 ```cpp
@@ -91,6 +84,70 @@ for (int i = 0; i < sorted_alph.get_size(); ++i)
 ___
 
 ## NB: `std::map` hat leicht anderes Interface
+
+``` cpp
+		return where->cont_.value_;
+	}
+	// read-only access:
+	V at(U const& key) const {
+		BSTNode<KVPair<U, V>>* where = BST<KVPair<U, V>>::find(KVPair<U, V>(key));
+		if (where)
+			return where->cont_.value_;
+		else
+			return {}; // Grund für 'return by value' (nicht Referenz)
+	}
+	bool find(U const& key) const {
+		BSTNode<KVPair<U, V>>* where = BST<KVPair<U, V>>::find(KVPair<U, V>(key));
+		if (where)
+			return true;
+		else
+			return false;
+	}
+	void insert(KVPair<T, U>) = delete; // so können geerbte Funktionen gelöscht werden, falls gewünscht
+};
+```
+
+___
+
+## Anwendung: Worthäufigkeiten
+
+>[!example] 
+>Schreibe ein Programm, das für einen Text eine Statistik über alle vorkommenden Wörter in erstellt, d.h. für alle Wörter zählt, wie oft in vorkommt.
+
+- Beispiel
+	- Eingabe: `To be or not to be, that is the question.`
+	- Ausgabe: `To be or not to that`
+
+##### Lösung mit Map
+
+```cpp
+dap1::Map<dap1::MyString, int> freq; // map words to their frequencies
+
+// walk through file and parse/count words:
+FILE* in_file = fopen("faust.txt", "r");
+dap1::MyString word;
+for (unsigned char ch = fgetc(in_file); !feof(in_file); ch = fgetc(in_file)) {
+	if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+		word.append(ch); // word has more chars -- requires (simple) new member function void append(char) in MyString
+	else { // finished reading word
+		if (word.get_size() > 0) freq[word]++;
+		word = "";
+	}
+}
+fclose(in_file);
+// print statistics:
+int n = freq.get_size();
+printf("File contains %i different words\n", n);
+// print all using vector:
+dap1::ResizableArray<dap1::KVPair<dap1::MyString, int>> sorted_alph = freq.get_sorted();
+for (int i = 0; i < sorted_alph.get_size(); ++i)
+	printf("%s: %i\n", sorted_alph[i].key_.c_str(), sorted_alph[i].value_);
+```
+
+⤷ Zusatzaufgabe: die häufigsten 10 Wörter ausgeben
+	⤷ ***Schwierigkeit:*** Paare nach Wert sortieren
+
+NB: `std::map` hat leicht anderes Interface
 
 ___
 
