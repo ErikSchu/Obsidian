@@ -165,18 +165,17 @@ analog: *Maximum-PQs* (absteigend geordnet)
 > [!question] Quiz PriorityQueue
 > In welcher Reihenfolge werden die Elemente durch folgende Operationen ausgegeben:
 > ```
-> init PQ<std::string> Q
-> push Q "hallo"
-> push Q "du"
-> gib den Wert von extract_min Q
-> push Q "aus"
-> push Q "da"
-> gib den Wert von extract_min Q
+> - init(pq, 10, int, std::string)
+> - push(pq, <2, hallo>)
+> - push(pq, <1, du>)
+> - gib den Wert von extract_min(pq) aus
+> - push(pq, <2, da>)
+> - gib den Wert von extract_min(pq) aus
 > ```
-> **A:** hallo du du aus  
-> **B:** du hallo aus  
-> **C:** hallo du aus  
-> **D:** du da aus  
+> **A:** hallo du du 
+> **B:** du hallo  
+> **C:** hallo du  **$\checkmark$**
+> **D:** du da  
 > **E:** nicht eindeutig
 
 ___
