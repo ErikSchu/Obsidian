@@ -211,7 +211,7 @@ ___
 > ![[Pasted image 20260122000626.png]]
 > **A:** (a)  
 > **B:** (b)  
-> **C:** (c)  
+> **C:** (c) **$\checkmark$** 
 > **D:** (d)  
 > **E:** nicht eindeutig
 
