@@ -20,30 +20,8 @@
               "icon": "lucide-file",
               "title": "Befehlsschnittstelle"
             }
-          },
-          {
-            "id": "7eea03267e71298a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Versionshinweise 1.11.5"
-            }
-          },
-          {
-            "id": "7343d7383f5688ee",
-            "type": "leaf",
-            "state": {
-              "type": "beautitab-react-view",
-              "state": {},
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7eea03267e71298a",
+  "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
     "WS-25/RS/RS-Wiki/rs_wiki_dump/Befehlsschnittstelle.md",
     "WS-25/RS/RS-Wiki/§RS§.md",
