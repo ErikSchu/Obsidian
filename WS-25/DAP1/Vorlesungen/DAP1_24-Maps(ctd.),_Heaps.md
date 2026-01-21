@@ -158,10 +158,10 @@ ___
 Eine ***Prioritätswarteschlange*** (engl. priority queue, "PQ") mit Schlüsseln vom Typ $K$ und Werten vom Typ $V$ hat folgende Operationen:
 
 - **`init(pq_name, capacity, K, V)`**: *initialisiert* eine *leere PQ* mit Namen $Q$ für bis zu $N$ viele key-value-Paare vom Typ $(K,V)$
-- **`push`**: *fügt* den Wert $x$ (vom Typ $V$) mit Schlüssel $k$ (vom Typ $K$) in $Q$ ein, *falls die Kapazität noch nicht erschöpft ist*
-- **`extract_min`**: *löscht* ein *key-value-Paar* $(k,x)$ mit *minimalem Schlüsselwert* aus der PQ und *gibt es zurück* $((k,x))$
-- **`is_empty`**: *gibt wahr zurück* gdw. $Q$ *leer* ist
-- **`size`**: *gibt die Anzahl* der *key-value-Paare* in $Q$ zurück
+- **`push(pq_name, <k, v>)`**: *fügt* den Wert $x$ (vom Typ $V$) mit Schlüssel $k$ (vom Typ $K$) in $Q$ ein, *falls die Kapazität noch nicht erschöpft ist*
+- **`extract_min(pq_name)`**: *löscht* ein *key-value-Paar* $(k,x)$ mit *minimalem Schlüsselwert* aus der PQ und *gibt es zurück* $((k,x))$
+- **`is_empty(pq_name)`**: *gibt wahr zurück* gdw. $Q$ *leer* ist
+- **`size(pq_name)`**: *gibt die Anzahl* der *key-value-Paare* in $Q$ zurück
 
 Wie eine *Queue*, aber `pop` liefert die Elemente *aufsteigend geordnet* nach **"Priorität"**
 analog: *Maximum-PQs* (absteigend geordnet)
