@@ -3,7 +3,7 @@
 Dienstag, 21.10.2025
 
 #### Ein-/Ausgabe von Text, Zahlen (ctd.)
-Siehe [[DAP1_02 - Einführung (CDT); erste Algorithmen]] (§ Ein-/Ausgabe von Text, Zahlen)
+Siehe [[DAP1_02-Einführung (CDT); erste Algorithmen]] (§ Ein-/Ausgabe von Text, Zahlen)
 
 ### Regeln für Variablennamen in C(++)
 

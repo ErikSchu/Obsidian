@@ -1,6 +1,6 @@
 #dap1
 
-### Wdh. [[DAP1_04 - Bedingte Anweisungen]]
+### Wdh. [[DAP1_04-Bedingte Anweisungen]]
 
 - **if** (Ausdruck) { Block1 }: Block 1 wird nur ausgefüht, falls der Ausdruck zu wahr (true bzw. != 0) ausgwertet wird.
 - else { Block2 }: Block2 wird nur ausgeführt, falls der ausdruck falsch (false bzw. = 0) ist. → optional

@@ -1,14 +1,14 @@
 {
   "baseFontSizeAction": true,
   "theme": "obsidian",
-  "accentColor": "#4c00ff",
+  "accentColor": "#00ad79",
   "baseFontSize": 18,
   "nativeMenus": true,
   "cssTheme": "Prism",
   "enabledCssSnippets": [
     "dark-pdf"
   ],
-  "interfaceFontFamily": "DejaVu Serif",
+  "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "JetBrains Mono"
 }
