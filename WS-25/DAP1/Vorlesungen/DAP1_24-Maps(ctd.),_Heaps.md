@@ -181,13 +181,13 @@ analog: *Maximum-PQs* (absteigend geordnet)
 ___
 ## Heaps
 
-ein **Min-Heap** (dt. Haufen/Halde) ist ein *binärer Baum* für *key-value-Paare* mit den **2** folgenden *Eigenschaften*:
+ein **Min-Heap** (dt. Haufen/Halde) ist ein *binärer Baum* $B$ für $n$ *key-value-Paare* mit den **2** folgenden *Eigenschaften*:
 
-1. ***Heap-Ordnung***: *der Schlüssel aller Knoten* (außer der Wurzel) ist *nicht kleiner* als *der Schlüssel ihres Elters*
-2. ***Vollständigkeit***: *der Baum ist vollständig*, d.h. *alle Tiefen* (bis auf die letzte) sind *voll besetzt*, und *die letzte Tiefe* ist ***"von links nach rechts" besetzt***
+1. ***Heap-Ordnung***: *der Schlüssel aller Knoten $v$* (außer der Wurzel) ist **nicht kleiner** als *der Schlüssel ihres Elters*
+2. ***Vollständigkeit***: der **Baum $B$ ist vollständig**, d.h. *alle Tiefen* (bis auf die letzte) sind *voll besetzt*, und *die letzte Tiefe* ist ***"von links nach rechts" besetzt***
 
 **Konsequenz:** ***minimaler Schlüssel an Wurzel***
-*Heaps haben eine Höhe von* $O(\log n)$
+*Heaps haben eine Höhe von* $\approx \log n$
 
 ___
 
