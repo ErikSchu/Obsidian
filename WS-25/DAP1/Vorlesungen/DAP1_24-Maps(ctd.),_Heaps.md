@@ -157,7 +157,7 @@ ___
 
 Eine ***Prioritätswarteschlange*** (engl. priority queue, "PQ") mit Schlüsseln vom Typ $K$ und Werten vom Typ $V$ hat folgende Operationen:
 
-- **`init`**: *initialisiert* eine *leere PQ* mit Namen $Q$ für bis zu $N$ viele key-value-Paare vom Typ $(K,V)$
+- **`init(pq_name, capacity, K, V)`**: *initialisiert* eine *leere PQ* mit Namen $Q$ für bis zu $N$ viele key-value-Paare vom Typ $(K,V)$
 - **`push`**: *fügt* den Wert $x$ (vom Typ $V$) mit Schlüssel $k$ (vom Typ $K$) in $Q$ ein, *falls die Kapazität noch nicht erschöpft ist*
 - **`extract_min`**: *löscht* ein *key-value-Paar* $(k,x)$ mit *minimalem Schlüsselwert* aus der PQ und *gibt es zurück* $((k,x))$
 - **`is_empty`**: *gibt wahr zurück* gdw. $Q$ *leer* ist
