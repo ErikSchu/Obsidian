@@ -31,4 +31,24 @@ Ein ***Graph*** ist eine Sammlung von $n$ **Knoten $V$** und $m$ **Kanten** (mit
 		- z.B. vom Grundtyp *`bool`* für *ungewichtete Graphen*: `bool adj[n][n]`
 		- oder vom Grundtyp *`int`* für *gewichtete Graphen* mit $U =$ `int`
 
-- Alternative für *statische Graphen*: ******
+- Alternative für *statische Graphen*: ***Adjazenz==array==***
+	- *Konkatenation der Adjazenzlisten* zu einem **großen Array** `edges[0, m - 1]`
+		- ein z*usätzliches Array* `ngbhrs[0, n - 1]` speichert in `ngbhrs[i]` für jeden Knoten $i \in$ `[0, n - 1]` den Beginn in `edges[0, m - 1]`
+
+---
+
+## Graphenknoten in C++ (mit Adjazenzliste)
+
+Wir betrachten beispielhaft *Graphen*, in denen die **Knoten** nur **3 Dinge speichern**:
+- einen String als *"Label"*
+- eine eindeutige *Knotennummer*
+- eine *Adjazenzliste* mit Zeigern auf die Nachbarknoten
+
+```cpp
+struct GraphNode {
+	GraphNode(dap1::Mystring label = "", int nr = -1)
+		: label_{label}, node_nr_{nr} {}
+	
+	void add_directed_edge(GraphNode*)
+};
+```
