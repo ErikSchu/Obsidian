@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.1_Grundlagen-linearer-Abbildungen.md",
+                "file": "16.2_Kern-und-Bild.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16.1_Grundlagen-linearer-Abbildungen"
+              "title": "16.2_Kern-und-Bild"
             }
           }
         ]
@@ -205,8 +205,9 @@
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.4_Körpererweiterungen.md",
+    "16.2_Kern-und-Bild.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.1_Grundlagen-linearer-Abbildungen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.4_Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.1_Körperaxiome.md",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
     "Anhänge/Pasted image 20260122151102.png",
@@ -244,7 +245,6 @@
     "WS-25/DAP1/Vorlesungen/DAP1_11-Suchen in Arrays.md",
     "WS-25/DAP1/Vorlesungen/DAP1_12-Generische Programmierung, Sortieren.md",
     "WS-25/DAP1/Vorlesungen/DAP1_13-Sortieren_ctd..md",
-    "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstriktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
     "Anhänge/test.cpp",
