@@ -89,4 +89,33 @@ class Graph {
 
 ## Algorithmen auf Graphen
 
-### Graphenexploration - Depth First Sea
+### Graphenexploration - Depth First Seach (DFS)
+![[Pasted image 20260122151102.png]]
+
+- Idee: wie eine suche in einem Labyrinth mit **Faden** und **Stift** zum markieren von Knoten
+	- alle Knoten am Anfang unmarkiert
+	- starte bei beliebigen Knoten $s \in V$
+		- markiere $s$, befestige Fasen an $s$, setze $v \leftarrow s$
+	- suche unmarkierten benachbarten Knoten $w$ von $v$
+		- falls einer existiert:
+			- gege zu $w$, rolle Faden zu $w$ aus, markiere $w$
+		- sonst:
+			- falls $v = s$: fertig!
+			- gehe zum Vorgänger $w$ von $v$ zurück; rolle dabei Faden auf 
+		- wiederhole Schritt mit $v \leftarrow w$
+
+##### DFS iterativ
+```cpp
+void dfs_iter(int startknoten) {
+	bool* on_stack = new bool[n_]; // marks nodes already stacked
+	
+	dap1::MyStack<GraphNode*> s;
+	s.push(nodes_[startknoten]); // start at startknoten...
+	on_stack[startknoten] = true; // ...and mark it
+	
+	while (!s.is_empty()) {
+		GraphNode* v = s.pop(); // go to next node 
+		print
+	}
+}
+```
