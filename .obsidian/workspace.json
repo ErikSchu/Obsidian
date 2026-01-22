@@ -221,10 +221,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "WS-25/DAP1/Folien/vl24-deck.pdf",
-                    "page": 14,
-                    "left": -20,
-                    "top": 20,
-                    "zoom": 0.7593750000000001
+                    "page": 1,
+                    "zoom": 1
                   },
                   "icon": "lucide-file-text",
                   "title": "vl24-deck"
@@ -234,16 +232,16 @@
           }
         ],
         "direction": "vertical",
-        "x": 2464,
-        "y": 2104,
+        "x": 512,
+        "y": 256,
         "width": 1024,
-        "height": 1248,
+        "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "ecb24422f1b064ba",
+  "active": "fd016f67c4c7b218",
   "lastOpenFiles": [
     "Anhänge/Pasted image 20260122004917.png",
     "Anhänge/Pasted image 20260122004700.png",
