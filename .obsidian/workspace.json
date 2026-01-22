@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16.4_Räume-linearer-Abbildungen.md",
+                "file": "16.5_Prinzip-der-linearen-Ausdehnung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16.4_Räume-linearer-Abbildungen"
+              "title": "16.5_Prinzip-der-linearen-Ausdehnung"
             }
           }
         ]
@@ -204,9 +204,10 @@
   },
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
-    "Anhänge/Pasted image 20260122223948.png",
-    "16.4_Räume-linearer-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "16.5_Prinzip-der-linearen-Ausdehnung.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.4_Räume-linearer-Abbildungen.md",
+    "Anhänge/Pasted image 20260122223948.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.3_Isomorphismen.md",
     "Anhänge/Pasted image 20260122221948.png",
     "Unbenannt.md",
@@ -227,7 +228,6 @@
     "LinA1 - 15.4 Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen.md",
     "Anhänge/Pasted image 20260122130744.png",
-    "Anhänge/Pasted image 20260122130716.png",
     "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
