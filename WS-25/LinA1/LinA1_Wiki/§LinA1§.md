@@ -128,7 +128,7 @@ ___
 
 ___
 ##### § 16 Lineare Abbildungen
-⤷[[16.1_Grundlagen]]
+⤷[[16.1_Grundlagen-linearer-Abbildungen]]
 ⤷[[16.2_Kern-und-Bild]]
 ⤷[[16.3_Isomorphismen]]
 ⤷[[16.4_Räume-linearer-Abbildungen]]

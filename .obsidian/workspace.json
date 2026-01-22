@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15.4_Körpererweiterungen.md",
+                "file": "16.1_Grundlagen-linearer-Abbildungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15.4_Körpererweiterungen"
+              "title": "16.1_Grundlagen-linearer-Abbildungen"
             }
           }
         ]
@@ -205,13 +205,15 @@
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "16.1_Grundlagen-linearer-Abbildungen.md",
+    "15.4_Körpererweiterungen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.1_Körperaxiome.md",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
     "Anhänge/Pasted image 20260122151102.png",
     "Anhänge/Pasted image 20260122151017.png",
     "Anhänge/Pasted image 20260122143701.png",
     "Anhänge/Pasted image 20260122143619.png",
     "Anhänge/Pasted image 20260122143459.png",
-    "15.4_Körpererweiterungen.md",
     "LinA1 - 15.4 Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen.md",
     "Anhänge/Pasted image 20260122130744.png",
@@ -243,7 +245,6 @@
     "WS-25/DAP1/Vorlesungen/DAP1_12-Generische Programmierung, Sortieren.md",
     "WS-25/DAP1/Vorlesungen/DAP1_13-Sortieren_ctd..md",
     "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstriktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Befehlsschnittstelle.md",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
     "Anhänge/test.cpp",
