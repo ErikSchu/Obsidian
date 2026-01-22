@@ -115,7 +115,39 @@ void dfs_iter(int startknoten) {
 	
 	while (!s.is_empty()) {
 		GraphNode* v = s.pop(); // go to next node 
-		print
+		printd("besuche %s\n", v->label_.c_str()); // for testing
+		for (GraphNode* w : v->adj_list_) {
+			if (!on_stack[w->node_nr_]) {
+				s.push(w);
+				on_stack[w->node_nr_] = true;
+			}
+		}
 	}
+	
+	delete[] on_stack;
 }
 ```
+
+##### DFS rekutsiv
+```cpp
+class Graph {
+	//... 
+	public:
+		void dfs() { // Tiefensuche rekursiv
+			vool* visited = new bool[n_] {}; // Standartinit. 'false'
+			dfs(nodes_[0], visited);
+			delete[] voisited;
+		}
+		
+	private:
+		void dfs(GraphNode* v, bool* visited) {
+			if (!visited[v->node_nr_]) {
+				visited[v->node_nr_] = true;
+				fpr (GraphNode* w : v->adj_list_) {
+					dfs(w, visited);
+				}
+			}			
+		}
+}
+```
+
