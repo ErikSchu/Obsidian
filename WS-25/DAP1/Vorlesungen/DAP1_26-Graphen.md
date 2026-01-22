@@ -37,7 +37,7 @@ Ein ***Graph*** ist eine Sammlung von $n$ **Knoten $V$** und $m$ **Kanten** (mit
 
 ---
 
-## Graphenknoten in C++ (mit Adjazenzliste)
+### Graphenknoten in C++ (mit Adjazenzliste)
 
 Wir betrachten beispielhaft *Graphen*, in denen die **Knoten** nur **3 Dinge speichern**:
 - einen String als *"Label"*
@@ -49,6 +49,44 @@ struct GraphNode {
 	GraphNode(dap1::Mystring label = "", int nr = -1)
 		: label_{label}, node_nr_{nr} {}
 	
-	void add_directed_edge(GraphNode*)
+	void add_directed_edge(GraphNode* neighbor) { 
+		adj_list_.push_back(neihgbor); 
+	}
+	
+	dap1::MyString label_;
+	int node_nr_;
+	dap1::ResizableArray<GraphNode*> adj_list_; // meine Nachbarn
 };
 ```
+
+### Graphklasse in C++
+```cpp
+class Graph {
+	dap1::ResizableArray<GraphNode*> nodes_;
+	
+	public:
+		int n_; // #Knoten
+		int m_; // #Kanten
+		
+		void add_node(dap1::MyString const& label) {
+			nodes_.push_back(new GraphNode(label, n_++));
+		}
+		
+		// füre Kante von Knoten i zu Knoten j hinzu (ungerichtet)
+		void add_undirected_edge(int i, int j) {
+			nodes_[i]->add_directed_edge(nodes_[j]);
+			nodes_[j]->add_directed edge(nodes_[i]);
+			++m_;
+		}
+		
+		Graph() : n_{0}, m_{0} {};
+		
+		//...
+};
+```
+
+---
+
+## Algorithmen auf Graphen
+
+### Graphenexploration - Depth First Sea
