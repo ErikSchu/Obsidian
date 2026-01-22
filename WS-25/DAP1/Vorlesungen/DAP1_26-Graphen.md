@@ -22,6 +22,13 @@ Ein ***Graph*** ist eine Sammlung von $n$ **Knoten $V$** und $m$ **Kanten** (mit
 
 #### Computermodellierung Graphen
 
-- ***Adjazenzliste:***
-	- jeder Knoten $v$ speichert in einem Container seinen **Nachbarn**, also die Knoten $w$, für die $(v, w) \in E$  bzw. $\{ v,w \} \in E$ gilt-
-	- `class Graphnode {`
+- ***Adjazenz==liste==:***
+	- jeder Knoten $v$ speichert *in einem Container* seinen **Nachbarn**, also die *Knoten $w$*, für die $(v, w) \in E$  bzw. $\{ v,w \} \in E$ gilt-
+		- `class Graphnode { ResizableArray<Graphnote*> adj_list_; }`
+
+- ***Adjzenz==matrix==*** - für statische Graphen:
+	- ganzer Graph wird in **$n \times n$ -Matrix** gespeichert
+		- z.B. vom Grundtyp *`bool`* für *ungewichtete Graphen*: `bool adj[n][n]`
+		- oder vom Grundtyp *`int`* für *gewichtete Graphen* mit $U =$ `int`
+
+- Alternative für *statische Graphen*: ******
