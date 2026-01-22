@@ -198,15 +198,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
+    "Anhänge/Pasted image 20260122231429.png",
+    "Unbenannt.canvas",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
+    "Anhänge/Pasted image 20260122230841.png",
+    "Anhänge/Pasted image 20260122230814.png",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.4_Räume-linearer-Abbildungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
     "WS-25/RS/RS-Wiki/§RS§.md",
     "Anhänge/Pasted image 20260122223948.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.3_Isomorphismen.md",
@@ -224,10 +227,8 @@
     "Anhänge/Pasted image 20260122151017.png",
     "Anhänge/Pasted image 20260122143701.png",
     "Anhänge/Pasted image 20260122143619.png",
-    "Anhänge/Pasted image 20260122143459.png",
     "LinA1 - 15.4 Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen.md",
-    "Anhänge/Pasted image 20260122130744.png",
     "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
@@ -244,12 +245,10 @@
     "WS-25/DAP1/Vorlesungen/DAP1_04-Bedingte Anweisungen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_05-Wiederholungsanweisungen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_06-Ein paar nette Algorithmen.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_07-Arrays.md",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
     "Anhänge/test.cpp",
     "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump",
-    "WS-25/DAP1/DAP1-Praktikum",
-    "Unbenannt.canvas"
+    "WS-25/DAP1/DAP1-Praktikum"
   ]
 }
