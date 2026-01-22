@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15.4_Körpererweiterungen.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15.4_Körpererweiterungen"
+              "title": "DAP1_26-Graphen"
             }
           }
         ]
@@ -202,10 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d796d0e2fcd8f923",
+  "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
-    "LinA1 - 15.4 Körpererweiterungen.md",
     "15.4_Körpererweiterungen.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
+    "LinA1 - 15.4 Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen.md",
     "Anhänge/Pasted image 20260122130744.png",
@@ -244,7 +245,6 @@
     "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstriktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
     "WS-25/RS/RS-Wiki/rs_wiki_dump/Befehlsschnittstelle.md",
     "WS-25/RS/RS-Wiki/§RS§.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
     "Anhänge/test.cpp",
