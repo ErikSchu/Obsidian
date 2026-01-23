@@ -11,10 +11,14 @@
             "id": "ecb24422f1b064ba",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "type": "markdown",
+              "state": {
+                "file": "WS-25/LinA1/230126_LinA1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "230126_LinA1"
             }
           }
         ]
