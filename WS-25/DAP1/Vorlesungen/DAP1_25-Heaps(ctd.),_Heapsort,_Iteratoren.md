@@ -180,7 +180,45 @@ ___
 template <typename T> cpall PQ {
 	public:
 		class Iterator { // an Iterator for the pq
+			T* arr_;
+			int current_;
+			
+			public:
+				Iterator(T* arr = nullptr, int i = 0)
+					: arr_{arr}, current_{i} {}
+					
+				T& operator*() {
+					return arr_[current_]; // reference to the element
+				}
+				
+				Iterator& operator ++() {
+					++current_;
+					return *this;
+				}
+				
+				bool operator!=(Iterator cont& p) {
+					return arr_ != p.arr || current_ != p.current;
+				}
+		};
 		
-		}
+	Iterator begin() { return Iterator(array_, 1); }
+	Iterator end() { return Iterator(array_, n_ + 1); }
+	
+	//...
+}
+```
+```cpp
+int main() {
+	int n = 100;
+	
+	dap1::PQ<int> pq(n);
+	
+	for (int 1 = 0; 1 < n; ++i) pq-push(rand() % 100);
+	
+	for (dap1::PQ<int> ::Iterator it = pq.begin(); it != pq.end(); 
+		++it) {
+		printf("%i,", *it);
+	}
+	printf(\n")
 }
 ```
