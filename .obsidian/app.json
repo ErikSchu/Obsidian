@@ -1,7 +1,9 @@
 {
-  "showLineNumber": true,
-  "spellcheck": false,
+  "showLineNumber": false,
+  "spellcheck": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Anhänge",
-  "promptDelete": false
+  "promptDelete": false,
+  "showIndentGuide": true,
+  "rightToLeft": false
 }
