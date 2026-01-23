@@ -1,4 +1,4 @@
-#LinA1  ***Wintersemester 2025/26***  *Prof. Plaumann*
+ #LinA1  ***Wintersemester 2025/26***  *Prof. Plaumann*
 
 ## $I$ – Einführung
 ` Algebra ist nichts anderes als geschriebene Geometrie, Geometrie nichts anderes als gezeichnete Algebra. `
