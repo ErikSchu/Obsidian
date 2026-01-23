@@ -165,4 +165,22 @@ ___
 	- **Container** sind *generische Datenstrukturen* zum speichern einer Sammlung von Objekten (z.B. ` ResizableArray<T>, MyStack<T>, BST<T>, ... `)
 
 - **Zugriff** auf die einzelnen Objekte *bisher*:
-	- mit `[]` in **
+	- mit ` [] ` in `MyArray<T>`, `ResizableArray<T>`, `Map<K,V>`
+	- mit ` pop() ` in `MyStack<T>`
+	- usw. 
+
+- ***Iteratoren:*** einheitliche **Schnittstelle zum Zugriff** auf *Objekte des *Containers*
+	- mit ` begin() `  erhält man das erste Element, ` end() ` zeigt auf das Element *nach* dem letzten 
+	- ` ++ ` geht zum nächsten Element 
+	- ` * ` dereferenziert das Element, d.h. gibt eine Referenz auf das $T-$Objekt zurück
+	- ` != ` vergleicht 2 Iteratoren
+
+##### Am Beispiel von Heaps 
+```cpp
+template <typename T> cpall PQ {
+	public:
+		class Iterator { // an Iterator for the pq
+		
+		}
+}
+```
