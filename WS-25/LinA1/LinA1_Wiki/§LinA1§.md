@@ -123,7 +123,7 @@ ___
 ##### § 15 Abstrakte Vektorräume
 ⤷[[15.1_Vektorräume]]
 ⤷[[15.2_Funktionenräume]]
-⤷[[15.3_Lineare-Unabhängigkeit,_Basen_und_Dimensionen]]
+⤷[[15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen]]
 ⤷[[15.4_Körpererweiterungen]]
 
 ___
