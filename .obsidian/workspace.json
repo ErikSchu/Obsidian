@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/Beispieltest.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Beispieltest"
+              "title": "DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren"
             }
           }
         ]
@@ -203,6 +203,10 @@
   },
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
+    "WS-25/DAP1/Folien/vl24-deck.pdf",
+    "WS-25/DAP1/Folien/vl25-deck.pdf",
+    "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump/P-DAP1_1.2_Printingf.md",
+    "WS-25/LinA1/Beispieltest.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/9.2_Beispiele-zu-linearen-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
@@ -220,8 +224,7 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.3_LGS-über-Körpern.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.2_Der-komplexe-Vektorraum.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.1_Der-Vektorraum-über-Körpern.md",
-    "WS-25/LinA1/230126_LinA1.md",
-    "WS-25/LinA1/Beispieltest.md",
+    "WS-25/LinA1/Vorlesungen/230126_LinA1.md",
     "WS-25/LinA1/Lernzettel_Testat_6.md",
     "Anhänge/Pasted image 20260123093912.png",
     "Wiki/Rekursion.md",
@@ -238,11 +241,7 @@
     "WS-25/RS/RS-Wiki/§RS§.md",
     "Anhänge/Pasted image 20260122223948.png",
     "Anhänge/Pasted image 20260122221948.png",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/9.5_Dimensionsformel-für-lineare-Abbildungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.1_Körperaxiome.md",
-    "WS-25/DAP1/Folien/vl24-deck.pdf",
     "Unbenannt.base",
-    "WS-25/DAP1/Folien/vl25-deck.pdf",
     "vl25-deck.pdf",
     "WS-25/DAP1/Folien",
     "Unbenannt 2.base",
