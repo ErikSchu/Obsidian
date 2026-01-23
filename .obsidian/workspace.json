@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen.md",
+                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.1_Grundlagen-linearer-Abbildungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen"
+              "title": "16.1_Grundlagen-linearer-Abbildungen"
             }
           }
         ]
@@ -205,6 +205,9 @@
   "active": "ecb24422f1b064ba",
   "lastOpenFiles": [
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "17.1_Koordinatenvektoren.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.4_Körpererweiterungen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.2_Funktionenräume.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
     "6.1_Lineare-Unterräume.md",
@@ -236,11 +239,8 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/9.5_Dimensionsformel-für-lineare-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.2_Kern-und-Bild.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.1_Grundlagen-linearer-Abbildungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.4_Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.1_Körperaxiome.md",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
-    "LinA1 - 15.4 Körpererweiterungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen.md",
     "WS-25/DAP1/Folien/vl24-deck.pdf",
     "Unbenannt.base",
     "WS-25/DAP1/Folien/vl25-deck.pdf",
