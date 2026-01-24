@@ -219,6 +219,18 @@ int main() {
 		++it) {
 		printf("%i,", *it);
 	}
-	printf(\n")
+	printf("\n");
+	
+	
+	// äquivalent mit "range based for"
+	for (int i : pq) {
+		printf("%i,", i)
+	}
+	printf("\n");
 }
 ```
+
+##### Am Beispiel von Linked List
+```cpp
+```
+⤷ NB: alle Aspekte rund um ` const ` hier nicht beachtet
