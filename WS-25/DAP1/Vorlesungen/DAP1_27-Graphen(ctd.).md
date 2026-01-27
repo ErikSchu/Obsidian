@@ -72,4 +72,29 @@ ___
 ## Graphenexploration - Breadth First Search (BFS)
 
 Statt zuerst immer weiter in die Tiefe zu gehen: 
-1. 
+1. besuche **zunächst alle Nachbarn** vom Startknoten (und markiere sie)
+2. dann besuche **alle noch unmarkierten Nachbarn** der in Schritt 1 *besuchten Knoten*
+3. usw. *bis alle Knoten markiert*
+
+Gute Nachricht: in ` dfs_iter() ` muss nur der *Stack* durch eine **Queue** ersetzt werden!
+
+___
+
+## Minimaler Spannbaum
+
+Betrachten wir nun ***gewichtete Graphen***
+	z.B. Reisezeit zwischen Stationen an den Kanten
+
+Modifikation bei der Tiefen-(oder Breiten-)suche:
+	ersetze den *Container* durch eine **Priority Queue** ` dap1::PQ<inr, std::pair<GraphNode*, int>>q(m) `
+		`std::pair` ist eine (einfache) *Klasse zum Speichern zweier Elemente*
+	beim Einfügen von w ist die Priorität der Summe aus 
+		Distanz zum Aktuellen Knoten ` v(v.second) `
+		Kantengewicht von ` (v,w) ` (in `v.first->edge_weights_`)
+
+___
+
+# Hashing
+## Wdh.: der [[DAP1_21-Bäume|Mengen-ADT]] 
+
+- Bisherige Lös

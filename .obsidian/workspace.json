@@ -40,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "Menge über Objekte vom Typ ",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,8 +74,7 @@
               "title": "Dateiexplorer"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,14 +202,17 @@
   },
   "active": "56343b632fc7720d",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/11.3_Die-allgemeine-lineare-Gruppe.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
     "Anhänge/Pasted image 20260127125636.png",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.1_Koordinatenvektoren.md",
     "Anhänge/Pasted image 20260126165428.png",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "Unbenannt.base",
-    "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
     "WS-25/DAP1/Folien/vl24-deck.pdf",
     "WS-25/DAP1/Folien/vl25-deck.pdf",
     "WS-25/DAP1/DAP1-Praktikum/DAP1-Praktikum_dump/P-DAP1_1.2_Printingf.md",
@@ -231,9 +233,7 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.2_Der-komplexe-Vektorraum.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/14.1_Der-Vektorraum-über-Körpern.md",
     "WS-25/LinA1/Vorlesungen/230126_LinA1.md",
-    "WS-25/LinA1/Lernzettel_Testat_6.md",
     "Anhänge/Pasted image 20260123093912.png",
-    "Wiki/Rekursion.md",
     "Anhänge/Pasted image 20260122234131.png",
     "Anhänge/Pasted image 20260122233657.png",
     "Anhänge/Pasted image 20260122232436.png",
@@ -242,7 +242,6 @@
     "Unbenannt.canvas",
     "Anhänge/Pasted image 20260122230841.png",
     "Anhänge/Pasted image 20260122230814.png",
-    "Anhänge/Pasted image 20260122223948.png",
     "vl25-deck.pdf",
     "WS-25/DAP1/Folien",
     "Unbenannt 2.base",
