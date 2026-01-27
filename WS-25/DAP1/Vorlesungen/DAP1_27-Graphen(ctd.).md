@@ -110,6 +110,7 @@ Annahme $T$ = `int`
 - daher ***Hashfunktion*** $h :$ `int->[0, m - 1]` $= \{ 0, 1, \dots, m-1 \}$ für einen **nicht zu großen** Wert $m$ ($m$ ist die *Größe* der Hashtabelle)
 - dann ` insert(set_namem x) ` :  füge $x$ in $H[h(x)]$ ein 
 
+
 #### Kollision
 
 Anforderungen an die Hashfunktion $h$:
@@ -117,4 +118,31 @@ Anforderungen an die Hashfunktion $h$:
 - soll mögl. **zufällig** sein 
 - wir nutzen: $h(x) = ((a \cdot x) \text{ mod } p) \text{ mod } m$ für eine Primzahl $p \ge m$ und ein zufälliges $a \in [1, p-1]$
 
-Trotzdem: ***Kollisionen** unvermeidbar* $(h)$
+Trotzdem: ***Kollisionen** unvermeidbar* $(h(x) = h(y) \text{ für } x \ne y)$
+
+Was ist, wenn in $H[h(x)]$ bereits ein Element steht?
+- ***Linear Probing:*** wenn die Stelle $h(x)$ bereits belegt, dann gehe so lange nach 'rechts' ($h(x)+1, h(x)+2, \dots$), bis eine freie Stelle erreicht wird
+
+Wir nutze ein zsl. `bool`-Array ` Used[0, m - 1] `, um belegte Stellen zu markieren
+
+
+##### Implementierungstrick
+
+Um bei dem **linear Probing** nicht immer '$\text{mod } n$' rechnen zu müssen, kann die Hashtabelle einen ***Overflow-Buffer*** erweitert werden.
+- z.B. 1% der Gesamtgröße
+- im Code ` overflow_buffer_size_ `
+
+
+## Generische Hashtabelle: C++ 
+
+Die **Hashtabelle** soll ***templatisiert*** über `<K,V>` sein 
+	aber Hastfunktion vom Typ $K$ abh.
+		hierfür bieten sich **Template-Spezialisierungen** an
+
+```cpp
+template <typename K>
+int hash_value(K const& x, int m); // generische Funktionsdeklaration
+
+unsigned in const p = (1u << 31) - 1; // Mersenne prime
+unsi
+```
