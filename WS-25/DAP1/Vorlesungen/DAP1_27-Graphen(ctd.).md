@@ -97,4 +97,24 @@ ___
 # Hashing
 ## Wdh.: der [[DAP1_21-Bäume|Mengen-ADT]] 
 
-- Bisherige Lös
+***Bisherige Lösung:*** Binärer Suchbaum (*vergleichsbasiert*!)
+	***jetzt:*** direkt mit den **Werten** *der Schlüssel* arbeiten
+
+## Hashing
+Annahme $T$ = `int` 
+
+>[!TIP] Idee
+>hätten wir ein Array $H$ der Größe ` INT_MAX `, könnten wir ein Element $x$ in $H[x]$ speichern
+- das ist unrealistisch ...
+
+- daher ***Hashfunktion*** $h :$ `int->[0, m - 1]` $= \{ 0, 1, \dots, m-1 \}$ für einen **nicht zu großen** Wert $m$ ($m$ ist die *Größe* der Hashtabelle)
+- dann ` insert(set_namem x) ` :  füge $x$ in $H[h(x)]$ ein 
+
+#### Kollision
+
+Anforderungen an die Hashfunktion $h$:
+- soll mögl. *gleichmäßig* übre $[0, m-1]$ **streuen**
+- soll mögl. **zufällig** sein 
+- wir nutzen: $h(x) = ((a \cdot x) \text{ mod } p) \text{ mod } m$ für eine Primzahl $p \ge m$ und ein zufälliges $a \in [1, p-1]$
+
+Trotzdem: ***Kollisionen** unvermeidbar* $(h)$
