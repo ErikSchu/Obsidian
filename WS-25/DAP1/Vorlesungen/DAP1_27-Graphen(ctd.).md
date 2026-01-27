@@ -143,6 +143,24 @@ Die **Hashtabelle** soll ***templatisiert*** über `<K,V>` sein
 template <typename K>
 int hash_value(K const& x, int m); // generische Funktionsdeklaration
 
-unsigned in const p = (1u << 31) - 1; // Mersenne prime
-unsi
+unsigned int const p = (1u << 31) - 1; // Mersenne prime
+unsigned int const a = rand() % (p - 1) + 1;
+template <> int hash_value<int>(int const& x, int m) {
+	return (a * x) % p % m;
+}
+
+int const p_str = 257
+int const a_str = rand() % (p_str - 1) +1;
+template<> int hash_value<MyString>(MyString const& x, int m) {
+	int result = a_str;
+	for (char c : x) result = (result * p_str + x) % m;
+	return result;
+}
+
+// Implements a hast table with linear probing
+template <tyename K, typename V> class HashMap {
+	// ...
+	private:
+		int hash(K const& x) const { return hash_value(x, m_); }
+};
 ```
