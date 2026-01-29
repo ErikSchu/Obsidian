@@ -29,6 +29,8 @@ Was ist, wenn in $H[h(x)]$ bereits ein Element steht?
 
 Wir nutze ein zsl. `bool`-Array ` Used[0, m - 1] `, um belegte Stellen zu markieren
 
+![[Pasted image 20260129143215.png]]
+
 
 ##### Implementierungstrick
 
@@ -68,3 +70,15 @@ template <tyename K, typename V> class HashMap {
 		int hash(K const& x) const { return hash_value(x, m_); }
 };
 ```
+
+>[!note] Einfügen mit linear Pobing
+>- ` insert(set_name,x): `
+>	- berechne $p \leftarrow h(x) \in [ 0, m-1 ]$
+>	- solange $H[p]$ belegt:
+>		- inkrementiere $p$ um $1$
+>		- falls $p == m$:
+>			- $p \leftarrow 0$
+>___
+>```cpp
+>// operator 
+>```
