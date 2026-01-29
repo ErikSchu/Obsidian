@@ -32,13 +32,6 @@ Wir nutze ein zsl. `bool`-Array ` Used[0, m - 1] `, um belegte Stellen zu markie
 ![[Pasted image 20260129143215.png]]
 
 
-##### Implementierungstrick
-
-Um bei dem **linear Probing** nicht immer '$\text{mod } n$' rechnen zu müssen, kann die Hashtabelle einen ***Overflow-Buffer*** erweitert werden.
-- z.B. 1% der Gesamtgröße
-- im Code ` overflow_buffer_size_ `
-
-
 >[!note] Einfügen mit linear Pobing
 >- ` insert(set_name,x): `
 >	- berechne $p \leftarrow h(x) \in [ 0, m-1 ]$
@@ -62,6 +55,13 @@ Um bei dem **linear Probing** nicht immer '$\text{mod } n$' rechnen zu müssen, 
 >	return array_[pos].value_;
 >}
 >```
+
+
+##### Implementierungstrick
+
+Um bei dem **linear Probing** nicht immer '$\text{mod } n$' rechnen zu müssen, kann die Hashtabelle einen ***Overflow-Buffer*** erweitert werden.
+- z.B. 1% der Gesamtgröße
+- im Code ` overflow_buffer_size_ `
 
 
 ## Generische Hashtabelle: C++ 
@@ -96,3 +96,13 @@ template <tyename K, typename V> class HashMap {
 };
 ```
 
+
+___
+
+# Multicore-CPUs
+
+- CPUs haben mehrere COres (mind. 4, übl. 6-16, oft 16+)
+	- Core: (mehr oder wenigter) unabhängige Recheneinheit
+	- können auch genutzt werden, um gemeinsam an einem Problem zu arbeiten
+
+- OpemMP ist eine Bibliothek (u.a. für )
