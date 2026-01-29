@@ -23,6 +23,7 @@
 - [[Addition_ganzer_Zahlen]]
 - [[Addition_von_Fließkommazahlen]]
 - [[Multiplikation_von_Fließkommazahlen]]
+	- [[Floating_Point_Remarks]]
 
 ---
 ---
