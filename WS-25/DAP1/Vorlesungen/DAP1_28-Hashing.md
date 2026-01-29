@@ -101,8 +101,16 @@ ___
 
 # Multicore-CPUs
 
-- CPUs haben mehrere COres (mind. 4, übl. 6-16, oft 16+)
-	- Core: (mehr oder wenigter) unabhängige Recheneinheit
+- CPUs haben mehrere Cores (mind. 4, üblich 6-16, oft 16+)
+	- Core: (mehr oder weniger) unabhängige Recheneinheit
 	- können auch genutzt werden, um gemeinsam an einem Problem zu arbeiten
 
-- OpemMP ist eine Bibliothek (u.a. für )
+- **OpemMP** ist eine Bibliothek (u.a. für C++) dafür
+	- Einbinden der Bibliothek im Code mit ` #include <omp.h> `
+	- Kompilieren mit Option `-fopenmap`
+		- unter MacOS clang: g++ -Xpreprocessor -fopenmp und zus. die openMP-Bib linken (-lomp)
+
+- Damit spezielle Anweisungen ("Pragmas") zur Parallelisierung möglich, z.B. 
+	-  `#pragma omp parralel for` vor for-Wiederholungsanweisungen
+
+>
