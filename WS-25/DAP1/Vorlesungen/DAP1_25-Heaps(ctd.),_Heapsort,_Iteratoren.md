@@ -243,6 +243,12 @@ public:
 	class Iterartor { // an iterator for the LL
 		Node<T>* current
 		
-	}
+		public:
+			Iterator(Node<T>* c = nullptr) : curren_{c} {}
+			
+			T& operator*() {
+			
+			}
+ 	};
 ```
 ⤷ NB: alle Aspekte rund um ` const ` hier nicht beachtet
