@@ -39,6 +39,31 @@ Um bei dem **linear Probing** nicht immer '$\text{mod } n$' rechnen zu müssen, 
 - im Code ` overflow_buffer_size_ `
 
 
+>[!note] Einfügen mit linear Pobing
+>- ` insert(set_name,x): `
+>	- berechne $p \leftarrow h(x) \in [ 0, m-1 ]$
+>	- solange $H[p]$ belegt:
+>		- inkrementiere $p$ um $1$
+>		- falls $p == m$:
+>			- $p \leftarrow 0$
+>```cpp
+>// operator[] for put:
+>V& operator[](K const& key) {
+>	int pos = hash(key);
+>	while (used_[pos] && array_[pos].key_ != key) {
+>		++pos;
+>		if (pos == m) pos = 0;
+>	}
+>	if (!used_[pos]) {
+>		array_[pos].key_ = key; // store key if insert
+>		used_[pos] = true;
+>		++n_;
+>	}
+>	return array_[pos].value_;
+>}
+>```
+
+
 ## Generische Hashtabelle: C++ 
 
 Die **Hashtabelle** soll ***templatisiert*** über `<K,V>` sein 
@@ -71,24 +96,3 @@ template <tyename K, typename V> class HashMap {
 };
 ```
 
->[!note] Einfügen mit linear Pobing
->- ` insert(set_name,x): `
->	- berechne $p \leftarrow h(x) \in [ 0, m-1 ]$
->	- solange $H[p]$ belegt:
->		- inkrementiere $p$ um $1$
->		- falls $p == m$:
->			- $p \leftarrow 0$
->___
->```cpp
->// operator[] for put:
->V& operator[](K const& key) {
->	int pos = hash(key);
->	while (used_[pos] && array_[pos].key_ != key) {
->		++pos;
->		if (pos == m) pos = 0;
->	}
->	if (!used_[pos]) {
->		array_[pos].
->	}
->}
->```
