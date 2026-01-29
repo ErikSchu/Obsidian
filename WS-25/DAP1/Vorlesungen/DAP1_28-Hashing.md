@@ -113,4 +113,5 @@ ___
 - Damit spezielle Anweisungen ("Pragmas") zur Parallelisierung möglich, z.B. 
 	-  `#pragma omp parralel for` vor for-Wiederholungsanweisungen
 
->
+>[!example] Beispiel [[DAP1_13-Sortieren_ctd.|Merge-Sort]]
+> ![[Pasted image 20260129180956.png]]
