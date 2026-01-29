@@ -232,5 +232,17 @@ int main() {
 
 ##### Am Beispiel von Linked List
 ```cpp
+template <typename T>
+class LinkedList {
+	Node<T>* head_; // Zeiger auf den Anfang der LL
+	Node<T>* last_; // Zeiger aud das Ende der LL
+	int size_;      // Anzahl der Elemente in LL
+}
+
+public:
+	class Iterartor { // an iterator for the LL
+		Node<T>* current
+		
+	}
 ```
 ⤷ NB: alle Aspekte rund um ` const ` hier nicht beachtet
