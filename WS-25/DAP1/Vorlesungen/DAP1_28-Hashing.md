@@ -80,5 +80,15 @@ template <tyename K, typename V> class HashMap {
 >			- $p \leftarrow 0$
 >___
 >```cpp
->// operator 
+>// operator[] for put:
+>V& operator[](K const& key) {
+>	int pos = hash(key);
+>	while (used_[pos] && array_[pos].key_ != key) {
+>		++pos;
+>		if (pos == m) pos = 0;
+>	}
+>	if (!used_[pos]) {
+>		array_[pos].
+>	}
+>}
 >```
