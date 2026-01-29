@@ -247,8 +247,20 @@ public:
 			Iterator(Node<T>* c = nullptr) : curren_{c} {}
 			
 			T& operator*() {
-			
+				return current_->cont_; // reference to the element
 			}
+			
+			Iterator& operator++() {
+				current_ = current_->next_;
+				return *this;
+			}
+			
+			bool operator!=(Iterator contst& p) { return current_ != 
+				p.current_; }
  	};
+ 	Iterator begin() { reurn Iterator(head_); }
+ 	Iterator end() { return Iterator(nullptr); } // correct sinde last->
+                                                 // next = nullptr
+// ...
 ```
 ⤷ NB: alle Aspekte rund um ` const ` hier nicht beachtet
