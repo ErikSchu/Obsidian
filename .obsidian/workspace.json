@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/Vorlesungen/300126_LinA1.md",
+                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "300126_LinA1"
+              "title": "17.2_Darstellende-Matrizen"
             }
           }
         ]
@@ -203,12 +203,14 @@
   },
   "active": "56343b632fc7720d",
   "lastOpenFiles": [
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.3_Isomorphismen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.4_Räume-linearer-Abbildungen.md",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/LinA1/Vorlesungen/300126_LinA1.md",
     "Anhänge/Pasted image 20260130085615.png",
     "Anhänge/Pasted image 20260130084330.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.1_Koordinatenvektoren.md",
-    "WS-25/LinA1/Vorlesungen/300126_LinA1.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
     "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
     "Anhänge/Pasted image 20260129180956.png",
@@ -234,14 +236,11 @@
     "WS-25/LinA1/Beispieltest.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/9.2_Beispiele-zu-linearen-Abbildungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.4_Räume-linearer-Abbildungen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.3_Isomorphismen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.2_Kern-und-Bild.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.1_Grundlagen-linearer-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.4_Körpererweiterungen.md",
     "Anhänge/Pasted image 20260123093912.png",
     "Anhänge/Pasted image 20260122234131.png",
-    "Anhänge/Pasted image 20260122233657.png",
     "Unbenannt.canvas",
     "vl25-deck.pdf",
     "WS-25/DAP1/Folien",
