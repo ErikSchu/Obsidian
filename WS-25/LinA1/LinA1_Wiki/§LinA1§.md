@@ -142,5 +142,23 @@ ___
 ⤷[[17.4_Invertierbarkeit-und-Rang]]
 
 ___
+##### § 18 Koordinatentrandformationen
+⤷[[18.1_Basiswechsel-und-Übergangsmatrix]]
+⤷[[18.2_Transformationssatz-für-lineare-Abbildungen]]
+⤷[[18.3_Normalform-für-darstellende-Matrizen]]
+⤷[[18.4_Transponierte-Matrix]]
+⤷[[18.5_Orthogonale-Matrizen]]
 
-##### § 18 Koordinatentrandformation
+___
+##### § 19 Komplemente und Faktorräume
+⤷[[19.1_Komplemente]]
+⤷[[19.2_Faktorräume]]
+⤷[[19.3_Vergleich-Komplemente-Faktorräume]]
+⤷[[19.4_Isomorphiesatz]]
+
+___
+##### § 20 Dualität
+⤷[[20.1_Linearformen-und-Dualraum]]
+⤷[[20.2_Dualbasen]]
+⤷[[20.3_Bidualität]]
+⤷[[20.4_Dualität-für-lineare-Abbildungen]]
