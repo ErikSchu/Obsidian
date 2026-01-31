@@ -1,3 +1,5 @@
+#dap1
+
 - Eine **Handlungsvorschrift** um ein(e Klasse von) Problem(en) zu lösen (**Klasse** von Problemen ≠ nur eine **Instanz** (d.h. ein konkretes Problem))
 
 - Immer unter Berücksichtigung des zur verfügung stehenden **Baukastens**:

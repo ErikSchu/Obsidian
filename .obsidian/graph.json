@@ -29,16 +29,16 @@
       }
     }
   ],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.521008403361345,
-  "repelStrength": 10.6890756302521,
+  "centerStrength": 0.4102416570771,
+  "repelStrength": 7.17376294591484,
   "linkStrength": 1,
-  "linkDistance": 269,
-  "scale": 0.2987331108968785,
+  "linkDistance": 30,
+  "scale": 0.2728829628603095,
   "close": true
 }
