@@ -140,3 +140,7 @@ ___
 ⤷[[17.2_Darstellende-Matrizen]]
 ⤷[[17.3_Eigenschaften-darstellender-Matrizen]]
 ⤷[[17.4_Invertierbarkeit-und-Rang]]
+
+___
+
+##### § 18 Koordinatentrandformation
