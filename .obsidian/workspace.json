@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18.3_Normalform-für-darstellende-Matrizen.md",
+                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.4_Transponierte-Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18.3_Normalform-für-darstellende-Matrizen"
+              "title": "18.4_Transponierte-Matrix"
             }
           }
         ]
@@ -201,18 +201,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb11ced1eef9e794",
+  "active": "d796d0e2fcd8f923",
   "lastOpenFiles": [
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.1_Basiswechsel-und-Übergangsmatrix.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.2_Transformationssatz-für-lineare-Abbildungen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.3_Normalform-für-darstellende-Matrizen.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.4_Transponierte-Matrix.md",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "Anhänge/Pasted image 20260202175042.png",
     "Anhänge/Pasted image 20260202174701.png",
     "Anhänge/Pasted image 20260202174622.png",
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
-    "18.3_Normalform-für-darstellende-Matrizen.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.2_Transformationssatz-für-lineare-Abbildungen.md",
     "Anhänge/Pasted image 20260202173040.png",
     "Anhänge/Pasted image 20260202173003.png",
     "Anhänge/Pasted image 20260202172938.png",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.1_Basiswechsel-und-Übergangsmatrix.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.1_Koordinatenvektoren.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
@@ -226,7 +227,6 @@
     "Wiki/Algorithmus.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.4_Invertierbarkeit-und-Rang.md",
     "Anhänge/Pasted image 20260131130846.png",
-    "Anhänge/Pasted image 20260131130227.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
