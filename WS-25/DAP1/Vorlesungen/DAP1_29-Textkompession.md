@@ -39,3 +39,20 @@ Ein ***Trie*** ist ein gewurzelter Baum
 
 >[!note] Algorithmus zur Kompression von $T[0,n], T[n]= 0$:
 >1. Starte mit Trie, der nur aus der Wurzel besteht (Nummer 0)
+>2. Sei $T[0, i-1]$ bereits komprimiert (am Anfang $i = 0$)
+>3. Suche das *längste Präfix* $T[i,j]$ von $T[i,n]$, für das es einen Knoten $v$ im Trie mit $s(v) = P$ ibt
+>	- füge neuen Knoten $w$ als Kind von $v$ an
+>		- $w$ erhält die kleinste noch nicht vergebene Nummer 
+>		- beschrifte Kante $(v,w)$ mit $T[j+1]$
+>	- gib Paar (Knotennummer von $v$, $T[j+1]$) aus; damit ist $T[0, j+1]$ komprimiert; gehe zurück zu 1.
+
+>[!attention] .
+>LZ78 gibt eine Folge $(n_{i}, c_{i})$ von $z$ Paaren (Knotennummer, Buchstabe) aus, so dass $$T = s(n_{1})c_{1} \ s(n_{2})c_{2} \ \dots \ s(n_{z})c_{z}$$
+
+
+#### Ist das reversibel (d.h. dekomprimierbar)?
+
+Ja! Einfach den Algorithmus simulieren!
+>[!question] Quiz
+>Welcher String wird durch $$$$
+
