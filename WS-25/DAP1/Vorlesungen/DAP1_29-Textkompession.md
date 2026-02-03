@@ -28,4 +28,14 @@
 ## Lempel-Ziv-78
 
 Ein von *Abraham Lempel* und *jacob Ziv* 1978 entwickeltes **Kompressionsverfahren**
-⤷ eingese
+⤷ eingesetzt in GIF, PDF, compress, ...
+
+***Idee:*** nutze aus, wenn sich Teilstrings wiederholen (z.B. $T = \text{anatanarivo}$ (Hauptstadt von Madagaskar))
+
+Ein ***Trie*** ist ein gewurzelter Baum
+- Knoten nummeriert
+- Kanten mit *Buchstaben* beschriftet
+- $s(v)=$ String, der sich aus der Kantenbeschriftung von der Wurzel zu $v$ ergibt
+
+>[!note] Algorithmus zur Kompression von $T[0,n], T[n]= 0$:
+>1. Starte mit Trie, der nur aus der Wurzel besteht (Nummer 0)
