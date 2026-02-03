@@ -120,3 +120,65 @@ int main() {
 ```
 
 ## Code Dekompression
+```cpp
+struct TrieNode {
+  dap1::Map<char, TrieNode*> children_;
+  TrieNode* parent_;
+  char c_;
+  int node_nr_;
+
+  TrieNode(int nr = -1, TrieNode* parent = nullptr, char c = 0)
+      : parent_{parent}, c_{c}, node_nr_{nr} {}
+};
+
+class LZTrie {
+  TrieNode* root_;
+  int nr_nodes_;
+
+ public:
+  LZTrie() : root_{new TrieNode(0)}, nr_nodes_{1} {}
+
+  TrieNode* get_root() const { return root_; }
+
+  TrieNode* insert(TrieNode* where, char c) {
+    TrieNode* new_node = new TrieNode(nr_nodes_++, where, c);
+    where->children_[c] = new_node;
+    return new_node;
+  }
+
+  int size() const { return nr_nodes_; }
+};
+```
+```cpp
+void write_phrase(TrieNode* node, FILE* out_file) {
+  if (!node || node->node_nr_ == 0) return;
+
+  // recurse to root to output in correct order
+  write_phrase(node->parent_, out_file);
+  fwrite(&node->c_, sizeof(char), 1, out_file);
+}
+
+int main() {
+  FILE* file = fopen("faust.lz8", "r");
+  FILE* out_file = fopen("faust_dec.txt", "w");
+
+  LZTrie trie;
+
+  dap1::ResizableArray<TrieNode*> nodes;
+  nodes.push_back(trie.get_root());  // node 0
+
+  while (true) {
+    int index;
+    char c;
+
+    if (fread(&index, sizeof(int), 1, file) != 1) break;
+    if (fread(&c, sizeof(char), 1, file) != 1) break;
+
+    TrieNode* parent = nodes[index];
+
+    // output phrase
+    write_phrase(parent, out_file);
+    if (c != 0) {
+      fwrite(&c, sizeof(char), 1, out_file);
+      TrieNode* node = trie.insert(
+```
