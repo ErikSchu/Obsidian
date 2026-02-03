@@ -54,5 +54,69 @@ Ein ***Trie*** ist ein gewurzelter Baum
 
 Ja! Einfach den Algorithmus simulieren!
 >[!question] Quiz
->Welcher String wird durch $$$$
+>Welcher String wird durch $$(0,m), (0,i), (0,s), (3,i), (3,s), (2,p), (0, p), (2, 0)$$LZ78-komprimiert (Eingabe ohne das 0-Byte am Ende)?
+>⇒ `mississippi`
 
+
+___
+
+## Code Kompression
+```cpp
+struct TrieNode {
+  dap1::Map<char, TrieNode*> children_;
+  int node_nr_;
+
+  TrieNode(int nr = -1) : node_nr_{nr} {}
+};
+
+class LZTrie {
+  TrieNode* root_;
+  int nr_nodes_;
+
+ public:
+  LZTrie() : root_{new TrieNode(0)}, nr_nodes_{1} {}
+
+  int size() const { return nr_nodes_; }
+
+  TrieNode* get_root() const { return root_; }
+
+  // insert new child of where with char c:
+  TrieNode* insert(TrieNode* where, char c) {
+    TrieNode* new_node = new TrieNode(nr_nodes_++);
+    where->children_[c] = new_node;
+    return new_node;
+  }
+};
+```
+```cpp
+int main() {
+  FILE* file = fopen("faust.txt", "r");
+  FILE* out_file = fopen("faust.lz8", "w");
+  LZTrie trie;
+  TrieNode* current = trie.get_root();
+  for (char c = fgetc(file); feof(file) == 0; c = fgetc(file)) {
+    TrieNode* child = current->children_.at(c);
+    if (child) {
+      // next character already in trie => descend:
+      current = child;
+    } else {
+      // phrase finished => write phrase to file:
+      fwrite(&current->node_nr_, sizeof(int), 1, out_file);
+      fwrite(&c, sizeof(char), 1, out_file);
+      trie.insert(current, c);
+      current = trie.get_root();
+    }
+  }
+  if (current) {
+    // write last phrase
+    fwrite(&current->node_nr_, sizeof(int), 1, out_file);
+    char c = 0;
+    fwrite(&c, sizeof(char), 1, out_file);
+  }
+  printf("Done. Trie contains %i nodes\n", trie.size());
+  fclose(file);
+  fclose(out_file);
+}
+```
+
+## Code Dekompression
