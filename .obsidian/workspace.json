@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18.5_Orthogonale-Matrizen.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18.5_Orthogonale-Matrizen"
+              "title": "DAP1_29-Textkompession"
             }
           }
         ]
@@ -203,23 +203,24 @@
   },
   "active": "cb11ced1eef9e794",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
+    "Anhänge/Pasted image 20260203123037.png",
+    "Anhänge/Pasted image 20260203123006.png",
+    "Anhänge/Pasted image 20260203122949.png",
+    "Anhänge/Pasted image 20260203122917.png",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.5_Orthogonale-Matrizen.md",
     "Anhänge/Pasted image 20260202191251.png",
     "Anhänge/Pasted image 20260202191244.png",
     "Anhänge/Pasted image 20260202191108.png",
     "Anhänge/Pasted image 20260202190721.png",
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
-    "18.5_Orthogonale-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.4_Transponierte-Matrix.md",
     "Anhänge/Pasted image 20260202185655.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.1_Basiswechsel-und-Übergangsmatrix.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.2_Transformationssatz-für-lineare-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.3_Normalform-für-darstellende-Matrizen.md",
     "Anhänge/Pasted image 20260202175042.png",
-    "Anhänge/Pasted image 20260202174701.png",
-    "Anhänge/Pasted image 20260202174622.png",
-    "Anhänge/Pasted image 20260202173040.png",
-    "Anhänge/Pasted image 20260202173003.png",
-    "Anhänge/Pasted image 20260202172938.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.1_Koordinatenvektoren.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
@@ -239,7 +240,6 @@
     "Unbenannt 1.base",
     "Unbenannt.base",
     "WS-25/LinA1/Vorlesungen/300126_LinA1.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
     "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
     "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
     "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",

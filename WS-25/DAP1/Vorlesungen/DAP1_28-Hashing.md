@@ -96,6 +96,8 @@ template <tyename K, typename V> class HashMap {
 };
 ```
 
+![[Pasted image 20260203122917.png]]
+
 
 ___
 
@@ -114,4 +116,4 @@ ___
 	-  `#pragma omp parralel for` vor for-Wiederholungsanweisungen
 
 >[!example] Beispiel [[DAP1_13-Sortieren_ctd.|Merge-Sort]]
-> ![[Pasted image 20260129180956.png]]
+>![[Pasted image 20260203123037.png]]
