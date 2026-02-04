@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
+                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.4_Invertierbarkeit-und-Rang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17.3_Eigenschaften-darstellender-Matrizen"
+              "title": "17.4_Invertierbarkeit-und-Rang"
             }
           }
         ]
@@ -204,6 +204,7 @@
   "active": "cb11ced1eef9e794",
   "lastOpenFiles": [
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
     "WS-25/LinA1/Vorlesungen/030226_LinA1.md",
     "WS-25/LinA1/Vorlesungen/300126_LinA1.md",
@@ -232,7 +233,6 @@
     "WS-25/LinA1/Vorlesungen/230126_LinA1.md",
     "Wiki/Algorithmus.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.4_Invertierbarkeit-und-Rang.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
     "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
