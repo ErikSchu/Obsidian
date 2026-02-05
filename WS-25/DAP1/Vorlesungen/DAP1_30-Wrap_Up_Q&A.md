@@ -8,4 +8,4 @@
 >	⇒ Für $T = a^n$ *allgemein:*  $z \approx \sqrt{ n }$
 
 >[!TIP] LZ77
->... gibt eine FOlge $l_{j}, d_{j}, c_{j}$ von $z$ Tripeln (Länge, Quelle, Buchstabe) aus, so dass $$T = \text{copy}(d_{1}, l_{1})c_{1} \ \cdot \ \text{copy}(d_{2},l_{2})c_{2} \ \cdots \ \text{copy}(d_{z, l_{z}})c_{z}$$
+>... gibt eine FOlge $l_{j}, d_{j}, c_{j}$ von $z$ Tripeln (Länge, Quelle, Buchstabe) aus, so dass $$T = \text{copy}(d_{1}, l_{1})c_{1} \ \cdot \ \text{copy}(d_{2},l_{2})c_{2} \ \cdots \ \text{copy}(d_{z}, l_{z})c_{z}$$
