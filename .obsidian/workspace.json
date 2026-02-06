@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.5_Orthogonale-Matrizen.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18.5_Orthogonale-Matrizen"
+              "title": "DAP1_02-Einführung (CDT); erste Algorithmen"
             }
           }
         ]
@@ -203,8 +203,14 @@
   },
   "active": "cb11ced1eef9e794",
   "lastOpenFiles": [
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_05-Wiederholungsanweisungen.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_04-Bedingte Anweisungen.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_03-Funktionen.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_01-Einführung.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.5_Orthogonale-Matrizen.md",
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.4_Transponierte-Matrix.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.3_Normalform-für-darstellende-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.2_Transformationssatz-für-lineare-Abbildungen.md",
@@ -212,7 +218,6 @@
     "WS-25/LinA1/Vorlesungen/060226_LinA1.md",
     "Anhänge/Pasted image 20260206083048.png",
     "Anhänge/Pasted image 20260206082039.png",
-    "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.4_Invertierbarkeit-und-Rang.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
@@ -234,10 +239,6 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.4_Räume-linearer-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.3_Isomorphismen.md",
     "WS-25/LinA1/Vorlesungen/230126_LinA1.md",
-    "Wiki/Algorithmus.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
     "Unbenannt 3.base",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
