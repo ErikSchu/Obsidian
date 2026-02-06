@@ -19,8 +19,8 @@ ___
 **(Random Access Machine)**
 Vorstellung einer Computers (in dieser Vorstellung):
 ![[Pasted image 20251016143849.png]]
-- Speicher bestehend aus $2^w$ vielen **Speicherzellen (Computerwörtern)** mit ke $w$ Bits (z.B.: $w=32$)
-	⤷ Inhalt unterschiedlich Interpretierbar, z.B. als Ganzzahl zwischen $0$ und $2^W -1$
+- Speicher bestehend aus $2^w$ vielen **Speicherzellen (Computerwörtern)** mit je $w$ Bits (z.B.: $w=32$)
+	⤷ Inhalt unterschiedlich interpretierbar, z.B. als Ganzzahl zwischen $0$ und $2^w -1$
 -  Prozessor (CPU) arbeitet das Programm prinzipiell Schritt für Schritt ab
 - jede Programmanweisung (**Befehl**) kann eine Speicherzelle verändern
 - Achtung: dieses Modell **ignoriert** (u.a.) die eigentlich byteweise Organisation des Arbeitsspeichers (auch Register werden ignoriert)
