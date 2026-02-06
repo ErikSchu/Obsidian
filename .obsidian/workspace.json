@@ -20,8 +20,18 @@
               "icon": "lucide-file",
               "title": "DAP1_02-Einführung (CDT); erste Algorithmen"
             }
+          },
+          {
+            "id": "dfb8dc3a139069fc",
+            "type": "leaf",
+            "state": {
+              "type": "beautitab-react-view",
+              "state": {},
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,12 +211,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb11ced1eef9e794",
+  "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_05-Wiederholungsanweisungen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_04-Bedingte Anweisungen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_03-Funktionen.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_01-Einführung.md",
     "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.5_Orthogonale-Matrizen.md",
