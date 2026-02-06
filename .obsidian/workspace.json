@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.3_Normalform-für-darstellende-Matrizen.md",
+                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.4_Transponierte-Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18.3_Normalform-für-darstellende-Matrizen"
+              "title": "18.4_Transponierte-Matrix"
             }
           }
         ]
@@ -204,6 +204,7 @@
   "active": "cb11ced1eef9e794",
   "lastOpenFiles": [
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.3_Normalform-für-darstellende-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.2_Transformationssatz-für-lineare-Abbildungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.1_Basiswechsel-und-Übergangsmatrix.md",
     "WS-25/LinA1/Vorlesungen/060226_LinA1.md",
@@ -227,7 +228,6 @@
     "Anhänge/Pasted image 20260202191108.png",
     "Anhänge/Pasted image 20260202190721.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.4_Transponierte-Matrix.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/18.3_Normalform-für-darstellende-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.1_Koordinatenvektoren.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.5_Prinzip-der-linearen-Ausdehnung.md",
     "WS-25/RS/RS-Wiki/§RS§.md",
