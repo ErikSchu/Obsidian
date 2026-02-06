@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "060226_LinA1"
             }
+          },
+          {
+            "id": "22efb8d0b334346e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Versionshinweise 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +214,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb11ced1eef9e794",
+  "active": "22efb8d0b334346e",
   "lastOpenFiles": [
     "Anhänge/Pasted image 20260206083048.png",
     "Anhänge/Pasted image 20260206082039.png",
