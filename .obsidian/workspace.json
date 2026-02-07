@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_03-Funktionen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAP1_02-Einführung (CDT); erste Algorithmen"
+              "title": "DAP1_03-Funktionen"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "19.4_Der-Isomorphiesatz"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,12 +215,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae1f49cb28b71384",
+  "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
+    "19.4_Der-Isomorphiesatz.md",
     "Anhänge/Pasted image 20260207221451.png",
     "Anhänge/Pasted image 20260207220627.png",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
-    "19.4_Der-Isomorphiesatz.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.3_Vergleich-Komplemente-Faktorräume.md",
     "Anhänge/Pasted image 20260207215758.png",
     "Anhänge/Pasted image 20260207215047.png",
@@ -231,7 +231,6 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.7_Äquivalenzrelationen.md",
     "Anhänge/Pasted image 20260207213916.png",
     "Anhänge/Pasted image 20260207213851.png",
-    "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
     "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
     "Anhänge/Pasted image 20260206224546.png",
@@ -240,7 +239,6 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.1_Komplemente.md",
     "Anhänge/Pasted image 20260206221502.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen.md",
-    "Anhänge/Pasted image 20260206215150.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.4_Körpererweiterungen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.1_Vektorräume.md",
     "WS-25/DAP1/Vorlesungen/DAP1_05-Wiederholungsanweisungen.md",
