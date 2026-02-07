@@ -51,5 +51,27 @@ int lpf_len = 0; // Länge des besten Treffers
 $\implies$ **Asymptotische Laufzeit:** $\mathcal{O}(|T|^2)$ 
 
 ---
+### Gleitendes Fenster
 
-### Demonstration Quadratische Lauf
+- Wir machen einen $\text{trade-off}:$ "Tausche **Kompressionsgüte** gegen **Zeit**"
+- Wir betrachten nur noch höchstens $w$ Buchstaben vor und nach Position $i$
+	- *gleitendes Fenster* der Größe $2w$
+	⇒ **Asymptotische Laufzeit**, wenn $w$ konstant: $\mathcal{O}(|T|)$
+
+___
+### Einschub
+
+>[!note] *Ternärer Operator*
+>```cpp
+>x = condition ? a : b;
+>```
+$$\iff$$
+>```cpp
+if (condition) x = a;
+else x = b;
+>```
+>```
+
+___
+
+## Wie fu
