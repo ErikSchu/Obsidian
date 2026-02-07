@@ -70,8 +70,24 @@ $$\iff$$
 if (condition) x = a;
 else x = b;
 >```
->```
+>
 
 ___
 
-## Wie fu
+## Wie gut ist nun die Kompression?
+
+##### Größe der Ausgabedatei
+- Ernüchternd trotz weniger Phrasen (Tripel, Paare) als LZ78
+- Was los?
+	- Wir speichern Tripel $(l, d, c)$ aus je zwei Integerwerten und einem Buchstaben
+	- Das macht $9$ Bytes je Tripel (2* sizeof(int) + sizeof(char))
+		- Am Beispiel `faust.txt` : $9z = 9 \cdot 32.979 = 296.811 > 209.523 = |T|$
+- Was tun?
+	- Wir wissen $l < w, d \le w$
+	- Mit $w = 16.000$ passen $l, d$ auch in einen $16$-Bit-Integer
+
+>![note] *EInschub: Integer-Datentypen*
+>C++ hat versch. ''
+>- ` int ` (Wertebereich $[-2^{31}, 2^{31}-1]$) → in $32$ Bits = $4$ Bytes
+>- ` char ` (Wertebereich $[-2^7, 2^7-1]$) → in $8$ Bits = $1$ Byte
+>- *neu* ` short ` (Wertebereich $[-2^[15]]$)
