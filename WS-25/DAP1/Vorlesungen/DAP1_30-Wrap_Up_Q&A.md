@@ -15,3 +15,41 @@
 >$(0,0,a), \ (0,0,n), \ (3, 2, s)$
 >$\implies T = \text{ananas}$
 
+⇒ ***Wichtig:** Überlappungen sind erlaubt!*
+
+##### Berechnung von $LZ 77$
+
+- für alle $i$ von $1$ bis $n$:
+	1. Finde längsten String $T[q, q+l-1]$ mit $q < i$, der ein Präfix von $T[i, n]$ ist
+		*Informell: finde längsten String ab Pos. $i$, der vorher in $T$ vorkommt.*
+	2. Gib $(l, i-q, T[i+l])$ aus
+	3. Erhöhe $i$ um $l+1$
+
+```cpp
+dap1::MyString input("ananas");
+int i = 0; // aktuelle Position
+while (i < input.get_size()) {
+int lpf_dist = 0; // Abstand vom besten Treffer
+int lpf_len = 0; // Länge des besten Treffers
+  for (int j = 0; j < i; j++) {
+    int len = 0; // Länge des aktuellen Treffers
+    while (i + len + 1 < input.get_size() &&
+            input[i + len] == input[j + len]) {
+      ++len;
+    }
+    if (len > lpf_len) { // neuer bester Treffer
+      lpf_len = len;
+      lpf_dist = i - j;
+    }
+  }
+  printf("(%d, %d, %c)\n",
+    lpf_len, lpf_dist, input[i + lpf_len]);
+  i += lpf_len + 1;
+}
+```
+
+$\implies$ **Asymptotische Laufzeit:** $\mathcal{O}(|T|^2)$ 
+
+---
+
+### Demonstration Quadratische Lauf
