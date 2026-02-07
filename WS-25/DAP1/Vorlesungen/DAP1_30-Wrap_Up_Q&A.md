@@ -2,7 +2,7 @@
 
 ## Lempel-Ziv 77
 
->[!note] Wdh. 
+>[!note] Wdh. LZ78
 >In wieviele Paare zerlegt [[DAP1_29-Textkompession|LZ78]] den String $T = \text{aaaaaaaaaaaaaaa}$ (15 a's)? 
 >⇒ *Antwort:* $z = 5$
 >	⇒ Für $T = a^n$ *allgemein:*  $z \approx \sqrt{ n }$

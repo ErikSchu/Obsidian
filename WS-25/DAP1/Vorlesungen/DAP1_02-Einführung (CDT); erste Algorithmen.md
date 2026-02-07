@@ -103,11 +103,11 @@ Mit `#include <cstudio>` werden Systemfunktionen zur Ein- und Ausgabe von Text "
 
 - Ausgabe von Variablen mittels folgender Platzhalter
 	- `%i` für Ganzzahlen (*int*) (auch %d)
-	- `%lf` `%lu` für Fließkommazahlen (*flat/double*)
+	- `%lf` `%lu` für Fließkommazahlen (*float/double*)
 	- `%c` für Zeichen (*char*)
 	- `%s` für String
 
-- `scanf("%i, &n")`: **Eingabe** einer Ganzzahl über die Konsole/Tastatur, Wert wird in Variable `n` gespeichert
+- `scanf("%i", &n)`: **Eingabe** einer Ganzzahl über die Konsole/Tastatur, Wert wird in Variable `n` gespeichert
 
 - Einzelne Variabken werden nach dem zu druchendne "Text" in der **gleichen Reihenfolge** angegeben, mit Kommata Abgetrennt
 ``` C++
