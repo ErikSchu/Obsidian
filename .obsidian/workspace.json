@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "19.2_Faktorräume.md",
+                "file": "19.3_Vergleich-Komplemente-Faktorräume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19.2_Faktorräume"
+              "title": "19.3_Vergleich-Komplemente-Faktorräume"
             }
           }
         ],
@@ -218,18 +218,21 @@
   },
   "active": "ae1f49cb28b71384",
   "lastOpenFiles": [
+    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
+    "19.3_Vergleich-Komplemente-Faktorräume.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.2_Faktorräume.md",
+    "WS-25/RS/RS-Wiki/§RS§.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.6_Kongruenzrechnung.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.7_Äquivalenzrelationen.md",
     "Anhänge/Pasted image 20260207213916.png",
     "Anhänge/Pasted image 20260207213851.png",
-    "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
-    "WS-25/RS/RS-Wiki/§RS§.md",
     "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
     "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
-    "19.2_Faktorräume.md",
     "Anhänge/Pasted image 20260206224546.png",
     "Anhänge/Pasted image 20260206223351.png",
     "Anhänge/Pasted image 20260206223325.png",
-    "19.1_Komplemente.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.1_Komplemente.md",
     "Anhänge/Pasted image 20260206221502.png",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen.md",
     "Anhänge/Pasted image 20260206215150.png",
@@ -251,9 +254,6 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.4_Invertierbarkeit-und-Rang.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.2_Darstellende-Matrizen.md",
-    "WS-25/LinA1/Vorlesungen/030226_LinA1.md",
-    "WS-25/LinA1/Vorlesungen/300126_LinA1.md",
-    "Anhänge/Pasted image 20260203123037.png",
     "Unbenannt 3.base",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
