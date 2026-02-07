@@ -18,8 +18,8 @@ Siehe [[DAP1_02-Einführung (CDT); erste Algorithmen]] (§ Ein-/Ausgabe von Text
 - keine **Schlüsselwörter** verwenden, z.B. int
 - andere "bereits belegte" Namen ungünstig, z.B. main, printf (lesteres insbesondere aus der [C-Standart-IO-Library](https://en.cppreference.com/w/cpp/io/c.html)
 
-- **Konvention:** Variablen mögl. aussagekräftig nemennen
-	- englische/deutsche Wörter, die die **Semantik** der Variable verdeutlichen
+- **Konvention:** Variablen mögl. aussagekräftig benennen
+	- **englische/deutsche Wörter, die die Semantik der Variable verdeutlichen**
 	- Ausnahme: "standartisierte Semantiken" wie z.B. `i` als Zähler bei Wiederholungsanweisungen
 
 - pro Block darf der gleiche Variablenname nur einmal in einer Deklaration verwendet werden
