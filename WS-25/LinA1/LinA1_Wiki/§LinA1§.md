@@ -118,7 +118,7 @@ ___
 ⤷[[14.4_Lineare-Algebra-über-Körpern-Übersicht]]
 
 ___
-## $IV$ – Vektorräume & lineare Abbuldungen
+## $IV$ – Vektorräume & lineare Abbildungen
 ` The power of mathematics is often to change one thing into another, to change geometry into language. ` *~ Marcus du Sautoy*
 ##### § 15 Abstrakte Vektorräume
 ⤷[[15.1_Vektorräume]]
@@ -154,7 +154,7 @@ ___
 ⤷[[19.1_Komplemente]]
 ⤷[[19.2_Faktorräume]]
 ⤷[[19.3_Vergleich-Komplemente-Faktorräume]]
-⤷[[19.4_Isomorphiesatz]]
+⤷[[19.4_Der-Isomorphiesatz]]
 
 ___
 ##### § 20 Dualität
