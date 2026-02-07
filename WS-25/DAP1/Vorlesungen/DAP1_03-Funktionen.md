@@ -32,7 +32,7 @@ Siehe [[DAP1_02-Einführung (CDT); erste Algorithmen]] (§ Ein-/Ausgabe von Text
 		- demnach auch in evtl. folgenden **untergeordneten** Blöcken
 		- d.h. zusätzlich sind alle Variablen in **untergeordneten Blöcken** sichtbar
 
-- wenn Variablenname nicht eindeutif auflösbar
+- wenn Variablenname nicht eindeutig auflösbar
 	- (möglich bei gleichem Variablenname in verschachtelten Blöcken)
 		⤷ dann Zugriff immer **so lokal wie möglich**
 	- eher **vermeiden**
@@ -63,7 +63,7 @@ int main() {
 
 ## Warum Funktionen?
 
-- Strukturierung von Codde in **logische und in sich geschlossene Teile**
+- Strukturierung von Code in **logische und in sich geschlossene Teile**
 	⤷ längere Programme werden so lesbarer
 
 - Wiederherstellbarkeit von Code
