@@ -142,5 +142,11 @@ if (lpf_len > 0) {
 ```
 
 ___ 
+# Vergleich
 
-## Vergleich
+| vs.          | ***$LZ 78$***                                             | ***$LZ 77$***                                            |
+| ------------ | --------------------------------------------------------- | -------------------------------------------------------- |
+| *Phrasen*    | zeigen auf vorherige Phrasen<br> ⤷keine Überlappung mögl. | zeigen  auf vorherige Stellen<br> ⤷ Überlappung erlaubt  |
+| *Berechnung* | mit Trie<br> ⤷Speicherbedarf $\mathcal{O}(z)$             | mit Text(index)<br> ⤷Speicherbed. davon abh.             |
+| *Verwendung* | eher historisch (z.B. GIF, PDF)                           | Basis für Großteil der ubi-<br>quitären Datenkompression |
+⤷ Es gibt viele Varianten der Lempel-Ziv-Kompression und auch gänzl. andere Verfahren
