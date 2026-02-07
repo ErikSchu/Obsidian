@@ -86,8 +86,61 @@ ___
 	- Wir wissen $l < w, d \le w$
 	- Mit $w = 16.000$ passen $l, d$ auch in einen $16$-Bit-Integer
 
->![note] *EInschub: Integer-Datentypen*
+>[!note] *EInschub: Integer-Datentypen*
 >C++ hat versch. ''
 >- ` int ` (Wertebereich $[-2^{31}, 2^{31}-1]$) → in $32$ Bits = $4$ Bytes
 >- ` char ` (Wertebereich $[-2^7, 2^7-1]$) → in $8$ Bits = $1$ Byte
->- *neu* ` short ` (Wertebereich $[-2^[15]]$)
+>- *neu* ` short ` (Wertebereich $[-2^{15}, 2^{15}-1]$) → in $16$ Bits = $2$ Bytes
+
+
+##### Verbesserte Kodierung
+Also: Was können wir tun?
+- Mit $w = 1600 < 2^{31}$ passen $l<w$ und $d \le w$ auch in $16$-Bit-Integer ("short")
+	- Dann haben wir nur noch $5$ Bytes je tripel 
+- Weiterer Trick: $d$ überhaupt nur ausgeben, wenn $l > 0$
+	- für einzelne Buchstaben brauchen wir $d$ nicht
+
+```cpp
+short lpf_distance = 0; // Abstand vom besten Treffer (16-bit)
+short lpf_len = 0;      // Länge des besten Treffers (16-bit)
+
+// ...
+
+fwrite(&lpf_len, sizeof(short), 1, out_file);
+if (lpf_len > 0) {
+  fwrite(&lpf_distance, sizeof(short), 1, out_file);
+}
+```
+
+##### Dekodierung
+``` cpp
+  FILE* file = fopen("faust.lz77", "r");
+  dap1::MyString dec;    
+  while (true) {
+    // Dekodiere Länge
+    short len;
+    fread(&len, sizeof(short), 1, file);
+    if (feof(file)) break;  // Ende der Datei erreicht, Abbruch
+
+    if (len > 0) {
+      // Dekodiere Position, von der aus wir kopieren
+      short distance;
+      fread(&distance, sizeof(short), 1, file);
+      int pos = dec.get_size() - distance;
+
+      // Kopiere
+      for (int i = 0; i < len; i++) {
+        dec.append(dec[pos + i]);
+      }
+    }
+
+    // Dekodiere Buchstaben
+    char ch = fgetc(file);
+    dec.append(ch);
+  }
+  fclose(file);
+```
+
+___ 
+
+## Vergleich
