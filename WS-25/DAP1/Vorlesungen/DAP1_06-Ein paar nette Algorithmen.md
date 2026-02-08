@@ -34,7 +34,7 @@ void print_twos_complement(int zahl, int bits) {
 	for (int i = bits, two_to_the_i = upper_limit; i >= 0, i--) {
 		two_to_the_i /= 2;
 		if (zahl / two_to_the_i) {
-			printf ("0")
+			printf ("1")
 		} else
 		printf("0");
 	}
