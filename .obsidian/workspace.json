@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_06-Ein paar nette Algorithmen.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_07-Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAP1_06-Ein paar nette Algorithmen"
+              "title": "DAP1_07-Arrays"
             }
           },
           {
@@ -217,6 +217,7 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_06-Ein paar nette Algorithmen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_05-Wiederholungsanweisungen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_04-Bedingte Anweisungen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_02-Einführung (CDT); erste Algorithmen.md",
