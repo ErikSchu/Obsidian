@@ -62,7 +62,7 @@ int main() {
 - `// Kommentar` (Z. 3): menschenlesbarer **Kommentar**, wird vom Compiler ignoriert
 
 ## Warum Funktionen?
-
+)
 - Strukturierung von Code in **logische und in sich geschlossene Teile**
 	⤷ längere Programme werden so lesbarer
 
