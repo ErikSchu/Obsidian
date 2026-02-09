@@ -2,10 +2,11 @@
 ## Wdh.
 
 - Arrays bekannter und “kleiner” Größe  werden so allokiert:
-  ``` CPP
+
+```cpp
     int arr[n];  // allokiert n int's arr[0],...,arr[n-1] --
     enthalten Zufallswerte (wie bei Variablendeklarationen)
-    ```
+```
 
 - Bei der Parameterübergabe von Arrays an Funktionen mit `void f(int array[])` wird die Anfangsadresse des Arrays (als Kopie) übergeben
     -  Funktionen können übergebene Arrays verändern
