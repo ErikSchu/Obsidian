@@ -35,7 +35,7 @@ double noten[5] = {2.7, 1.3, 2.0, 2.0, 1.0};
 
 - **Wichtig:**
 	- bei dieser Art von Array-Allokation **muss** ihre Größe eine (zur Compilezeit bekannte) Konstante sen (eine **constexpr**)
-	- Compiler erlauben uft auch **const**
+	- Compiler erlauben oft auch **const**
 ``` c++
 constexpr int n = 10*10;  // constexpr means: the value can be computed at compile time
 int a[n];
