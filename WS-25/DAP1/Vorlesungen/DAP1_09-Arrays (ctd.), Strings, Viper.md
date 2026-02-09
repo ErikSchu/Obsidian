@@ -39,8 +39,8 @@
 
 - ist die Arraygröße zur Compilezeit nicht bekannt oder braucht man sehr viele Speucherzellen, werden arrays mit dem **new**-Operator erzeugt (in C: mit der Funktion `malloc()`)
 
-- liefert einen **Zeiger** auf den Anfang des reservierten Speicherbereichs zu (abgespeuchert in einer **Zeigervariablen**)
-	- werden mit einem `*` nach dem Datentyp gekennteichnet und speichren eine **Adresse**, an der ein ELement des entsprechenden Datentyps steht
+- liefert einen **Zeiger** auf den Anfang des reservierten Speicherbereichs zu (abgespeichert in einer **Zeigervariablen**)
+	- werden mit einem `*` nach dem Datentyp gekennzeichnet und speichern eine **Adresse**, an der ein Element des entsprechenden Datentyps steht
 
 ``` cpp
 int n;
