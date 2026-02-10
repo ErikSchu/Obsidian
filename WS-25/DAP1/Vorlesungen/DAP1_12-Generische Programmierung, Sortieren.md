@@ -46,7 +46,7 @@ int find(T const array[], int length, T x) {
 	**1.** Setze $i \leftarrow 0$
 	**2.** wiederhole, solange $i < n$ :
 		**2.1.**  finde das Minimum in `Array[i, n-1]`: sei $j$ die Position dieses Minimums
-		**2.2.**  vertaische `Array[i]` mit `Array[j]` - nun enthält `Array[0, i]` die kleinsten Werte im Array in sortierter Reihenfolge
+		**2.2.**  vertausche `Array[i]` mit `Array[j]` - nun enthält `Array[0, i]` die kleinsten Werte im Array in sortierter Reihenfolge
 		**2.3.**  erhöhe $i$ um 1
 
 ```cpp
