@@ -2,7 +2,7 @@
   #dap1
 
 >[!note] **Asserts**
->- mit `#include <cassert>` werden **Funktionen zum Überprüfen der Programmkorrrektheit** eingebunden
+>- mit `#include <cassert>` werden **Funktionen zum Überprüfen der Programmkorrektheit** eingebunden
 >- damit aufrufe wie `assert(x>=5 && x<=10);` möglich
 >	- im Prinzip `if(!(x>=5 && x <= 10)) { schreibe Fehlermeldung und beende Programm }`
 >- manchmal nützlich zum **debuggen**
