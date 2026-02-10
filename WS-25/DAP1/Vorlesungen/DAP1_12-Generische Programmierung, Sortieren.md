@@ -91,7 +91,7 @@ void sort(int array[], int length) {
 
 - im Ausdruck `a && b`  wird der Ausdruck b nur ausgewertet, falls die Auswertung von a den Wert *true* (eigentlich einen Wert  ≠ 0) ergibt, da andernfalls Ergebnis schon vogher sicher *false*
 
-- Analog: Im Ausdruck `b || b` wird der Ausdruck b nur ausgewertet, dalls die Auswertung bon a den Wert *false* (0) ergibt, da andernfalls Ergebnis schon sicher true
+- Analog: Im Ausdruck `a || b` wird der Ausdruck b nur ausgewertet, dalls die Auswertung bon a den Wert *false* (0) ergibt, da andernfalls Ergebnis schon sicher true
 ## Schnelleres Sortierverfahren: Mergesort
 
 >[!note] Problem
