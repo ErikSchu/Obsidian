@@ -89,7 +89,7 @@ scanf(" &s", human_name);
 
 - allerdings würde **\#include** "`strings.cpp`" dazu führen, dass 2 main() Funktionen definiert wären $\leadsto$ das Programm könnte nicht kompiliert werden
 
-- Dazu müssen Funktionen, die in eanderen Programmen verwendet werden solle, in sogenannten **Header-Dateien ohne main Funltion** gespeichert werden (Dateiendung "`.h`" oder "`.hpp`")
+- Dazu müssen Funktionen, die in eanderen Programmen verwendet werden solle, in sogenannten **Header-Dateien ohne main Funktion** gespeichert werden (Dateiendung "`.h`" oder "`.hpp`")
 	- i.A. besser, als die Funktionen zu kopieren
 
 ---
