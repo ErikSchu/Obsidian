@@ -52,7 +52,8 @@ int find_faster(int array[], int length, int x) {
 		else left = middle + 1;
 	}
 	return -1;
-}```
+}
+```
 
 ![[Pasted image 20251118131458.png]]
 
