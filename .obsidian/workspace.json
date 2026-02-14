@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/LinA1/Übungsblätter/Übungsblatt_1.md",
+                "file": "WS-25/LinA1/Übungsblätter/Übungsblatt_0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übungsblatt_1"
+              "title": "Übungsblatt_0"
             }
           }
         ],
@@ -218,9 +218,11 @@
   },
   "active": "ae1f49cb28b71384",
   "lastOpenFiles": [
+    "WS-25/LinA1/Übungsblätter/Übungsblatt_1.md",
+    "Anhänge/LinA1_Blatt01_Wagemann_Schulze_korrigiert.pdf",
+    "Anhänge/LinA_Blatt01 1.pdf",
     "Anhänge/LinA_Blatt01.pdf",
     "WS-25/LinA1/Übungsblätter/Übungsblatt_0.md",
-    "WS-25/LinA1/Übungsblätter/Übungsblatt_1.md",
     "Anhänge/LinA_Blatt00.pdf",
     "Anhänge/LinA1_Blatt00_Schulze_korrigiert.pdf",
     "Anhänge/Erik-Schulze_LinA01.pdf",
@@ -261,9 +263,6 @@
     "Unbenannt 3.base",
     "Unbenannt 2.base",
     "Unbenannt 1.base",
-    "Unbenannt.base",
-    "WS-25/DAP1/Folien/vl24-deck.pdf",
-    "WS-25/DAP1/Folien/vl25-deck.pdf",
     "Unbenannt.canvas"
   ]
 }
