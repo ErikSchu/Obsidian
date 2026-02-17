@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_16-Referenzen,_Stacks.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstruktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAP1_16-Referenzen,_Stacks"
+              "title": "DAP1_17-Kopierkonstruktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards"
             }
           }
         ],
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "325b35e6f4d9646d",
@@ -219,10 +218,10 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
-    "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstriktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_16-Referenzen,_Stacks.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_15-Resizable_Arrays.md",
     "WS-25/DAP1/Vorlesungen/DAP1_14-Arrays_with_benefit.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_16-Referenzen,_Stacks.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstruktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_15-Resizable_Arrays.md",
     "WS-25/DAP1/Vorlesungen/DAP1_13-Sortieren_ctd..md",
     "WS-25/DAP1/Vorlesungen/DAP1_12-Generische Programmierung, Sortieren.md",
     "WS-25/DAP1/Vorlesungen/DAP1_11-Suchen in Arrays.md",
