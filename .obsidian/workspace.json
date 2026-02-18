@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAP1_26-Graphen"
+              "title": "DAP1_27-Graphen(ctd.)"
             }
           }
         ],
@@ -218,8 +218,8 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
-    "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
     "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
     "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
