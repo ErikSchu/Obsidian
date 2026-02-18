@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
+                "file": "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAP1_23-Bäume(ctd.),_Maps"
+              "title": "DAP1_24-Maps(ctd.),_Heaps"
             }
           }
         ],
@@ -218,6 +218,9 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
+    "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
     "WS-25/DAP1/Vorlesungen/DAP1_20-Doppelt_verkettete_Listen,_Queues.md",
     "WS-25/DAP1/Vorlesungen/DAP1_19-Verkettete_Listen_(ctd.).md",
@@ -249,9 +252,6 @@
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.3_Vergleich-Komplemente-Faktorräume.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.2_Faktorräume.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/19.1_Komplemente.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Boolesche_Algebra.md",
-    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/16.2_Kern-und-Bild.md",
     "Anhänge/Pasted image 20260207221451.png",
     "Anhänge/Pasted image 20260207220627.png",
     "Anhänge/Pasted image 20260207215758.png",
