@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "WS-25/RS/Vorlesungen/Folien/V03-deck.htmlpdf.pdf",
-                "page": 6,
+                "file": "WS-25/RS/Vorlesungen/Folien/V04-deck.htmlpdf.pdf",
+                "page": 77,
                 "left": -26,
-                "top": 272,
+                "top": 55,
                 "zoom": 0.56875
               },
               "icon": "lucide-file-text",
-              "title": "V03-deck.htmlpdf"
+              "title": "V04-deck.htmlpdf"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
-    "WS-25/RS/Vorlesungen/Folien/V04-deck.htmlpdf.pdf",
     "WS-25/RS/Vorlesungen/Folien/V03-deck.htmlpdf.pdf",
+    "WS-25/RS/Vorlesungen/Folien/V04-deck.htmlpdf.pdf",
     "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_ganzer_Zahlen.md",
     "WS-25/RS/Vorlesungen/Folien/V02-deck.htmlpdf.pdf",
     "WS-25/RS/Vorlesungen/Folien/V01-deck.htmlpdf.pdf",
