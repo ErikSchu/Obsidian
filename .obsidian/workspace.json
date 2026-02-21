@@ -8,35 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae1f49cb28b71384",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WS-25/LinA1/Übungsblätter/Übungsblatt_0.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Übungsblatt_0"
-            }
-          },
-          {
             "id": "dfb8dc3a139069fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
-                "mode": "preview",
-                "source": false
+                "file": "WS-25/RS/Vorlesungen/Folien/V01-deck.htmlpdf.pdf",
+                "page": 66,
+                "left": -23,
+                "top": 101,
+                "zoom": 0.7249999999999999
               },
-              "icon": "lucide-file",
-              "title": "DAP1_28-Hashing"
+              "icon": "lucide-file-text",
+              "title": "V01-deck.htmlpdf"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "325b35e6f4d9646d",
@@ -218,8 +206,13 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
-    "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
+    "WS-25/RS/Vorlesungen/Folien/rs2-V01-Einleit+ISA-deck.htmlpdf.pdf",
+    "Unbenannt 1.base",
+    "WS-25/RS/Praesenz/RS-P_01.md",
+    "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_von_Fließkommazahlen.md",
+    "Unbenannt.base",
     "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
+    "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
     "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
@@ -249,9 +242,6 @@
     "WS-25/LinA1/Übungsblätter",
     "Anhänge/Pasted image 20260210181802.png",
     "WS-25/DAP1/Vorlesungen/DAP1_10-Strings, Header-Dateien, Kommandozeileninterpreter.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_09-Arrays (ctd.), Strings, Viper.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_08-Arrays (ctd.).md",
-    "WS-25/DAP1/Vorlesungen/DAP1_06-Ein paar nette Algorithmen.md",
     "Anhänge/Pasted image 20260207221451.png",
     "Anhänge/Pasted image 20260207220627.png",
     "Anhänge/Pasted image 20260207215758.png",
@@ -261,9 +251,6 @@
     "Anhänge/Pasted image 20260206224546.png",
     "Anhänge/Pasted image 20260206223351.png",
     "Anhänge/Pasted image 20260206223325.png",
-    "Unbenannt 3.base",
-    "Unbenannt 2.base",
-    "Unbenannt 1.base",
     "Unbenannt.canvas"
   ]
 }
