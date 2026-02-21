@@ -164,19 +164,9 @@
               "icon": "lucide-archive",
               "title": "Alle Eigenschaften"
             }
-          },
-          {
-            "id": "fc4e3955932e56bc",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
