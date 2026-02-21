@@ -35,7 +35,7 @@ ___
 
 ## Addition negativer Zahlen ($l$ bit) im [[Zweierkomplement]]
 
-Notation: $\overline{Y}$ its das Komplement von $y$
+Notation: $\overline{Y}$ ist das Komplement von $y$
 ⤷ **Beobachtung** $$\begin{align} & &y+\overline{Y} = 2^l-1 \\ &\Leftrightarrow &\overline{Y} = 2^l -1-y \end{align}$$
 Rechnung $x-y=x+(-y)=x+\overline Y +1 = x + 2^l -1 -y +1 = 2^l + (x-y)$
 ⤷ **Beobachtung**
@@ -54,7 +54,7 @@ Rechnung $x-y=x+(-y)=x+\overline Y +1 = x + 2^l -1 -y +1 = 2^l + (x-y)$
 
 ___
 
-## Überträge beu Addition im [[Zweierkomplement]]
+## Überträge bei Addition im [[Zweierkomplement]]
 
 ##### Wann ist das Ergebnis korrekt und wann nicht darstellbar?
 

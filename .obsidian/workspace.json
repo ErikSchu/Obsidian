@@ -11,16 +11,14 @@
             "id": "dfb8dc3a139069fc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "WS-25/RS/Vorlesungen/Folien/V03-deck.htmlpdf.pdf",
-                "page": 1,
-                "left": -26,
-                "top": 543,
-                "zoom": 0.56875
+                "file": "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_ganzer_Zahlen.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "V03-deck.htmlpdf"
+              "icon": "lucide-file",
+              "title": "Addition_ganzer_Zahlen"
             }
           }
         ]
@@ -42,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gültig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +74,7 @@
               "title": "Dateiexplorer"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,6 +202,9 @@
   },
   "active": "dfb8dc3a139069fc",
   "lastOpenFiles": [
+    "WS-25/RS/Vorlesungen/Folien/V03-deck.htmlpdf.pdf",
+    "WS-25/RS/Vorlesungen/Folien/V04-deck.htmlpdf.pdf",
+    "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_ganzer_Zahlen.md",
     "WS-25/RS/Vorlesungen/Folien/V02-deck.htmlpdf.pdf",
     "WS-25/RS/Vorlesungen/Folien/V01-deck.htmlpdf.pdf",
     "WS-25/RS/RS-Wiki/§RS§.md",
@@ -235,12 +235,8 @@
     "WS-25/DAP1/Vorlesungen/DAP1_19-Verkettete_Listen_(ctd.).md",
     "WS-25/DAP1/Vorlesungen/DAP1_18-Haeder-Guards,Verkettete_Listen.md",
     "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstruktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_14-Arrays_with_benefit.md",
     "Anhänge/LinA1_Blatt01_Wagemann_Schulze_korrigiert.pdf",
     "Anhänge/LinA_Blatt01 1.pdf",
-    "Anhänge/LinA_Blatt01.pdf",
-    "Anhänge/LinA_Blatt00.pdf",
-    "Anhänge/LinA1_Blatt00_Schulze_korrigiert.pdf",
     "Anhänge/Pasted image 20260210181802.png",
     "Anhänge/Pasted image 20260207221451.png",
     "Anhänge/Pasted image 20260207220627.png",
