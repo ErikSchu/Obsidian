@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "LinA2_052926"
             }
+          },
+          {
+            "id": "9bb1bd2e3ab12fab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SS-26/LinA2/Vorlesungen/LinA2_052226.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LinA2_052226"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +212,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee9595597dfbcaa9",
+  "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
-    "Anhänge/Pasted image 20260529094032.png",
+    "SS-26/LinA2/Vorlesungen/LinA2_052126.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_051526.md",
+    "SS-26/EtKt/Vorlesungen/Gleichstromlehre.md",
+    "SS-26/EtKt/Vorlesungen/4-Wechselstromlehre.md",
     "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
+    "Anhänge/Pasted image 20260529094032.png",
     "Anhänge/Pasted image 20260529093421.png",
     "Anhänge/Pasted image 20260529090800.png",
     "Anhänge/Pasted image 20260529084004.png",
@@ -211,7 +231,6 @@
     "Anhänge/Pasted image 20260528220959.png",
     "Anhänge/Pasted image 20260528220850.png",
     "Anhänge/Pasted image 20260528210837.png",
-    "Anhänge/Pasted image 20260528210253.png",
     "SS-26/LinA2/Vorlesungen/LinA2_052226.md",
     "SS-26/BS/Themen/07-Arithmetik.md",
     "SS-26/BS/Themen/06-Rekurrenzen_&_Strassen-algorithmus.md",
@@ -229,11 +248,8 @@
     "SS-26/DAP2/Übung/DAP2_06.md",
     "SS-26/DAP2/Übung",
     "SS-26/DAP2/Themen/Heapsort_priority-queues.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_051526.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_052126.md",
     "SS-26/LinA2/Vorlesungen/LinA2_041726.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_042326.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_042426.md"
+    "SS-26/LinA2/Vorlesungen/LinA2_042326.md"
   ]
 }
