@@ -1,0 +1,2 @@
+- **Drossel "L"** (Induktivität) \[L\] = Henry (H)
+- **Kondensator "C"** (Kapa)
