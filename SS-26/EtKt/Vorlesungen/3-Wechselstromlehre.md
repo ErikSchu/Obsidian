@@ -27,3 +27,18 @@ ___
 - **Periodendauer** $\boxed{T = \frac{1}{f}}$
 - **Kreisfrequenz** $\boxed{\omega = 2 \pi \cdot f}$
 - **Vakuumwellenlänge** $\boxed{\lambda = \frac{c}{f}}$
+
+___
+
+>[!example] Bei Welcher *Frequenz* sond die Phasendifferenzen innerhalb der Schaltung $(l = 20 \text{cm}) \space 5°$?
+> $$\frac{l}{\lambda} = \frac{\nabla \varphi}{2 \pi} \text{ und } \lambda = \frac{c}{f}$$
+> $$\implies f = \frac{c \cdot \nabla \varphi}{l \cdot 2\pi}$$
+> $$f = \frac{3\cdot 10^8 \frac{m}{s} \cdot \frac{5°}{360°} \cdot 2\pi}{0,2m \cdot 2\pi} = 20,8 \cdot 10^6 \frac{1}{s} = 20,8 \text{Mhz}$$
+
+___
+
+Alle zur hinreichend genauen Beschreibung Komponenten $R, L$ und $C$ sind inklusive der parasitären Eigenschaften und der Einflüsse des Aufbaus (z.B. Messgeräte) im *Ersatzschaltbild erfasst*.
+
+Die **zeitliche Änderung der Ströme und Spannungen** finden überall in der Schaltung praktisch *gleichzeitig* statt
+⮩ ***"elektrische kurze"*** Schaltung
+	⮩ die räumliche Ausdehnung der Schaltung ist "sehr klein" im Vergleich zur Wellenlänge; Laufzeiten und Phasenverzögerung werden vernachläs
