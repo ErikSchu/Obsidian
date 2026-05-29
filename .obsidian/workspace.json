@@ -161,16 +161,27 @@
               "icon": "lucide-list",
               "title": "Gliederung"
             }
+          },
+          {
+            "id": "4ca52e66b0f0d707",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Schnellauswahl öffnen": false,
       "graph:Graph-Ansicht öffnen": false,
       "canvas:Neuen Canvas erstellen": false,
@@ -187,6 +198,7 @@
   },
   "active": "ee9595597dfbcaa9",
   "lastOpenFiles": [
+    "Anhänge/Pasted image 20260529094032.png",
     "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
     "Anhänge/Pasted image 20260529093421.png",
     "Anhänge/Pasted image 20260529090800.png",
