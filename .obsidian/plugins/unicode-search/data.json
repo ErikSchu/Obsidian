@@ -2,7 +2,7 @@
   "meta": {
     "initialized": true,
     "version": "0.7.0",
-    "pluginVersion": "0.7.2",
+    "pluginVersion": "0.7.3",
     "events": []
   },
   "filter": {
@@ -78958,267 +78958,21 @@
     "version": "0.7.0",
     "codepoints": [
       {
-        "firstUsed": "2025-12-27T15:22:35.839Z",
-        "lastUsed": "2025-12-27T15:22:35.839Z",
-        "useCount": 1,
-        "codepoint": "⭒"
-      },
-      {
-        "firstUsed": "2025-12-27T15:22:22.392Z",
-        "lastUsed": "2025-12-27T15:24:02.996Z",
+        "firstUsed": "2026-05-26T07:04:09.896Z",
+        "lastUsed": "2026-05-28T13:05:02.118Z",
         "useCount": 3,
-        "codepoint": "⋆"
+        "codepoint": "⮕"
       },
       {
-        "firstUsed": "2025-12-18T22:01:09.293Z",
-        "lastUsed": "2025-12-18T22:01:35.596Z",
-        "useCount": 2,
-        "codepoint": "ꞏ"
-      },
-      {
-        "firstUsed": "2025-12-18T19:59:49.560Z",
-        "lastUsed": "2025-12-18T19:59:49.560Z",
-        "useCount": 1,
-        "codepoint": "⬇"
-      },
-      {
-        "firstUsed": "2025-12-17T12:08:05.226Z",
-        "lastUsed": "2025-12-17T12:08:26.155Z",
-        "useCount": 4,
-        "codepoint": "▏"
-      },
-      {
-        "firstUsed": "2025-12-17T12:07:53.352Z",
-        "lastUsed": "2025-12-17T12:07:53.352Z",
-        "useCount": 1,
-        "codepoint": "▌"
-      },
-      {
-        "firstUsed": "2025-12-17T12:06:45.997Z",
-        "lastUsed": "2025-12-17T12:06:45.997Z",
-        "useCount": 1,
-        "codepoint": "〈"
-      },
-      {
-        "firstUsed": "2025-12-17T12:06:31.030Z",
-        "lastUsed": "2025-12-17T12:06:31.030Z",
-        "useCount": 1,
-        "codepoint": "〉"
-      },
-      {
-        "firstUsed": "2025-12-05T09:01:08.391Z",
-        "lastUsed": "2025-12-05T09:01:08.391Z",
-        "useCount": 1,
-        "codepoint": "↔"
-      },
-      {
-        "firstUsed": "2025-12-04T22:18:15.892Z",
-        "lastUsed": "2025-12-05T10:13:42.468Z",
-        "useCount": 2,
-        "codepoint": "❗"
-      },
-      {
-        "firstUsed": "2025-11-06T11:00:47.256Z",
-        "lastUsed": "2025-11-06T11:00:47.256Z",
-        "useCount": 1,
-        "codepoint": "Ʊ"
-      },
-      {
-        "firstUsed": "2025-11-06T10:06:26.543Z",
-        "lastUsed": "2025-11-06T10:06:26.543Z",
-        "useCount": 1,
-        "codepoint": "Ὗ"
-      },
-      {
-        "firstUsed": "2025-11-06T09:32:37.171Z",
-        "lastUsed": "2025-11-06T09:32:37.171Z",
-        "useCount": 1,
-        "codepoint": "⮱"
-      },
-      {
-        "firstUsed": "2025-10-23T17:30:20.114Z",
-        "lastUsed": "2025-10-23T17:30:20.114Z",
-        "useCount": 1,
-        "codepoint": "⊢"
-      },
-      {
-        "firstUsed": "2025-10-23T13:28:40.113Z",
-        "lastUsed": "2025-12-28T12:09:54.398Z",
-        "useCount": 5,
-        "codepoint": "←"
-      },
-      {
-        "firstUsed": "2025-10-21T14:44:43.795Z",
-        "lastUsed": "2026-01-22T21:38:59.568Z",
-        "useCount": 2,
-        "codepoint": "↓"
-      },
-      {
-        "firstUsed": "2025-10-21T14:29:20.501Z",
-        "lastUsed": "2025-10-21T14:29:20.501Z",
-        "useCount": 1,
-        "codepoint": "π"
-      },
-      {
-        "firstUsed": "2025-10-21T06:57:16.848Z",
-        "lastUsed": "2025-10-21T06:57:16.848Z",
-        "useCount": 1,
-        "codepoint": "="
-      },
-      {
-        "firstUsed": "2025-10-21T06:57:08.993Z",
-        "lastUsed": "2025-10-21T06:57:08.993Z",
-        "useCount": 1,
-        "codepoint": ">"
-      },
-      {
-        "firstUsed": "2025-10-21T06:56:55.897Z",
-        "lastUsed": "2025-10-21T06:56:55.897Z",
-        "useCount": 1,
-        "codepoint": "≤"
-      },
-      {
-        "firstUsed": "2025-10-21T06:56:46.765Z",
-        "lastUsed": "2025-10-21T06:56:46.765Z",
-        "useCount": 1,
-        "codepoint": "<"
-      },
-      {
-        "firstUsed": "2025-10-20T13:30:43.986Z",
-        "lastUsed": "2025-10-20T13:30:49.255Z",
-        "useCount": 2,
-        "codepoint": "≜"
-      },
-      {
-        "firstUsed": "2025-10-16T12:51:05.193Z",
-        "lastUsed": "2025-10-16T12:51:05.193Z",
-        "useCount": 1,
-        "codepoint": "∨"
-      },
-      {
-        "firstUsed": "2025-10-16T12:50:43.173Z",
-        "lastUsed": "2025-10-16T12:50:43.173Z",
-        "useCount": 1,
-        "codepoint": "∧"
-      },
-      {
-        "firstUsed": "2025-10-16T12:50:24.540Z",
-        "lastUsed": "2025-10-16T12:50:24.540Z",
-        "useCount": 1,
-        "codepoint": "¬"
-      },
-      {
-        "firstUsed": "2025-10-16T12:48:14.193Z",
-        "lastUsed": "2025-10-16T12:48:14.193Z",
-        "useCount": 1,
-        "codepoint": "⪬"
-      },
-      {
-        "firstUsed": "2025-10-15T20:07:39.074Z",
-        "lastUsed": "2025-10-21T06:57:02.600Z",
-        "useCount": 3,
-        "codepoint": "≥"
-      },
-      {
-        "firstUsed": "2025-10-15T15:34:48.166Z",
-        "lastUsed": "2026-01-08T00:23:44.240Z",
-        "useCount": 7,
-        "codepoint": "é"
-      },
-      {
-        "firstUsed": "2025-10-15T11:00:48.377Z",
-        "lastUsed": "2025-11-25T10:58:50.602Z",
-        "useCount": 6,
-        "codepoint": "≠"
-      },
-      {
-        "firstUsed": "2025-10-14T13:25:57.048Z",
-        "lastUsed": "2025-10-14T13:25:57.048Z",
-        "useCount": 1,
-        "codepoint": "⇐"
-      },
-      {
-        "firstUsed": "2025-10-14T12:49:56.749Z",
-        "lastUsed": "2025-10-14T12:49:56.749Z",
-        "useCount": 1,
-        "codepoint": "∃"
-      },
-      {
-        "firstUsed": "2025-10-14T12:42:53.236Z",
-        "lastUsed": "2025-10-14T12:42:53.236Z",
-        "useCount": 1,
-        "codepoint": "∉"
-      },
-      {
-        "firstUsed": "2025-09-20T17:11:04.828Z",
-        "lastUsed": "2025-12-27T16:33:49.493Z",
-        "useCount": 14,
-        "codepoint": "⇨"
-      },
-      {
-        "firstUsed": "2025-09-20T15:03:06.406Z",
-        "lastUsed": "2025-09-20T15:03:06.406Z",
-        "useCount": 1,
-        "codepoint": "≧"
-      },
-      {
-        "firstUsed": "2025-09-20T14:48:46.234Z",
-        "lastUsed": "2025-10-14T15:00:28.575Z",
-        "useCount": 2,
-        "codepoint": "⋅"
-      },
-      {
-        "firstUsed": "2025-09-20T14:33:44.738Z",
-        "lastUsed": "2025-10-15T11:00:05.301Z",
-        "useCount": 3,
-        "codepoint": "≙"
-      },
-      {
-        "firstUsed": "2025-09-20T14:32:23.431Z",
-        "lastUsed": "2025-09-20T14:32:23.431Z",
-        "useCount": 1,
-        "codepoint": "ℝ"
-      },
-      {
-        "firstUsed": "2025-09-20T14:31:46.239Z",
-        "lastUsed": "2025-10-14T13:39:17.101Z",
-        "useCount": 4,
-        "codepoint": "∈"
-      },
-      {
-        "firstUsed": "2025-09-20T14:31:29.104Z",
-        "lastUsed": "2025-09-20T14:31:29.104Z",
-        "useCount": 1,
-        "codepoint": "≘"
-      },
-      {
-        "firstUsed": "2025-09-20T14:22:46.720Z",
-        "lastUsed": "2025-09-20T14:22:46.720Z",
-        "useCount": 1,
+        "firstUsed": "2026-05-25T22:08:14.965Z",
+        "lastUsed": "2026-05-29T07:18:15.574Z",
+        "useCount": 13,
         "codepoint": "⮩"
       },
       {
-        "firstUsed": "2025-09-20T14:20:12.035Z",
-        "lastUsed": "2026-02-07T20:39:47.436Z",
-        "useCount": 302,
-        "codepoint": "⤷"
-      },
-      {
-        "firstUsed": "2025-09-20T14:12:04.065Z",
-        "lastUsed": "2026-02-07T16:27:25.732Z",
-        "useCount": 56,
-        "codepoint": "⇒"
-      },
-      {
-        "firstUsed": "2025-09-20T14:11:52.725Z",
-        "lastUsed": "2025-09-20T14:11:52.725Z",
-        "useCount": 1,
-        "codepoint": "▐"
-      },
-      {
-        "firstUsed": "2025-09-20T14:09:16.664Z",
-        "lastUsed": "2026-02-07T16:47:09.727Z",
-        "useCount": 138,
+        "firstUsed": "2026-05-24T22:01:35.070Z",
+        "lastUsed": "2026-05-24T22:10:21.945Z",
+        "useCount": 2,
         "codepoint": "→"
       }
     ]
@@ -79226,22 +78980,6 @@
   "favorites": {
     "initialized": true,
     "version": "0.7.0",
-    "codepoints": [
-      {
-        "codepoint": "→",
-        "added": "2025-09-20T14:08:07.460Z",
-        "hotkey": false
-      },
-      {
-        "codepoint": "←",
-        "added": "2025-09-20T14:08:00.462Z",
-        "hotkey": false
-      },
-      {
-        "codepoint": "⤷",
-        "added": "2025-09-20T14:07:29.155Z",
-        "hotkey": false
-      }
-    ]
+    "codepoints": []
   }
 }

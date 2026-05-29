@@ -9,5 +9,7 @@
   "obsidian-image-toolkit",
   "obsidian-style-settings",
   "text-extractor",
-  "dataview"
+  "dataview",
+  "animated-cursor",
+  "obsidian-git"
 ]

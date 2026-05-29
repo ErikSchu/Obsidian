@@ -1,6 +1,6 @@
 #dap1
 
- siehe [[WS-25/DAP1/Orga|Orga]]
+ siehe [[#WS-25/DAP1/Orga|]]
 ### Zum Modul
 - Einstieg in die (C++-)Programmierung für Anfänger/innen
 - keine Programmierung für Profis

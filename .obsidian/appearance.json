@@ -2,7 +2,7 @@
   "baseFontSizeAction": true,
   "theme": "obsidian",
   "accentColor": "#00ad79",
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "nativeMenus": true,
   "cssTheme": "Prism",
   "enabledCssSnippets": [

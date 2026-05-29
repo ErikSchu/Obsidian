@@ -38,7 +38,7 @@ Der Norm liegt ein weiterer Begriff zu Grunde.
 
 Das Skalarprodukt **lässt sich** umgekehrt wieder **aus der Norm berechnen**:  
 
-> [!note] 8.4 Lemma **Polatisationsformel**
+> [!note] 8.4 Lemma **Polarisationsformel**
 > Für alle $\vec{x}, \vec{y} \in \mathbb{R}^n$ gilt
 > $$\langle \vec{x}, \vec{y} \rangle = \frac{1}{2}(||\vec{x} + \vec{y}||^2 - ||\vec{x}||^2 - ||\vec{y}||^2).$$
 

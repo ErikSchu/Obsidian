@@ -1,26 +1,24 @@
 {
   "main": {
-    "id": "df18e67b6efe9150",
+    "id": "f626f3cb359dee93",
     "type": "split",
     "children": [
       {
-        "id": "1997e92938a43a88",
+        "id": "b47abb93d5d4bf5b",
         "type": "tabs",
         "children": [
           {
-            "id": "dfb8dc3a139069fc",
+            "id": "ee9595597dfbcaa9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "WS-25/RS/Vorlesungen/Folien/V03-deck.htmlpdf.pdf",
-                "page": 1,
-                "left": -26,
-                "top": 543,
-                "zoom": 0.56875
+                "file": "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "V03-deck.htmlpdf"
+              "icon": "lucide-file",
+              "title": "LinA2_052926"
             }
           }
         ]
@@ -29,20 +27,33 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "aa05ef1d544d888a",
+    "id": "c113de7d0bf6ed26",
     "type": "split",
     "children": [
       {
-        "id": "d0e6ed0b7d891cdf",
+        "id": "c8499de50fa7dc5a",
         "type": "tabs",
         "children": [
           {
-            "id": "b8bf0ac404a25bbc",
+            "id": "1f97b98e68532dd2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "222761a6ecd18c06",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "gültig",
+                "query": "matrizenmultiplikation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,26 +65,13 @@
             }
           },
           {
-            "id": "c22b01b9b4b1922e",
+            "id": "7928d63cc9c4a5ca",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Lesezeichen"
-            }
-          },
-          {
-            "id": "d796d0e2fcd8f923",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "byCreatedTime",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Dateiexplorer"
             }
           }
         ]
@@ -83,20 +81,19 @@
     "width": 200
   },
   "right": {
-    "id": "325b35e6f4d9646d",
+    "id": "09461588f8e6ac6b",
     "type": "split",
     "children": [
       {
-        "id": "beb7daba8f8a12bc",
+        "id": "d7d98d220deefaf9",
         "type": "tabs",
         "children": [
           {
-            "id": "cff17159019f62f7",
+            "id": "4ce96506b8d9c1b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/13.5-Ordnungsrelationen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise für 13.5-Ordnungsrelationen"
+              "title": "Rückverweise"
             }
           },
           {
-            "id": "fe0d8671bca9ce37",
+            "id": "2f21591c35cba399",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "temp_Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von temp_Code öffnen"
+              "title": "Ausgehende Links"
             }
           },
           {
-            "id": "c6183b324fa83600",
+            "id": "a4afd6b0821ded3b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,22 +135,7 @@
             }
           },
           {
-            "id": "9d3b6af0fc4d6b02",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "temp_Code.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Gliederung von temp_Code"
-            }
-          },
-          {
-            "id": "06fa836d94cf68cb",
+            "id": "c4aa71390e98b052",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -166,79 +147,81 @@
               "icon": "lucide-archive",
               "title": "Alle Eigenschaften"
             }
+          },
+          {
+            "id": "6963b8a49d1ca0ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung"
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Neue Base erstellen": false,
       "switcher:Schnellauswahl öffnen": false,
       "graph:Graph-Ansicht öffnen": false,
       "canvas:Neuen Canvas erstellen": false,
       "daily-notes:Heutige Notiz öffnen": false,
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "dfb8dc3a139069fc",
+  "active": "ee9595597dfbcaa9",
   "lastOpenFiles": [
-    "WS-25/RS/Vorlesungen/Folien/V04-deck.htmlpdf.pdf",
-    "WS-25/RS/Vorlesungen/Folien/V02-deck.htmlpdf.pdf",
-    "WS-25/RS/Vorlesungen/Folien/V03-deck.htmlpdf.pdf",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_ganzer_Zahlen.md",
-    "WS-25/RS/Vorlesungen/Folien/V01-deck.htmlpdf.pdf",
-    "WS-25/RS/RS-Wiki/§RS§.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Repraesentation_ganzer_Zahlen.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Zweierkomplement.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Einerkomplement.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Exzessdarstellung.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Vorzeichenbetragsdarstellung.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Zahlensysteme_&_Umrechnung.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Stellenwertsysteme.md",
-    "Unbenannt 2.base",
-    "WS-25/RS/Vorlesungen/Folien/rs2-V01-Einleit+ISA-deck.htmlpdf.pdf",
-    "Unbenannt 1.base",
-    "WS-25/RS/Praesenz/RS-P_01.md",
-    "WS-25/RS/RS-Wiki/rs_wiki_dump/Addition_von_Fließkommazahlen.md",
-    "Unbenannt.base",
-    "WS-25/DAP1/Vorlesungen/DAP1_28-Hashing.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_27-Graphen(ctd.).md",
-    "WS-25/DAP1/Vorlesungen/DAP1_29-Textkompession.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_26-Graphen.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_30-Wrap_Up_Q&A.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_25-Heaps(ctd.),_Heapsort,_Iteratoren.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_24-Maps(ctd.),_Heaps.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_23-Bäume(ctd.),_Maps.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_22-Bäume(ctd.).md",
-    "WS-25/DAP1/Vorlesungen/DAP1_21-Bäume.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_20-Doppelt_verkettete_Listen,_Queues.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_19-Verkettete_Listen_(ctd.).md",
-    "WS-25/DAP1/Vorlesungen/DAP1_18-Haeder-Guards,Verkettete_Listen.md",
-    "WS-25/DAP1/Vorlesungen/DAP1_17-Kopierkonstruktur, Kopierzuweisungsoperator, Stings, Vererbung, Header-Guards.md",
-    "Anhänge/LinA1_Blatt01_Wagemann_Schulze_korrigiert.pdf",
-    "Anhänge/LinA_Blatt01 1.pdf",
-    "Anhänge/Pasted image 20260210181802.png",
-    "Anhänge/Pasted image 20260207221451.png",
-    "Anhänge/Pasted image 20260207220627.png",
-    "Anhänge/Pasted image 20260207215758.png",
-    "Anhänge/Pasted image 20260207215047.png",
-    "Anhänge/Pasted image 20260207213916.png",
-    "Anhänge/Pasted image 20260207213851.png",
-    "Anhänge/Pasted image 20260206224546.png",
-    "Anhänge/Pasted image 20260206223351.png",
-    "Anhänge/Pasted image 20260206223325.png",
-    "Unbenannt.canvas"
+    "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
+    "Anhänge/Pasted image 20260529093421.png",
+    "Anhänge/Pasted image 20260529090800.png",
+    "Anhänge/Pasted image 20260529084004.png",
+    "Anhänge/Pasted image 20260529083811.png",
+    "Anhänge/Pasted image 20260529083330.png",
+    "SS-26/LinA2/Vorlesungen/LinA2_052826.md",
+    "SS-26/LinA2/Vorlesungen/Freitag, V.md",
+    "Anhänge/Pasted image 20260528221545.png",
+    "Anhänge/Pasted image 20260528220959.png",
+    "Anhänge/Pasted image 20260528220850.png",
+    "Anhänge/Pasted image 20260528210837.png",
+    "Anhänge/Pasted image 20260528210253.png",
+    "SS-26/LinA2/Vorlesungen/LinA2_052226.md",
+    "SS-26/BS/Themen/07-Arithmetik.md",
+    "SS-26/BS/Themen/06-Rekurrenzen_&_Strassen-algorithmus.md",
+    "SS-26/BS/Themen/05-Synchronisation.md",
+    "SS-26/BS/Themen/02-Abstraktion_und_Strukturen.md",
+    "SS-26/DAP2/Themen/Mediane_Auswahlproblem.md",
+    "SS-26/DAP2/Themen/O-Kalkül.md",
+    "SS-26/DAP2/Themen/Quicksort.md",
+    "SS-26/DAP2/Themen/Quicksort-Implementation_und_Experimente.md",
+    "SS-26/DAP2/Themen/Radixsort.md",
+    "SS-26/DAP2/Themen/Randomisiertes_Quicksort.md",
+    "SS-26/DAP2/Themen/Stirlingformel.md",
+    "SS-26/DAP2/Themen/Registermaschiene.md",
+    "SS-26/DAP2/Themen/Die informationstheoretische Schranke.md",
+    "SS-26/DAP2/Übung/DAP2_06.md",
+    "SS-26/DAP2/Übung",
+    "SS-26/DAP2/Themen/Heapsort_priority-queues.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_051526.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_052126.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_041726.md",
+    "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/17.3_Eigenschaften-darstellender-Matrizen.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_042326.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_042426.md"
   ]
 }
