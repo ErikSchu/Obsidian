@@ -69,4 +69,19 @@ Im eingeschwungenen Zustand lassen sich zeitveränderliche Spannunt / Ströme **
 
 >[!example] Beispiel
 >Hier zeitlich-konstanter Phasenanteil $\left( = \varphi_{U} + \frac{\pi}{2} \right)= 0$
->
+>![[Pasted image 20260529144803.png]]
+>___
+>2 Ströme mit derselben Kreisfrequenz $\omega$
+>![[Pasted image 20260529144852.png]]
+>*Phase von Strom 2  mit Bezug zu Strom 1* = Differenz der Absoluten Phasen von Strom 2 und Strom 1: $$(\omega t + \varphi_{2})-(\omega t + \varphi_{1}) = \varphi_{2} - \varphi_{1} = \varphi_{2}$$
+
+Strome und Spannungen können ...
+... subtrahiert und addiert werden → Maschen- bzw. Knotenregel $$I = I_{1} + I_{2} \to \text{Zeigeraddition (auch grafisch)}$$
+... multipliziert / dividiert werden → Leistungsberechnung, Impedanzberechnung $$\underline{Z} = \frac{\underline{U}}{\underline{I}} = \frac{\lvert \underline{U} \rvert }{\lvert  {\underline{I}} \rvert} e^{j(\varphi_{u}-\varphi _{i})}$$
+**Wichtig:** für die quasistationäre Rechnung vereinfacht sich die Rechnung mittels Zeigern erheblich gegenüber dem Zeitbereich. Im fomgenden wird daher nur der Bildbereich betrachtet.
+
+___
+
+>[!example] Addition von Zeigern
+>![[Pasted image 20260529145705.png]]
+>**Kosinussatz:** $$ a^2 = b^2 +c^2 -2bc \cdot \cos(\alpha) $$
