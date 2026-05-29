@@ -41,4 +41,32 @@ Alle zur hinreichend genauen Beschreibung Komponenten $R, L$ und $C$ sind inklus
 
 Die **zeitliche Änderung der Ströme und Spannungen** finden überall in der Schaltung praktisch *gleichzeitig* statt
 ⮩ ***"elektrische kurze"*** Schaltung
-	⮩ die räumliche Ausdehnung der Schaltung ist "sehr klein" im Vergleich zur Wellenlänge; Laufzeiten und Phasenverzögerung werden vernachläs
+	⮩ die räumliche Ausdehnung der Schaltung ist *"sehr klein" im Vergleich zur Wellenlänge*; Laufzeiten und Phasenverzögerung werden vernachlässigt
+
+___
+
+- ***Ortsunabhängigkeit*** innerhaln der Schaltung: $$u(\not x, t) \text{ und } i(\not x, t)$$
+- $R, L$ und $C$ als **konzentrierte Bauelemete**
+- Schaltungsanalyse nur bezüglich *Ersatzschaltbild*
+- ***Kirchhoff'sche Gesetze*** gelten weiterhin (ebenso Regeln bzgl. der Reihen- & Parallelschaltung)
+- ***Überlagerungssatz*** gilt weiterhin (lineare Bauteile)
+
+___
+
+
+Im eingeschwungenen Zustand lassen sich zeitveränderliche Spannunt / Ströme ***sinusförmig*** darstellen und durch Berücksichtugung der Amplitude und der Phase. Keine Ahnung was er meint.
+![[Pasted image 20260529144309.png]]
+
+***Spitzenwert*** 
+= höchste Amplitude einer Wechselgröße während einer Periode
+
+
+***Efektivwert***
+- Quadratischer Mittelwert einer Wechselgröße, der angibt, welche Gleichspannund oder welcher Gleichstrom die gleiche Wärmeleistung an einem ohmschen Verbraucher erzeugt. 
+- $230 V$ Netzt bezieht sich auf Effektivwert → Spiezenwert $\hat{u} = 235V$
+- bei harmonischen (sin, cos) Spannungne sind Spitzenwert $\hat{u}$ und Effektivwert $U$ mit $\sqrt{ 2 }$ verknüpft $$\hat{u} = U \sqrt{ 2 }$$
+- ... und analog gilt dies auch für Ströme
+
+>[!example] Beispiel
+>Hier zeitlich-konstanter Phasenanteil $\left( = \varphi_{U} + \frac{\pi}{2} \right)= 0$
+>
