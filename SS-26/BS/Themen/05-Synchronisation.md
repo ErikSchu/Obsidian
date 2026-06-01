@@ -337,6 +337,7 @@ class SyncQueue {
 };
 ```
 
+___
 
 > [!check] Zusammenfassung
 >- Unkontrollierte nebenläufige Zugriffe führen zu Fehlern
@@ -350,6 +351,7 @@ class SyncQueue {
 >- Betriebssystemunterstützte Verfahren: **Semaphore**
 >	- *Flexibel* (erlaubt Synchronisatuinsmuster), aber fehlerträchtig
 >___
->- 
-
-![[Pasted image 20260527012151.png]]
+>- Sprachunterstützte Verfahren: **Monitore**
+>	- Weniger vielseitig als Semaphore
+>	- Teuer durch viele Kontextwechsel
+>	- Dafür aber *sicher*
