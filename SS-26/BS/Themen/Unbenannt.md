@@ -12,4 +12,22 @@
 
 # Verklemmungen von Prozessen
 
-## Kom
+Der **Begriff "Verklemmung"** bezeichnet in der Informatik $$\begin{align}
+& \text{"[...] einen Zustand, in dem die beteiligten Prozesse} \\ & \text{wechselseitug auf den Eintritt von Bedingungen warten, die} \\ & \text{nur duch andere Prozesse in dieser Gruppe selbst hergestellt} \\ & \text{werden können."}
+\end{align}$$
+1. Variante: ***Deadlock***
+	- *passives* Warten
+	- Prozesszustand: **BLOCKED**
+
+2. Variante: ***Livelock***
+	- *aktives* Warten (("lazy") buisy waiting)
+	- Prozesszustand **beliebig** (auch RUNNING), aber kein Fortschritt
+
+⮩ *Deadlocks* sind das vergleichsweise **geringe Übel:**
+- Zustand eindeutig erkennbar → Basis zur "Auflösung" gegeben
+- Estrem hohe Systembelastung durch aktives Warten
+
+>[]
+
+## (nicht-) konsumierbare Betriebsmittel
+
