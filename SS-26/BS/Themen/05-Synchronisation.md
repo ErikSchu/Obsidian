@@ -338,4 +338,18 @@ class SyncQueue {
 ```
 
 
+> [!check] Zusammenfassung
+>- Unkontrollierte nebenläufige Zugriffe führen zu Fehlern
+>	- *Synchronisationsverfahren* sorgen für Koordinatoin
+>	- Grundsätzlich muss man bei der Implementierung aufpassen, dass die Auswahlstrategien nicht im Wiedersprich zum Scheduler stehen
+>  ___
+>- Ad-hoc-Verfahren: **aktives Warten**
+>	- *Vorsicht! Verschwendung* von Rechenzeit
+>	- Aber: ==kurz== aktiv warten ist besser als Blockieren, insb. in Multiprozessorsystemen
+>___
+>- Betriebssystemunterstützte Verfahren: **Semaphore**
+>	- *Flexibel* (erlaubt Synchronisatuinsmuster), aber fehlerträchtig
+>___
+>- 
+
 ![[Pasted image 20260527012151.png]]
