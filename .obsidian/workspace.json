@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
+                "file": "SS-26/BS/Themen/07-Arithmetik.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-Wechselstromlehre"
+              "title": "07-Arithmetik"
             }
           }
         ],
@@ -214,6 +214,9 @@
   },
   "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
+    "SS-26/BS/Themen/06-Rekurrenzen_&_Strassen-algorithmus.md",
+    "SS-26/BS/Themen/07-Arithmetik.md",
+    "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
     "Anhänge/Pasted image 20260529145926.png",
     "Anhänge/Pasted image 20260529145910.png",
     "Anhänge/Pasted image 20260529145834.png",
@@ -224,18 +227,14 @@
     "Anhänge/Pasted image 20260529144309.png",
     "Anhänge/Pasted image 20260529142012.png",
     "Anhänge/Pasted image 20260529141553.png",
-    "Anhänge/Pasted image 20260529141210.png",
     "SS-26/EtKt/Vorlesungen/1-Physikalische_Größen.md",
     "SS-26/EtKt/Vorlesungen/2-Gleichstromlehre.md",
-    "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
     "SS-26/LinA2/Vorlesungen/LinA2_052126.md",
     "SS-26/LinA2/Vorlesungen/LinA2_051526.md",
     "SS-26/LinA2/Vorlesungen/LinA2_052226.md",
     "SS-26/LinA2/Vorlesungen/LinA2_052826.md",
     "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
     "SS-26/LinA2/Vorlesungen/Freitag, V.md",
-    "SS-26/BS/Themen/07-Arithmetik.md",
-    "SS-26/BS/Themen/06-Rekurrenzen_&_Strassen-algorithmus.md",
     "SS-26/BS/Themen/05-Synchronisation.md",
     "SS-26/BS/Themen/02-Abstraktion_und_Strukturen.md",
     "SS-26/DAP2/Themen/Mediane_Auswahlproblem.md",

@@ -32,7 +32,7 @@ ___
 
 ___
 
->[!example] Bei Welcher *Frequenz* sond die Phasendifferenzen innerhalb der Schaltung $(l = 20 \text{cm}) \space 5°$?
+>[!example] Bei Welcher *Frequenz* sind die Phasendifferenzen innerhalb der Schaltung $(l = 20 \text{cm}) \space 5°$?
 > $$\frac{l}{\lambda} = \frac{\nabla \varphi}{2 \pi} \text{ und } \lambda = \frac{c}{f}$$
 > $$\implies f = \frac{c \cdot \nabla \varphi}{l \cdot 2\pi}$$
 > $$f = \frac{3\cdot 10^8 \frac{m}{s} \cdot \frac{5°}{360°} \cdot 2\pi}{0,2m \cdot 2\pi} = 20,8 \cdot 10^6 \frac{1}{s} = 20,8 \text{Mhz}$$
