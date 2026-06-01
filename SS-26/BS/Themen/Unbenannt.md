@@ -46,4 +46,23 @@ Der **Begriff "Verklemmung"** bezeichnet in der Informatik $$\begin{align}
 **Betriebsmittel** werden vom Betriebssystem verwaltet und denProzessen zugänglich gemacht. Man unterscheidet zwei Arten:
 
 ***Wiederverwendbare Betriebsmittel***
+- von Prozessen für bestimmte Zeit belegt und anschließend wieder freigegeben
+- **Bsp.:** CPU, sämtlicher Speicher, E/A-Geräte, Systemdatenstrukturen wie Dateien, Prozessortabelleneinträge, ...
+- Typische Zugriffssynchronisation: *gegenseitier Ausschluss*
+
+***Konsumierbare Betriebsmittel***
+- häufig im Laufenden system erzeugt (produziert) und zerstört (konsumiert)
+- **Bsp.:** Unterbrechungsanforderungen, Signale, Nachrichten, Daten von Eingabegeräten
+- Typische Zugriffssynchronisation: *einseitige Synchronisation*
+
+#### Wiederverwendbare Betriebsmittel
+
+- Es kommt zu einer ***Verklemmung***, wenn zwei Prozesse ein wiederverwendbares Betriebsmittel belegt haben, das *vom jeweils anderen* ***nachgefordert*** wird. 
 - 
+- **Bsp.:** EIn Rechnersystem hat $200 \text{ GByte}$ Hauptspeicher. Zwei Prozesse belegen den selben Speicher *schrittweise*. Die Belegung erfolgt *blockierend*.![[Pasted image 20260601234919.png]]
+
+#### Konsumierbare Betriebsmittel
+
+- Es kommt zu einer ***Verklemmung***, wenn zwei Prozesse auf ein konsumierbares *Betriebsmittel* ***warten***, das *vom jeweils anderen produziert* wird
+
+- **Bsp.:** Synchronisationssignale werden mit Hilfe der Semaphor 
