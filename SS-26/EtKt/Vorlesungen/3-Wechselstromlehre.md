@@ -1,3 +1,5 @@
+## Wechselspannung & Wechselstrom
+
 - **Drossel "L"** (Induktivität) \[L\] = *Henry* (H)
 - **Kondensator "C"** (Kapazität) \[C\] = *Farad* (F)
 - **WIederstand R / Leitwert G** \[R\] = *Ohm* ($\Omega$) \[G\] = *Simens* (S)
@@ -84,4 +86,12 @@ ___
 
 >[!example] Addition von Zeigern
 >![[Pasted image 20260529145705.png]]
->**Kosinussatz:** $$ a^2 = b^2 +c^2 -2bc \cdot \cos(\alpha) $$
+>**Kosinussatz:** $a^2 = b^2 +c^2 -2bc \cdot \cos(\alpha)$![[Pasted image 20260529145810.png]]
+>![[Pasted image 20260529145834.png]]
+>![[Pasted image 20260529145910.png]]
+>![[Pasted image 20260529145926.png]]
+
+___
+___
+
+## Komplexe Wechselstromrechnung
