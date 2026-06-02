@@ -78,8 +78,3 @@ Gegeben seien $x \in \mathbb{Z}$ und $l, m \in \mathbb{N}$ suchen wir $z \in \ma
 > 	2. `r -= y; y += 2`
 > 	3. falls $r > 0$, gehe zurück zu $2.2$
 > 3. gib die Faktorisierung $n = \left( \frac{x-y}{2} \right)\left( \frac{x+y-2}{2} \right)$ aus
-
-
-___
-
-
