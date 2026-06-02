@@ -37,4 +37,12 @@ Sprich: *"x ist kongruent zu y modulo m"*
 
 >[!tip] Lemma 
 >Seien $x, y, x', y' \in \mathbb{Z}, m \in \mathbb{Z} \backslash \{ 0 \}$.
-> $$x \equiv y \text{ mod } m \land x' \equiv y' \text{ mod } m \implies x + x' \equiv \text{mod} m$$
+> $$x \equiv y \text{ mod } m \land x' \equiv y' \text{ mod } m \implies x + x' \equiv y + y' \text{ mod } m \land x \cdot x' \equiv y \cdot y' \text{ mod } m$$
+
+>[!TIP] Lemma
+>Seien $x, y \in \mathbb{Z}, m, n \in \mathbb{Z} \backslash \{ 0 \}, n \vert m$.
+> $$x \equiv y \text{ mod } m \implies y \equiv y \text{ mod } n$$
+
+>[!TIP] Lemma
+> Seien $x, y \in \mathbb{Z}, m, n \in \mathbb{Z} \backslash \{ 0 \}, \text{ggT}(m, n) = 1$
+> $$x \equiv y \text{ mod } m \land x \equiv y \text{ mod } n \implies $
