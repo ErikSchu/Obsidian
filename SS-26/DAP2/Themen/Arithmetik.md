@@ -32,4 +32,9 @@ von $x, y \in \mathbb{Z}$, $x \ne 0$, ist die größte Zahl $z \in \mathbb{N}$, 
 
 
 # Modulare Arithmetik
-Seien $x, y \in \mathbb{Z}, m \in \mathbb{Z} \backslash \{ 0 \}$. Wir schreiben $x \equiv y \text{ mod } m$
+Seien $x, y \in \mathbb{Z}, m \in \mathbb{Z} \backslash \{ 0 \}$. Wir schreiben $x \equiv y \text{ mod } m$ falls $m \vert x-y$.
+Sprich: *"x ist kongruent zu y modulo m"*
+
+>[!tip] Lemma 
+>Seien $x, y, x', y' \in \mathbb{Z}, m \in \mathbb{Z} \backslash \{ 0 \}$.
+> $$x \equiv y \text{ mod } m \land x' \equiv y' \text{ mod } m \implies x + x' \equiv \text{mod} m$$
