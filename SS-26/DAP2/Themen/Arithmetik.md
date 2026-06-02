@@ -66,3 +66,20 @@ Gegeben seien $x \in \mathbb{Z}$ und $l, m \in \mathbb{N}$ suchen wir $z \in \ma
 >	2. setzt $z$ auf den Wert $r$
 >5. Gib $z$ aus
 
+>[!note] Fermat-Faktorieiserung *nicht klausurrelevant*
+>- gegeben $x \in \mathbb{Z}$ ist das Ziel, die Primfaktorzerlegung vom $x$ zubestimmen
+>- dafür ist derzeit kein effizienter (nicht-quanten) Algorithmus bekannt
+>- wir lernen aber einen Algorithmus kennen, der für Zahlen $x = pq$ mit $p, q$ prim und $\lvert p-q \rvert$ "klein" gut funktioniert
+>  
+>  **Eingabe:** ungerade zusammengesetzte Zahl $n > 1$.
+> 1. Setze $x = 2 \lfloor \sqrt{ n } \rfloor + 1, y = 1, r = \lfloor \sqrt{ n } \rfloor^2 - n$
+> 2. Solange $r \ne 0$
+> 	1. `r += x; x += 2`
+> 	2. `r -= y; y += 2`
+> 	3. falls $r > 0$, gehe zurück zu $2.2$
+> 3. gib die Faktorisierung $n = \left( \frac{x-y}{2} \right)\left( \frac{x+y-2}{2} \right)$ aus
+
+
+___
+
+
