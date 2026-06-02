@@ -29,3 +29,7 @@ von $x, y \in \mathbb{Z}$, $x \ne 0$, ist die größte Zahl $z \in \mathbb{N}$, 
 
 >[!tip] **Theorem**
 >Zu jeder Primzal $p \in \mathbb{P}$ gibt es eine Abbildung $w_{p} : \mathbb{N} \to \mathbb{N}_{0}$, sodass für jedes $z \in \mathbb{N}$ gilt $$Z = \prod _{ p \in \mathbb P } p^{w_{p}}(z)$$ 
+
+
+# Modulare Arithmetik
+Seien $x, y \in \mathbb{Z}, m \in \mathbb{Z} \backslash \{ 0 \}$. Wir schreiben $x \equiv y \text{ mod } m$
