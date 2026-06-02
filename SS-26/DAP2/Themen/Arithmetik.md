@@ -45,4 +45,14 @@ Sprich: *"x ist kongruent zu y modulo m"*
 
 >[!TIP] Lemma
 > Seien $x, y \in \mathbb{Z}, m, n \in \mathbb{Z} \backslash \{ 0 \}, \text{ggT}(m, n) = 1$
-> $$x \equiv y \text{ mod } m \land x \equiv y \text{ mod } n \implies $
+> $$x \equiv y \text{ mod } m \land x \equiv y \text{ mod } n \implies x \equiv y \text{ mod } m \cdot n$$
+
+>[!TIP] **Chinesischer Restsatz**
+>Seien $m, n \in \mathbb{N}$ relativ prim.
+>Dann gibt es für jede zwei ganzen Zahlen $x, y$ eine ganze Zahl $z$, sodass $$z \equiv x \text{ mod } m \land z \equiv y \text{ mod } n$$
+
+
+## Schnelles Potenzieren
+
+Gegeben seien $x \in \mathbb{Z}$ und $l, m \in \mathbb{N}$ suchen wir $z \in \mathbb{Z}$ mit $$x^l \equiv z \text{ mod } m$$⮩ es wäre offenbar nicht effizient, $x^l$ duch $l$-faches Multiplizieren zu berechnen
+
