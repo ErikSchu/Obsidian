@@ -65,4 +65,7 @@ Der **Begriff "Verklemmung"** bezeichnet in der Informatik $$\begin{align}
 
 - Es kommt zu einer ***Verklemmung***, wenn zwei Prozesse auf ein konsumierbares *Betriebsmittel* ***warten***, das *vom jeweils anderen produziert* wird
 
-- **Bsp.:** Synchronisationssignale werden mit Hilfe der Semaphor 
+- **Bsp.:** Synchronisationssignale werden mit Hilfe der Semaphoroperatoren *wait* und *signal* zwischen zwei Prozessen "verschickt". ![[Pasted image 20260601235248.png]]
+
+## Modellierung durch Betriebsmittelbelegungsgraphen 
+
