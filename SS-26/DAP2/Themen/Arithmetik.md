@@ -56,3 +56,13 @@ Sprich: *"x ist kongruent zu y modulo m"*
 
 Gegeben seien $x \in \mathbb{Z}$ und $l, m \in \mathbb{N}$ suchen wir $z \in \mathbb{Z}$ mit $$x^l \equiv z \text{ mod } m$$⮩ es wäre offenbar nicht effizient, $x^l$ duch $l$-faches Multiplizieren zu berechnen
 
+>[!note] ***Algorithmus*** *Schnelles Potenzieren*
+>1. Bestimme die Darstellung von $l$ im Dualsystem: $l = \sum^k _{i = 0} l_{i} 2^i$
+>2. Sei $y_{0}$ der Divisionsrest von $\frac{x}{m}$
+>3. Für $i = 1, \dots, k:$
+>	1. sei $y_{i}$ der Divisionsrest von $\frac{y^2_{i-1}}{m}$
+>4. Für $i = 0, \dots, k:$
+>	1. sei $r$ der Rest von ${z \cdot \frac{y_{i}^{l_{i}}}{m}}$
+>	2. setzt $z$ auf den Wert $r$
+>5. Gib $z$ aus
+
