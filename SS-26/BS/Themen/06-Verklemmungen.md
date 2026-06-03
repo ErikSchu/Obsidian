@@ -98,9 +98,25 @@ ___
  >- **ne preemttion**
  >  Gabeln werden nicht entrissen
 >___
+>***Version 1***
  >![[Pasted image 20260603170511.png]]
  >⤷ Mit Hilfe eines Semaphors wird *gegenseitiger Ausschluss* beim Zugriff auf die Gabeln garantiert. Jeder Philosoph nimmt erst seine rechte und dann seine linke Gabel.
- >⮩
+ >![[Pasted image 20260603171642.png]]
+ >⮩ **leider verklemmungsgefährdet**
+ >![[Pasted image 20260603171702.png]]
+ >___
+ >***Version 2***
+ >![[Pasted image 20260603172019.png]]
+ >___
+ >***Version 3***
+ >![[Pasted image 20260603171936.png]]
+ >___
+ >***Diskussion***
+ >- **Im Speziellen:** Es gibt viele Möglichkeiten für Verklemmungsfreiheit 
+ 
+ 
+ 
+ 
  
  
  
