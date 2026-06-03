@@ -112,11 +112,30 @@ ___
  >![[Pasted image 20260603171936.png]]
  >___
  >***Diskussion***
- >- **Im Speziellen:** Es gibt viele Möglichkeiten für Verklemmungsfreiheit 
+ >- **Im Speziellen:** Es gibt viele Möglichkeiten für Verklemmungsfreiheit zu sorgen
+ >	- Lösungen unterscheiden sich im Grad der mögl. Nebenläufigkeit 
+ >	- Bei einer zu restriktiven Lösung liefen Betriebsmittel zweiteilig unnötig brach
+ >- **Im Allgemeinen:** Repräsentatives Beispiel für Verklemmungsprobleme bei der Verwaltung unteilbarer Betriebsmittel 
+ >	- Geht auf E. Dijakstra zurück
+ >	- Etabliertes Standardszenario für die Bewertung und Illustration von Betriebssystem- & Sprachmechanismen zur nebenläufigen Programmierung 
  
+ ___
+
+# Gegenmaßnahmen, Verklämmungsbekämpfung
+
+## Vorbeugung *(deadlock prevention)*
+
+***Indirekte Methoden*** entkräften *eine der Beingungen 1-3*
+ 1. nicht-blockierende Verfahren verwenden
+ 2. Betriebsmittelanforderungen unteilbar (atomar) auslagern
+ 3. Betriebsmittelentzug durch **Virtualisierung** ermöglichen
+	 - virtueller Speicher / -Geräte / -Prozessoren
+
+***Direkte Methoden*** entkräften *Bedingung 4*
+4. lineare/totale Ordnung von Betriebsmittelklassen einführen:
+	- Betriebsmittel $B_{i}$ ist nur dann erfolgreich vor $B_{j}$ belegbar, wenn $i$ l
  
- 
- 
+
  
  
  

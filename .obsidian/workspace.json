@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "09461588f8e6ac6b",
@@ -214,6 +215,7 @@
   },
   "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
+    "Anhänge/Pasted image 20260603173025.png",
     "Anhänge/Pasted image 20260603172019.png",
     "Anhänge/Pasted image 20260603171936.png",
     "Anhänge/Pasted image 20260603171904.png",
@@ -224,7 +226,6 @@
     "Anhänge/Pasted image 20260603165515.png",
     "Anhänge/Pasted image 20260603165252.png",
     "Anhänge/Pasted image 20260603165106.png",
-    "Anhänge/Pasted image 20260603164719.png",
     "SS-26/BS/Themen/07-Interprozesskommunikation.md",
     "SS-26/BS/Themen/05-Synchronisation.md",
     "SS-26/BS/Themen/06-Verklemmungen.md",
