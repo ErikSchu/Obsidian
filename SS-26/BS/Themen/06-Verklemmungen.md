@@ -97,3 +97,10 @@ ___
  >  Gabeln werden nicht gleichzeitig gegriffen; können nocht wieder weggelegt werden
  >- **ne preemttion**
  >  Gabeln werden nicht entrissen
+>___
+ >![[Pasted image 20260603170511.png]]
+ >⤷ Mit Hilfe eines Semaphors wird *gegenseitiger Ausschluss* beim Zugriff auf die Gabeln garantiert. Jeder Philosoph nimmt erst seine rechte und dann seine linke Gabel.
+ >⮩
+ 
+ 
+ 
