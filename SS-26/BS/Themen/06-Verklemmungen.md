@@ -85,3 +85,15 @@ ___
 
 # Ein klassisches Verklemmungsproblem
 
+ >[!def] ## 5 Philosophen
+ >![[Pasted image 20260603165515.png]]
+ >⮩ **Prozess** → Pilosoph
+ >⮩ **Betriebsmittel** → Gabel (unteilbar)
+ >___
+ >***3 NB:***
+ >- **mutual exclusion:**
+ >  Philosophen dürfen sich keine Gabeln teilen 
+ >- **hold and wait:**
+ >  Gabeln werden nicht gleichzeitig gegriffen; können nocht wieder weggelegt werden
+ >- **ne preemttion**
+ >  Gabeln werden nicht entrissen
