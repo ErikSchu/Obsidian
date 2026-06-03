@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/DAP2/Themen/Arithmetik.md",
+                "file": "SS-26/BS/Themen/06-Verklemmungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arithmetik"
+              "title": "06-Verklemmungen"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
+    "SS-26/DAP2/Themen/Arithmetik.md",
     "SS-26/DAP2/Themen/Die informationstheoretische Schranke.md",
     "SS-26/DAP2/Themen/Mediane_Auswahlproblem.md",
     "SS-26/BS/C-Grundlagen.md",
@@ -228,7 +229,6 @@
     "SS-26/BS/Themen/05-Synchronisation.md",
     "SS-26/BS/Themen/04-Ablaufplanung.md",
     "SS-26/BS/Themen/02-Abstraktion_und_Strukturen.md",
-    "SS-26/DAP2/Themen/Arithmetik.md",
     "SS-26/DAP2/Themen/Rekurrenzen_&_Strassen-algorithmus.md",
     "SS-26/BS/Themen/03-Prozesse.md",
     "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
