@@ -68,3 +68,20 @@ Der **Begriff "Verklemmung"** bezeichnet in der Informatik $$\begin{align}
 - **Bsp.:** Synchronisationssignale werden mit Hilfe der Semaphoroperatoren *wait* und *signal* zwischen zwei Prozessen "verschickt". ![[Pasted image 20260601235248.png]]
 
 ## Modellierung durch Betriebsmittelbelegungsgraphen 
+
+***engl. resource allocation graphs*** werden benutzt, um **Verklemmungssituationen zu visualisieren** und *automatisch zu erkennen*.
+
+⮩ Beschreiben einen aktuellen Systemzustand
+⮩ *Knoten:* Prozess & Betriebsmittel
+⮩ *Kanten:* zeigen Aufforderung oder Belegung an 
+
+![[Pasted image 20260603165106.png]]
+
+**Frage:** Liegt zurkuläres Warten vor? Wer ist beteiligt? (Prozesse A-b, Betriebsmittel R-W)
+![[Pasted image 20260603164719.png]]
+![[Pasted image 20260603165252.png]]
+
+___
+
+# Ein klassisches Verklemmungsproblem
+
