@@ -133,9 +133,21 @@ ___
 
 ***Direkte Methoden*** entkräften *Bedingung 4*
 4. lineare/totale Ordnung von Betriebsmittelklassen einführen:
-	- Betriebsmittel $B_{i}$ ist nur dann erfolgreich vor $B_{j}$ belegbar, wenn $i$ l
- 
+	- Betriebsmittel $B_{i}$ ist nur dann erfolgreich vor $B_{j}$ belegbar, wenn $i$ linear vor $j$ angeordnet ist (d.h. $i < j$)
 
- 
- 
- 
+⮕ **Regeln, die das Eintreten von Verklemmungen verhindern**
+- Methoden, die zur *Entwurfs- bzw. Implementierungszeit* greifen
+
+Verhinderung von ***zirkulärem Warten*** *(im Laufenden System)* durch strategische Maßnahmen
+- keiner der ersten drei n.B. wird entkräftet
+- fortlaufende **Bedarfsanalyse** schließt zirkuläres Warten aus 
+
+***Betriebsmittelanforderungen*** der Prozesse sind zu steuern:
+- **sicherer Zustand** muss immer beibehalten werdnen:
+	- ex. Prozessabfolge, bei der jeder Prozess seinen maximalen Betriebsmittelbedarf decken kann 
+- **unsichere Zustände** werden umgangen:
+	- Zuteilungsablehnung im Falle nicht abgedeckten Betriebsmittelbedarfs decken kann 
+	- anfordernde Prozesse nicht bedienen bzw. frühzeitig suspendieren 
+⮩ Problem: vorhinein Wissen über den maximalen Betriebsmittelbedarf erforderlich
+
+## Sicherer/unsicherer Zustand
