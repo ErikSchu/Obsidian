@@ -201,4 +201,25 @@ Erholungsphase nach der Erkennungsphase
 - **Betriebsmittel entziehen** und mit dem effektivsten Opfer *(?)* beginnen 
 	- Betreffenden Prozess zurückfahren bzw. wider aufsetzen
 		- Transaktionen, checkpointing/recovery (großer Aufwand)
-	- Ein Aushungern der zurückgefahrenden Prozesse ist 
+	- Ein Aushungern der zurückgefahrenden Prozesse ist zu vermeiden
+	- Außerdem Vorsicht vor *Livelocks*
+
+- **Gratwanderung** zwischen Schaden und Aufwand:
+	- Schäden sind unvermeidbar, und die frage ist, wie sie sich auswirken
+
+
+### Diskussion der Gegenmaßnahmen
+
+Verfahren zum Vermeiden/Erkennen sind im Betriebssystemkontext weniger praxisrelevant
+- kaum umseztbar, zu aufwendig und damit nicht einsetzbar
+- Vorherschafft sequentieller Programmierung macht Verfahren wenig notwendig
+
+Verklemmungsgefahr ist lösbar durch ***Virtualisierung** von Betriebsmitteln* 
+- Prozesse beanspruchen/belegen ausschließlich **logische Betriebsmittel**
+- Der Trick besteht darin, in kitischen Momenten den Prozessen (ohne ihr Wissen) **physische Betriebsmittel entziehen** zu können
+- Dadurch wird die BBedingung der Nichtentziehbarkeit entkräftet
+
+⮕ eher praxisierelevant/verbreitet sund die Vorbeurungsmaßnahmen
+
+___
+
