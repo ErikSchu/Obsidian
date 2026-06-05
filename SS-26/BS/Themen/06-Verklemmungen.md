@@ -138,6 +138,8 @@ ___
 ⮕ **Regeln, die das Eintreten von Verklemmungen verhindern**
 - Methoden, die zur *Entwurfs- bzw. Implementierungszeit* greifen
 
+## Verklemmungsvermeidung *(deadlock avoidance)*
+
 Verhinderung von ***zirkulärem Warten*** *(im Laufenden System)* durch strategische Maßnahmen
 - keiner der ersten drei n.B. wird entkräftet
 - fortlaufende **Bedarfsanalyse** schließt zirkuläres Warten aus 
@@ -163,3 +165,8 @@ Verhinderung von ***zirkulärem Warten*** *(im Laufenden System)* durch strategi
 		- **unsicherer Zustand:** keiner der Philosophen könnte essen
 		- de Anforderung von $P_{4}$ muss warten
 	- Haben vier Philosophen je eine Gabel, würde der fünfte gestoppt, bevor der erste die Gabel nimmt. 
+	  ![[Pasted image 20260605103559.png]]
+
+___
+
+>[!]
