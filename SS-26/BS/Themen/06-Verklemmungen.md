@@ -150,4 +150,16 @@ Verhinderung von ***zirkulärem Warten*** *(im Laufenden System)* durch strategi
 	- anfordernde Prozesse nicht bedienen bzw. frühzeitig suspendieren 
 ⮩ Problem: vorhinein Wissen über den maximalen Betriebsmittelbedarf erforderlich
 
-## Sicherer/unsicherer Zustand
+### Sicherer/unsicherer Zustand
+*am Beispiel der speisenden Philosophen*
+
+- ***Ausgangspunkt:*** fünf Gabeln sind insg. vorhanden; jeder der fünf Philosophen braucht zwei Gabeln zum Essen
+
+- ***Situation:*** $P_{0}$, $P_{1}$ und $P_{2}$ haben je eine Gabel und zwei Gabeln sind frei
+	- $P_{3}$ fordert sich eine Gabel an → eine Gabel wäre dann noch frei 
+		- **sicherer Zustand:** einer von drei Philosophen könnte essen
+	- die Anforderung von $P_{3}$ wurd akzeptiert
+	- $P_{4}$ fordert eine Gabel an → keine Gabel wäre dann mehr frei
+		- **unsicherer Zustand:** keiner der Philosophen könnte essen
+		- de Anforderung von $P_{4}$ muss warten
+	- Haben vier Philosophen je eine Gabel, würde der fünfte gestoppt, bevor der erste die Gabel nimmt. 
