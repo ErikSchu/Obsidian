@@ -191,3 +191,14 @@ Verhinderung von ***zirkulärem Warten*** *(im Laufenden System)* durch strategi
 
 ## Verklemmungsauflösung
 
+Erholungsphase nach der Erkennungsphase 
+
+- **Prozesse abbrechen** und so Betriebsmittel frei bekommen
+	- Verklemmte Prozesse schrittweise abbrechen (großer Aufwand)
+		- Mit dem "effektivsten Opfer" *(?)* beginnen
+	- Alle verklemmten Prozesse terminieren (großer Schaden)
+
+- **Betriebsmittel entziehen** und mit dem effektivsten Opfer *(?)* beginnen 
+	- Betreffenden Prozess zurückfahren bzw. wider aufsetzen
+		- Transaktionen, checkpointing/recovery (großer Aufwand)
+	- Ein Aushungern der zurückgefahrenden Prozesse ist 
