@@ -167,6 +167,27 @@ Verhinderung von ***zirkulärem Warten*** *(im Laufenden System)* durch strategi
 	- Haben vier Philosophen je eine Gabel, würde der fünfte gestoppt, bevor der erste die Gabel nimmt. 
 	  ![[Pasted image 20260605103559.png]]
 
-___
 
->[!]
+##### $\implies$Erkennung: **"Bankier-Algorithmus**"
+- Verwaltung ***Prozess/Betriebsmittel-Matrizen*** für aktuelle Belegung und maximale Belegung
+- Funktion zum ***Finden einer Prozessabfolge***, bei der die Betriebsmittel auch bei vollständiger Ausschöpfung des "Kreditlimits" nicht ausgehen
+- ***Vorausschauende Anwendung*** dieser Funktion im Falle von Betriebsmittelanforderungen
+
+## Verklemmungserkennung
+
+- Verklemmungen werden in Kauf genmmen (*ostrich algorithm*) ...
+	- nichts im System verhindert Auftreten von Wartezyklen 
+	- Keine der vier Bedingungen wird entkräftet
+
+- Ansatz: **Wartegraph** erstekken und Zyklen suchen $\leadsto O(n)$
+	- Zu häufige Überprüfung verschwendet Betriebsmittel/Rechenleistung
+	- Zu seltene Überprüfung lässt Betriebsmittel brach liegen
+
+- **Zyklensuche** geschieht zumeist in großen Abständen, wenn ...
+	- Betriebsmittelanforderungen zu lange andauern
+	- die Auslastung der CPU trotz Prozesszunahme sinkt
+	- die CPU bereits über einen sehr langen Zeitraum untätig ist
+
+
+## Verklemmungsauflösung
+
