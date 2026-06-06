@@ -223,3 +223,5 @@ Verklemmungsgefahr ist lösbar durch ***Virtualisierung** von Betriebsmitteln*
 
 ___
 
+## Zusammenfassung
+![[Pasted image 20260605111605.png]]
