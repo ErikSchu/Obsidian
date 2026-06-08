@@ -56,7 +56,7 @@ Synchronisation bei ***Senden/Empfangen***
 **Häufig anzutreffen:**
 *Asynchroner* Nachrichtenaustausch mit *potentiell Blockierendem* Senden und Empfangen
 
-##### Adressierung bei Nachrichtenbasierter Kommunikation
+##### Adressierung bei nachrichtenbasierter Kommunikation
 
 - **Direkte Adressierung**
 	- Prozess-ID (Signale)
@@ -64,5 +64,33 @@ Synchronisation bei ***Senden/Empfangen***
 
 - **Indirekte Adressierung**
 	- Kanle (Pipes)
-	- Briefkasten (Mailboxes), 
+	- Briefkasten (Mailboxes), Nachrichtenpuffer (Message Queues)
 
+⮕ Zusätzliche Dinemsion **Gruppenadressierung**
+- *Unicast* - an genau einem
+- *Multicast* -  an eine Auswahl
+- *Broadcast* - an alle
+
+##### Diverse andere Eigenschaften bei nachrichtenbasierter Kommunikation 
+
+- ***Nachrichtenformat***
+	- Strom-/ Nachrichtenorientiert
+	- Feste / variable Länge
+	- Un- / Getypt
+
+- ***Übertragung***
+	- Uni- / Bidirektional (halb- / voll-duplex)
+	- Un- / Zuverlässig
+	- Reihenfolge bleibt (nicht) erhalten
+
+___
+
+# Lokale Interprozesskommunikation unter UNIX
+
+## UNIX-Signale
+
+ Signale sind in Software **nachgebildete Unterbrechungen**
+- ähnlich denen eines Prozessors durch E/A-Geräte
+- minimale Form der Interprozesskommunion (Übertragung der Signalnummer)
+
+- 
