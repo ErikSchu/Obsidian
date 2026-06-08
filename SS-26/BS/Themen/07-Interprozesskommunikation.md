@@ -93,4 +93,36 @@ ___
 - ähnlich denen eines Prozessors durch E/A-Geräte
 - minimale Form der Interprozesskommunion (Übertragung der Signalnummer)
 
-- 
+⮕ ***Sender***
+- Prozesse - mit hilfe des Systemaufrufs ` kill(2) `
+- Betriebssystem - bei Auftreten bestimmter Ereignisse
+
+⮕ ***Empfänger***-Prozess führ die *Signalbehandlung* durch:
+- *Ignorieren*,
+- Terminierung des Prozesses oder 
+- Aufruf einer **Behandlungsfunktion**
+	- Nach der Behandlung läuft Prozess an unterbrochener Stelle weiter.
+
+- Mit Hilfe von Signalen können Prosesse **über Ausnahmesituationen informiert** werden (ähnlich wie Hardware Unterbrechungen)
+
+- ***z.B.:***
+	- ` SIGINT ` Prozess abbreichen (z.B bei CTRL + C)
+	- ` SIGSTOP ` Prozess anhalten (z.B. bei CTRL + Z)
+	- ` SIGWINCH ` Fenstergröße wurde geändert
+	- ` SIGCHLD ` Kindprozess terminiert
+	- ` SIGSEGV ` Speicherschutzverletzung des Prozesses
+	- ` SIGKILL ` Prozess wird getötet
+	- ...
+
+- Die ***Standardbehandlung** (terminieren, anhalten, ... )* kann für diemeisten Signale überdefiniert werden.
+	- siehe ` signal(2) `
+
+##### Logische Sicht
+![[Pasted image 20260608111813.png]]
+
+##### Technische Sicht
+
+- Signalbehandung erfolgt immer beim Übergang vom Kernel in ==***der***== User Mode.
+
+- Was passiert, wenn der Zielprozess gerade ... 
+	- läuft, also im Zustand `RUNNING` ist
