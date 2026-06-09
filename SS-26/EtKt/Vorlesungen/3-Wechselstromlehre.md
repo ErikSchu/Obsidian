@@ -118,4 +118,16 @@ Einführung der Rechnung mit **komplexen Zahlen**:
 
 ### komplex konjugierte Zahl
 $\underline{ z } = x + ji = r ( \cos ( \varphi ) + j \sin (\varphi ) ) = r e^{j+\varphi}$
-$\underline{z}* = x - jy = r ( \cos ( \varphi ) - j \sin (\varphi$
+$\underline{z}* = x - jy = r ( \cos ( \varphi ) - j \sin ( \varphi ) ) = r e^{-j \varphi}$
+$\underline{ z } \cdot \underline{ z } = \lvert \underline{z} \rvert^2$
+
+### Addition / Subtraktion
+$\underline{z_{1}} \pm \underline{ z_{2}} = x_{1} \pm x_{2} + j ( y_{1} \pm y_{2} )$
+
+### Multiplikation
+$\underline{z_{1}} \cdot \underline{z_{2}} = r_{1} r_{2}  (\cos(\varphi_{1} + \varphi_{2}) + j \sin (\varphi_{1} + \varphi_{2}))$
+$j \cdot \underline{z} = re^{j(\varphi + \frac{\pi}{2})}$
+
+### Division
+$\frac{\underline{z_{1}}}{\underline{z_{2}}} = \frac{r_{1}}{r_{2}}(\cos(\varphi_{1} - \varphi_{2}) + j \sin (\varphi_{1}-\varphi_{2}))$
+$\frac{\underline{z}}{j} = re^{j(\varphi )}$
