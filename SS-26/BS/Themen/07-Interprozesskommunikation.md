@@ -125,4 +125,14 @@ ___
 - Signalbehandung erfolgt immer beim Übergang vom Kernel in ==***der***== User Mode.
 
 - Was passiert, wenn der Zielprozess gerade ... 
-	- läuft, also im Zustand `RUNNING` ist
+	- läuft, also im Zustand `RUNNING` ist (z.B. Segmentation Fault, Bus Error)?
+		- **unmittelbarer Start** der Behandlungsroutine
+	- gerade nicht läuft, aber `READY` ist (z.B. Systemaufruf kill)?
+		- Im Prozesskontrollblock wird das **Signal vermerkt** 
+		- Wenn der Prozess die CPU zugeteilt bekommt, erfolgt die Behandlung
+	- auf E/A wartet, also `BLOCKED` ist?
+		- E/A-Systemaufruf (z.B. read) wird mit `EINTR` **abgebrochen**
+		- Prozesszustand wird auf `READY` gesetzt
+		- Dannach wie be 2. 
+		- Ggf. wird der untrebrochene Systemaufruf neu ausgeführt (`SA_RESTART`)
+		- 
