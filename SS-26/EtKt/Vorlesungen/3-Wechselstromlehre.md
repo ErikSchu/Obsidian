@@ -107,6 +107,15 @@ Einführung der Rechnung mit **komplexen Zahlen**:
 
 >[!note] Darstellungformen komplexer Zahlen
 >- Komplexe Zahl in der **komplexen Ebene:** $$\underline{z} = x + jy$$
->- Komplexe Zahl in der **Exponentialform:** $\underline{z} = re^{j \varphi}$; *Sonderfälle:* $$\begin{align} & e^{j0} = e^{j2\pi} = 1 \\ & e^{j\frac{\pi}{2}} = j \\ e^{j \pi} = -1 \end{align}$$
+>- Komplexe Zahl in der **Exponentialform:** $\underline{z} = re^{j \varphi}$; *Sonderfälle:* $$\begin{align} & e^{j0} = e^{j2\pi} = 1 \\ & e^{j\frac{\pi}{2}} = j \\ & e^{j \pi} = -1 \\ & e^{\frac{j3\pi}{2}} = -j = \frac{1}{j} \end{align}$$
 >- Komplexe Zahl in **trigonometrischer Form:** $\underline{z} = r \cos(\varphi) + jr \sin(\varphi)$
+>
+>- **Betrag** $r = \lvert \underline{z} \rvert = \sqrt{ x^2 + y^2 }$
+>- **Phase** $\varphi = \arctan\left( \frac{y}{x} \right)$ (nur Werte für $\varphi \in (-\frac{\pi}{2}, \frac{\pi}{2})$ → *Vierquadrantenarctan*) 
+>⤷ $r \ge 0; 0 \le \varphi \le 2\pi$
+>![[Pasted image 20260609084824.png]]
 
+
+### komplex konjugierte Zahl
+$\underline{ z } = x + ji = r ( \cos ( \varphi ) + j \sin (\varphi ) ) = r e^{j+\varphi}$
+$\underline{z}* = x - jy = r ( \cos ( \varphi ) - j \sin (\varphi$
