@@ -130,4 +130,8 @@ $j \cdot \underline{z} = re^{j(\varphi + \frac{\pi}{2})}$
 
 ### Division
 $\frac{\underline{z_{1}}}{\underline{z_{2}}} = \frac{r_{1}}{r_{2}}(\cos(\varphi_{1} - \varphi_{2}) + j \sin (\varphi_{1}-\varphi_{2}))$
-$\frac{\underline{z}}{j} = re^{j(\varphi )}$
+$\frac{\underline{z}}{j} = re^{j(\varphi - \frac {\pi} {2})}$
+
+### Potenzen
+$\underline{z}^n = r^n \cdot (\cos(n \varphi) + j\sin(n \varphi))$
+$\sqrt[n] { \underline{z} }$
