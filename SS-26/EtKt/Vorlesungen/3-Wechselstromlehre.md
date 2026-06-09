@@ -104,3 +104,9 @@ ___
 ##### Neuer Weg
 Einführung der Rechnung mit **komplexen Zahlen**:
 ⮩ Verwendung von komplexen Zeigern zur *Darstellung von Betrag und Phasenlänge einer zeitabh. Größe*
+
+>[!note] Darstellungformen komplexer Zahlen
+>- Komplexe Zahl in der **komplexen Ebene:** $$\underline{z} = x + jy$$
+>- Komplexe Zahl in der **Exponentialform:** $\underline{z} = re^{j \varphi}$; *Sonderfälle:* $$\begin{align} & e^{j0} = e^{j2\pi} = 1 \\ & e^{j\frac{\pi}{2}} = j \\ e^{j \pi} = -1 \end{align}$$
+>- Komplexe Zahl in **trigonometrischer Form:** $\underline{z} = r \cos(\varphi) + jr \sin(\varphi)$
+
