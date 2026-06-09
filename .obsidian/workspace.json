@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/BS/Themen/07-Interprozesskommunikation.md",
+                "file": "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-Interprozesskommunikation"
+              "title": "3-Wechselstromlehre"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "09461588f8e6ac6b",
@@ -215,9 +214,9 @@
   },
   "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
+    "SS-26/BS/Themen/07-Interprozesskommunikation.md",
     "Anhänge/Pasted image 20260608111813.png",
     "SS-26/BS/Themen/06-Verklemmungen.md",
-    "SS-26/BS/Themen/07-Interprozesskommunikation.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.3_Der-euklidische-Algorithmus.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "Anhänge/Pasted image 20260605111605.png",
@@ -229,7 +228,6 @@
     "Anhänge/Pasted image 20260603171702.png",
     "Anhänge/Pasted image 20260603171642.png",
     "Anhänge/Pasted image 20260603171612.png",
-    "Anhänge/Pasted image 20260603170511.png",
     "SS-26/BS/Themen/05-Synchronisation.md",
     "SS-26/DAP2/Themen/Arithmetik.md",
     "SS-26/DAP2/Themen/Die informationstheoretische Schranke.md",

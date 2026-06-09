@@ -95,3 +95,12 @@ ___
 ___
 
 ## Komplexe Wechselstromrechnung
+
+##### Bisher
+- Wechselstromschaltungen können vollständig mit den *zeitabhängigen Beschreibungen über Sinus/Cosinus* durchgeführt werden
+- Die Anwendung der *Additionstheoreme* sowie die Handhabung von *Differentialgleichungen* sind schlecht handhabbar
+- Vereinfachte Vorgehensweise mit *Zeigerdiagramm* (Lösungsweg über geometrische betrachtung)
+
+##### Neuer Weg
+Einführung der Rechnung mit **komplexen Zahlen**:
+⮩ Verwendung von komplexen Zeigern zur *Darstellung von Betrag und Phasenlänge einer zeitabh. Größe*
