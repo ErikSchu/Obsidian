@@ -265,7 +265,13 @@ ___
 	- *nachrichtenorientiert* und *gesichert*
 
 - **Protokolle** der Internet Domain:
-	- *TCP/IP Protokoll*
+	- *TCP/IP Protokoll* 
+	  - strom- & verbindungsorientiert, gesichert
+	- *UDP/IP Protokoll*
+	  - nachrichtenorientiert, verbindungslos, ungesichert
+	  - Nachrichten könne verloren oder dupliziert werden
+	  - Reihenfolge kann durcheinander geraten
+	  - Paketgrenzen bleiben erhalten (Datagramm-Protokoll)
 
 #TODO
 
