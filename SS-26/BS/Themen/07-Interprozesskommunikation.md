@@ -236,3 +236,30 @@ ___
 
 - Abstrahiert von Details des Kommuniationssystems
 	- Beschreiben durch *Domäne* (Protokollfamilie), *Typ* und *Protokoll*
+
+![[Pasted image 20260610144333.png]]
+
+##### → Domänen
+
+- ***UNIX Domain***
+	- UNIX **Domain Sockets** verhalten sich wie *bidirektionale Pipes*
+	- Anlage als Spezialdatei im Dateisystem möglich
+
+- ***Internet Domain***
+	- Dienen der rechnerübergreifenden Kommunikation mit Internet Protokollen
+
+- Appletalk *Domain*, DECnet *Domain*, ...
+
+- Domänen **bestimmen mögliche Protokolle**
+	- z.B. Internet Domain: *TCP/IP* oder *UDP/IP*
+
+- Dmänen **bestimmen die Adressfamilie**
+	- z.B. InternetDomain: *IP-Adresse* und *Port*-Nummer
+
+
+##### → Typ & Protokoll
+
+#TODO
+
+___
+
