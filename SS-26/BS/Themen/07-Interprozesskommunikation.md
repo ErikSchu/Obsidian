@@ -117,10 +117,10 @@ ___
 - Die ***Standardbehandlung** (terminieren, anhalten, ... )* kann für diemeisten Signale überdefiniert werden.
 	- siehe ` signal(2) `
 
-##### Logische Sicht
+#### Logische Sicht
 ![[Pasted image 20260608111813.png]]
 
-##### Technische Sicht
+#### Technische Sicht
 
 - Signalbehandung erfolgt immer beim Übergang vom Kernel in ==***der***== User Mode.
 
@@ -135,4 +135,13 @@ ___
 		- Prozesszustand wird auf `READY` gesetzt
 		- Dannach wie be 2. 
 		- Ggf. wird der untrebrochene Systemaufruf neu ausgeführt (`SA_RESTART`)
-		- 
+
+>[!example] ##### Beispiel UNIX-Signale
+>Auszug aus dem Handbuch des *Apache* HTTP-Servers:
+>![[Pasted image 20260610105946.png]]
+
+___
+
+### UNIX *Pipes*
+
+- ***Kanal***
