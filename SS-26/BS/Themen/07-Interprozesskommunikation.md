@@ -140,8 +140,6 @@ ___
 >Auszug aus dem Handbuch des *Apache* HTTP-Servers:
 >![[Pasted image 20260610105946.png]]
 
-___
-
 ### UNIX *Pipes*
 
 - ***Kanal*** zwischen zwei Kommunikationspartnern
@@ -204,4 +202,27 @@ ulbrich@kos:~/V_BS/vorlesung/code> ls WC
 	6   6   49
 ```
 
+### Message Queues
+
+- Rechnerweit **eindeutige Adresse** (*Key*) dient zur Identifikation 
+	- Zugriffsrechte wie auf Dateien
+	- Prozesslokale Nummer (`MsqID`) wird bei allen Operationen benötigt 
+
+- **Ungerichtete M:N-Kommunikation**
+
+- Gepuffert (einstellbare Größe pro *Queue*)
+
+- Nachrichten haben einen Typ (*long-Wert*)
+
+- Operationen zum Senden und Empfangen einer Nachricht
+	- blockierend - nicht blockierend (aber nicht Asynchron)
+	- Empfang aller Nachrichten - nur ein bestimmter Typ
+
+![[Pasted image 20260610140956.png]]
+
+>[!note]
+>*Messege Queues* werden heute nut noch selten eingesetzt, da sie anders als *Sockets* auf lokale Kommunikation beschränkt sind.
+>Zudem ist der Anwendungscode weniger portabel. 
+
+___
 
