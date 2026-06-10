@@ -226,3 +226,6 @@ ulbrich@kos:~/V_BS/vorlesung/code> ls WC
 
 ___
 
+# Rechnerübergreifende Interprozesskommunikation
+
+## Sockets
