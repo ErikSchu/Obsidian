@@ -22,4 +22,8 @@ ___
 ## Anforderungen
 
 **Mehrere Prozesse benötigen** Hauptspeicher
-- 
+- Prozesse liegen *an verschiedenen Stellen* im Hauptspeicher
+- *Schutzbedürfnis des Betriebssystems* und der Prozesse untereinander
+- *Speicher reicht evtl. nicht* für alle Prozesse
+
+→**Freie Speicherbereiche** kennen, verwalten & vergebe
