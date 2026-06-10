@@ -259,6 +259,14 @@ ___
 
 ##### → Typ & Protokoll
 
+- Die Wichtigsten ***Sockettypen***
+	- *stromorientiert*, *verbindungsorientiert* und *gesichert*
+	- *nachrichtenorientiert* und *ungesichert*
+	- *nachrichtenorientiert* und *gesichert*
+
+- **Protokolle** der Internet Domain:
+	- *TCP/IP Protokoll*
+
 #TODO
 
 ___
