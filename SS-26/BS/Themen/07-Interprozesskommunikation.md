@@ -229,3 +229,10 @@ ___
 # Rechnerübergreifende Interprozesskommunikation
 
 ## Sockets
+
+- Allgemeine **Kommunikationsendpunkte** im Rechnernetz
+	- Bidirektional
+	- Gepuffert
+
+- Abstrahiert von Details des Kommuniationssystems
+	- Beschreiben durch *Domäne* (Protokollfamilie), *Typ* und *Protokoll*
