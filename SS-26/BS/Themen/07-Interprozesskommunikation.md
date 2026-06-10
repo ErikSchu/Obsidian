@@ -144,4 +144,33 @@ ___
 
 ### UNIX *Pipes*
 
-- ***Kanal***
+- ***Kanal*** zwischen zwei Kommunikationspartnern
+	- unidirektional
+	- gepuffert (feste Größe)
+	- zuverlässig
+	- stromorientiert
+
+- Operationen: **Schreiben** & **Lesen**
+	- Ordnung der Zeichen bleibt erhalten (Zeichenstron)
+	- Blockierung bei voller *Pipe* (Schreiben) und leerer *Pipe* (Lesen)
+
+![[Pasted image 20260610110745.png]]
+
+
+#### Pipes → Programmierung
+
+- ***Unbenannte Pipes***
+	- *Erzeugen einer Pipe:* ` int pipe (int fdes[2]) `
+	- Nach erfolgreichem Aufruf (Rückgabewert == 0) kann man ...
+		- über ` fdes[0] ` aus der Pipe **lesen** (Systemaufruf `read`)
+		- über ` fdes[1] ` in die Pipe **schrieben** (Systemaufruf `write`)
+	- Nun muss man noch das eine Ende an einen anderen Prozess weitergeben
+
+- ***Benannte Pipes***
+	- Pipes können auch als **Spezialdateien ins Dateisystem** gelegt werden: ` int mkfifo (<Dateiname>, mode_t mode) `
+	- Standartfunktion zum Öffnen, Lesen, Schreiben & Schließen können verwednet werden
+		- Normale Dateizugriffsrechte regeln, wie die Pipe benutzt werden darf.
+
+```c
+
+```
