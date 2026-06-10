@@ -172,5 +172,36 @@ ___
 		- Normale Dateizugriffsrechte regeln, wie die Pipe benutzt werden darf.
 
 ```c
+enum { READ = 0, WRITE = 1 };
 
+int main (int argc, char *argv[]) {
+	int res, fd[2];
+	if (pipe (fd) == 0) { // Pipe erzeugen
+		res = fork ();
+		if (res > 0) { // Elternprozess
+			close (fd[READ]);
+			dup2 (fd[WRITE], 1);
+			close (fd[WRITE]);
+			exclp (argv[1], argv[1], NULL);
+		} else if (res == 0) { // Kindprozess
+			close (fd[WRITE]);
+			dup2 (fd[READ], 0);
+			close (fd[READ]);
+			execlp (argv[2], argv[2], NULL)
+		}
+	}
+	// [Fehlerbehandlung]
+}
 ```
+
+`./connect ls wc` entspricht dem Shell-Kommando `ls|wc`
+```shell
+ulbrich@kos:~/V_BS/Vorlesung/code> ls
+	connect connect.c excl.c fork.c orphan.c 
+	wait.c
+
+ulbrich@kos:~/V_BS/vorlesung/code> ls WC
+	6   6   49
+```
+
+
