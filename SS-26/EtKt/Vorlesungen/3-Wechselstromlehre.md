@@ -134,4 +134,4 @@ $\frac{\underline{z}}{j} = re^{j(\varphi - \frac {\pi} {2})}$
 
 ### Potenzen
 $\underline{z}^n = r^n \cdot (\cos(n \varphi) + j\sin(n \varphi))$
-$\sqrt[n] { \underline{z} }$
+$\sqrt[n] { \underline{z} } = \underline{z}_{k} = \sqrt[n]{ r } e^{j \frac{(\varphi + k 2 \pi)}{n}} \text{ mit } k = 0, \dots, n-1$
