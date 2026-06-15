@@ -309,5 +309,25 @@ ___
 - ***Client:*** Verbindungsaufbau bei stromorientierten Sockets 
 	- Verbinden des Sockets mit 
 	  ``` c
-	  int connect (int socket, const struckt)
+	  int connect (int socket, const struckt sockaddr *address, socklen_t address_len);
 	  ```
+	- Senden und Empfangen mit **write**  und **read** (oder `send` und `recv`)
+	- Beenden der Verbindung mit **close** (schließt den Socket)
+
+- ***Server:*** akzeptiert Anfragen/Aufträge
+	- bindet *Socket* an eine Adresse (sonst nicht erreichbar)
+	- bereitet *Socket* auf Verbindungsanforderungen vor durch ` int listen (int s, int queuelen); `
+	- akzeptiert Verbindungen durch ` int accept (int s, struct sockaddr *addr, socklen_t Üaddrlen); `
+	- gibt einen neuen Socket zurück, der mit dem Client verbunden ist
+	- blockiert, falls kein Verbindungswunsch vorhanden
+- liest daten mit **read** und führt den angebotenen Dienst aus
+- Schickt das Ergebnis mit **write** zurück zum Sender
+- schießt den neuen socket mit **close**
+
+![[Pasted image 20260615104543.png]]
+![[Pasted image 20260615104631.png]]
+
+>[!example] Beispiel HTTP Echo
+>![[Pasted image 20260615104807.png]]
+
+##
