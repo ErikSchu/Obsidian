@@ -330,4 +330,28 @@ ___
 >[!example] Beispiel HTTP Echo
 >![[Pasted image 20260615104807.png]]
 
-##
+## Fernaufruf (RPC)
+
+**Funktionsaufruf über Prozessgrenzen hinweg** *Remote Procedure Call*
+- hoher Abstraktionsgrad
+- selten direkt vom System angeboten; benötigt Abbildung auf andere Kommunikations formen (z.B. auf Nachrichten)
+- Abbildung auf mehrere Nachrichten
+	- Auftragsnachricht transportiert Auftragsabsicht und Parameter 
+	- Ergebnisnachricht transportiert Ergebnisse des Aufrufs
+	![[Pasted image 20260615105307.png]]
+- *Beispiele:* NFS (ONC RPC), Linux D-BUS
+
+___
+
+>[!note] ***Zusammenfassung***
+>- Es gibt zwei Arten der Interprozesskommunikation
+>	- **nachrichtenbasiert**
+>		- *Daten werden kopiert*
+>		- geht auch über *Rechnergrenzen*
+>	- **über gemeinsamen Speicher**
+>- UNIX-Systeme bieten verschiedene Abstraktionen
+>	- *Signale*, *Pipes*, *Sockets*, *Message Queues*
+>	- Insb. die **Sockets werden häufig verwendet**
+>		- Schnittstelle wurde standartisiert
+>		- Praktisch alle Vielzweckbetriebssysteme implementieren heute Sockets
+
