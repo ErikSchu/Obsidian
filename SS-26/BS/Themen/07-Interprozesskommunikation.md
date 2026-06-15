@@ -276,16 +276,38 @@ ___
 ##### → Programmierung
 
 ***Anlegen von Sockets:***
-- Generieren eines Sockets mit (Rückgabewert ist ein Filedeskriptor)
+- **Generieren** eines Sockets mit (Rückgabewert ist ein Filedeskriptor)
 	```c
 	int socket (int domain, int type, int proto);
 	```
 
-  - Adresszuteilung (da Sockets ohne Adresse generiert) erfolgt durch: 
+  - **Adresszuteilung** (da Sockets ohne Adresse generiert) erfolgt durch: 
     ```c
     int bind (int socket, const struct sockaddr *address, socklen_t adress_len);
     ```
 
-- ` struct sockaddr_in ` (für Internet-Aressfamilie) enthält:
+- ***` struct sockaddr_in `*** (für Internet-Aressfamilie) enthält:
 	`sin_family` : AF_INET
-	
+	`sin_port` : 16-Bit-Portnummer
+	`sin_addr` : Struktur der IP-Adr. *z.B. 192.168.2.1*
+
+***Datagram Sockets***
+- kein Verbindungsaufbau notwendig 
+- **Datagramm senden**
+  ``` c
+  ssize_t sendto (int socket, const void *message, size_t length, int flags, const struct sockaddr *dest_addr, socklen_t dest_len);
+  ```
+- **Datagramm empfangen**
+  ``` c
+  ssize__t recvfrom (int socket, void *buffer, size_t lenght, int flags, struct sockaddr *address, socklen_t)
+  ```
+
+***Stream Sockets***
+- Verbindungsaufbau notwendig
+- Client (Benutzer, Benutzerprogramm) will zu einem Server (Dienstanbieter) eine Kommunikationsverbindung aufbauen
+
+- ***Client:*** Verbindungsaufbau bei stromorientierten Sockets 
+	- Verbinden des Sockets mit 
+	  ``` c
+	  int connect (int socket, const struckt)
+	  ```
