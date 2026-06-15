@@ -273,7 +273,19 @@ ___
 	  - Reihenfolge kann durcheinander geraten
 	  - Paketgrenzen bleiben erhalten (Datagramm-Protokoll)
 
-#TODO
+##### → Programmierung
 
-___
+***Anlegen von Sockets:***
+- Generieren eines Sockets mit (Rückgabewert ist ein Filedeskriptor)
+	```c
+	int socket (int domain, int type, int proto);
+	```
 
+  - Adresszuteilung (da Sockets ohne Adresse generiert) erfolgt durch: 
+    ```c
+    int bind (int socket, const struct sockaddr *address, socklen_t adress_len);
+    ```
+
+- ` struct sockaddr_in ` (für Internet-Aressfamilie) enthält:
+	`sin_family` : AF_INET
+	
