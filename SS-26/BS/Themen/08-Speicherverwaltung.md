@@ -111,3 +111,14 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 >[!attention] Problem
 >Für die Liste wird (dynamisch) Speicher benötigt.
 
+##### $\leadsto$ Verkettete Liste ==im freien Speicher==
+![[Pasted image 20260616162229.png]]
+- zur Effizienzsteigerung eventuell Rückwertsverkettung nötig
+- Repräsentation letztlich auch von der Vergabestrategie abhängig
+
+***Verschmelzung von Lücken:***
+![[Pasted image 20260616162458.png]]
+
+## Platzierungsstrategien
+... auf der Basis von unterschiedlich sortierten Löcherlisten:
+
