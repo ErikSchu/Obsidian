@@ -122,3 +122,7 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 ## Platzierungsstrategien
 ... auf der Basis von unterschiedlich sortierten Löcherlisten:
 
+- **First Fit** (Sortierung nach Speicheradresse)
+	- erste passende Lücke wird verwendet
+
+- **Rotating First Fit** / **Next Fit**
