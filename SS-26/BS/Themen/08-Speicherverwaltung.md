@@ -80,3 +80,13 @@ Belegung des Hauptspeichers durch ...
 
 ___
 
+### Statische Speicherzuteilung
+**Feste Bereiche** für *Betriebssystem* und *Benutzerprogramme*
+>[!caution] Probleme
+>- Grad des Mehrprogrammbetriebs begrenzt
+>- Begrenzung anderer Ressourcen (z.B. Bandbreite bei Ein-/Ausgabe wegen zu kleiner Puffer)
+>- Ungenutzter Speicher des Betriebssystems kann von Anwendungsprogrammen nicht genutzt werden und umgekehrt. 
+
+### Dynamische Speicherzuteilung
+- **Segmente** → zusammenhängende Speicherbereiche (d.h. aufeinanderfolgende Adressen)
+- **Allokation** (Belegung) und **Freigabe von Segmenten **
