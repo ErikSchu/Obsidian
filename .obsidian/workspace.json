@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/BS/Themen/07-Interprozesskommunikation.md",
+                "file": "SS-26/BS/Themen/08-Speicherverwaltung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-Interprozesskommunikation"
+              "title": "08-Speicherverwaltung"
             }
           }
         ],
@@ -214,6 +214,8 @@
   },
   "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
+    "Anhänge/Pasted image 20260616081502.png",
+    "SS-26/BS/Themen/07-Interprozesskommunikation.md",
     "Anhänge/Pasted image 20260615105307.png",
     "Anhänge/Pasted image 20260615104807.png",
     "Anhänge/Pasted image 20260615104631.png",
@@ -228,8 +230,6 @@
     "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
     "Anhänge/Pasted image 20260610164442.png",
     "Anhänge/Pasted image 20260610164040.png",
-    "SS-26/BS/Themen/07-Interprozesskommunikation.md",
-    "Anhänge/Pasted image 20260610144333.png",
     "SS-26/BS/Themen/06-Verklemmungen.md",
     "SS-26/BS/Themen/04-Ablaufplanung.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.3_Der-euklidische-Algorithmus.md",

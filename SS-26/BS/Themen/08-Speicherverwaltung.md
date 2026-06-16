@@ -26,4 +26,29 @@ ___
 - *Schutzbedürfnis des Betriebssystems* und der Prozesse untereinander
 - *Speicher reicht evtl. nicht* für alle Prozesse
 
-→**Freie Speicherbereiche** kennen, verwalten & vergebe
+
+![[Pasted image 20260616081502.png]]
+
+→**Freie Speicherbereiche** kennen, verwalten & vergeben
+→ **Ein-/Auslagern** von Prozessen
+→ **Relokation** von Programmbefehlen
+→**Hardwareunterstützung** ausnutzen
+
+___
+
+## Grundlegende Politiken/Strategien
+***... auf jeder Ebene der Speicherhierarchie:***
+
+- **Platzierungsstrategie** (*placement policy*)
+	- ==Woher== soll benätigter Speicher genommen werden?
+		- wo der Verschnitt am kleinsten/größten ist
+		- egal, weil Verschnitt zweitrangig ist
+
+- **Ladestrategie** (*fetch policy*)
+	- ==Wann== sind Speicherinhalte einzulagern?
+		- auf Anforderungen oder im Voraus
+
+- **Ersetzungsstrategie** (*replacement policy*)
+	- ==Welche== Speicherinhalte sind ggf. zu verdrängen, falls der Speicher knapp wird?
+		- älteste, am seltensten genutzte
+		- an längsten ungenutzte
