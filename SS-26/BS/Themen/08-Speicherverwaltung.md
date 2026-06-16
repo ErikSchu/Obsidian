@@ -89,4 +89,25 @@ ___
 
 ### Dynamische Speicherzuteilung
 - **Segmente** → zusammenhängende Speicherbereiche (d.h. aufeinanderfolgende Adressen)
-- **Allokation** (Belegung) und **Freigabe von Segmenten **
+- **Allokation** (Belegung) und **Freigabe** von Segmenten 
+- Ein Anwendungsprogramm besitzt üblicherweise folgende Segmente:
+	- Textsegment
+	- Datensegment
+	- Stapelsegment (lokale Variablen, Parameter, Rüclsprungadressen, ...)
+- Suche nach geeigneten Speicherbereichen zur Zuteilung
+	- insbesondere bei Programmstart
+> [!question] Platzierungsstrategien nötig
+> Besonders wichtig dabei: ***Freispeicherverwaltung***
+
+#### Freispeicherverwaltung
+Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden $\leadsto$ ***Bitlisten***
+![[Pasted image 20260616161758.png]]
+>[!attention] Probleme
+>- Bitliste kostet u.U. viel Speicher
+>- Bei der Freigabe muss man die Größe des freizugebenden Speichers kennen bzw. mit angeben
+
+##### $\leadsto$  Verkettete Liste
+![[Pasted image 20260616162031.png]]
+>[!attention] Problem
+>Für die Liste wird (dynamisch) Speicher benötigt.
+
