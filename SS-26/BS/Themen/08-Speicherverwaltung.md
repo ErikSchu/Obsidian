@@ -52,3 +52,31 @@ ___
 	- ==Welche== Speicherinhalte sind ggf. zu verdrängen, falls der Speicher knapp wird?
 		- älteste, am seltensten genutzte
 		- an längsten ungenutzte
+
+![[Pasted image 20260616082054.png]]
+
+___
+___
+
+# Speichervergabe
+
+## Problemstellung
+
+Verfügbarer (physischer) Speicher 
+![[Pasted image 20260616082219.png]]
+
+Belegung des Hauptspeichers durch ...
+- **Benutzerprogramme**
+	- Programmbefehle (*Text*)
+	- Programmdaten (*Data*)
+	- Dynamische Speicheranforderungen (*Stack*, *Heap*)
+- **Betriebssystem**
+	- Betriebssystemcode/-daten
+	- Prozesskontrollblöcke
+	- Datenpuffer für Ein-/Ausgabe
+	- ...
+
+→ ==Zuteilung des Speichers nötig==
+
+___
+
