@@ -125,4 +125,6 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 - **First Fit** (Sortierung nach Speicheradresse)
 	- erste passende Lücke wird verwendet
 
-- **Rotating First Fit** / **Next Fit**
+- **Rotating First Fit** / **Next Fit** (Sortierung nach Speicheradresse)
+	- wie First Fit, aber *Start bei zuletzt zugewiesener Lücke*
+	- vermeidet viele kleine Lücken am Anfang der Liste
