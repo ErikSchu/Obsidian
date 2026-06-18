@@ -52,4 +52,4 @@
 - Wähle $\alpha \in \mathbb{R}, 0 < \alpha < 1$, z.B. $$\alpha = \frac{\sqrt{ 5 }-2}{2}$$und definiere $$\mathcal H(s) = \lceil m \cdot (s \alpha - \lfloor s \alpha \rfloor ) \rceil \in \{ 1, \dots, m \}$$⮩ **nicht heuristisch**
 
 >[!tip] Universelle Hashfunktion
->Eine Folge $\mathcal h$
+>Eine Folge $\mathcal h = (\mathcalH$
