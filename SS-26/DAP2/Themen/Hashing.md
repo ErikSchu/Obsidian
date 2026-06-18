@@ -52,4 +52,15 @@
 - Wähle $\alpha \in \mathbb{R}, 0 < \alpha < 1$, z.B. $$\alpha = \frac{\sqrt{ 5 }-2}{2}$$und definiere $$\mathcal H(s) = \lceil m \cdot (s \alpha - \lfloor s \alpha \rfloor ) \rceil \in \{ 1, \dots, m \}$$⮩ **nicht heuristisch**
 
 >[!tip] Universelle Hashfunktion
->Eine Folge $\mathcal h = (\mathcalH$
+>Eine Folge $\mathcal h = (\mathcal H_{1}, \dots, \mathcal H_{l})$ von Hashfunktionen $\mathcal H_{i} : S \to [m]$ heißt ***universell***, falls für jeden Schlüssel $s, s' \in \mathcal S, s \ne s'$ gilt $$|\{ i \in [l] : \mathcal H _{i} (s') \}| \le \frac{l}{m}$$
+
+>[!TIP] **Satz**
+>- Annahme $n$ Elemente werden in Hashtabelle gespeichert
+>- Annahme $\mathcal h$ ist eine universelle Folge von Hashfunktionen
+>Wenn $\mathcal H$ ein zufälliges Element von $\mathcal h$ ist, hat für jeden Schlüssel $k \in \mathcal S$ die Liste $\mathbf{L}_{h(k)}$ die Erwartete Länge $\frac{n}{m} + O(1)$
+
+[[12.3_Der-euklidische-Algorithmus]]
+
+### Konstruktion universeller Hashfunktion 
+- sei $m > 1, m \in \mathbb{N}$ und $p > m$ prim
+- für $a, b \in \mathbb Z, a \le a < p, o \le b < p$ definiere $$\mathcal H _{a, b}: \begin{cases} \{ 0, \dots, p-1 \} \to \{ 0, \dots, m -1 \} \end{cases}$$
