@@ -1,0 +1,11 @@
+/* 1. ÜBERSCHRIFTEN: Mit Serifen (Georgia, Times New Roman, Serif-Fallback) */
+.cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', 'Times New Roman', serif !important;
+    font-weight: 700;
+}
+
+/* 2. FLIESSTEXT: Ohne Serifen (Segoe UI, Arial, Sans-Serif-Fallback) */
+body, .cm-scroller {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
