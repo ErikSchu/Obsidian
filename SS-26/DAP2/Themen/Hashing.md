@@ -19,4 +19,4 @@
 
 ### Direkte Adressierung
 - $\mathcal S = \{ s_{1}, \dots, s_{k} \}$ ist die Menge der **Schlüssel**
-- wenn $\mathcal S$ "klein": Array fr
+- wenn $\mathcal S$ "klein": Array für jeden 
