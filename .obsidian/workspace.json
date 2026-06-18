@@ -183,8 +183,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -197,7 +197,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Schnellauswahl öffnen": false,
       "graph:Graph-Ansicht öffnen": false,
       "canvas:Neuen Canvas erstellen": false,
@@ -209,7 +208,8 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "9bb1bd2e3ab12fab",
