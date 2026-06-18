@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
+                "file": "SS-26/DAP2/Themen/Hashing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinA2_061826"
+              "title": "Hashing"
             }
           }
         ],
@@ -183,8 +183,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -197,6 +197,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Schnellauswahl öffnen": false,
       "graph:Graph-Ansicht öffnen": false,
       "canvas:Neuen Canvas erstellen": false,
@@ -208,27 +209,28 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "9bb1bd2e3ab12fab",
   "lastOpenFiles": [
+    "SS-26/DAP2/Themen/Mediane_Auswahlproblem.md",
+    "SS-26/DAP2/Themen/Hashing.md",
+    "SS-26/DAP2/Themen/Arithmetik.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
+    "SS-26/BS/Themen/08-Speicherverwaltung.md",
     "Anhänge/Pasted image 20260618120940.png",
     "Anhänge/Pasted image 20260618120931.png",
-    "SS-26/LinA2/Vorlesungen/LinA2_061226.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_061126.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
     "Anhänge/Pasted image 20260618110345.png",
     "Anhänge/Pasted image 20260618105758.png",
-    "SS-26/BS/Themen/08-Speicherverwaltung.md",
     "Anhänge/Pasted image 20260616162458.png",
     "Anhänge/Pasted image 20260616162229.png",
     "Anhänge/Pasted image 20260616162031.png",
     "Anhänge/Pasted image 20260616161758.png",
+    "SS-26/LinA2/Vorlesungen/LinA2_061226.md",
     "Anhänge/Pasted image 20260616085345.png",
+    "SS-26/LinA2/Vorlesungen/LinA2_061126.md",
     "Anhänge/Pasted image 20260616082219.png",
-    "Anhänge/Pasted image 20260616082054.png",
     "SS-26/BS/Themen/07-Interprozesskommunikation.md",
     "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
     "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
@@ -237,9 +239,7 @@
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.3_Der-euklidische-Algorithmus.md",
     "WS-25/LinA1/LinA1_Wiki/§LinA1§.md",
     "SS-26/BS/Themen/05-Synchronisation.md",
-    "SS-26/DAP2/Themen/Arithmetik.md",
     "SS-26/DAP2/Themen/Die informationstheoretische Schranke.md",
-    "SS-26/DAP2/Themen/Mediane_Auswahlproblem.md",
     "SS-26/BS/C-Grundlagen.md",
     "SS-26/BS/Themen/02-Abstraktion_und_Strukturen.md",
     "SS-26/DAP2/Themen/Rekurrenzen_&_Strassen-algorithmus.md",
