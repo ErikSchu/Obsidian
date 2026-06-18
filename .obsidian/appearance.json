@@ -8,7 +8,7 @@
   "enabledCssSnippets": [
     "dark-pdf"
   ],
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Inter,Liberation Mono",
   "textFontFamily": "",
   "monospaceFontFamily": "JetBrains Mono"
 }
