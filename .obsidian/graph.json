@@ -1,44 +1,22 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:WS-25/DAP1 OR tag:#dap1  ",
-      "color": {
-        "a": 1,
-        "rgb": 34047
-      }
-    },
-    {
-      "query": "path:WS-25/LinA1 OR tag:#lina1  ",
-      "color": {
-        "a": 1,
-        "rgb": 41815
-      }
-    },
-    {
-      "query": "path:WS-25/RS  OR  tag:#rs OR  path:WS-25/RS/Praesenz OR path:WS-25/RS/RS-Wiki OR path:WS-25/RS/Uebungen   path:WS-25/RS/Vorlesungen  ",
-      "color": {
-        "a": 1,
-        "rgb": 16756224
-      }
-    }
-  ],
+  "collapse-color-groups": true,
+  "colorGroups": [],
   "collapse-display": true,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.4102416570771,
-  "repelStrength": 7.17376294591484,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.23215463688648866,
-  "close": true
+  "linkDistance": 250,
+  "scale": 0.232154636886488,
+  "close": false
 }
