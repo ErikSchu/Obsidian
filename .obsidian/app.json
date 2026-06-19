@@ -6,5 +6,5 @@
   "promptDelete": false,
   "showIndentGuide": true,
   "rightToLeft": false,
-  "readableLineLength": false
+  "readableLineLength": true
 }

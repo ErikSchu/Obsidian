@@ -11,3 +11,19 @@
 >- Wiederstandsberechnungen
 
 ![[Elektrotechnik.pdf]]
+
+# 1.1 Physikalische & mathematische Grundlagen
+
+***Einheitspräfixe*** dienen der *Vermeidung vieler Vor-/Nachkommastellen*.
+## SI-Präfixe
+
+| ***Name***               | **Formelzeichen** | **SI-Einheit** |
+| ------------------------ | ----------------- | -------------- |
+| Elektrische Spannung     |                   |                |
+| Elekrtische Stromstärke  |                   |                |
+| Elektrischer Wiederstand |                   |                |
+| Kapazität                |                   |                |
+| Induktivität             |                   |                |
+| Frequenz                 |                   |                |
+| Leistung                 |                   |                |
+|                          |                   |                |

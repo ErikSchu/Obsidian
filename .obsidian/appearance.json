@@ -2,12 +2,12 @@
   "baseFontSizeAction": true,
   "theme": "obsidian",
   "accentColor": "#00ad79",
-  "baseFontSize": 19,
+  "baseFontSize": 18,
   "nativeMenus": true,
   "cssTheme": "Prism",
   "enabledCssSnippets": [
-    "dark-pdf",
-    "headers-font"
+    "headers-font",
+    "dark-pdf"
   ],
   "interfaceFontFamily": "Inter,Liberation Mono",
   "textFontFamily": "",
