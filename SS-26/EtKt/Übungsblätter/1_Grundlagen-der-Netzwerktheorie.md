@@ -40,5 +40,5 @@
 
 #### Beispiele zur Kürzung von Einheiten
 ##### 1d)
-***Gegeben:** $W_{m} = 4mVAs$     $I = 2A$     
-Formel umstellen:$$W_{m} = \frac{1}{2} \Phi \cdot I \ \Longleftrightarrow \ \Phi = \frac{2 \cdot W_{m}}{I}$$Werte einsetzen:$$$$
+**Gegeben:** $W_{m} = 4mVAs$   |   $I = 2A$   |   $W_{m} = \frac{1}{2} \Phi \cdot I$ mit $[\Phi] = Vs$
+*Formel umstellen:*$$W_{m} = \frac{1}{2} \Phi \cdot I \ \Longleftrightarrow \ \Phi = \frac{2 \cdot W_{m}}{I}$$*Werte einsetzen:* dabei Präfixe in Zehnerpotenzen umwandeln, z.B. $4mVAs \Leftrightarrow 4 \cdot 10^{-3}$ $$\Phi = \left( \frac{2 \cdot 4 \cdot 10^{-3}}{2} \right) \cdot \left( \frac{VAs}{A} \right)$$*Einheiten kürzen:* $$= 4 \cdot 10^{-3} \cdot Vs = $$
