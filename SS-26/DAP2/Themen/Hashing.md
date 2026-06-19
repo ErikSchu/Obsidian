@@ -63,4 +63,9 @@
 
 ### Konstruktion universeller Hashfunktion 
 - sei $m > 1, m \in \mathbb{N}$ und $p > m$ prim
-- für $a, b \in \mathbb Z, a \le a < p, o \le b < p$ definiere $$\mathcal H _{a, b}: \begin{cases} \{ 0, \dots, p-1 \} \to \{ 0, \dots, m -1 \} \end{cases} \\ $$
+- für $a, b \in \mathbb Z, a \le a < p, o \le b < p$ definiere $$\mathcal H _{a, b}: \begin{cases} \{ 0, \dots, p-1 \} \to \{ 0, \dots, m -1 \} \\ k \mapsto ((ak + b) \text{ mod } p ) \text{ mod } m \end{cases}$$
+- sei $\mathcal h _{p, m} = (\mathcal H_{a, b})_{a, b.}$
+
+>[!tip] **Satz**
+>Die Menge $\mathcal h_{p, m}$ von Hashfunktionen $\{ 0, 1, \dots, p-1 \} \to \{ 0, 1, \dots, m \}$ ist universell.
+
