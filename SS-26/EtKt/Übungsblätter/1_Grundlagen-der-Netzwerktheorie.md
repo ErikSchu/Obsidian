@@ -37,3 +37,8 @@
 | Frequenz                 | $f$               | *Hertz* $Hz$   |
 | Leistung                 | $P$               | *Watt* $W$     |
 | Ladung                   | $Q$               | *Couloumb* $C$ |
+
+#### Beispiele zur Kürzung von Einheiten
+##### 1d)
+***Gegeben:** $W_{m} = 4mVAs$     $I = 2A$     
+Formel umstellen:$$W_{m} = \frac{1}{2} \Phi \cdot I \ \Longleftrightarrow \ \Phi = \frac{2 \cdot W_{m}}{I}$$Werte einsetzen:$$$$
