@@ -6,4 +6,8 @@
 >- Generator- & Verbraucherzählpfeilsystem
 >- Ohm'sche Gesetze
 >- Ideale Spannungs- & Stromquelle
->- Grundbegriffe linearer Nete
+>- Grundbegriffe linearer Netze
+>- Kirchhoff'sche Gesetze
+>- Wiederstandsberechnungen
+
+![[Elektrotechnik.pdf]]
