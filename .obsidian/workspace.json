@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/EtKt/Übungsblätter/1_Grundlagen-der-Netzwerktheorie.md",
+                "file": "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Grundlagen-der-Netzwerktheorie"
+              "title": "LinA2_061826"
             }
           }
         ],
@@ -245,16 +245,33 @@
                   "type": "pdf",
                   "state": {
                     "file": "Anhänge/Elektrotechnik.pdf",
-                    "page": 1,
+                    "page": 5,
                     "left": -10,
-                    "top": 652,
+                    "top": 122,
                     "zoom": 1.5469112163660184
                   },
                   "icon": "lucide-file-text",
                   "title": "Elektrotechnik"
                 }
+              },
+              {
+                "id": "3defe3968df8985a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
+                    "page": 14,
+                    "left": -4,
+                    "top": 179,
+                    "zoom": 1
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "ETKT_Übung_01_Netzwerktheorie Lösung"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -269,8 +286,11 @@
   },
   "active": "39fc2a17d430bca1",
   "lastOpenFiles": [
-    "Anhänge/Elektrotechnik.pdf",
     "SS-26/EtKt/Übungsblätter/1_Grundlagen-der-Netzwerktheorie.md",
+    "Anhänge/Pasted image 20260619160501.png",
+    "Anhänge/Pasted image 20260619160358.png",
+    "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
+    "Anhänge/Elektrotechnik.pdf",
     "Anhänge/Pasted image 20260619151310.png",
     "Anhänge/Pasted image 20260619150707.png",
     "SS-26/EtKt/Übungsblätter",
@@ -285,8 +305,6 @@
     "Anhänge/Pasted image 20260619090507.png",
     "Anhänge/Pasted image 20260619085807.png",
     "Anhänge/Pasted image 20260619084258.png",
-    "Anhänge/Pasted image 20260619083807.png",
-    "Anhänge/Pasted image 20260619083509.png",
     "SS-26/LinA2/Vorlesungen/LinA2_061226.md",
     "SS-26/LinA2/Vorlesungen/LinA2_061126.md",
     "SS-26/BS/Themen/08-Speicherverwaltung.md",

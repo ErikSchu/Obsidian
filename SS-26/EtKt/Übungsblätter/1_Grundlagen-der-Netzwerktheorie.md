@@ -11,7 +11,7 @@
 >- Wiederstandsberechnungen
 
 ![[Elektrotechnik.pdf]]
-
+![[ETKT_Übung_01_Netzwerktheorie Lösung.pdf]]
 ___
 # 1.1 Physikalische & mathematische Grundlagen
 
@@ -52,4 +52,13 @@ ___
 1. Beispiele für ***reale Quellen:***   *Batterie:* chemisch $\to$ elektrisch
 				        *Generator:* mechanisch $\to$ elektrisch
 
+2. ***Verbraucher*** wandeln *elektrische Energie* in *andere Energieformen* um
+
+3. Zählpfeile dienen zur Erleicherung der Schaltungsanalyse
+   - ***Generatorzählpfeilsystem** (für Quellen)*: Strom & Spannung an der Quelle **entgegengesetzt**
+   - ***Verbraucherzählpfeilsystem** (für Verbraucher)*: Strom & Spannung **gleichgerichtet**; positive *Spannung* von $\boxed+$ nach $\boxed-$; *Stromfluss* $I$ durch $R$
+
 2. ***Verbraucher*** wandeln 
+3. allg. ***Ohm'sches Gesetz*** an Wiederstand: $$\boxed{ U = R \cdot I}$$![[Pasted image 20260619160501.png]]
+
+4. 
