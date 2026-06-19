@@ -15,15 +15,25 @@
 # 1.1 Physikalische & mathematische Grundlagen
 
 ***Einheitspräfixe*** dienen der *Vermeidung vieler Vor-/Nachkommastellen*.
-## SI-Präfixe
+
+| ***SI-Präfix*** | **Name** | **Symbol** |
+| --------------- | -------- | ---------- |
+| $10^{-12}$      | *Piko*   | $p$        |
+| $10^{-9}$       | *Nano*   | $n$        |
+| $10^{-6}$       | *Mikro*  | $\mu$      |
+| $10^{-3}$       | *Milli*  | $m$        |
+| $10^3$          | *Kilo*   | $k$        |
+| $10^6$          | *Mega*   | $M$        |
+| $10^9$          | *Giga*   | $G$        |
+| $10^{12}$       | *Tera*   | $T$        |
 
 | ***Name***               | **Formelzeichen** | **SI-Einheit** |
 | ------------------------ | ----------------- | -------------- |
-| Elektrische Spannung     |                   |                |
-| Elekrtische Stromstärke  |                   |                |
-| Elektrischer Wiederstand |                   |                |
-| Kapazität                |                   |                |
-| Induktivität             |                   |                |
-| Frequenz                 |                   |                |
-| Leistung                 |                   |                |
-|                          |                   |                |
+| Elektrische Spannung     | $U$               | *Volt* $V$     |
+| Elekrtische Stromstärke  | $I$               | *Ampere* $A$   |
+| Elektrischer Wiederstand | $R$               | *Ohm* $\Omega$ |
+| Kapazität                | $C$               | *Farad* $F$    |
+| Induktivität             | $L$               | *Henry* $H$    |
+| Frequenz                 | $f$               | *Hertz* $Hz$   |
+| Leistung                 | $P$               | *Watt* $W$     |
+| Ladung                   | $Q$               | *Couloumb* $C$ |
