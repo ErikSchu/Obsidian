@@ -226,75 +226,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "32f05f2fefb233bb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "456c5027783badb4",
-        "type": "window",
-        "children": [
-          {
-            "id": "e49f00f0be12e9d1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "92e3b990c1c11048",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Anhänge/Elektrotechnik.pdf",
-                    "page": 5,
-                    "left": -10,
-                    "top": 122,
-                    "zoom": 1.5469112163660184
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Elektrotechnik"
-                }
-              },
-              {
-                "id": "3defe3968df8985a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
-                    "page": 14,
-                    "left": -4,
-                    "top": 179,
-                    "zoom": 1
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "ETKT_Übung_01_Netzwerktheorie Lösung"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 1280,
-        "y": 0,
-        "width": 1280,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "39fc2a17d430bca1",
   "lastOpenFiles": [
+    "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
+    "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
     "SS-26/EtKt/Übungsblätter/1_Grundlagen-der-Netzwerktheorie.md",
     "Anhänge/Pasted image 20260619160501.png",
     "Anhänge/Pasted image 20260619160358.png",
-    "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
     "Anhänge/Elektrotechnik.pdf",
     "Anhänge/Pasted image 20260619151310.png",
     "Anhänge/Pasted image 20260619150707.png",
     "SS-26/EtKt/Übungsblätter",
-    "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
     "Unbenannt.md",
     "conflict-files-obsidian-git.md",
     "SS-26/LinA2/Vorlesungen/LinA2_061926.md",
