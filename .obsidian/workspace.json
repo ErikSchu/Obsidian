@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
+                "file": "SS-26/LinA2/Vorlesungen/LinA2_061126.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinA2_061826"
+              "title": "LinA2_061126"
             }
           }
         ],
@@ -228,8 +228,11 @@
   },
   "active": "39fc2a17d430bca1",
   "lastOpenFiles": [
-    "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
+    "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_061126.md",
+    "SS-26/LinA2/Vorlesungen/LinA2_061226.md",
     "SS-26/LinA2/Vorlesungen/LinA2_061826.md",
+    "Anhänge/ETKT_Übung_01_Netzwerktheorie Lösung.pdf",
     "SS-26/EtKt/Übungsblätter/1_Grundlagen-der-Netzwerktheorie.md",
     "Anhänge/Pasted image 20260619160501.png",
     "Anhänge/Pasted image 20260619160358.png",
@@ -247,12 +250,9 @@
     "Anhänge/Pasted image 20260619090507.png",
     "Anhänge/Pasted image 20260619085807.png",
     "Anhänge/Pasted image 20260619084258.png",
-    "SS-26/LinA2/Vorlesungen/LinA2_061226.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_061126.md",
     "SS-26/BS/Themen/08-Speicherverwaltung.md",
     "SS-26/BS/Themen/07-Interprozesskommunikation.md",
     "SS-26/EtKt/Vorlesungen/3-Wechselstromlehre.md",
-    "SS-26/LinA2/Vorlesungen/LinA2_052926.md",
     "SS-26/BS/Themen/06-Verklemmungen.md",
     "SS-26/BS/Themen/04-Ablaufplanung.md",
     "WS-25/LinA1/LinA1_Wiki/lina1_wiki_dump/12.3_Der-euklidische-Algorithmus.md",
