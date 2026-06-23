@@ -23,8 +23,11 @@
 >[!def] Definition
 >Sei $G = (V, E)$ ein Graph.
 >- Die ***Nachbarschaft*** von $v \in V$ ist **$\delta_{G}v = \{ u \in V : uv \in E \}$**.
->- Der ***Grad*** von $v$ ist **$d_{G}(v) = \lvert \delta_{G} v \rvert.$**
+>- Der ***Grad*** von $v$ ist **$d_{G}(v) = \lvert \delta_{G} v \rvert$**.
 >- Die Knoten $v, w \in V$ sind ***adjazent*** / ***benachbart***, falls **$vw \in E$**.
 >- Der Knoten $v$ und die Kante $e \in E$ sind ***inzident***, falls **$v \in e$**.
->- Der ***Maximalgrad*** von $G$ ist ****
+>- Der ***Maximalgrad*** von $G$ ist **$\Delta(G) = \text{max}_{v\in V} \ d_{G}(v)$**.
+>- Der ***Minimalgrad*** von $G$ ist **$\delta (G) = \text{min}_{v \in V} \ d_{G}(v)$**.
+>- Der Graph ist ***$k$-regulär***, falls **$\Delta(G) = \delta(G) = k$**.
+>- Das ***Komplement $\overline G$ von $G$*** ist der Graph mit *Knotenmenge* **$V(\overline G) = V$** und *Kantenmenge* ** $E(\overline G) = \{ uv : e, v \in V, u \ne v, uv \not \in E \}$**.
 
