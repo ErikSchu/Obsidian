@@ -20,3 +20,11 @@
 >Für eine *Kante $\{ u, v \}$* verwenden wir die *Kurzschreibweise $uv$*.
 >Per Def. erhalten Graphen *keine Mehrfachkanten* und *keine Schleifen*
 
+>[!def] Definition
+>Sei $G = (V, E)$ ein Graph.
+>- Die ***Nachbarschaft*** von $v \in V$ ist **$\delta_{G}v = \{ u \in V : uv \in E \}$**.
+>- Der ***Grad*** von $v$ ist **$d_{G}(v) = \lvert \delta_{G} v \rvert.$**
+>- Die Knoten $v, w \in V$ sind ***adjazent*** / ***benachbart***, falls **$vw \in E$**.
+>- Der Knoten $v$ und die Kante $e \in E$ sind ***inzident***, falls **$v \in e$**.
+>- Der ***Maximalgrad*** von $G$ ist ****
+
