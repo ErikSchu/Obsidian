@@ -167,3 +167,14 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 ___
 
 # Speicherverwaltung bei Mehrprogrammbetrieb
+
+## Ein-/Auslagerung (***swapping***)
+- Segmente eines Prozesses werden auf den Hintergrundspeicher ausgelagert und im Hauptspeicher freigegeben
+	- z.B. zur Überbrückung von Wartezeiten bei E/A
+- Einlagern der Segmente in den Hauptspeicher am Ende der Wartezeit ![[Pasted image 20260624172243.png]]
+  ⮩ **Ein-/Auslagerzeit ist hoch**
+	- Latenz der Festplatte (z.B. Positionierung des Schreib-/Lesekopfes)
+	- Übertragungszeit
+- Adressen im Prozess sind normalerweise statisch gebunden
+	- kann nur an dieselbe Stelle im Hauptspeicher wieder eingelagert werden
+	- Kollisionen mit eventuell neu im Hauptspeicher befindlichen Segmenten
