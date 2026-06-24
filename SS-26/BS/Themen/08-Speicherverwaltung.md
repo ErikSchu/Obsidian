@@ -128,3 +128,15 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 - **Rotating First Fit** / **Next Fit** (Sortierung nach Speicheradresse)
 	- wie First Fit, aber *Start bei zuletzt zugewiesener Lücke*
 	- vermeidet viele kleine Lücken am Anfang der Liste
+
+- **Best Fit** (Sortierung nach Lückengröße - kleinste zuest)
+	- kleinste Passende Lücke wird gesucht 
+
+- **Worst Fit** (Sortierung nach Lückengröße - größte zuerst)
+	- größte passende Lücke wird gesucht
+
+⮩ ==Probleme:== zu kleine Lücken, Speicherverschnitt
+
+
+- Das _**Buddy**-Verfahren
+	- Einteilung in **dynamische SPeicherbereiche**
