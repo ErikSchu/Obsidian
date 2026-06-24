@@ -161,5 +161,9 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 >⮩ *typisch: ==listenbasiert==*
 >___
 >Einsatz für bereiche des **Sekundärspeichers**
->- Verwaltung bestimmter Abschnitte des Sekundärspeichers, z.
+>- Verwaltung bestimmter Abschnitte des Sekundärspeichers, z.B. Speicherbereich für Prozessauslagerungen (*swap space*)
+>⮩ *oft ==Bitmaps==*
 
+___
+
+# Speicherverwaltung bei Mehrprogrammbetrieb
