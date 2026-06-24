@@ -137,6 +137,22 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 
 ⮩ ==Probleme:== zu kleine Lücken, Speicherverschnitt
 
+- Das **Buddy** *- Verfahren*
+	- Einteilung in **dynamische SPeicherbereiche** der Größe $2^n$ ![[Pasted image 20260624165144.png]]
 
-- Das _**Buddy**-Verfahren
-	- Einteilung in **dynamische SPeicherbereiche**
+>[!note] ***Diskussion:*** *Verschnitt*
+>**Externer Verschnitt**
+>- *Außerhalb* der zugeteilten Speicherbereiche entstehen Speicherfragmente, die nicht mehr genutzt werden können. 
+>- Bei Listenbasierten Strategien wie *First Fit, Best Fit, ...*
+>___
+>**Interner Verschnitt**
+>- *Innerhalb* der zugeteilten Speicherbereiche entstehen Speicherfragmente, die nicht jmehr genutzt werden können.
+>- Passiert z.B. bei *Buddy*, da die Anforderungen auf die nächstgrößere Zweierpotenz aufgerundet werden.
+
+>[!tip] ***Zwischenfazit:** Einsatz der Verfahren*
+>Einsatz im **Betriebssystem**
+>- Verwaltung des Systemspeichers 
+>- Zuteilung von Speicher an Prozesse und Betriebssystemen
+>⮩ *z.B. ==Buddy-Allokator== in Linux*
+>___
+>
