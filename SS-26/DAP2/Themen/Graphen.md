@@ -29,5 +29,10 @@
 >- Der ***Maximalgrad*** von $G$ ist **$\Delta(G) = \text{max}_{v\in V} \ d_{G}(v)$**.
 >- Der ***Minimalgrad*** von $G$ ist **$\delta (G) = \text{min}_{v \in V} \ d_{G}(v)$**.
 >- Der Graph ist ***$k$-regulär***, falls **$\Delta(G) = \delta(G) = k$**.
->- Das ***Komplement $\overline G$ von $G$*** ist der Graph mit *Knotenmenge* **$V(\overline G) = V$** und *Kantenmenge* ** $E(\overline G) = \{ uv : e, v \in V, u \ne v, uv \not \in E \}$**.
+>- Das ***Komplement $\overline G$ von $G$*** ist der Graph mit *Knotenmenge* **$V(\overline G) = V$** und *Kantenmenge* **$E(\overline G) = \{ uv : e, v \in V, u \ne v, uv \not \in E \}$**.
+
+>[!tip] Lemma 
+>Für einen Graphen $G$ gilt stets $$\sum_{v\in V (G)} d_{G}(v) = 2 \lvert E(G) \rvert.$$
+>___
+>![[Pasted image 20260623124518.png]]
 
