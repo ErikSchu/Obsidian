@@ -155,4 +155,11 @@ Freie (evtl. auch belegte) Segmente des Speichers müssen repräsentiert werden 
 >- Zuteilung von Speicher an Prozesse und Betriebssystemen
 >⮩ *z.B. ==Buddy-Allokator== in Linux*
 >___
->
+>Einsatz innerhalb eines **Prozesses**
+>- Verwaltung des Haldenspeichers *Heap*
+>- erlaubt dynamische Allokation on Speicherbereichen durch den Prozess (`malloc` und `free`)
+>⮩ *typisch: ==listenbasiert==*
+>___
+>Einsatz für bereiche des **Sekundärspeichers**
+>- Verwaltung bestimmter Abschnitte des Sekundärspeichers, z.
+
