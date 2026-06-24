@@ -178,3 +178,10 @@ ___
 - Adressen im Prozess sind normalerweise statisch gebunden
 	- kann nur an dieselbe Stelle im Hauptspeicher wieder eingelagert werden
 	- Kollisionen mit eventuell neu im Hauptspeicher befindlichen Segmenten
+- *Mögliche Lösung:* ==Partitionierung des Hauptspeichers==
+	- In jeder Partition läift nur ein Prozess 
+	- Einlagerung erfolgt wieder in dieselbe Partition 
+		- Nachteil: Speicher kann nicht optimal genutzt werden
+	⮩ Besser: Dynamische Belegung und ***Programmrelokation***
+
+#### Adressbindung und Relokation
