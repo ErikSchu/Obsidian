@@ -36,3 +36,10 @@
 >___
 >![[Pasted image 20260623124518.png]]
 
+>[!def] Definition
+>Zwei Graphen $G = (V, E)$ und $G' = (V', E')$ sind **isomorph**, wenn es eine bijektive Abbildung $\phi : V \to V'$ gibt, sodass für alle $v, w \in V$ gilt $$vw \in E \ \Leftrightarrow \ \phi(v)\phi(w) \in E'$$
+
+>[!def] Definition
+>Der von $G = (V, E)$ auf $\mathcal S \subseteq V$ **induzierte Untergraph** ist der Graph $G[\mathcal S] = (\mathcal S, E (G[\mathcal S]))$ mit Kantenmenge $$E(G[\mathcal S]) = \{  vw : v, w \in \mathcal S, vw \in E \}$$
+
+#### Löschen von Knoten und Kanten
