@@ -52,3 +52,13 @@ Angenommen $G = (V, E)$ ist ein Graph.
 >- eine **induzierte Kopie** eines Graph $G' = (V', E')$, wenn  es eine Menge $\mathcal S \subseteq V$ gibt, sodass $G[\mathcal S]$ isomprph ist zu $G'$.
 >- Eine **Kopie** von $G'$, wenn $G$ einen *Untergraphen* $H$ besitzt, der eine induzierte Kopie von $G'$ enthält. 
 
+>[!def] Definition
+>Eine **$\mathscr l$-Clique** in einem Graphen $G = (V, E)$ ist eine Menge $S \subseteq V$ von $\lvert  \mathcal S \rvert = \mathscr l$ Knoten, sodass für alle $u, v,  \in \mathcal S, u \ne v$ gilt $$uv \in E.$$Mit anderen Worten: eine $\mathscr l$-Clique ist eine *Kopie von $K_{\mathscr l}$ in $G$*.
+>Bei einer **$\mathscr l$-stabilen Menge** gilt für $u, v \in \mathcal S$ $$uv \not \in E$$
+>**Kliquenzahl:** $$\omega (G) = \text{max}\{ \lvert \mathcal S \rvert : \mathcal S \text{ ist eine Clique in } G \}$$
+>**Stabilitätszahl:** $$\alpha (G) = \text{max}\{ \lvert \mathcal S \rvert : \mathcal S \text{ ist eine stabile Menge in } G \}.$$
+
+
+## Datenstruktur Adjazenzmatrix 
+![[Pasted image 20260625143619.png]]
+- $A(G)$ ist eine $n \times $
