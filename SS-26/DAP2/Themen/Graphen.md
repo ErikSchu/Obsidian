@@ -69,6 +69,14 @@ Angenommen $G = (V, E)$ ist ein Graph.
 
 ## Datenstruktur Adjazenzliste
 $$\begin{align}
-1 & \mapsto 2  \mapsto 2 \\
-1 \mapsto 1
+&1 & \mapsto & 2 & \mapsto & 2 \\
+&2 & \mapsto & 1 & \mapsto & 3 & \mapsto & 4 & \mapsto & 5 \\
+&3 & \mapsto & 1 & \mapsto & 2 & \mapsto & 5 \\
+&4 & \mapsto & 2 & \mapsto & 5 \\
+&5 & \mapsto & 2 & \mapsto & 3 & \mapsto & 4
 \end{align}$$
+- jeder Knoten wird durch eine Liste repräsentiert
+- Liste enthält seine Nachbarn
+- Reihenfolge ist beliebig 
+- Speicherbedarf $O(n+m)$
+- um herauszufinden, ob $uv \in E$, benötigen wir Zeit $O(\text{min})$
