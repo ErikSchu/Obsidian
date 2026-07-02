@@ -61,4 +61,16 @@ Angenommen $G = (V, E)$ ist ein Graph.
 
 ## Datenstruktur Adjazenzmatrix 
 ![[Pasted image 20260625143619.png]]
-- $A(G)$ ist eine $n \times $
+- $A(G)$ ist eine $n \times n$-Matrix mit den Einträgen $A(G)_{uv} = \mathbb 1 \{ uv \in E \}$
+- Zeilen/Spalten durch die Knoten indiziert
+- ist Symmetrisch
+- in $O(1)$ kann geprüft werden, ob zwei Knoten benachbart sind
+- allen Nahbarn eines Knoten zu finden, bedeutet $O(n)$ Zeit
+- SPeicherbedarf $\Theta (n^2)$
+
+## Datenstuktur Adjazenzliste!
+![[Pasted image 20260625144450.png]]
+- Speicherbedarf $O(n +m)$
+- um herauszufinden, ob $uv \in E$, benötigt man Zeit $O(\text{min} \{ d_{G}(u), d_{G}(v) \})$
+- Sofern nicht anderes angegeben, werden Graphen ==immer durch Adjazenzlisten dargestellt==
+
