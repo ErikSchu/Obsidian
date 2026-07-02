@@ -23,4 +23,21 @@ ___
 
 - Schritt 1 kann man mit Tiefensuche in Zeit $O(\lvert E \rvert + \lvert V \rvert)$ drurchgeführt werden
 - für Schritt 2 verwenden wir ` Heapsort `; Laufzeut $O(\lvert E \rvert \log \lvert E \rvert)$
-- für Schritte 5, 6 fü
+- für Schritte 5, 6 führen wir Buch über die Komponenten von $T$
+	- dabei führen wir die Komponentengrößen mit 
+	- jedes Mal, wenn eine Kante hinzugefügt wird, wird die *kleinere* Komponente zur größeren hinzugefügt
+
+>[!tip] Satz 
+>Sei $G, c$ ein Zusammenhängender gewichteter Graph (mit rationalen Gewichten).
+>- Kruskal hat Laufzeit $O(\lvert E \rvert \log \lvert  E \rvert)$
+>- gibt einen minimal spannenden Baum aus 
+
+>[!info] Laufzeitbeweis
+>- nur Implementation der Schritte 5/6 relevant
+>- mind. Verdoppelung der Komponentengröße aus Sicht der kleineren Komponente
+>- jeder Knoten wird max. $O(\log \lvert V \rvert)$ mal einer anderen Komponente zugeordnet
+>$\implies O(\lvert V \rvert \log \lvert V \rvert) = O(\lvert E \rvert \log \lvert E \rvert)$
+
+>[!info] Korrektheitsbeweisoij[[7.4_Lösungsräume]]9/9
+>- Beh.: Ausgabe hat min. Gewicht
+>-  nm .
