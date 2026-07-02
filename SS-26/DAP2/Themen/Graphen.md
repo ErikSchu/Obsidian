@@ -61,4 +61,14 @@ Angenommen $G = (V, E)$ ist ein Graph.
 
 ## Datenstruktur Adjazenzmatrix 
 ![[Pasted image 20260625143619.png]]
-- $A(G)$ ist eine $n \times $
+- $A(G)$ ist eine $n \times n$-Matrix mit Einrägen $$A(G)_{uv} = \mathbb 1 \{ uv \in E \} (u, v \in V)$$
+- die Zeilen/Spalten der Matrix sind durch die Knoten indiziert
+- symmetrisch
+- alle Nachbarn eines Knotens zu finen, benötigt $O(n)$ Zeit
+- Speicherbedarf $\Theta(n^2)$
+
+## Datenstruktur Adjazenzliste
+$$\begin{align}
+1 & \mapsto 2  \mapsto 2 \\
+1 \mapsto 1
+\end{align}$$
