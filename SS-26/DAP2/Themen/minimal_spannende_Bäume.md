@@ -40,4 +40,5 @@ ___
 
 >[!info] Korrektheitsbeweisoij[[7.4_Lösungsräume]]9/9
 >- Beh.: Ausgabe hat min. Gewicht
->-  nm .
+>- ansonsten bezeichne Katen in $T$ mit ($n = \lvert V \rvert$) $$\begin{align} e_{i_{1}}, \dots, e_{i_{n-1}} \\ i_{1} \le \cdots \le i_{n-1} \end{align}$$
+
