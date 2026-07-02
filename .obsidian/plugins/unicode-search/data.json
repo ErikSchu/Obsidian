@@ -78958,6 +78958,12 @@
     "version": "0.7.0",
     "codepoints": [
       {
+        "firstUsed": "2026-07-02T12:30:03.568Z",
+        "lastUsed": "2026-07-02T12:30:03.568Z",
+        "useCount": 1,
+        "codepoint": "∅"
+      },
+      {
         "firstUsed": "2026-06-01T21:33:55.738Z",
         "lastUsed": "2026-06-11T08:37:38.045Z",
         "useCount": 9,
@@ -78977,8 +78983,8 @@
       },
       {
         "firstUsed": "2026-05-24T22:01:35.070Z",
-        "lastUsed": "2026-06-16T14:09:24.467Z",
-        "useCount": 26,
+        "lastUsed": "2026-07-02T12:35:33.789Z",
+        "useCount": 29,
         "codepoint": "→"
       }
     ]
