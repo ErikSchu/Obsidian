@@ -79,4 +79,5 @@ $$\begin{align}
 - Liste enthält seine Nachbarn
 - Reihenfolge ist beliebig 
 - Speicherbedarf $O(n+m)$
-- um herauszufinden, ob $uv \in E$, benötigen wir Zeit $O(\text{min})$
+- um herauszufinden, ob $uv \in E$, benötigen wir Zeit $O(\text{min}\{ d_{G} (u), d_{G}(v) \})$
+- Graphen immer durch Adjazenzlisten angegeben, falls nicht anders angegeben!
