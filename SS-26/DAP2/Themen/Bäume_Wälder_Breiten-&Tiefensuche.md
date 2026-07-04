@@ -11,9 +11,20 @@
 >![[Pasted image 20260704182057.png]]
 >Die Folge $1, 2, 3, 4, 5, 2, 3$ ist ein Weg aber kein Pfad, weil $2$ und $3$ zweimal vorkommen. 
 
->[!info] Dfinition: Zusammenhangskomponenten
+>[!info] Definition: Zusammenhangskomponenten
 >Sei $G = (V,E)$ ein Graph und $u, v, w \in V$.
->1. ***Relation $\sim_{G}$:*** Definiere $$u \sim_{G} v \Longleftrightarrow \text{ex. Weg von u nach v}$$
->2. $\sim_{G}$ ist eine Äquivalenzrelation, d.h.:
->	- **Reflexiv:** u \sim_{G} u$
->	- **Symmetrisch:** $v \sim_{G} u \Leftrightarrow $
+>- ***Relation $\sim_{G}$:*** Definiere $$u \sim_{G} v \Longleftrightarrow \text{ex. Weg von u nach v}$$
+>- $\sim_{G}$ ist eine Äquivalenzrelation, d.h.:
+>	- **Reflexiv:** $u \sim_{G} u$
+>	- **Symmetrisch:** $v \sim_{G} u \Leftrightarrow u \sim_{G} v$
+>	- **Transitiv:** $u \sim_{G} v \land v \sim_{G} w \implies u \sim_{G}w$
+>- Nenne die Äquivalenzklassen von $G$ ***Zusammenhangskomponenten***
+>	- Zwei Knoten liegen in derselben Zusammenhangskomponente, wenn es einen Weg vom einen zum anderen gibt
+
+>[!example] Beispiel: zusammenhängende Graphen
+>![[Pasted image 20260704184249.png]]
+>- Ein Graph ist **zusammenhängend**, wenn er *nur eine Zusammenhangskomponente* hat, in diesem Beispiel ist:
+>	- linker Graph zusammenhängend 
+>	- rechte Graph unzusammenhängend & besteht aus drei Zusammenhangskomponetnen
+>- Ein **isolierter Knoten** in einem Graphen ist eine *Zusammenhangskomponent*e, die nur aus einem Knoten besteht
+>- Eine **isolierte Kante** ist eine *Zusammenhangskomponente*, die *nur eine Kante enthält*
