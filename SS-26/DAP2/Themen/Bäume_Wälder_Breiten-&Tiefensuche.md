@@ -35,4 +35,7 @@
 
 >[!info] Definition Wald/Baum
 >- ***Baum*** = *kreisfreier Graph*
->- ***Baum*** = *zu*
+>- ***Baum*** = *zusammenhängender Wald*
+
+→ der Kleinst Wald besteht aus nur einem Knoten
+→ der Graph der nur au
