@@ -26,5 +26,13 @@
 >- Ein Graph ist **zusammenhängend**, wenn er *nur eine Zusammenhangskomponente* hat, in diesem Beispiel ist:
 >	- linker Graph zusammenhängend 
 >	- rechte Graph unzusammenhängend & besteht aus drei Zusammenhangskomponetnen
->- Ein **isolierter Knoten** in einem Graphen ist eine *Zusammenhangskomponent*e, die nur aus einem Knoten besteht
->- Eine **isolierte Kante** ist eine *Zusammenhangskomponente*, die *nur eine Kante enthält*
+>- Ein **isolierter Knoten** in einem Graphen ist eine *Zusammenhangskomponent*e, die nur aus *einem Knoten* besteht
+>- Eine **isolierte Kante** ist eine *Zusammenhangskomponente*, die *nur eine Kante* enthält
+
+#### Kreise in Graphen
+- Ein ***Kreis*** in einem Graphen $G$ ist eine Kopie eines Kreises $C_{l}, l \ge 3$, die in $G$ enthalten ist
+- Ein Kraph ist **kreisfrei**, wenn er keine Kreise enthält
+
+>[!info] Definition Wald/Baum
+>- ***Baum*** = *kreisfreier Graph*
+>- ***Baum*** = *zu*
