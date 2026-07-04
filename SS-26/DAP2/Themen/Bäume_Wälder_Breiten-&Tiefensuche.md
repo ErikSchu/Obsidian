@@ -38,4 +38,24 @@
 >- ***Baum*** = *zusammenhängender Wald*
 
 → der Kleinst Wald besteht aus nur einem Knoten
-→ der Graph der nur au
+→ der Graph, der nur aus einer Kante Besteht, ist ebenfalls ein Baum
+→ jeder Pfad ist ein Baum
+→ ein **Blatt** im Wald ist ein Knoten vom Grad 1
+
+>[!tip] Lemma 
+>Jeder Baum $G = (V, E)$ mti $E \ne \emptyset$ enthält *mind. 2 Blätter*
+
+>[!tip] **Proposition**
+>Die folgenden Aussagen sind äquivaltent: 
+>1. Graph $G=(V,E)$ ist ein Baum 
+>2. $G$ ist zusammenhängend und $\lvert E \rvert = \lvert  V \rvert -1$
+>3. $G$ ist kreisfrei und ---
+>4. $G$ ist kantenmaximal kreisfrei
+>5. $G$ ist kantenmaximal zusammenhängend
+>6. in $G$ gibt es zu je zwei Knoten $v, w$ genau einen Pfad von $v$ nach $w$
+
+>[!info] Definition: spannender Baum
+>***Spannender Baum*** eines Graphen $G = (V, E)$ ist ein Untergraph $G' = (V, E')$ von $G$ mit derselben Knotenmenge wie $G$, der ein Baum ist. 
+
+>[!tip] Lemma
+>Jeder zusammenhängende Graph enthält einen spannenden Baum
