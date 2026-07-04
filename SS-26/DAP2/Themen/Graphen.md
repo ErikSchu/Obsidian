@@ -8,10 +8,12 @@
 
 >[!tip] Definition
 >Ein ***Graph*** $G = (V, E)$ aus 
->- einer Menge $V$ von *Knoten* und
->- einer Menge $E$ von *Kanten*, 
+>- einer Menge $V$ von *Knoten* "Vertices" (z.B. $V = \{ \text{Anna, Ben, Clara} \}$und
+>- einer Menge $E$ von *Kanten* "Edges" (z.B: $E = \{ \{ \text{Anna, Ben} \}, \{ Ben, Clara \} \}$), 
 >sodass jede Kante $e \in E$ eine **zweielemtige Teilmenge** von $V$ ist.
 >Graphisch stellen wir die Knoten als Punkte dar und die Kanten als ungerichtete Verbindungslinien.
+
+$\lvert V \rvert$, $\lvert E \rvert$ beschreibt die **Kardinalität**, also die *Anzahl der Knoten bzw. Kanten* im Graphen. 
 
 >[!note] **Konvention**
 >Sei $G = (V, E)$ ein *Graph*. 
