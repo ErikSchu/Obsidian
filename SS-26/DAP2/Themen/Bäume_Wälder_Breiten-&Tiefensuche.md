@@ -13,4 +13,7 @@
 
 >[!info] Dfinition: Zusammenhangskomponenten
 >Sei $G = (V,E)$ ein Graph und $u, v, w \in V$.
->1. ***Relation $\tilde{}$***
+>1. ***Relation $\sim_{G}$:*** Definiere $$u \sim_{G} v \Longleftrightarrow \text{ex. Weg von u nach v}$$
+>2. $\sim_{G}$ ist eine Äquivalenzrelation, d.h.:
+>	- **Reflexiv:** u \sim_{G} u$
+>	- **Symmetrisch:** $v \sim_{G} u \Leftrightarrow $
