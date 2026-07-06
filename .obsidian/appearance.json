@@ -4,10 +4,10 @@
   "accentColor": "#00ad79",
   "baseFontSize": 20,
   "nativeMenus": true,
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Terminal Workbench",
   "enabledCssSnippets": [
-    "headers-font",
-    "dark-pdf"
+    "dark-pdf",
+    "headers-font"
   ],
   "interfaceFontFamily": "Inter,Liberation Mono",
   "textFontFamily": "",

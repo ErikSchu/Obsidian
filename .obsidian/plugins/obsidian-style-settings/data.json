@@ -41,5 +41,12 @@
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
   "anuppuccin-theme-settings@@ctp-custom-base@@dark": "#000000",
   "anuppuccin-theme-settings@@ctp-custom-mantle@@dark": "#000000",
-  "anuppuccin-theme-settings@@ctp-custom-crust@@dark": "#000000"
+  "anuppuccin-theme-settings@@ctp-custom-crust@@dark": "#000000",
+  "minimal-style@@base@@dark": "#000000",
+  "Appearance@@bg@@dark": "#000000",
+  "Appearance@@bg_dark@@dark": "#000000",
+  "Appearance@@bg_highlight@@dark": "#000000",
+  "Appearance@@bg_highlight_dark@@dark": "#000000",
+  "Appearance@@bg_dark2@@dark": "#000000",
+  "obsidian-prism-theme@@pt-custom-vault-banner": false
 }
