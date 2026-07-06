@@ -58,4 +58,8 @@
 >***Spannender Baum*** eines Graphen $G = (V, E)$ ist ein Untergraph $G' = (V, E')$ von $G$ mit derselben Knotenmenge wie $G$, der ein Baum ist. 
 
 >[!tip] Lemma
->Jeder zusammenhängende Graph enthält einen spannenden Baum
+>Jeder zusammenhängende Graph enthält einen spannenden Baum.
+
+___
+
+## Breiten- & Tiefensuche
