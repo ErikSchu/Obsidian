@@ -4,7 +4,7 @@
   "accentColor": "#00ad79",
   "baseFontSize": 20,
   "nativeMenus": true,
-  "cssTheme": "Terminal Workbench",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
     "dark-pdf",
     "headers-font"
