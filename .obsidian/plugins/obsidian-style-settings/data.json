@@ -48,5 +48,6 @@
   "Appearance@@bg_highlight@@dark": "#000000",
   "Appearance@@bg_highlight_dark@@dark": "#000000",
   "Appearance@@bg_dark2@@dark": "#000000",
-  "obsidian-prism-theme@@pt-custom-vault-banner": false
+  "obsidian-prism-theme@@pt-custom-vault-banner": false,
+  "primary-theme@@interface_editor-bg": "editor-bg-default"
 }

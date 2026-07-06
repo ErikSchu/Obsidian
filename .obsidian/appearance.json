@@ -4,10 +4,9 @@
   "accentColor": "#00ad79",
   "baseFontSize": 20,
   "nativeMenus": true,
-  "cssTheme": "Border",
+  "cssTheme": "Prism",
   "enabledCssSnippets": [
-    "dark-pdf",
-    "headers-font"
+    "dark-pdf"
   ],
   "interfaceFontFamily": "Inter,Liberation Mono",
   "textFontFamily": "",
