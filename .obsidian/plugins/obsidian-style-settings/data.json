@@ -34,5 +34,12 @@
   "obsidian-prism-theme@@enable-alternative-checkboxes": false,
   "obsidian-prism-theme@@pt-alternative-checkboxes-color-text": false,
   "obsidian-prism-theme@@pt-alternative-checkboxes-color-icon": false,
-  "obsidian-prism-theme@@pt-alternative-checkboxes-color-background": false
+  "obsidian-prism-theme@@pt-alternative-checkboxes-color-background": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender",
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
+  "anuppuccin-theme-settings@@ctp-custom-base@@dark": "#000000",
+  "anuppuccin-theme-settings@@ctp-custom-mantle@@dark": "#000000",
+  "anuppuccin-theme-settings@@ctp-custom-crust@@dark": "#000000"
 }
