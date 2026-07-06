@@ -1,0 +1,15 @@
+/* Erzwingt echtes OLED-Schwarz NUR für das Prism-Theme */
+.theme-dark {
+    --bg1: #000000 !important;
+    --bg2: #000000 !important;
+    --bg3: #000000 !important;
+    --background-primary: #000000 !important;
+    --background-primary-alt: #000000 !important;
+    --background-secondary: #000000 !important;
+    --background-secondary-alt: #000000 !important;
+}
+
+/* Verhindert, dass die Callout-Inhalte im reinen Schwarz absaufen */
+.markdown-rendered .callout {
+    background-color: #000000 !important;
+}
