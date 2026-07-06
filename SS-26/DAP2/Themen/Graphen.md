@@ -8,10 +8,12 @@
 
 >[!tip] Definition
 >Ein ***Graph*** $G = (V, E)$ aus 
->- einer Menge $V$ von *Knoten* und
->- einer Menge $E$ von *Kanten*, 
+>- einer Menge $V$ von *Knoten* "Vertices" (z.B. $V = \{ \text{Anna, Ben, Clara} \}$und
+>- einer Menge $E$ von *Kanten* "Edges" (z.B: $E = \{ \{ \text{Anna, Ben} \}, \{ Ben, Clara \} \}$), 
 >sodass jede Kante $e \in E$ eine **zweielemtige Teilmenge** von $V$ ist.
 >Graphisch stellen wir die Knoten als Punkte dar und die Kanten als ungerichtete Verbindungslinien.
+
+$\lvert V \rvert$, $\lvert E \rvert$ beschreibt die **Kardinalität**, also die *Anzahl der Knoten bzw. Kanten* im Graphen. 
 
 >[!note] **Konvention**
 >Sei $G = (V, E)$ ein *Graph*. 
@@ -61,6 +63,7 @@ Angenommen $G = (V, E)$ ist ein Graph.
 
 ## Datenstruktur Adjazenzmatrix 
 ![[Pasted image 20260625143619.png]]
+<<<<<<< HEAD
 - $A(G)$ ist eine $n \times n$-Matrix mit den Einträgen $A(G)_{uv} = \mathbb 1 \{ uv \in E \}$
 - Zeilen/Spalten durch die Knoten indiziert
 - ist Symmetrisch
@@ -74,3 +77,25 @@ Angenommen $G = (V, E)$ ist ein Graph.
 - um herauszufinden, ob $uv \in E$, benötigt man Zeit $O(\text{min} \{ d_{G}(u), d_{G}(v) \})$
 - Sofern nicht anderes angegeben, werden Graphen ==immer durch Adjazenzlisten dargestellt==
 
+=======
+- $A(G)$ ist eine $n \times n$-Matrix mit Einrägen $$A(G)_{uv} = \mathbb 1 \{ uv \in E \} (u, v \in V)$$
+- die Zeilen/Spalten der Matrix sind durch die Knoten indiziert
+- symmetrisch
+- alle Nachbarn eines Knotens zu finen, benötigt $O(n)$ Zeit
+- Speicherbedarf $\Theta(n^2)$
+
+## Datenstruktur Adjazenzliste
+$$\begin{align}
+&1 & \mapsto & 2 & \mapsto & 2 \\
+&2 & \mapsto & 1 & \mapsto & 3 & \mapsto & 4 & \mapsto & 5 \\
+&3 & \mapsto & 1 & \mapsto & 2 & \mapsto & 5 \\
+&4 & \mapsto & 2 & \mapsto & 5 \\
+&5 & \mapsto & 2 & \mapsto & 3 & \mapsto & 4
+\end{align}$$
+- jeder Knoten wird durch eine Liste repräsentiert
+- Liste enthält seine Nachbarn
+- Reihenfolge ist beliebig 
+- Speicherbedarf $O(n+m)$
+- um herauszufinden, ob $uv \in E$, benötigen wir Zeit $O(\text{min}\{ d_{G} (u), d_{G}(v) \})$
+- Graphen immer durch Adjazenzlisten angegeben, falls nicht anders angegeben!
+>>>>>>> ff84613e11f0345d5e968b1c23d035cd23ffaeda
