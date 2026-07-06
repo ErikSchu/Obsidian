@@ -46,7 +46,7 @@ $\lvert V \rvert$, $\lvert E \rvert$ beschreibt die **Kardinalität**, also die 
  
 #### Löschen von Knoten und Kanten
 Angenommen $G = (V, E)$ ist ein Graph.
-- Wenn $U \subseteq V$ eine Menge von Knoten ist, definiere $G-U=G[V \text{\\} U]$.
+- Wenn $U \subseteq V$ eine Menge von Knoten ist, definiere $G-U=G[V \setminus U]$.
 - Wenn $F  \subseteq E$ eine Menge von Kanten ist, definiere $G - F = (V, E \text{\\} F)$.
 
 >[!def] Definition
@@ -63,21 +63,6 @@ Angenommen $G = (V, E)$ ist ein Graph.
 
 ## Datenstruktur Adjazenzmatrix 
 ![[Pasted image 20260625143619.png]]
-<<<<<<< HEAD
-- $A(G)$ ist eine $n \times n$-Matrix mit den Einträgen $A(G)_{uv} = \mathbb 1 \{ uv \in E \}$
-- Zeilen/Spalten durch die Knoten indiziert
-- ist Symmetrisch
-- in $O(1)$ kann geprüft werden, ob zwei Knoten benachbart sind
-- allen Nahbarn eines Knoten zu finden, bedeutet $O(n)$ Zeit
-- SPeicherbedarf $\Theta (n^2)$
-
-## Datenstuktur Adjazenzliste!
-![[Pasted image 20260625144450.png]]
-- Speicherbedarf $O(n +m)$
-- um herauszufinden, ob $uv \in E$, benötigt man Zeit $O(\text{min} \{ d_{G}(u), d_{G}(v) \})$
-- Sofern nicht anderes angegeben, werden Graphen ==immer durch Adjazenzlisten dargestellt==
-
-=======
 - $A(G)$ ist eine $n \times n$-Matrix mit Einrägen $$A(G)_{uv} = \mathbb 1 \{ uv \in E \} (u, v \in V)$$
 - die Zeilen/Spalten der Matrix sind durch die Knoten indiziert
 - symmetrisch
@@ -98,4 +83,3 @@ $$\begin{align}
 - Speicherbedarf $O(n+m)$
 - um herauszufinden, ob $uv \in E$, benötigen wir Zeit $O(\text{min}\{ d_{G} (u), d_{G}(v) \})$
 - Graphen immer durch Adjazenzlisten angegeben, falls nicht anders angegeben!
->>>>>>> ff84613e11f0345d5e968b1c23d035cd23ffaeda
