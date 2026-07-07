@@ -75,3 +75,24 @@ ___
 >	1. entnehme $v$  aus $Q$
 >	2. färbe $v$ *rot* 
 >	3. für alle $u \in \delta v$ mit farbe *grün*
+- $d(v)$: Die Distanz (Anzahl der Kanten) vom Startknoten $s$ zum Knoten $v$. Wird initial auf $\infty$ gesetzt, da wir noch keine Wege kennen.
+- $p(v)$: Der Vorgängerknoten. Startet bei $\emptyset$ (leer). Das brauchst du zwingend, wenn du am Ende nicht nur die Distanz wissen, sondern den genauen Pfad im Graphen zurückverfolgen willst.
+- $\delta v$: Die Menge der direkten Nachbarn (Adjazenzliste) des Knotens $v$.
+
+- **Grün:** Knoten ist unentdeckt. Der Algorithmus war noch nie dort.    
+- **Gelb:** Knoten wurde entdeckt und liegt in der Warteschlange $Q$. Seine eigenen Nachbarn wurden aber noch nicht geprüft.
+- **Rot:** Knoten ist komplett abgearbeitet. Er wurde aus $Q$ entnommen und seine Kanten wurden untersucht.
+
+>[!tip] **Satz**
+>**BFS** hat de Laufzeit $O(\lvert V(G) \rvert + \lvert E(G) \rvert)$. Bei Beendigung des Algorithmus gilt 
+>1. Die Zusammenhangskomponente des Startknotens $s$ besteht aus genau den Knoten, für die $d(v) < \infty$
+>2. Für alle $v \in V(G)$ gilt $d(v) = \text{dist}_{G}(s, v)$
+>3. Der Untergraph $$(\{ v \in V(G) : d(v) < \infty, \{ \{ v, p(v) \} : v \in V(G) , p(v) \ne \emptyset \} \})$$ist ein Spannender Baum der Zusammenhangskomponente von $S$ in $G$
+
+>[!tip] Lemma
+>Für jeden Graphen $G$ gilt $$\sum_{v \in V(G)} d_{v}(G) = 2\lvert E(G) \rvert $$
+
+>[!tip] Lemma
+>Während der gesamten Ausführung von **BFS** gilt für alle Knoten $v$ $$d(v) \ge \text{dist}_{G}(s, v)$$
+
+>[!tip] 
