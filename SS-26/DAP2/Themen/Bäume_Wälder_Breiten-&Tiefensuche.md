@@ -63,3 +63,15 @@
 ___
 
 ## Breiten- & Tiefensuche
+- in einem Graphem $G$ ist der **Abstand** von $v, w \in V(G)$ definiert als $$\text{dist}_{G}(v, w) = \text{min }_{l \ge 0} \exists \text{ Weg der Länge } l \text{ von } v \text{ nach } w$$
+- falls $v, w$ in verschiedenen Zusammenhangskomponenten liegen, verwenden wir die Konvention $$\text{dist}_{G}(v, w) = \infty$$
+
+>[!note] BFS(G, s)
+>1. Färbe alle Knoten $v \in V(G) \setminus \{ s \}$ *grün* und färbe $s$ *gelb*
+>2. Setze $d(v) = \infty$ für alle $v \in V(G) \setminus \{ s \}$ und setze $d(s) = 0$
+>3. Setze $p(v) = \emptyset$ für alle $v \in V$
+>4. Lege eine Warteschlange $Q$ an und füre $s$ in $Q$ ein 
+>5. Solange $Q$ nicht leer ist 
+>	1. entnehme $v$  aus $Q$
+>	2. färbe $v$ *rot* 
+>	3. für alle $u \in \delta v$ mit farbe *grün*
