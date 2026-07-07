@@ -45,8 +45,8 @@ $\lvert V \rvert$, $\lvert E \rvert$ beschreibt die **Kardinalität**, also die 
 >Der von $G = (V, E)$ auf $\mathcal S \subseteq V$ **induzierte Untergraph** ist der Graph $G[\mathcal S] = (\mathcal S, E (G[\mathcal S]))$ mit Kantenmenge $$E(G[\mathcal S]) = \{  vw : v, w \in \mathcal S, vw \in E \}$$
  
 #### Löschen von Knoten und Kanten
-Angenommen $G = (V, E)$ ist ein Graph.
-- Wenn $U \subseteq V$ eine Menge von Knoten ist, definiere $G-U=G[V \text{\\} U]$.
+Angenommen $G = (V, E)$ ist ein Graph. 
+- Wenn $U \subseteq V$ eine Menge von Knoten ist, definiere $G-U=G[V \setminus U]$.
 - Wenn $F  \subseteq E$ eine Menge von Kanten ist, definiere $G - F = (V, E \text{\\} F)$.
 
 >[!def] Definition

@@ -6,7 +6,6 @@
   "nativeMenus": true,
   "cssTheme": "Prism",
   "enabledCssSnippets": [
-    "headers-font",
     "dark-pdf"
   ],
   "interfaceFontFamily": "Inter,Liberation Mono",
