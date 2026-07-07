@@ -66,7 +66,7 @@ ___
 - in einem Graphem $G$ ist der **Abstand** von $v, w \in V(G)$ definiert als $$\text{dist}_{G}(v, w) = \text{min }_{l \ge 0} \exists \text{ Weg der Länge } l \text{ von } v \text{ nach } w$$
 - falls $v, w$ in verschiedenen Zusammenhangskomponenten liegen, verwenden wir die Konvention $$\text{dist}_{G}(v, w) = \infty$$
 
->[!note] BFS(G, s)
+>[!note] `***BFS(G, s)***`
 >1. Färbe alle Knoten $v \in V(G) \setminus \{ s \}$ *grün* und färbe $s$ *gelb*
 >2. Setze $d(v) = \infty$ für alle $v \in V(G) \setminus \{ s \}$ und setze $d(s) = 0$
 >3. Setze $p(v) = \emptyset$ für alle $v \in V$
@@ -95,4 +95,30 @@ ___
 >[!tip] Lemma
 >Während der gesamten Ausführung von **BFS** gilt für alle Knoten $v$ $$d(v) \ge \text{dist}_{G}(s, v)$$
 
->[!tip] 
+>[!tip] Lemma 
+>Enthält die Warteschlange $Q$ die Knoten $q_{1}, \dots, q_{l}$, dann gilt $$d(q_{1}) \le \cdots \le  d(q_{l}) \le d(q_{1}) + 1.$$
+>___
+>Wird ein Knoten $u$ vor einem anderen Knoten $u'$ in $Q$ eingefügt, gilt $$d(u) \le d(u')$$
+
+
+
+>[!note] ***`DFS(G)`***
+>1. Färbe alle Knoten $v \in V(G)$ *grün*
+>2. Setze $c(v) = 0$ und $p(v) = \emptyset$ für alle $v \in V$
+>3. Setze $j = 1$
+>4. Für alle $v \in V(G)$
+>	1. falls $v$ *grün* ist
+>		1. führe `DFSLoop(G, v, j)` aus
+>		2. erhöhe $j$ um 1
+
+>[!note] `DFSLoop(G, v, j)`
+>1. Färbe $v$ *gelb* und setze $c(v) = j$
+>2. Für alle $u \in \delta_{G}v$
+>	1. Falls $u$ *grün*
+>		1. Setue $p(u) = v$
+>		2. führe `DFSLoop(G, v, j)` aus 
+>3. Färbe $v$ *rot*
+
+>[!tip] **Satz**
+>- **DFS** hat die Laufzeit $O(\lvert V(G) \rvert + \lvert E(G) \rvert)$
+>- Die Mengen $c^{-1}(j)$ für $j \ge 1$ bilden genau die Zusammenhangskomponenten von $G$.
