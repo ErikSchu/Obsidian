@@ -119,6 +119,6 @@ ___
 >		2. führe `DFSLoop(G, v, j)` aus 
 >3. Färbe $v$ *rot*
 
->[!tip] **Satzc^{-1}(j)**
+>[!tip] **Satz**
 >- **DFS** hat die Laufzeit $O(\lvert V(G) \rvert + \lvert E(G) \rvert)$
 >- Die Mengen $c^{-1}(j)$ für $j \ge 1$ bilden genau die Zusammenhangskomponenten von $G$.
