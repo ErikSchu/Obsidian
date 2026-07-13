@@ -23,4 +23,15 @@
 >	2. entferne $u aus U$ und füge $u$ zu $S$ hinzu
 >	3. für alle $w \in \partial u\setminus S$
 >		1. füge $w$ zu $W$ hinzu
->		2. falls $\om$
+>		2. falls $\delta(w) > \delta(u) + c(uw)$
+>			1. setze $\delta(w) = \delta(u) + c(uw)$ und $p(w) = u$
+>4. Gib $p, \delta$ aus
+
+___
+
+>[!tip] Satz
+>Sei $G, c$ ein zusammenhängender gewichteter Graph, $s \in V(G)$ und $\delta, p$ die Ausgabe von *Dijakstra*.
+>- Laufzeit: $O(\lvert V \rvert^2)$
+>- $\delta(v)$ ist für jeden Knoten $v \in V(G)$ der **gewichtete Abdtand** von $s$ nach $v$ und $$v, p(v), \dots, p^l(v) \text{ mit } l = \text{min}_{j \ge 0} p^j(v) = s$$ist ein ***kürzester Pfad***
+
+#### I
