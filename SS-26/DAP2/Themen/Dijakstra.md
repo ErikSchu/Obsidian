@@ -34,4 +34,20 @@ ___
 >- Laufzeit: $O(\lvert V \rvert^2)$
 >- $\delta(v)$ ist für jeden Knoten $v \in V(G)$ der **gewichtete Abdtand** von $s$ nach $v$ und $$v, p(v), \dots, p^l(v) \text{ mit } l = \text{min}_{j \ge 0} p^j(v) = s$$ist ein ***kürzester Pfad***
 
-#### I
+#### Implementierung mit priority queues
+- in Anwendungen häufig *dünne* Graphen mit $o(\lvert V(G) \rvert^2)$ Kanten auf
+	- nicht selten sogar $\lvert E(G) \rvert = O(\lvert V(G) \rvert)$
+- für dünne Graphen ist *Dijakstra* relativ langsam
+- **zeitkritisch ist die Berechnung des Minimums** (Schritt 4)
+
+- ***Erinnerung** min priority queues:* 
+	- Operationen: `Insert`, `ExtractMin`, `DecreaseKey`
+	- Laufzeit $O(\log n)$ bei jeder Operation
+	- genau diese Operationen werden für *Dijakstra* benötigt. 
+
+>[!tip] Korollar
+>Unter Verwendung einer **min-priority-queue** hat ***Dijakstra*** eine Laufzeit von $$O(\lvert E(G) \rvert \log \lvert V(G) \rvert  )$$
+
+⮩ Eine Noch bessere Laufzeit kann mit sogenannten **Fibonacci-Heaps** erzielt werden ($O(\lvert V(G) \rvert \log \lvert V(G) \rvert + \lvert E(G) \rvert)$)
+
+___
