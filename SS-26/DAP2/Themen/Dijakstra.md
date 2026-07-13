@@ -65,7 +65,7 @@ ___
 - polynomieller Platzbedarf!
 
 
->[!note] ***Bellmann-Held-Karp-Algorithmus***
+>[!info] ***Bellmann-Held-Karp-Algorithmus***
 >- Prinzip dynamische Programmierung
 >- Wähle beliebigen Startknoten $s \in V(G)$
 >- Baue eine **Tabelle** auf einem EIntrag für jede Teilmenge $U \subseteq V(G) \setminus \{ s \}$ und jeden Knoten $u \ne s, u \not \in U$
@@ -73,5 +73,11 @@ ___
 >- Die Länge einer optionalen TSP-Tour kann leicht bestimmt werden, wenn die Tabelle bekannt ist
 
 ![[Pasted image 20260713211026.png]]
+- **$T(u, U)$**: Kürzester Pfad von $u$ über alle Knoten in $U$ (Zwischenstopps) zurück zum Start $s$.
+- **Formel**: $T(u, U) = \min_{v \in U} \left( T(v, U \setminus \{v\}) + w(\{u, v\}) \right)$
+- **Bedeutung**: Wähle den besten nächsten Schritt $v \in U$. Addiere Kantenkosten $w(\{u,v\})$ zum Restproblem ab $v$ ohne $v$.
+- **Basisfall**: $T(u, \emptyset) = w(\{s, u\})$ (Keine Zwischenstopps mehr übrig $\rightarrow$ direkter Rückweg von $u$ nach $s$).
+- **Nutzen**: Ermöglicht Dynamic Programming (Held-Karp) in $O(n^2 \cdot 2^n)$ statt brute-force $O(n!)$.
 
-
+>[!note] ***`BHK(G, w)`***
+>1. Wähle Startknoten $s$
