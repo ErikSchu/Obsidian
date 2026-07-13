@@ -79,5 +79,19 @@ ___
 - **Basisfall**: $T(u, \emptyset) = w(\{s, u\})$ (Keine Zwischenstopps mehr übrig $\rightarrow$ direkter Rückweg von $u$ nach $s$).
 - **Nutzen**: Ermöglicht Dynamic Programming (Held-Karp) in $O(n^2 \cdot 2^n)$ statt brute-force $O(n!)$.
 
->[!note] ***`BHK(G, w)`***
->1. Wähle Startknoten $s$
+>[!note] `BHK(G, w)`
+>![[Pasted image 20260713212657.png]]
+
+>[!tip] **Satz**
+>`BHK` berechnet in Zeit $O(2^{n+o(n)})$ die *Länge einer optimalen TSP-Tour*.
+
+
+___
+
+#### Zusammenfassung
+
+- Djakstra berechnet kürzeste gewichtete Pfade
+- Wichtig ist dabei, dass die gewichte *nicht negativ* sind!
+- Die *naive* Laufzeit ist quadratisch
+- mit min priority queues lässt sich die Laufzeit deutlich verbessern
+- Algorithmus `BHK` für *TSP*
