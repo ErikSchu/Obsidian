@@ -72,5 +72,6 @@ ___
 >- Eintrag $T(u, U)$ ist die Länge eines kürzesten Pfades, der in $s$ startet, alle Knoten aus $U$ besucht und in $u$ endet
 >- Die Länge einer optionalen TSP-Tour kann leicht bestimmt werden, wenn die Tabelle bekannt ist
 
->[!tip] Lemma 
->Für alle $s \in V(G)$
+![[Pasted image 20260713211026.png]]
+
+
