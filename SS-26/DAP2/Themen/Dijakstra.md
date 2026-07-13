@@ -60,4 +60,6 @@ ___
 - die **Länge** einer Tour ist $$w(\sigma) = w(\{ \sigma(1) , \sigma(n)\}) + \sum^{n-1} _{i = 1} w(\{ \sigma(i), \sigma(\{ i +1 \}) \} )$$
 - *keine Dreiecksungleichung*
 - derzeit **kein effizienter Algorithmus bekannt**
-- "naiver" Algorithmus 
+- "naiver" Algorithmus: alle Permutationen durchprobieren ...
+	- Laufzeit $\Omega (n!) = \Omega\left( \left( \frac{n}{e} \right)^n \right) = \Omega(n^{n +  o(n)})$
+	- 
