@@ -13,7 +13,7 @@
 ## Der Dijakstra-Algorithmus
 - Basiert auf dem **Paradigma der dynamischen Programmierung**
 - Algorithmus baut us lösungen kleinerer Teilprobleme die Lösungen immer größerer Teilprobleme zusammen, bis schließlich das Gesamtproblem gelöst ist
-- im fall des kürzeste-Pfade-Problems liegt die Beobachtung zugrunde, dass ein kürzester Pfad von $s$ nach $t$ aus kürzeren Teilpfaden besteht
+- im fall des kürzeste-Pfade-Problems liegt die Beobachtung zugrunde, dass ein kürzester Pfad von $s$ nach $t$ aus kürzeren Teilpfa[[08-Speicherverwaltung]]den besteht
 
 >[!note] Algorithmus Dijakstra
 >1. Für alle $v \in V(G)$ setze $\delta(v) = \infty$ und $p(v) = \emptyset$
@@ -21,3 +21,6 @@
 >3. Solange $U \ne \emptyset$
 >	1. finde $u \in U$ mit $\delta(u) = min_{v \in U} \delta(v)$
 >	2. entferne $u aus U$ und füge $u$ zu $S$ hinzu
+>	3. für alle $w \in \partial u\setminus S$
+>		1. füge $w$ zu $W$ hinzu
+>		2. falls $\om$
