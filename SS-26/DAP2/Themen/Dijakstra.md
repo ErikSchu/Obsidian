@@ -51,3 +51,10 @@ ___
 ⮩ Eine Noch bessere Laufzeit kann mit sogenannten **Fibonacci-Heaps** erzielt werden ($O(\lvert V(G) \rvert \log \lvert V(G) \rvert + \lvert E(G) \rvert)$)
 
 ___
+## Traveling Salesman
+
+- gegeben ein gewichteter vollständiger Graph $G, w$ auf $n$ Knoten
+- *Ziel:* eine kürzeste Tour, die jeden Knoten genau einmal besucht
+- eine **Tour** ist eine bijektive Abbildung $\sigma : [n] \to V(G)$
+- die Knoten werden also in der Reihenfolge $\sigma(1), \dots, \sigma(n), \sigma(1)$ besucht
+- die **Länge** einer Tour ist $$w(\sigma) = w(\{ \sigma(1) , \sigma(n)\}) + \sum^{n-1} _{i = 1} w(\{ \sigma(i) \})$$
