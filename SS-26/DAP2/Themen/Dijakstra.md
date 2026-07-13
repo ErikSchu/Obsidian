@@ -62,4 +62,15 @@ ___
 - derzeit **kein effizienter Algorithmus bekannt**
 - "naiver" Algorithmus: alle Permutationen durchprobieren ...
 	- Laufzeit $\Omega (n!) = \Omega\left( \left( \frac{n}{e} \right)^n \right) = \Omega(n^{n +  o(n)})$
-	- 
+- polynomieller Platzbedarf!
+
+
+>[!note] ***Bellmann-Held-Karp-Algorithmus***
+>- Prinzip dynamische Programmierung
+>- Wähle beliebigen Startknoten $s \in V(G)$
+>- Baue eine **Tabelle** auf einem EIntrag für jede Teilmenge $U \subseteq V(G) \setminus \{ s \}$ und jeden Knoten $u \ne s, u \not \in U$
+>- Eintrag $T(u, U)$ ist die Länge eines kürzesten Pfades, der in $s$ startet, alle Knoten aus $U$ besucht und in $u$ endet
+>- Die Länge einer optionalen TSP-Tour kann leicht bestimmt werden, wenn die Tabelle bekannt ist
+
+>[!tip] Lemma 
+>Für alle $s \in V(G)$
