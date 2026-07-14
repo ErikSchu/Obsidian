@@ -127,4 +127,11 @@ ___
 
 #### Matchings
 
-- Ein ***Matching*** in einem ungerichteten Graphen $G = (V, E)$ ist eine Menge $M \subseteq E$ von Kanten, s.d. $$e \cap$$ 
+- Ein ***Matching*** in einem ungerichteten Graphen $G = (V, E)$ ist eine Menge $M \subseteq E$ von Kanten, s.d. $$e \cap f = \emptyset \space \text{ für alle } e, f \in M, e \ne f$$
+- mit $v(G)$ wird die maximale Größe eines Matchings in $G$ bezeichnet ("Matchingzahl von $G$")
+- $G$ heißt **bitpartit**, falls $_{\chi}(G) = 2$
+- eine **Bitpartition** von $G$ ist ein Paar $(S, T)$ von stabilen Mengen, s.d. $S \cup T = V(G)$ und $S \cap T = \emptyset$
+
+>[!tip] **Satz** von Hall
+>Sei $G$ ein nitpariter Graph mit Bitpartition $(S, T)$. Es gilt 
+>$$v(G) = \lvert  S \rvert \Longleftrightarrow \lvert \partial U \rvert \ge \lvert U \rvert \space \text{ für alle }  $$
