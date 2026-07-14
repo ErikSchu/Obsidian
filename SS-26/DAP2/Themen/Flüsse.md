@@ -43,5 +43,8 @@ ___
 Für eine Funktion $f: V \times V \to R, v \in V$ und $A, B \subset V$ definieren wir $$\begin{align}
 & f(v, A) = \sum_{w \in A} f(v, w) \\
 & f(A, v) = \sum_{w \in A} f(v, w) \\
-& f(A, B) = \sum_{v \in A} \sum _{}{w \in B}
+& f(A, B) = \sum_{v \in A} \sum _{w \in B} f(v, w)
 \end{align}$$
+>[!tip] Lemma
+>Sei $N$ ein Netzwerk und $f$ ein Fluss. Für alle $A, B, W \subseteq V$ gilt
+> $$\begin{align} f(A, A) & = 0 \\ f(A, B) + f(B, A) & = 0 \\ f(A \cup B, C) & = f(A, C) + f(B, C) \\ f(C, A \cup B)  \end{align}$$
