@@ -11,5 +11,6 @@
   "text-extractor",
   "dataview",
   "animated-cursor",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian"
 ]

@@ -1,8 +1,8 @@
 ---
-kurs: 
-dozent: 
-themengebiet: 
-datum: 
+kurs:
+dozent:
+themengebiet:
+datum:
 tags: []
 ---
 
