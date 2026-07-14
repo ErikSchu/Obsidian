@@ -34,13 +34,23 @@ ___
 >- Kruskal hat Laufzeit $O(\lvert E \rvert \log \lvert  E \rvert)$
 >- gibt einen minimal spannenden Baum aus 
 
->[!info] Laufzeitbeweis
->- nur Implementation der Schritte 5/6 relevant
->- mind. Verdoppelung der Komponentengröße aus Sicht der kleineren Komponente
->- jeder Knoten wird max. $O(\log \lvert V \rvert)$ mal einer anderen Komponente zugeordnet
->$\implies O(\lvert V \rvert \log \lvert V \rvert) = O(\lvert E \rvert \log \lvert E \rvert)$
+#### Laufzeit
 
->[!info] Korrektheitsbeweisoij[[7.4_Lösungsräume]]9/9
->- Beh.: Ausgabe hat min. Gewicht
->- ansonsten bezeichne Katen in $T$ mit ($n = \lvert V \rvert$) $$\begin{align} e_{i_{1}}, \dots, e_{i_{n-1}} \\ i_{1} \le \cdots \le i_{n-1} \end{align}$$
+- Die Menge $Q$ kann mit Hilfe einer PQ implementiert werden. 
+- Schritt (2) fügt die Knoten in die min PQ ein; alle bis auf den Startknoten haben dassele Gewicht.
+- Schritt (4) entfernt jewails das Minimum aus der Queue
+- Schritt (6) reduziert das Gewicht einiger Nachbarn von $v$
+- Laufzeit: $O(\lvert E(G) \rvert \log \lvert V(G) \rvert)$
+
+#### **Anwendung:** metrisches TSP
+
+- wir befassen uns mit einem **Spezialfall des TSP**
+- sei $G, w$ ein vollständiger gewichteter Graph
+- angenommen die *Gewichte erfüllen die Dreiecksungleichung*, d.h. für alle $x, y, z \in V(G)$ gilt $$w(\{ x, z \}) \le w(\{ x, y \}) + w (\{ y, z \})$$
+- man spricht vom ***metrischen TSP***
+
+>[!tip] Proposition
+>Die Länge einer optialem metrischen TSP-Tour ist
+>- mindestens so hoch wie das Gewicht eines optimalen Spannbaums von G, w
+>- nicht mehr als doppelt so hochwie das Gewicht eunes optimalen Spannbaums von $G, w$
 
