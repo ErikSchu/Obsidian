@@ -63,9 +63,36 @@ ___
 - derzeit **kein effizienter Algorithmus bekannt**
 - "naiver" Algorithmus: alle Permutationen durchprobieren ...
 	- Laufzeit $\Omega (n!) = \Omega\left( \left( \frac{n}{e} \right)^n \right) = \Omega(n^{n +  o(n)})$
-	- polynomieller Platzbedarf!
+- polynomieller Platzbedarf!
 
->[!note] **Bellmann-Herd-Karp-Algorithmus**
+
+>[!info] ***Bellmann-Held-Karp-Algorithmus***
 >- Prinzip dynamische Programmierung
->- wähle beliebigen Startknoten $s \in V(G)$
->- baue eine 
+>- Wähle beliebigen Startknoten $s \in V(G)$
+>- Baue eine **Tabelle** auf einem EIntrag für jede Teilmenge $U \subseteq V(G) \setminus \{ s \}$ und jeden Knoten $u \ne s, u \not \in U$
+>- Eintrag $T(u, U)$ ist die Länge eines kürzesten Pfades, der in $s$ startet, alle Knoten aus $U$ besucht und in $u$ endet
+>- Die Länge einer optionalen TSP-Tour kann leicht bestimmt werden, wenn die Tabelle bekannt ist
+
+![[Pasted image 20260713211026.png]]
+- **$T(u, U)$**: Kürzester Pfad von $u$ über alle Knoten in $U$ (Zwischenstopps) zurück zum Start $s$.
+- **Formel**: $T(u, U) = \min_{v \in U} \left( T(v, U \setminus \{v\}) + w(\{u, v\}) \right)$
+- **Bedeutung**: Wähle den besten nächsten Schritt $v \in U$. Addiere Kantenkosten $w(\{u,v\})$ zum Restproblem ab $v$ ohne $v$.
+- **Basisfall**: $T(u, \emptyset) = w(\{s, u\})$ (Keine Zwischenstopps mehr übrig $\rightarrow$ direkter Rückweg von $u$ nach $s$).
+- **Nutzen**: Ermöglicht Dynamic Programming (Held-Karp) in $O(n^2 \cdot 2^n)$ statt brute-force $O(n!)$.
+
+>[!note] `BHK(G, w)`
+>![[Pasted image 20260713212657.png]]
+
+>[!tip] **Satz**
+>`BHK` berechnet in Zeit $O(2^{n+o(n)})$ die *Länge einer optimalen TSP-Tour*.
+
+
+___
+
+#### Zusammenfassung
+
+- Djakstra berechnet kürzeste gewichtete Pfade
+- Wichtig ist dabei, dass die gewichte *nicht negativ* sind!
+- Die *naive* Laufzeit ist quadratisch
+- mit min priority queues lässt sich die Laufzeit deutlich verbessern
+- Algorithmus `BHK` für *TSP*
