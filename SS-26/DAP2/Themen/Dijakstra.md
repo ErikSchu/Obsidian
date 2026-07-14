@@ -1,3 +1,4 @@
+#dap2 
 
 - Ermittlung kürzester Pfade
 - effiziente Implementation mittels *priority queues*
@@ -62,4 +63,9 @@ ___
 - derzeit **kein effizienter Algorithmus bekannt**
 - "naiver" Algorithmus: alle Permutationen durchprobieren ...
 	- Laufzeit $\Omega (n!) = \Omega\left( \left( \frac{n}{e} \right)^n \right) = \Omega(n^{n +  o(n)})$
-	- 
+	- polynomieller Platzbedarf!
+
+>[!note] **Bellmann-Herd-Karp-Algorithmus**
+>- Prinzip dynamische Programmierung
+>- wähle beliebigen Startknoten $s \in V(G)$
+>- baue eine 

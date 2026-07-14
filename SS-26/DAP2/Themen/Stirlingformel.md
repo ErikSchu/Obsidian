@@ -1,3 +1,5 @@
+#dap2
+
 >[!TIP] **Satz**
 > $$n! \sim \sqrt{ 2 \pi n } \left( \frac{n}{e} \right)^n$$
 

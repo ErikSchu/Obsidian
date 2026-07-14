@@ -1,3 +1,5 @@
+#dap2 
+
 >[!attention] Problemstellung
 >- Arrays sind zusammenhängende Speicherblöcke, die *direkt adressiert* werden
 >- auch Datenstrukturen benötigt, deren Elemente **durch Schlüssel adressiert** werden können

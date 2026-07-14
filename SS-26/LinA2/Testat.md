@@ -1,3 +1,4 @@
+#lina2
 # Blatt 11
 ## Aufg. 52
 $\det(T)\ne 0 \implies T \text{ invertierbar}$

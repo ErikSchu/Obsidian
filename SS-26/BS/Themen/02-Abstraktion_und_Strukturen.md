@@ -1,4 +1,4 @@
-*15.04.2026*
+*15.04.2026* #bs
 https://sys-sideshow.cs.tu-dortmund.de/lehre/ss26/bs/decker/02-Abstraktionen-deck.html#/section
 
 ## Geschichte

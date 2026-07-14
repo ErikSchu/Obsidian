@@ -1,4 +1,4 @@
-*05.05.2026*
+#dap2 *05.05.2026*
 https://ls2-web.cs.tu-dortmund.de/~mamicoja/dap2/slides/lec_inf.pdf
 
 >[!note] **Vergleichbarkeit**

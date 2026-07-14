@@ -1,3 +1,4 @@
+#dap2
 ## Worum geht es?
 - binäre Suchbäume sind nur dann effizient, wenn sie von geringer Höhe sind
 - red black trees sind eine Variante, die sich selbst "trimmt"

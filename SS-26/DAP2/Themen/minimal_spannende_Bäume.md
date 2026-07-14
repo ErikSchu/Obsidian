@@ -1,3 +1,5 @@
+#dap2
+
 → Jeder zusammenhängende Graph besitzt einen spannenden Baum
 → In einem gewichteten Graphen sind wir interessert an einem *minimalen* spannenden Baum
 → dazu der ***Greedy-Algorithmus***

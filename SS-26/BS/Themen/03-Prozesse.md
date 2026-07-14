@@ -1,3 +1,4 @@
+#bs
  https://sys-sideshow.cs.tu-dortmund.de/lehre/ss26/bs/decker/03-Prozesse-deck.html#/section 
 
 ==***Prozesse*** sind **Programme in Ausführung**==

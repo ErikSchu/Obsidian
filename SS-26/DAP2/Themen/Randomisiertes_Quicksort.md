@@ -1,4 +1,4 @@
-*****21.04.2026*
+*21.04.2026*
 #dap2
 https://ls2-web.cs.tu-dortmund.de/~mamicoja/dap2/slides/lec_rquicksort.pdf
 
