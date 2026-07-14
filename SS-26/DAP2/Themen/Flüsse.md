@@ -68,4 +68,17 @@ Sei $N$ ein Netzwerk und $f$ ein Fluss
 
 #### Augmentierte Pfade
 
-- ein **f-augmentierender Pfad** iste $N$ ist ein $s-t$-Pfad 
+- ein **f-augmentierender Pfad** iste $N$ ist ein $s-t$-Pfad $N_{f}$
+- die **Kapazität** eines solchen Pfades $p$ ist $$c_{f}(p) = \text{min}\{ c_{f} (u, v) : (u, v) \text{ ist eine Kante auf } p \} > 0$$
+
+>[!example] Beispiel
+>![[Pasted image 20260714102435.png]]
+>⮩ ein Netzwerkfluss $f$
+>___
+>![[Pasted image 20260714102525.png]]
+>⮩ das Restnetzwerk $N_{f}$
+>___
+>![[Pasted image 20260714102607.png]]
+>⮩ eun augmentierter Pfad mit der Kapazität $2$
+
+>[!lemme]
