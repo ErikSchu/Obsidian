@@ -81,4 +81,8 @@ Sei $N$ ein Netzwerk und $f$ ein Fluss
 >![[Pasted image 20260714102607.png]]
 >⮩ eun augmentierter Pfad mit der Kapazität $2$
 
->[!lemme]
+>[!tip] Lemma 
+>Sei $N$ ein Netzwerk, $f$ ein Fluss, $p$ ein augmentierter Pfad. Dann ist $f_{p} : V \times V \to \mathbb{R}$ mit $$f_{p}(v, w) = (\mathbb 1 \{ (v,w) \text{ ist eine Kante von } p \}- \mathbb 1 \{ (w, v) \text{ ist Kante von } p \}) c_{f}(p)$$ein Fluss mit Wert $c_{f}(p)$ in $N_{f}$.
+
+>[!tip] Korollar
+>Angenommen $N$ ist ein Ne
