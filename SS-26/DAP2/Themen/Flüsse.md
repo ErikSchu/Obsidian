@@ -104,3 +104,27 @@ Sei $N$ ein Netzwerk und $f$ ein Fluss
 >[!tip] **Theorem** *"Max flow min cut theorem"*
 >Für jedes Netzwerk $N$ gilt $$\text{max}\{ \lvert f \rvert : f \text{ ist ein Fluss in } N \} = \text{min} \{ c(S) : S \text{ ist ein Schnitt in } N \}$$
 
+>[!tip] Korollar
+>Wenn `FordFulkerson` terminiert, ist die Ausgabe ein maximaler Fluss. 
+
+⮩ Anmerkung: `FordFulkerson` ist nicht *effizient*
+
+___
+
+#### `EdmindsKarp` Algorithmus
+
+- werwende in `FordFulkerson` Beritensuche, um den augmentierenden Pfad zu finden
+	  finde also jewails den *kürzesten* augmentierten Pfad 
+
+>[!tip] Monotonielemma
+>Seien $f_{1}, f_{2}, \dots$ die Flüsse, die `EdmondsKarp` konstruiert, $\text{dist}_{N_{f_{i}}} (s, v)$ der Abstand von $s, v$ im Restnetzwerk $N_{f_{i}}$. 
+>Dann gilt $$\text{dist}_{N_{f_{i}}}(s, v) \le \text{dist}_{N_{f_{j}}} \space \text{ für alle } i \le j, v \in V(G)$$
+
+>[!tip] **Satz**
+>`EdmondsKarp` hat die Laufzeit $O(\lvert V(G) \rvert \cdot \lvert E(G) \rvert^2)$
+
+___
+
+#### Matchings
+
+- Ein ***Matching*** in einem ungerichteten Graphen $G = (V, E)$ ist eine Menge $M \subseteq E$ von Kanten, s.d. $$e \cap$$ 
