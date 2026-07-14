@@ -82,7 +82,25 @@ Sei $N$ ein Netzwerk und $f$ ein Fluss
 >⮩ eun augmentierter Pfad mit der Kapazität $2$
 
 >[!tip] Lemma 
->Sei $N$ ein Netzwerk, $f$ ein Fluss, $p$ ein augmentierter Pfad. Dann ist $f_{p} : V \times V \to \mathbb{R}$ mit $$f_{p}(v, w) = (\mathbb 1 \{ (v,w) \text{ ist eine Kante von } p \}- \mathbb 1 \{ (w, v) \text{ ist Kante von } p \}) c_{f}(p)$$ein Fluss mit Wert $c_{f}(p)$ in $N_{f}$.
+>Sei $N$ ein Netzwerk, $f$ ein Fluss, $p$ ein augmentierender Pfad. Dann ist $f_{p} : V \times V \to \mathbb{R}$ mit $$f_{p}(v, w) = (\mathbb 1 \{ (v,w) \text{ ist eine Kante von } p \}- \mathbb 1 \{ (w, v) \text{ ist Kante von } p \}) c_{f}(p)$$ein Fluss mit Wert $c_{f}(p)$ in $N_{f}$.
 
 >[!tip] Korollar
->Angenommen $N$ ist ein Ne
+>Angenommen $N$ ist ein Netzwerk, $f$ ein Fluss und $p$ ein augmentierender Pfad. Dann ist $f + f_{p}$ ein Fluss in $N$ mit Wert $\lvert f \rvert +  c_{f}(p) > \lvert f \rvert$.
+
+
+>[!note] **Algorithmus** `FordFulkerson`
+>1. setze $f(v, w) = 0$ für alle $v, w \in V$
+>2. solange es einen augmentierenden Pfad $p$ in $N_{f}$ gibt
+>	1. setze $f = f + f_{p}$
+>3. gib $f$ aus
+
+>[!tip] Lemma
+>Sei $N$ ein Netzwerk und $f$ ein Fluss. Für jeden Schnitt $S$ gilt $$\lvert f \rvert = f(S, V \setminus S)$$
+
+>[!tip] Korollar
+>Wen $N$ ein Netzewrk, f ein Fluss und $S$ ein Schnitt ist, gilt $\lvert f \rvert \le c(S)$
+
+
+>[!tip] **Theorem** *"Max flow min cut theorem"*
+>Für jedes Netzwerk $N$ gilt $$\text{max}\{ \lvert f \rvert : f \text{ ist ein Fluss in } N \} = \text{min} \{ c(S) : S \text{ ist ein Schnitt in } N \}$$
+
