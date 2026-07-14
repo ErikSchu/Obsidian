@@ -40,4 +40,8 @@ ___
 
 #### Notation
 
-Für eine Funktion $f: V \times V \to R, v \in V$ und $A, B \subset$
+Für eine Funktion $f: V \times V \to R, v \in V$ und $A, B \subset V$ definieren wir $$\begin{align}
+& f(v, A) = \sum_{w \in A} f(v, w) \\
+& f(A, v) = \sum_{w \in A} f(v, w) \\
+& f(A, B) = \sum_{v \in A} \sum _{}{w \in B}
+\end{align}$$
