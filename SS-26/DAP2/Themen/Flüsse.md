@@ -139,4 +139,7 @@ ___
 Erinnerung: $\partial U = \{ v \in V(G) : \exists u \in U : v \in  \partial u \}$
 
 #### Matchings via Flüsse
-- mit der Konrstruktion eines Netzwerkes wie oben erhalten wir ein e
+- mit der Konrstruktion eines Netzwerkes wie oben erhalten wir ein effizientes Verfahren, um die Matchingzahl bitpartierter Graphen zu berechnen
+- wenden wir auf dieses Netzwerk auf `FordFulkerson an`
+- da alle Kapazitäten $\{ 0, 1 \}$ sind, its der optimale Fluss auch $\{ 0, 1 \}$-wertig
+- es gibt effizientere Algorithmen für dieses Problem $\leadsto$ VL effiziente Algorithmen
