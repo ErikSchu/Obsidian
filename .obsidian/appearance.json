@@ -2,9 +2,9 @@
   "baseFontSizeAction": true,
   "theme": "obsidian",
   "accentColor": "#00ad79",
-  "baseFontSize": 17,
+  "baseFontSize": 19,
   "nativeMenus": true,
-  "cssTheme": "Prism",
+  "cssTheme": "Obsidianite",
   "enabledCssSnippets": [
     "dark-pdf"
   ],
