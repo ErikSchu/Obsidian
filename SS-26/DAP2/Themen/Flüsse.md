@@ -47,4 +47,17 @@ Für eine Funktion $f: V \times V \to R, v \in V$ und $A, B \subset V$ definiere
 \end{align}$$
 >[!tip] Lemma
 >Sei $N$ ein Netzwerk und $f$ ein Fluss. Für alle $A, B, W \subseteq V$ gilt
-> $$\begin{align} f(A, A) & = 0 \\ f(A, B) + f(B, A) & = 0 \\ f(A \cup B, C) & = f(A, C) + f(B, C) \\ f(C, A \cup B)  \end{align}$$
+> $$\begin{align} f(A, A) & = 0 \\ f(A, B) + f(B, A) & = 0 \\ f(A \cup B, C) & = f(A, C) + f(B, C) \\ f(C, A \cup B) & = f(C, A) + f(C, B)\end{align}$$
+> sofern $A \cap B = \emptyset$
+
+
+#### Das Max Flow-Problem
+
+- gegeben ist ein Netzwwerk $N$
+- das Ziel ist, einen Fluss mit maximalem Wert (einen *"maximalen Fluss"*) zu bestimmen
+- die Idee ist, ausgehend vom Nullfluss den Fluss immer weiter zu "aufmentierten"
+
+#### Restflüsse
+
+Sei $N$ ein Netzwerk und $f$ ein Fluss
+- die **Restkapazität** von $f$ in $N$ ist definiert als $$c_{f}(v, w) = c(v, w) - f(v, w)$$
