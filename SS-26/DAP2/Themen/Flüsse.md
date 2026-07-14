@@ -19,4 +19,19 @@ Ferner definiere folgendes als den *eingehenden* und den *ausgehenden Grad* von 
 #### Breitensuche
 
 - wir haben `BFS` für ungerichtete Graphen kennengelernt
-- der Algorithmus überträgt sich auf gerichtete Graphen indem in der Hauptschleife (8) n
+- der Algorithmus überträgt sich auf gerichtete Graphen indem in der Hauptschleife (8) nur $u \in \partial^-v$ in die Warteschlange eingefügt werden
+- der Algorithmus bestimmt dann kürzeste *gerichtete* Pfade in $G$
+
+___
+
+>[!info] Definition ***Netzwerk***
+>$N = (G, c, s, t)$ besteht aus
+>- einem *gerichteten Graphen* $G$
+>- einer *Kapazitätsfunktion* $c : V \times V \to \mathbb{R}_{\ge 0}$, s.d. $c(v,w) = 0$ falls $(v, w) \not \in E(G)$
+>- einer *Quelle* $s \in V(G)$
+>- einer *Senke* $t \in V(G) \setminus \{ s \}$
+>___
+>Ein **Fluss** in einem Netzwerk $N$ ist eine Fuktion $f: V \times V \to R$, s.d.
+>- $f(v, w) \le c(v, w)$ für alle $v, w \in V(G)$
+>- $f(v, w) + f(w, v) = 0$ für alle $v, w \in V(G)$
+
