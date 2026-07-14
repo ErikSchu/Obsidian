@@ -60,4 +60,5 @@ Für eine Funktion $f: V \times V \to R, v \in V$ und $A, B \subset V$ definiere
 #### Restflüsse
 
 Sei $N$ ein Netzwerk und $f$ ein Fluss
-- die **Restkapazität** von $f$ in $N$ ist definiert als $$c_{f}(v, w) = c(v, w) - f(v, w)$$
+- die **Restkapazität** von $f$ in $N$ ist definiert als $$c_{f}(v, w) = c(v, w) - f(v, w) \space (v, w \in (G))$$
+- das **Restnetzwerk** von $f$ in $N$ ist das Netzwerk mit Kantenkapazitätsfunktion $c_{f}$ und Kantenmenge $$E_{f} = \{ (v, w) \}$$ 
