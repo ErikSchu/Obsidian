@@ -134,4 +134,9 @@ ___
 
 >[!tip] **Satz** von Hall
 >Sei $G$ ein nitpariter Graph mit Bitpartition $(S, T)$. Es gilt 
->$$v(G) = \lvert  S \rvert \Longleftrightarrow \lvert \partial U \rvert \ge \lvert U \rvert \space \text{ für alle }  $$
+>$$v(G) = \lvert  S \rvert \Longleftrightarrow \lvert \partial U \rvert \ge \lvert U \rvert \space \text{ für alle } U \subseteq S.$$
+
+Erinnerung: $\partial U = \{ v \in V(G) : \exists u \in U : v \in  \partial u \}$
+
+#### Matchings via Flüsse
+- mit der Konrstruktion eines Netzwerkes wie oben erhalten wir ein e
