@@ -34,4 +34,10 @@ ___
 >Ein **Fluss** in einem Netzwerk $N$ ist eine Fuktion $f: V \times V \to R$, s.d.
 >- $f(v, w) \le c(v, w)$ für alle $v, w \in V(G)$
 >- $f(v, w) + f(w, v) = 0$ für alle $v, w \in V(G)$
+>- $\sum_{w \in V(G)} f(v, w) = 0$ für alle $v, \in V(G) \setminus \{ s, t \}$
+>
+>Der **Wert** von $f$ ist definiert als $$\lvert f \rvert = \sum_{w \in V(G)} f(s, w)$$
 
+#### Notation
+
+Für eine Funktion $f: V \times V \to R, v \in V$ und $A, B \subset$
