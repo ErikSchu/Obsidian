@@ -14,4 +14,9 @@
 
 #### Notation
 
-Wie bezeichnen mit $$\partial^+v = \partial ^+ _{G} v = \{ w \in V: (w, v) \in E(G) \}$$
+Wie bezeichnen die *eingehende* und die *ausgehende Nachbarschaft* von $v$ mit$$\begin{align} & \partial^+v = \partial ^+ _{G} v = \{ w \in V: (w, v) \in E(G) \} \\ & \partial ^-v = \partial^-_{G} v = \{ w \in V : (v, w) \in E(G) \} \end{align}$$
+Ferner definiere folgendes als den *eingehenden* und den *ausgehenden Grad* von $v$$$\begin{align} & d^+_{G} (v) = \lvert  \partial^+_{G} v \rvert \\ & d^-_{G} (v) = \lvert  \partial^-_{G} v \rvert  \end{align}$$
+#### Breitensuche
+
+- wir haben `BFS` für ungerichtete Graphen kennengelernt
+- der Algorithmus überträgt sich auf gerichtete Graphen indem in der Hauptschleife (8) n
