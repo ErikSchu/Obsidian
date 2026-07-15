@@ -1,7 +1,7 @@
 ---
 kurs: Datenstrukturen, Algorithmen & Programmierung 2
 dozent: Prof. Amin Coja-Oghlan
-themengebiet:
+themengebiet: /
 datum: 14.07.2026
 tags:
   - "#dap2"
@@ -37,3 +37,4 @@ tags:
 #### Implementation
 
 - jeder Knoten des Suchbaums enthält den Schlüssel und ggf. einen Zeiger auf das Objekt, das dieser Knoten repräsentiert
+- 
