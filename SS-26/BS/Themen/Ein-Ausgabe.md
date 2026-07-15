@@ -57,12 +57,30 @@ ___
   - ***Schreiben***
 	  - Daten werden kopiert. Aufrufer blockiert nicht. Datenpuffer im Benutzeradressraum kann sofort wiederverwendet werden.
 
->[!tip] Leistungsabschätzung
+>[!note] Leistungsabschätzung
 >Eine einfache Rechnung zeigt den Leistungsgewinn bei wiederholten blockweisen Lesen mit anschließender Verarbeitung:
 >	$T$: Dauer der Leseoperation
 >	$C$: Rechenzeit für die Verarbeitung
 >	$M$: Dauer des Kopiervorgangs (Systempuffer → Benutzerprozess)
 >	$G$: Gesamtdauer für Lesen und Verarbeiten eines Blocks
->- ohne Puffer $G_{0} = T + C$
->- mit Puffer: $G_{E} =\text{max}(T, C) + M$
+>- **ohne Puffer:** $G_{0} = T + C$
+>- **mit Puffer:** $G_{E} =\text{max}(T, C) + M$
+>  ___
 >Mit $T \approx C$ und $M \approx 0$ wäre $G_{0} \approx 2 \cdot G_{E}$. Leider ist $M > 0$
+
+#### E/A-Wechselpuffer
+
+- ***Einlesen***
+	- Während Daten vom E/A-Gerät in den einen Puffer transferiert werden, kann der andere Pufferinhalt in den Empfängeradressraum kopiert werden.
+	  ![[Pasted image 20260715165244.png]]
+
+- ***Schreiben***
+	- Während Daten aus einem Puffer zum E/A-Gerät transferiert werden, kann der andere Puffer bereits mit neuen Daten aus dem Senderadressraum gefüllt werden 
+
+>[!note] Leistungsabschätzung
+>Mit einem Wechselpuffer kann eine Leseoperation parallel zur Kopieroperation und Verarbeitung erfolgen
+>- **ohne Puffer:** $G_{0} = T + C$
+>- **mit Puffer:** $G_{E} =\text{max}(T, C) + M$
+>- **mit Wechselpuffer:** $G_{W} = \text{max}(T, C + M)$
+>___
+>Mit $C + M \le T$ könnte das Gerät zu $100\text{\%}$
