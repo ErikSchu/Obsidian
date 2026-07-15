@@ -29,3 +29,14 @@
 ⮩ **Linksrotation** um einen Knoten $v$
 ⮩**Rechtsrotation** um einen Knoten $w$
 
+## `insert`
+
+>[!note] Einfügen eines neuen Knotens
+>- zunächst genau wie beim "gewöhnlichen" BST
+>- der neue Knoten wir **rot** gefärbt
+>- die $\emptyset$-Pointer werden auf das $\emptyset$-Objekt gesetzt
+>- ***Vorsicht:*** *RB2* oder *RB4* könnten verletzt sein 
+
+#### Wiederstellen von *RB2* und *RB4*
+
+- solange der Elternknoten des 
