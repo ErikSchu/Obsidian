@@ -72,5 +72,22 @@ Man folgt von der Wurzel aus dem Zeiger auf das linke/rechte Kind; der erste Kno
 >- gib $w$
 
 #### Laufzeiten
+
 - Die **Höhe** $H(T)$ von $T$ ist der maximale Abstand von $r$ zu einem Blatt
 - alle vorgenannten Operationen haben die Laufzeit $O(H(T))$
+
+#### Einfügen 
+
+- um ein Element $e$ mit einem gegeben Schlüssel $s(e)$ einzufen, gehen wir so vor, als würden wir den Baum nach $e$ durchsuchen
+- weil wir annehmen, dass $s(e)$ nicht im Baum vorkommt, finden wir dabei schließlich einen $\emptyset$-Zeiger
+- dieser wird durch das neue Element ersetzt
+
+#### Entfernen eines Knotens $v$
+
+- falls $v$ **kein Kind** hat, wird $v$ einfach gelöscht
+- falls $v$ **nur ein Kind** hat, nimmt das Kind die Position von $v$ ein
+- falls $v$ **zwei Kinder** hat, finde den Nachfolger $w$ von $z$; $w$ hat nur ein Kind $x$
+	- $w$ nimmt die Stelle von $v$ ein, $x$ tritt an die Stelle von $w$
+
+⮩ Einfügen/Entfernen hat ***Laufzeit*** $O(H(T))$
+
