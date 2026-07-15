@@ -44,9 +44,25 @@ ___
 	- Daten, die eintreffen, bevor `read` ausgeführt wurde (z.B. von der Tastatur), müssten verloren gehen.
 	- Wenn ein Ausgabegerät beschäftigt ist, müsste `write` scheitern oder den Prozess blockieren, bis das Gerät wieder bereit ist.
 	- Ein Prozess, der eine E/A-Operation durchführt, kann nicht ausgelagert werden. 
+	  ![[Pasted image 20260715163944.png]]
 
-#### E/A.Einzelpuffer
+#### E/A-Einzelpuffer
 
 - ***Einlesen***
 	- Daten können vom System entgegengenommen werden, auch wenn der Leserprozess noch nicht `read` aufgerufen hat.
-	- Bei Blockgeräten kann der näch
+	- Bei Blockgeräten kann der nächste Block vorausschauend gelesen werden, whrend der vorherige verarbeitet wird.
+	- Prozess kann problemlos ausgelagert werden. DMA erfolgt im Puffer. 
+	  ![[Pasted image 20260715164109.png]]
+ 
+  - ***Schreiben***
+	  - Daten werden kopiert. Aufrufer blockiert nicht. Datenpuffer im Benutzeradressraum kann sofort wiederverwendet werden.
+
+>[!tip] Leistungsabschätzung
+>Eine einfache Rechnung zeigt den Leistungsgewinn bei wiederholten blockweisen Lesen mit anschließender Verarbeitung:
+>	$T$: Dauer der Leseoperation
+>	$C$: Rechenzeit für die Verarbeitung
+>	$M$: Dauer des Kopiervorgangs (Systempuffer → Benutzerprozess)
+>	$G$: Gesamtdauer für Lesen und Verarbeiten eines Blocks
+>- ohne Puffer $G_{0} = T + C$
+>- mit Puffer: $G_{E} =\text{max}(T, C) + M$
+>Mit $T \approx C$ und $M \approx 0$ wäre $G_{0} \approx 2 \cdot G_{E}$. Leider ist $M > 0$
