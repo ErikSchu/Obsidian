@@ -36,4 +36,4 @@ tags:
 
 #### Implementation
 
-- jeder Knoten des Suchbaums enthält den Schlüssel und ggf. 
+- jeder Knoten des Suchbaums enthält den Schlüssel und ggf. einen Zeiger auf das Objekt, das dieser Knoten repräsentiert
