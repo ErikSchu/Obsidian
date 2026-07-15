@@ -6,6 +6,8 @@ datum: 14.07.2026
 tags:
   - "#dap2"
 ---
+![[Pasted image 20260715115840.png]]
+
 - ein ***binärer Suchbaum*** ist eine Datenstruktur zur Speicherung von *Objekten*, die *durch einen Schlüssel gekennzeichnet* sind
 - die Schlüssel sind total geordnet
 - es seien alle Schlüssel verschieden
@@ -36,5 +38,20 @@ tags:
 
 #### Implementation
 
-- jeder Knoten des Suchbaums enthält den Schlüssel und ggf. einen Zeiger auf das Objekt, das dieser Knoten repräsentiert
-- 
+- jeder Knoten des Suchbaums enthält den **Schlüssel** und *ggf. einen Zeiger auf das Objekt, das dieser Knoten repräsentiert*
+- jeder Knoten enthält einen Z**eiger aud seinen Elternknoten** *(evtl. $\emptyset$)*
+- jeder Knoten enth#lt einen **Zeiger auf das linke && rechte Kind** *(ggf. $\emptyset$)*
+
+#### Geordnete Ausgabe
+
+- Elemente des Suchbaums können ausgegeben werden, in dem man von der Wurzel aus den Baum in *Tiefensuchordnung* durchläuft
+- Dabei wird immer **zuerst** *das linke Kind* aufgesucht, wenn eines existierz
+
+#### Mini-/Maximum finden
+
+Man folgt von der Wurzel aus dem Zeiger auf das linke/rechte Kind; der erste Knoten, dessen linkes/rechtes Kind $\emptyset$ ist, ist das Mini-/Maximum
+
+#### Element mit gegebenem Schlüssek suchen
+
+- Die Operation `Search` erhält als eingabe einen Schlüssel $\sigma$ und sucht das Element mit diesem Schlüssel
+	- von der Wurzel 
