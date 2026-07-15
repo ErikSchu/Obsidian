@@ -1,10 +1,12 @@
 ---
 kurs: Datenstrukturen, Algorithmen & Programmierung 2
 dozent: Prof. Amin Coja-Oghlan
-themengebiet: /
+themengebiet:
 datum: 14.07.2026
 tags:
   - "#dap2"
+  - suchen
+  - bäume
 ---
 ![[Pasted image 20260715115840.png]]
 

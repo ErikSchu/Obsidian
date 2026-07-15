@@ -12,5 +12,20 @@
 - **RB4** - rote Knoten haben nur schwarze Kinder
 - **RB5** - jeder Pfad von der Wurzel zu einem Blatt enthält dieselbe Zahl Schwarzerknoten 
 
-![[Pasted image 20260702143203.png]]
+![[Pasted image 20260715140443.png]]
+
+#### Implementation
+- Jeder Knoten benötigt ein *zusätzliches Bit für die Farbe*
+- Wir speichern *einen* zusätzlichen Knoten als $\emptyset$-Knoten ab
+	- dessen Elternzeiger ist also nicht korrekt gesetzt
+
+>[!tip] Lemma
+>Ein red black tree mit *$n$ Knoten* hat die ***Höhe $O(\log n)$***.
+
+
+### Rotationen
+
+![[Pasted image 20260715140826.png]]
+⮩ **Linksrotation** um einen Knoten $v$
+⮩**Rechtsrotation** um einen Knoten $w$
 
