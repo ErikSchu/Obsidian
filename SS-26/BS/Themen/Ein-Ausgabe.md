@@ -75,7 +75,7 @@ ___
 	  ![[Pasted image 20260715165244.png]]
 
 - ***Schreiben***
-	- Während Daten aus einem Puffer zum E/A-Gerät transferiert werden, kann der andere Puffer bereits mit neuen Daten aus dem Senderadressraum gefüllt werden 
+	- Während Daten aus einem Puffer zum E/A-Gerät transferiert werden, kann der andere Puffer bereits mit neuen Daten aus dem Senderadressraum gefüllt werden.
 
 >[!note] Leistungsabschätzung
 >Mit einem Wechselpuffer kann eine Leseoperation parallel zur Kopieroperation und Verarbeitung erfolgen
@@ -83,4 +83,32 @@ ___
 >- **mit Puffer:** $G_{E} =\text{max}(T, C) + M$
 >- **mit Wechselpuffer:** $G_{W} = \text{max}(T, C + M)$
 >___
->Mit $C + M \le T$ könnte das Gerät zu $100\text{\%}$
+>Mit $C + M \le T$ könnte das Gerät zu $100\text{\%}$ ausgelastet werden.
+
+#### E/A-Ringpuffer
+
+- ***Einlesen***
+	- Viele Daten können gepuffert werden, auch wenn der Leserprozess nicht schnell genut `read`-Aufrufe tätigt.
+	  ![[Pasted image 20260715170013.png]]
+
+- ***Schreiben:***
+	- Ein Schreiberprozess kann mehrfach `write`-Aufrufe tätigen, ohne blockiert werden zu müssen. 
+
+### Diskussion: E/A-Puffer
+
+- **E/A-Puffer entkoppeln** die E/A-Operationen der Nutzerprozesse vom Gerätetreiber
+	- *Kurzfristig* lässt sich eine erhöhte Ankunftsrate an E/A-Aufträge bewältigen.
+	- *Langfristig* bleibt auch bei noch so vielen Puffern ein Blockieren von Prozessen (oder Verlust von Daten) nicht aus.
+
+- Puffer haben ihren Preis:
+	- Verwaltung der Pufferstruktur
+	- Speicherplatz 
+	- Zeit für das Kopieren
+
+- In komplexen Systemen wird teilweise *mehrfach* gepuffert
+	- z.B.: Schichten von Netzwerkprotokollen
+
+___
+
+## E/A-Scheduling
+
