@@ -68,4 +68,9 @@ Man folgt von der Wurzel aus dem Zeiger auf das linke/rechte Kind; der erste Kno
 >[!note] `Predecessor ` gegeben $v$ finde $z$ mit maximalem $s(z) < s(v)$
 >- falls $v$ ein linkes Kind $w$ hat, finde das Maximum im linken Teilbaum
 >- sonst setze $w$ auf den Elternknotne von $v$
->- solange $w \ne \emptyset$ und $v$ das linke Kind von $w$ ist, setze 
+>- solange $w \ne \emptyset$ und $v$ das linke Kind von $w$ ist, setze $v = w$ und $w$ = Elternknoten von $v$
+>- gib $w$
+
+#### Laufzeiten
+- Die **Höhe** $H(T)$ von $T$ ist der maximale Abstand von $r$ zu einem Blatt
+- alle vorgenannten Operationen haben die Laufzeit $O(H(T))$
