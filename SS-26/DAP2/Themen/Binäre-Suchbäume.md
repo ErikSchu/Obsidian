@@ -54,4 +54,18 @@ Man folgt von der Wurzel aus dem Zeiger auf das linke/rechte Kind; der erste Kno
 #### Element mit gegebenem Schlüssek suchen
 
 - Die Operation `Search` erhält als eingabe einen Schlüssel $\sigma$ und sucht das Element mit diesem Schlüssel
-	- von der Wurzel 
+- Von der Wurzel $v = r$ aus wiederhole folgendes Verfahren
+	- falls $s(v) = \sigma$, gib $v$ aus
+	- falls $s(v) > \sigma$, setze $v$ auf das linke Kind $u$ von $v$; falls $u = \emptyset$, gib "nicht vorhanden" aus
+	- falls $s(v) < \sigma$, setze $v$ auf das rechte Kind $w$ von $v$; falls $w = \emptyset$, gib "nicht vorhanden" aus 
+
+>[!note] `Successor` gegeben $v$ find $z$ mit minimalem $s(z) > s(v)$
+>- falls $v$ ein rechtes Kind $w$ hat, finde das Minimum im rechten Teilbaum
+>- sonst setze $w$ auf den Elternknoten von $v$
+>- solange $w \ne \emptyset$ und $v$ das rechte Kind von $w$ ist, setze $v = w$ und $w$ = Elternknoten von $v$
+>- gib $w$ aus 
+
+>[!note] `Predecessor ` gegeben $v$ finde $z$ mit maximalem $s(z) < s(v)$
+>- falls $v$ ein linkes Kind $w$ hat, finde das Maximum im linken Teilbaum
+>- sonst setze $w$ auf den Elternknotne von $v$
+>- solange $w \ne \emptyset$ und $v$ das linke Kind von $w$ ist, setze 
