@@ -61,5 +61,14 @@
   "Appearance-dark@@accent-color-override-dark": false,
   "Editor@@line-hover-indicator": false,
   "Editor@@editor-grid-background-pattren": false,
-  "Editor@@callout-style-select": "callout-style-2"
+  "Editor@@callout-style-select": "callout-style-2",
+  "Editor@@bold-color@@dark": "#00B973",
+  "Editor@@italic-color@@dark": "#D0FF00",
+  "Editor@@text-highlight-bg@@dark": "#F1FF73",
+  "Editor@@h1-divider-on": true,
+  "Editor@@h2-divider-on": true,
+  "Editor@@h3-divider-on": true,
+  "Editor@@h4-divider-on": true,
+  "Editor@@h5-divider-on": true,
+  "Editor@@h6-divider-on": true
 }

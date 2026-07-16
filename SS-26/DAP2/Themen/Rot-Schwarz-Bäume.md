@@ -60,4 +60,21 @@
 ##### Fall 3:
 ![[Pasted image 20260716132209.png]]
 - färbe den Elternknoten von $v$ *schwarz* und den Großelternknoten $u$ rot
-- dann *Rechtsrotation* um den Großelternknoten $u$ 
+- dann *Rechtsrotation* um den Großelternknoten $u$
+
+##### Abschluss
+- am  Ende der Wiederherstellungsoperation wird die Wurzel schwarz gefärbt
+	- dadurch wird **RB2** garantiert
+
+>[!tip] Proposition
+>Die Einfügeoperationen inkl. Wiederherstellung hat Laufzeit $O(\log n)$ und stellt die Eigenschaften **RB1** - **RB5** her.
+
+
+___
+
+#### Entfernen eines Knotens $z$
+
+- verfahre wie beim Löschen von $z$ in einem BST
+- sei $y$ der Knoten, der die Stelle von $z$ einnimmt
+- $y$ übernimmt die *Farbe* von $z$
+- sei $v$ das Kind von $y$, bzw. 
