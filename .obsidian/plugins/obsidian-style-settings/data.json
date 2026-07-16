@@ -49,5 +49,17 @@
   "Appearance@@bg_highlight_dark@@dark": "#000000",
   "Appearance@@bg_dark2@@dark": "#000000",
   "obsidian-prism-theme@@pt-custom-vault-banner": false,
-  "primary-theme@@interface_editor-bg": "editor-bg-default"
+  "primary-theme@@interface_editor-bg": "editor-bg-default",
+  "obsidian-transparent@@preset-mode": "preset-default",
+  "obsidian-transparent@@bg-type": "bg-auto",
+  "obsidian-transparent@@bg-tint-color": "#FFFFFF",
+  "obsidian-transparent@@bg-tint-opacity": 0,
+  "obsidian-transparent@@accent-everywhere": true,
+  "obsidian-transparent@@default-sync-error": false,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
+  "Appearance-dark@@card-layout-open-dark": false,
+  "Appearance-dark@@accent-color-override-dark": false,
+  "Editor@@line-hover-indicator": false,
+  "Editor@@editor-grid-background-pattren": false,
+  "Editor@@callout-style-select": "callout-style-2"
 }

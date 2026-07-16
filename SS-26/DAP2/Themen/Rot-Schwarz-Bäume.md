@@ -60,4 +60,4 @@
 ##### Fall 3:
 ![[Pasted image 20260716132209.png]]
 - färbe den Elternknoten von $v$ *schwarz* und den Großelternknoten $u$ rot
-- 
+- dann *Rechtsrotation* um den Großelternknoten $u$ 
