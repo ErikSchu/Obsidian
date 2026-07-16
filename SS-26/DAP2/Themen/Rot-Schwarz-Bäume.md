@@ -41,4 +41,23 @@
 
 #### Wiederstellen von *RB2* und *RB4*
 
-- solange der Elternknoten des 
+- solange der Elternknoten des eingefügten Knotens $v$ *rot* ist, betrachten wir drei Fälle
+  1. die "Tante" $w$ von $v$ ist rot
+  2. $w$ ist schwarz und $v$ ist ein rechtes Kind
+  3. $w$ ist schwarz und $v$ ist ein linkes Kinder 
+
+##### Fall 1: 
+![[Pasted image 20260716132058.png]]
+- färbe Elternknoten und die Tante schwarz
+- färbe die Großeltern $u$ ror 
+- führe die Wiederherstellung rekursiv für $u$ aus 
+
+##### Fall 2:
+![[Pasted image 20260716132114.png]]
+- führe eine *Linksrotation* um $v$ durch
+- weiter mit Fall 3
+
+##### Fall 3:
+![[Pasted image 20260716132209.png]]
+- färbe den Elternknoten von $v$ *schwarz* und den Großelternknoten $u$ rot
+- 
