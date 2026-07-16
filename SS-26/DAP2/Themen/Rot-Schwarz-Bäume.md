@@ -77,4 +77,10 @@ ___
 - verfahre wie beim Löschen von $z$ in einem BST
 - sei $y$ der Knoten, der die Stelle von $z$ einnimmt
 - $y$ übernimmt die *Farbe* von $z$
-- sei $v$ das Kind von $y$, bzw. 
+- sei $v$ das Kind von $y$, bzw. $\emptyset$, falls $y$ kein kind hat
+- dabei identifizieren wir  $\emptyset$ mit dem $\emptyset$-Objekt des Baums
+
+***Wenn $y$ schwarz war, können Verletzungen von `RB1` - `RB5` eintreten***
+- möglicherweie war $y$ die Wurzel; das Kind $v$ tritt an die Stelle von $y$, wird somit die neue Wurzel, ist aber womöglich rit; also `RB2` verletzt
+- wenn $v$ und der Elternknoten $u$ und $z$ rot sind, ist `RB4` verletzt
+- die Pfade, die vormals $y$ enthalten hanem 
