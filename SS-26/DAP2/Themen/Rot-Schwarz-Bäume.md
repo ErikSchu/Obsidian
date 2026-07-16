@@ -93,3 +93,21 @@ ___
 - vertausche die Farben von $w$ und $u$
 - führe eine Likstotation vor
 - Fortfahren mit Fall $1/2/3$, wobe $w = a$ der neue Schwesterknoten ist 
+
+##### Fall 2: schwarzer Schwesterknoten $w$, beide Kinder von $w$ sind schwarz
+![[Pasted image 20260716150039.png]]
+- färbe den Schwesterknoten $w$ *rot*
+- fahre rekursiv mit $v = u$ fort
+	- (der Knoten $u$ kann rot oder schwarz sein)
+
+
+##### Fall 3: schwarzer Schwesterknoten $w$, linkes Kind von $w$ rot, rechtes Kind schwarz
+![[Pasted image 20260716150252.png]]
+- vertausche die Farben von $w$ und seinem linken Kind 
+- Rechtsrotation um $w$
+- fahre fort mit **Fall 4**, mit neuem Schwesterknoten $w = a$
+
+##### Fall 4: schwarzer Schwesterknoten $w$, rechtes Kind von $w$ rot
+- Linksrotation um $u$
+- Farben anpassen $\leadsto$ Bedingung `RB5` nun erfüllt; setze $v$ auf die Wurzel des Baums 
+
