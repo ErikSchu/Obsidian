@@ -83,4 +83,13 @@ ___
 ***Wenn $y$ schwarz war, können Verletzungen von `RB1` - `RB5` eintreten***
 - möglicherweie war $y$ die Wurzel; das Kind $v$ tritt an die Stelle von $y$, wird somit die neue Wurzel, ist aber womöglich rit; also `RB2` verletzt
 - wenn $v$ und der Elternknoten $u$ und $z$ rot sind, ist `RB4` verletzt
-- die Pfade, die vormals $y$ enthalten hanem 
+- die Pfade, die vormals $y$ enthalten haben, enthalten jetzt einen schwarzen Knoten weniger; somit ist `RB5` verletzt
+- wir können uns $v$, der an die Stelle von $y$ tritt, als einen "doppelt schwarzen" Knoten vorstellen
+- wir unterscheiden vier Fälle, de nach der Farbe des Schwesterknotens $w$ von $v$ und den Farben der Kinder von $w$ unterscheiden
+	- dabei  nehmen wir an, dass $v$ ein linkes Kind ist; andernfalls ist "links" und "rechts" zu vertauschen
+
+##### Fall 1: roter Schwesterknoten $w$
+![[Pasted image 20260716145729.png]]
+- vertausche die Farben von $w$ und $u$
+- führe eine Likstotation vor
+- Fortfahren mit Fall $1/2/3$, wobe $w = a$ der neue Schwesterknoten ist 
