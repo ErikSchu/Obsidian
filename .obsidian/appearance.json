@@ -4,7 +4,7 @@
   "accentColor": "#00ad79",
   "baseFontSize": 19,
   "nativeMenus": true,
-  "cssTheme": "Obsidianite",
+  "cssTheme": "Prism",
   "enabledCssSnippets": [
     "dark-pdf"
   ],
