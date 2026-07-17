@@ -14,5 +14,6 @@
   "obsidian-git",
   "templater-obsidian",
   "obsidian-contextual-typography",
-  "obsidian-smart-typography"
+  "obsidian-smart-typography",
+  "code-runner"
 ]
