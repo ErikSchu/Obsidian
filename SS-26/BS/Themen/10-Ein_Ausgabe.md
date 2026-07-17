@@ -117,5 +117,24 @@ ___
 - Aktuelle Spur: $35$
   ![[Pasted image 20260718001633.png|672]]
 	- $\sum\text{Spurwechsel} = 640$
-	- Weite Bewegungen des Schwenkarms: mittlere Bearbeitungsdauer lang! 
-#### 
+	- Weite Bewegungen des Schwenkarms: **mittlere Bearbeitungsdauer lang**! 
+
+#### SSTF *(Shortest Seek Time First)*
+- Auftrag mit *kürzester* Positionierungszeit vorgezogen
+- Dieselbe Referenzfolge (Annahme: Positionierungszeit proportional zum Spurabstand)
+  ![[Pasted image 20260718002154.png]]
+	- $\sum\text{Spurwechsel} = 236$
+	- Ähnlich wie [[04-Ablaufplanung|SJF]] kann auch SSTF zu **Aushungerung** führen
+
+#### Elevator
+- Bewegung des Plattenarms in eine Richtung bis keine Aufträge mehr vorhanden sind
+- Gleiche Referenzfolge (Annahme: bisherige Kopfbewegung Richrung $0$)
+  ![[Pasted image 20260718002637.png]]
+	- $\sum\text{Spurwechsel} = 208$
+	- Neue Aufträge miterledigt ohne zusätzliche Positionierungszeit 
+	- **keine Aushungerung**, *lange Wartezeiten* aber nicht ausgeschlossen 
+
+### Diskussion
+
+- Platten sind intelligente Geräte
+	- Physikalische Eigenschaften werden verborgen (*Logische Blöcke)
