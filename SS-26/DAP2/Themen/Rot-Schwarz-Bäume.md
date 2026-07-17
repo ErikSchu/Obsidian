@@ -108,6 +108,20 @@ ___
 - fahre fort mit **Fall 4**, mit neuem Schwesterknoten $w = a$
 
 ##### Fall 4: schwarzer Schwesterknoten $w$, rechtes Kind von $w$ rot
+![[Pasted image 20260716150858.png]]
 - Linksrotation um $u$
-- Farben anpassen $\leadsto$ Bedingung `RB5` nun erfüllt; setze $v$ auf die Wurzel des Baums 
+- Farben anpassen $\leadsto$ Bedingung `RB5` nun erfüllt; setze $v$ auf die Wurzel des Baums
 
+##### Abschluss
+- sobakd der aktuelle Knoten $v$ schwarz gefärbt ist, sind wir fertig
+- wenn $v$ die Wurzel ist, färben wir $v$ einfach schwarz
+
+>[!tip] Proposition
+>Die Laufzeit zum Entfernen eines Knotens ist $O(\log n).$
+
+___
+
+## Zusammenfassung
+
+- red black trees sind extrem effiziente selbstbalancierende binäre Suchbäume
+- **Beispielanwendung:** Prozessscheduling im Linux-Kern
