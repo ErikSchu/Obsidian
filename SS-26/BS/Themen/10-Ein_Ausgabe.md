@@ -112,3 +112,10 @@ ___
 
 ## E/A-Scheduling
 
+#### FIFO
+- Referenzfolge (Folge von Spurnummern): $98, 183, 37, 122, 14, 124, 65, 67$
+- Aktuelle Spur: $35$
+  ![[Pasted image 20260718001633.png|672]]
+	- $\sum\text{Spurwechsel} = 640$
+	- Weite Bewegungen des Schwenkarms: mittlere Bearbeitungsdauer lang! 
+#### 
