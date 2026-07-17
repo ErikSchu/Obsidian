@@ -1,10 +1,10 @@
 {
   "baseFontSizeAction": true,
   "theme": "obsidian",
-  "accentColor": "#336b51",
+  "accentColor": "#4f38ff",
   "baseFontSize": 18,
   "nativeMenus": true,
-  "cssTheme": "Border",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "dark-pdf"
   ],

@@ -87,33 +87,45 @@ settings:
     level: 1
   - id: ta-colored-folders
     title: Colored folders
-    description: Colors folder names by nesting depth using the four folder colors below (first four levels).
+    description: Gives each top-level folder its own color from the six below, cycled by order; every subfolder and note inside inherits its top folder's color.
     type: class-toggle
     default: false
   - id: ta-folder-1
-    title: Folder color (level 1)
+    title: Folder color 1
     type: variable-themed-color
     format: hex
     default-light: '#007a4d'
     default-dark: '#63f2ab'
   - id: ta-folder-2
-    title: Folder color (level 2)
+    title: Folder color 2
     type: variable-themed-color
     format: hex
     default-light: '#006f9e'
     default-dark: '#6bdcff'
   - id: ta-folder-3
-    title: Folder color (level 3)
+    title: Folder color 3
     type: variable-themed-color
     format: hex
     default-light: '#a46600'
     default-dark: '#f0c674'
   - id: ta-folder-4
-    title: Folder color (level 4)
+    title: Folder color 4
     type: variable-themed-color
     format: hex
     default-light: '#7357b8'
     default-dark: '#b78cff'
+  - id: ta-folder-5
+    title: Folder color 5
+    type: variable-themed-color
+    format: hex
+    default-light: '#b65800'
+    default-dark: '#f7a35c'
+  - id: ta-folder-6
+    title: Folder color 6
+    type: variable-themed-color
+    format: hex
+    default-light: '#c8324c'
+    default-dark: '#ff6e7a'
   - id: ta-file-color
     title: File name color
     type: variable-themed-color
@@ -205,6 +217,310 @@ settings:
     description: Disables the theme's diagram styling and uses Obsidian's defaults.
     type: class-toggle
     default: false
+  - id: ta-callouts
+    title: Callout colors
+    type: heading
+    level: 1
+    collapsed: true
+  - id: ta-callouts-info
+    title: Recolor callouts
+    description: Pick a palette color for each callout type. Aliases follow their base type (for example, hint follows Tip, and caution follows Warning).
+    type: info-text
+    markdown: false
+  - id: callout-default
+    title: Note callout
+    type: variable-select
+    default: 'var(--ta-green-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-summary
+    title: Abstract / Summary callout
+    type: variable-select
+    default: 'var(--ta-cyan-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-info
+    title: Info callout
+    type: variable-select
+    default: 'var(--ta-cyan-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-todo
+    title: Todo callout
+    type: variable-select
+    default: 'var(--ta-cyan-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-tip
+    title: Tip / Hint callout
+    type: variable-select
+    default: 'var(--ta-cyan-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-important
+    title: Important callout
+    type: variable-select
+    default: 'var(--ta-cyan-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-success
+    title: Success / Done callout
+    type: variable-select
+    default: 'var(--ta-green-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-question
+    title: Question / Help callout
+    type: variable-select
+    default: 'var(--ta-violet-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-warning
+    title: Warning / Caution callout
+    type: variable-select
+    default: 'var(--ta-orange-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-fail
+    title: Failure / Missing callout
+    type: variable-select
+    default: 'var(--ta-red-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-error
+    title: Danger / Error callout
+    type: variable-select
+    default: 'var(--ta-red-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-bug
+    title: Bug callout
+    type: variable-select
+    default: 'var(--ta-red-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-example
+    title: Example callout
+    type: variable-select
+    default: 'var(--ta-violet-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
+  - id: callout-quote
+    title: Quote / Cite callout
+    type: variable-select
+    default: 'var(--ta-gray-rgb)'
+    options:
+      - label: Blue
+        value: 'var(--color-blue-rgb)'
+      - label: Green
+        value: 'var(--ta-green-rgb)'
+      - label: Cyan
+        value: 'var(--ta-cyan-rgb)'
+      - label: Amber
+        value: 'var(--ta-amber-rgb)'
+      - label: Orange
+        value: 'var(--ta-orange-rgb)'
+      - label: Red
+        value: 'var(--ta-red-rgb)'
+      - label: Violet
+        value: 'var(--ta-violet-rgb)'
+      - label: Gray
+        value: 'var(--ta-gray-rgb)'
 
 */
 
@@ -219,6 +535,8 @@ body {
   --ta-folder-2: var(--ta-accent-alt);
   --ta-folder-3: var(--ta-warm);
   --ta-folder-4: var(--ta-violet);
+  --ta-folder-5: var(--ta-orange);
+  --ta-folder-6: var(--ta-red);
   --ta-file-color: var(--nav-item-color);
   --ta-font-editor: "Berkeley Mono", "JetBrains Mono", "Cascadia Code", "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
   --ta-font-ui: "Inter", "SF Pro Text", "Segoe UI", system-ui, sans-serif;
@@ -296,6 +614,13 @@ body.theme-dark {
   --ta-muted: #879994;
   --ta-faint: #63736f;
   --ta-inverted: #07100d;
+  --ta-green-rgb: 99, 242, 171;
+  --ta-cyan-rgb: 107, 220, 255;
+  --ta-amber-rgb: 240, 198, 116;
+  --ta-orange-rgb: 247, 163, 92;
+  --ta-red-rgb: 255, 110, 122;
+  --ta-violet-rgb: 183, 140, 255;
+  --ta-gray-rgb: 135, 153, 148;
   --ta-mermaid-node-bg: #102022;
   --ta-mermaid-node-border: #35d8c3;
   --ta-mermaid-cluster-bg: #0d1618;
@@ -415,6 +740,13 @@ body.theme-light {
   --ta-orange: #b65800;
   --ta-violet: #7357b8;
   --ta-inverted: #f9fbf8;
+  --ta-green-rgb: 0, 122, 77;
+  --ta-cyan-rgb: 0, 111, 158;
+  --ta-amber-rgb: 164, 102, 0;
+  --ta-orange-rgb: 182, 88, 0;
+  --ta-red-rgb: 200, 50, 76;
+  --ta-violet-rgb: 115, 87, 184;
+  --ta-gray-rgb: 96, 112, 106;
 
   --background-primary: var(--ta-bg-0);
   --background-primary-alt: var(--ta-bg-1);
@@ -1575,6 +1907,27 @@ body:not(.ta-plain-mermaid) .mermaid .labelText > tspan {
   fill: var(--text-normal) !important;
 }
 
+/* Default callout palette — each type maps to the theme palette so callouts
+   match the theme out of the box: green for the default/note flavor, cyan for
+   the info family, orange for warnings, red for danger, violet for questions,
+   gray for quotes. Style Settings can override any of these per type. */
+body {
+  --callout-default: var(--ta-green-rgb);
+  --callout-summary: var(--ta-cyan-rgb);
+  --callout-info: var(--ta-cyan-rgb);
+  --callout-todo: var(--ta-cyan-rgb);
+  --callout-tip: var(--ta-cyan-rgb);
+  --callout-important: var(--ta-cyan-rgb);
+  --callout-success: var(--ta-green-rgb);
+  --callout-question: var(--ta-violet-rgb);
+  --callout-warning: var(--ta-orange-rgb);
+  --callout-fail: var(--ta-red-rgb);
+  --callout-error: var(--ta-red-rgb);
+  --callout-bug: var(--ta-red-rgb);
+  --callout-example: var(--ta-violet-rgb);
+  --callout-quote: var(--ta-gray-rgb);
+}
+
 .callout {
   background: color-mix(in srgb, rgb(var(--callout-color)) 9%, var(--background-primary));
   border: var(--ta-border-width) solid color-mix(in srgb, rgb(var(--callout-color)) 34%, var(--background-modifier-border));
@@ -1788,25 +2141,29 @@ body.ta-soft-neon .tree-item-self.is-active {
   box-shadow: inset 2px 0 0 var(--ta-accent), var(--ta-glow);
 }
 
-/* The file explorer has no .mod-root folder element; .nav-files-container is
-   the tree root (per app DOM). Depth is counted with descendant combinators
-   so wrappers cannot break the chain; deeper rules win on specificity, and
-   folders past level 4 keep the level-4 color. */
-body.ta-colored-folders .nav-files-container .nav-folder > .nav-folder-title {
-  color: var(--ta-folder-1);
-}
+/* Colored folders — modeled on the Terminal Workbench site, where a folder and
+   everything inside it share one color drawn from the palette. Each TOP-LEVEL
+   folder is assigned one of six colors, cycled by its order among sibling
+   folders, and hands that color down to its whole subtree via a cascading
+   custom property (--ta-fc). Notes:
+   - `:nth-child(6n+k of .nav-folder)` counts only folders, so loose files and
+     the file tree's virtualization spacer never shift the cycle.
+   - `:not(.nav-folder .nav-folder)` restricts the assignment to top-level
+     folders; nested folders don't re-assign --ta-fc, so they inherit instead.
+   - Titles remap --nav-item-color (not `color`), leaving hover/active states,
+     which use their own variables, untouched.
+   Obsidian sorts folders alphabetically, so the colors are stable in practice;
+   a pure-CSS theme can key off order but not the folder name itself. */
+body.ta-colored-folders .nav-files-container { --ta-fc: var(--nav-item-color); }
 
-body.ta-colored-folders .nav-files-container .nav-folder .nav-folder > .nav-folder-title {
-  color: var(--ta-folder-2);
-}
+body.ta-colored-folders .nav-folder:not(.nav-folder .nav-folder):nth-child(6n+1 of .nav-folder) { --ta-fc: var(--ta-folder-1); }
+body.ta-colored-folders .nav-folder:not(.nav-folder .nav-folder):nth-child(6n+2 of .nav-folder) { --ta-fc: var(--ta-folder-2); }
+body.ta-colored-folders .nav-folder:not(.nav-folder .nav-folder):nth-child(6n+3 of .nav-folder) { --ta-fc: var(--ta-folder-3); }
+body.ta-colored-folders .nav-folder:not(.nav-folder .nav-folder):nth-child(6n+4 of .nav-folder) { --ta-fc: var(--ta-folder-4); }
+body.ta-colored-folders .nav-folder:not(.nav-folder .nav-folder):nth-child(6n+5 of .nav-folder) { --ta-fc: var(--ta-folder-5); }
+body.ta-colored-folders .nav-folder:not(.nav-folder .nav-folder):nth-child(6n+6 of .nav-folder) { --ta-fc: var(--ta-folder-6); }
 
-body.ta-colored-folders .nav-files-container .nav-folder .nav-folder .nav-folder > .nav-folder-title {
-  color: var(--ta-folder-3);
-}
-
-body.ta-colored-folders .nav-files-container .nav-folder .nav-folder .nav-folder .nav-folder > .nav-folder-title {
-  color: var(--ta-folder-4);
-}
+body.ta-colored-folders .nav-folder-title { --nav-item-color: var(--ta-fc); }
 
 body.ta-plain-headings .markdown-rendered h2,
 body.ta-plain-headings .HyperMD-header-2,
