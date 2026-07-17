@@ -12,5 +12,7 @@
   "dataview",
   "animated-cursor",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-contextual-typography",
+  "obsidian-smart-typography"
 ]
