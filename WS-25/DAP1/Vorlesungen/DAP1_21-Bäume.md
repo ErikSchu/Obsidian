@@ -133,7 +133,7 @@ ___
 ___
 ## Höhe eines Baums
 
-***Def. Höhe/Tiefe eines Baums:*** maximale Länge (**#Kanten**) aller Wurzel-zu-Blatt-Pfade
+***Def. Höhe/Tiefe eines Baums:*** maximale Länge (**# Kanten**) aller Wurzel-zu-Blatt-Pfade
 ⤷ **Einfüge-/Suchzeit** davon *abhängig!*
 
 ***Rekursive Definition***
