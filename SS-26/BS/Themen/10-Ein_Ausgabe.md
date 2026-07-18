@@ -107,7 +107,17 @@ ___
   3. **hybride Architektur**
      ![[Pasted image 20260718115143.png]]
 
-## Arbei
+## Arbeitsweise von Gerätetreibern
+
+- Je nach Fähigkeiten des Geräts erfolgt E/A mittels
+	- **Polling** (oder “Programmierte E/A”), 
+	- **Unterbrechungen** oder
+	- **DMA**
+
+>[!example] Bsp.: *Drucken einer Textzeile*
+>![[Pasted image 20260718115553.png]]
+
+
 
 ___
 ## UNIX
