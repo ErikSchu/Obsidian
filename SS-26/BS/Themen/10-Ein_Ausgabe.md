@@ -7,6 +7,24 @@ tags:
   - bs
   - io
 ---
+>[!note] #### Wiederholung: Betriebsmittel 
+>- Aufgaben des Betriebssystems: 
+>	- *Verwaltung der Betriebsmittel* des Rechners
+>	- Schaffung von *Abstraktionen*, die Anwendungen einfachen & effizienten Umgang mit Betriebsmitteln erlauben
+>___
+>- **Bisher:**
+>	- *Prozesse*
+>	- *Arbeitsspeicher*
+>___
+>- **Jetzt:** *E/A-Greäte*
+>	- Verwaltung von Peripheriegeräten
+>	  ![[Pasted image 20260718110039.png]]
+
+___
+# Ein-/Ausgabe-Hardware
+
+
+___
 ## UNIX
 #### Gerätespezifische Funktionen
 

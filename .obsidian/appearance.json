@@ -10,5 +10,7 @@
   ],
   "interfaceFontFamily": "Inter,Liberation Mono",
   "textFontFamily": "",
-  "monospaceFontFamily": "JetBrains Mono"
+  "monospaceFontFamily": "JetBrains Mono",
+  "showViewHeader": false,
+  "showRibbon": true
 }
