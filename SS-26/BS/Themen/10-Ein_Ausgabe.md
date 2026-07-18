@@ -28,10 +28,35 @@ Ein-/Ausgabegeräte werden über **Controller** an den Systembus angebunden. Die
 
 >[!example] Beispiele
 >***PC-Tastatur***
->- **serielle zeichenweise Kommunikation**
+>- **serielle zeichenweise** Kommunikation
 >	- Tastatur ist “intelligent” (besitzt *eigenen Prozessor*)
 >	  ![[Pasted image 20260718111039.png]]
->	- 
+>	- **Aufgaben der Software**
+>		- Initialisierung des Controllers
+>		- Abholen der Zeichen von der Tastatur
+>		- Abbildung der `Make`- und `Brake`-Codes  auf ASCII 
+>		- Senden von Kommandos
+>___
+>***CGA-Videocontroller***
+>- Kommunikation über **Videosignal**
+>	- Umwandlung des Sipeicherinhalts in ein Bild ($80$ x $25$ Z.)
+>	  ![[Pasted image 20260718111636.png]]
+>	- **Aufgaben der Software**
+>		- Initialisierung des Controllers
+>		- Bildschirmspeicher mit den gewünschten Zustandscodes füllen
+>		- Steuerung der Position des Cursors
+>		- Cursor an- und abschalten
+>___
+>***IDE-Plattencontroller***
+>- Kommunikation über **AT-Befehle**
+>	- *vlockweiser Wahlfreier Zugriff* auf Datenblöcke
+>	  ![[Pasted image 20260718112032.png]]
+>	- **Aufgaben der Software**
+>		- AT-Befehle in Register schreiben
+>		- Sektorpuffer füllen/leeren
+>		- Auf die Unterbrechungen reagieren
+>		- Fehlerbehandlung
+>		- 
 
 ___
 ## UNIX
