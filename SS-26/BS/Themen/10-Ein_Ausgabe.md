@@ -249,7 +249,25 @@ ___
 - *Eindeutige Beschreibung der Geräte durch ein **3-Tupel:***
 	- **Gerätetyp:** Block Devide, Character Device
 	- **Major Number:** Auswahlnummer für einen Treiber
-	- **Minor Number:** 
+	- **Minor Number:** Auswahl eines Geräts innerhalb eines Treibers
+
+- Auszug aus dem *Listing* des **/dev**-Verzeichnisses ![[Pasted image 20260718134513.png]]
+
+>[!note] #### wichtigste Zugriffsprimitiven
+>`int open(const char *devname, int flags)`
+>*Öffnen* eines Geräts. Liefert Dateideskriptor als Rückgabewert.
+>___
+>`off_t lseek (int fd, off_t offset, int whence)`
+>Positioniert den Schreib-/Lesezeiger; nur bei Geräten mit *wahlfreiem Zugriff*
+>___
+>`ssize_t read(int fd, void *buf, size_t count)`
+>Einlesen von max `count` Bytes im Puffer `buf` von Deskriptor `fd`
+>___
+>`ssize_t write(int fd, const void *buf, size_t count)`
+>Schreiben von `count` Bytes im Puffer `buf` auf Deskriptor `fd`
+>___
+>`int close(int fd)`
+>Schließen eines Geräts: Dateideskriptor `fd` kann danach nicht mehr benutzt werden 
 
 #### Gerätespezifische Funktionen
 
