@@ -189,8 +189,7 @@ unblock_user ();
 return_from_interrupt ();
 ```
 
-### Diskussion
-
+### Diskussion: *Unterbrechungen*
 - ***Kontextsicherung***
 	- Wird teilweise von der CPU selbst erledigt.
 		- *z.B.* Statusregister und Rücksprungadresse, aber nur das Minimum. 
@@ -214,6 +213,19 @@ return_from_interrupt ();
 		- **UNIX:** Top Half, Bottom Half
 		- **Linux:** *Tasklets*
 		- **Windows:** *Deferred Procedures*
+
+### Diskussion: *Direct Memory Access*
+
+- ***Caches***
+	- Heutige Prozessoren arbeiten mit Daten-Caches; 
+	  **DMA läuft am Cache vorbei!**
+	- Vor dem Aufsetzen eines DMA-Vorgangs muss der Cache-Inhalt in den Hauptspeicher zurückgeschrieben und invalidiert werden bzw. der Cache darf für die entsprechende Speicherregion nicht eingesetzt werden
+
+- ***Speicherschutz***
+	- Heutige Prozessoren verwenden eine MMU zur Isolation von Prozessen und zum Schutz des Betriebssystems;
+	  **DMA läuft am Speicherschutz vorbei!**
+	- Fehler beim Aufsetzen von DMA-Vorgängen sind extrem kritisch.
+	- Anwendungsprozesse dürfen DMA-C
 
 ___
 ## UNIX
