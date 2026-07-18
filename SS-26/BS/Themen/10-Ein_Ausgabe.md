@@ -137,4 +137,29 @@ ___
 ### Diskussion
 
 - Platten sind intelligente Geräte
-	- Physikalische Eigenschaften werden verborgen (*Logische Blöcke)
+	- Physikalische Eigenschaften werden verborgen (*Logische Blöcke*)
+	- Platten weisen riesige Caches auf
+	- *Solid State Disks* enthalten keine Mechanik mehr 
+	→ E/A-Scheduling verliert langsam an Bedeutung
+	→ Erfolg eiener Strategie schwerer vorherzusagen
+
+- Trotzdem ist E/A-Scheduling **noch immer sehr wichtig**
+	- CPUs werden immer schneller, Platten kaum
+	- *Linux* implementiert z.Z. zwei verschiedene Varianten der *Fahrstuhlstrategie* (+ FIFO für “Platten” ohne Positionierungszeit)_
+		- ***DEADLINE*** -  Bevorzugung von Leseanforderungen (kürzere Deadlines)
+		- ***COMPLETELY FAIR*** -  Prozesse erhalten gleichen Anteil an E/A-Bandbreite
+
+___
+
+>[!list] ## Zusammenfassung
+>- E/A-Hardware ist sehr unterschiedlich
+>	- teilweise auch “hässlich” zu programmieren
+>___
+>- Die Kunst des Betriebssystembaus besteht darin, …
+>	- trotzdem **einheitliche und einfache Schnittstellen** zu definieren
+>	- **effizient** mit der Hardware umzugehen
+>	- CPU und E/A-**Geräteauslastung zu maximieren**
+>___
+>- Gerätetreibervielfalt ist für den Erfolg des BS extrem wichtig. 
+>	- Bei Systemen wie Linux und WIndows sind die Gerätetreiber das weitaus größte Subsystem.
+
