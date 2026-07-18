@@ -56,7 +56,29 @@ Ein-/Ausgabegeräte werden über **Controller** an den Systembus angebunden. Die
 >		- Sektorpuffer füllen/leeren
 >		- Auf die Unterbrechungen reagieren
 >		- Fehlerbehandlung
->		- 
+>___
+>***Ethernet-Controller***
+>- **serielle paketbasierte Buskommunikation**
+>	- Pakete haben eine Variable Größe und enthalten Adressen
+>	  ![[Pasted image 20260718112705.png]]
+>	- **Aufgaben der Software**
+>		- Bereitstellen der Daten bzw. Puffer
+>		- Initialisierung der Controllerregister
+>		- auf die Unterbrechungen reagieren
+>		- Fehlerbehandlung
+
+## Geräteklassen
+
+- ***zeichenorientierte Geräte***
+	- Tastatur, Drucker, Modem, Maus, …
+	- meist rein **sequentieller Zugriff**, selten wahlfreie Positionierung 
+
+- ***blockorientierte Geräte***
+	- Festplatte, Diskette, CD-ROM, DVD, Bandlaufwerke, …
+	- meist **wahlfreier blockweiser Zugriff** *(random access)*
+
+-  andere Geräte passen weniger gut in dieses Schema
+	- GPU (insb. 3)
 
 ___
 ## UNIX
