@@ -267,7 +267,7 @@ ___
 >Schreiben von `count` Bytes im Puffer `buf` auf Deskriptor `fd`
 >___
 >`int close(int fd)`
->Schließen eines Geräts: Dateideskriptor `fd` kann danach nicht mehr benutzt werden 
+>Schließen eines Geräts: Dateideskriptor `fd` kann danach nicht mehr benutzt werden.
 
 #### Gerätespezifische Funktionen
 
