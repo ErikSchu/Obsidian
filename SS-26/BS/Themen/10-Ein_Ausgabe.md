@@ -117,8 +117,52 @@ ___
 >[!example] Bsp.: *Drucken einer Textzeile*
 >![[Pasted image 20260718115553.png]]
 
-## Polling *(oder “Programmierte E/A”)*
-bedeutet ***aktives Warten*** auf ein 
+#### Polling *(oder “Programmierte E/A”)*
+… bedeutet ***aktives Warten*** auf ein Ein-/Ausgabegerät.
+
+Pseudo-Code einer Betriebssystemfunktion zum Drucken von Text im **Polling-Betrieb**
+```c
+/* Zeichen in Kern-Puffer p koüieren */
+copy_from_user (buffer, p, count);
+
+/* Schleife über alle Zeichen */
+for (i = 0; i  < count; i++) {
+	
+	/* Warte "aktiv" bis Drucker bereit */
+	while (*printer_status_reg != READY);
+	
+	/* Ein Zeichen ausgeben */
+	*printer_data_reg = p[i];
+}
+
+return_to_user ();
+```
+
+#### Unterbrechungsbetriebene  E/A
+… bedeutet, dass die CPU während der Wartezeit einem anderen Prozess zugeteilt werden kann.
+
+**Code, der die E/A-Operation initiiert**
+```c
+copy_from_user (buffer, p, count);
+
+/* Druckerunterbrechungen erlauben */
+enable_interrupts ();
+
+/* Warte bis Drucker bereit */
+while (*printer_status_reg != ready);
+
+/* Erstes Zeichen ausgeben */
+*printer_data_reg = p[i++];
+
+scheduler ();
+return_to_user ();
+```
+**Unterbrechungsbehandlungsroutine**
+```c
+if (count > 0) {
+	*printer_da
+}
+```
 
 ___
 ## UNIX
