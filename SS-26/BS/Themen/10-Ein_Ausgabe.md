@@ -193,7 +193,27 @@ return_from_interrupt ();
 
 - ***Kontextsicherung***
 	- Wird teilweise von der CPU selbst erledigt.
-		- z.B.
+		- *z.B.* Statusregister und Rücksprungadresse, aber nur das Minimum. 
+	- **Alle veränderten Register** müssen gesichert und am Ender der Behandlung wiederhergestellt werden
+  
+- ***Behandlungsroutine möglichst Kurz***
+	- Während der Unterbrechungsbehandlung werden i.d.R. *weitere Unterbrechungen unterdrückt*.
+		- Es droht der **Verlust von Unterbrechungen**
+	- Möglichst nur den Prozess wecken, der auf E/A-Beendigung wartet.
+
+- Unterbrechungen sind ***Quelle der Asynchronität***
+	- Ursache für *Race Conditions* im Kernel
+
+- ***Unterbrechungssynchronisation***
+	- einfachste Möglichkeit: **Unterbrechungsbehandlung** durch die CPU zeitweise *hart* **verbieten**, während Ktirische Abschnitte druchlaufen werden.
+		- *x86:* `sti`, `cli`
+		- wieder Gefahr des **Unterbrechungsverlusts**
+		  
+	- BS gängig: ***mehrstufige Behandlungen***, durch die das harte Sperren von Unterbrechungen minimiert wird 
+		- **Abstrakt:** *Prolog* (asynchron) und *Epilog* (synchron zum BS)
+		- **UNIX:** Top Half, Bottom Half
+		- **Linux:** *Tasklets*
+		- **Windows:** *Deferred Procedures*
 
 ___
 ## UNIX
