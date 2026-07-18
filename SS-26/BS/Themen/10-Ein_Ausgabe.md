@@ -117,7 +117,8 @@ ___
 >[!example] Bsp.: *Drucken einer Textzeile*
 >![[Pasted image 20260718115553.png]]
 
-
+## Polling *(oder “Programmierte E/A”)*
+bedeutet ***aktives Warten*** auf ein 
 
 ___
 ## UNIX
