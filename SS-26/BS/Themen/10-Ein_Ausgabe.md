@@ -78,7 +78,27 @@ Ein-/Ausgabegeräte werden über **Controller** an den Systembus angebunden. Die
 	- meist **wahlfreier blockweiser Zugriff** *(random access)*
 
 -  andere Geräte passen weniger gut in dieses Schema
-	- GPU (insb. 3)
+	- *GPU* (insb. 3D-Beschleunigung)
+	- *Netzwerkkarten* (Protokolle, Adressierung, Broadcast/Multicast, Nachrichtenfilterung, …)
+	- *Zeitgeberbaustein* (einmalige oder periodische Unterbrechungen)
+
+## Unterbrechungen
+
+- signalisieren, das Software aktiv werden muss
+- Ablauf einer Unterbrechung auf Hardwareebene ![[Pasted image 20260718113645.png]]
+- Software kann **IRQ-Behandlung unterdrücken**. x86:
+	- `sti` → erlauben
+	- `cli` → unterdrücken
+
+## Direct Memory Access *(DMA)*
+
+- wird von komplexen Controllern benutzt, um Daten unabhängig von der CPU un den bzw. aus dem Hauptspeicher zu transferieren.
+- Durchführung eines **DMA-Transfer**s:  ![[Pasted image 20260718114139.png]]
+
+___
+
+# Geräteprogrammierung
+## Ein-/Ausgabeadressraum
 
 ___
 ## UNIX
