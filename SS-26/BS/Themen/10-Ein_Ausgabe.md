@@ -22,7 +22,16 @@ tags:
 
 ___
 # Ein-/Ausgabe-Hardware
+## Anbindung von E/A-Geräten
+![[Pasted image 20260718110626.png]]
+Ein-/Ausgabegeräte werden über **Controller** an den Systembus angebunden. Die Programmierung erfolgt über **E/A-Register** auf den Controllern. 
 
+>[!example] Beispiele
+>***PC-Tastatur***
+>- **serielle zeichenweise Kommunikation**
+>	- Tastatur ist “intelligent” (besitzt *eigenen Prozessor*)
+>	  ![[Pasted image 20260718111039.png]]
+>	- 
 
 ___
 ## UNIX
