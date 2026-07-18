@@ -99,6 +99,15 @@ ___
 
 # Geräteprogrammierung
 ## Ein-/Ausgabeadressraum
+- Zugriff auf *Controller*-Register und *Controller*-Speicher erfolgt je nach Systemarchitektur
+  1. **separater E/A-Adressraum** (anzusprechen über spezielle Maschienen)
+     ![[Pasted image 20260718114912.png]]
+  2. **gemeinsamer Adressraum** (*Memory-Mapped I/0*)
+     ![[Pasted image 20260718115044.png]]
+  3. **hybride Architektur**
+     ![[Pasted image 20260718115143.png]]
+
+## Arbei
 
 ___
 ## UNIX
