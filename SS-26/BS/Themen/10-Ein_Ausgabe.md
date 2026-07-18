@@ -225,10 +225,32 @@ return_from_interrupt ();
 	- Heutige Prozessoren verwenden eine MMU zur Isolation von Prozessen und zum Schutz des Betriebssystems;
 	  **DMA läuft am Speicherschutz vorbei!**
 	- Fehler beim Aufsetzen von DMA-Vorgängen sind extrem kritisch.
-	- Anwendungsprozesse dürfen DMA-C
+	- Anwendungsprozesse dürfen DMA-Controller nie direkt programmieren!
 
 ___
+
+# Aufgaben des Betriebssystems
+## Schichten des E/A-Subsystems
+![[Pasted image 20260718133537.png]]
 ## UNIX
+### Geräteabstraktionen
+
+- Peripheriegeräten werden als ***Spezialeigenschaften*** repräsentiert:
+	- Geräte können **wie Daten** mit Lese- und Schreiboperationen angesprochen werden.
+	- Öffnen der Spezialdateien schafft eine Verbindung zum Gerät, die durch einen Treiber hergestellt wird. 
+	- direkter Durchgriff vom Anwender auf den Treiber
+
+- ***blockorientierte Spezialdateien** (block devices)*
+	- Plattenlaufwerke, Bandlaufwerke, Floppy Disks, CD-ROMs
+
+- ***zeichenorientierte Spezialdateien** (character devices)*
+	- serielle Schnittstellen, Drucker, Audiokanäle etc. 
+
+- *Eindeutige Beschreibung der Geräte durch ein **3-Tupel:***
+	- **Gerätetyp:** Block Devide, Character Device
+	- **Major Number:** Auswahlnummer für einen Treiber
+	- **Minor Number:** 
+
 #### Gerätespezifische Funktionen
 
 - Spezielle Geräteeigenschaften erden über ***`ioctl`*** angesprochen:
