@@ -160,9 +160,40 @@ return_to_user ();
 **Unterbrechungsbehandlungsroutine**
 ```c
 if (count > 0) {
-	*printer_da
-}
+	*printer_data_reg = p[i];
+	count--;
+	i++;
+} 
+else 
+	unblock_user ();
+
+acknowledge_interrupt();
+return_from_interrupt();
 ```
+
+#### DMA-getriebene E/A
+… bedeutet, dass die Software nicht mehr für den Tatendransfer zwischen Controller und Hauptspeicher zuständig ist. 
+→ Die CPU wird weiter entlastet
+
+**Code, der E/A-Operationen initiiert**
+```c
+copy_from_user (buffer, p, count);
+set_up_DMA_controller (p, count);
+scheduler ();
+return_to_user();
+```
+**Unterbrechungsbehandlungsroutine**
+```c
+acknowledge_interrupt ();
+unblock_user ();
+return_from_interrupt ();
+```
+
+### Diskussion
+
+- ***Kontextsicherung***
+	- Wird teilweise von der CPU selbst erledigt.
+		- z.B.
 
 ___
 ## UNIX
