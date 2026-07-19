@@ -3,9 +3,9 @@
 >[!question] Motivation
 >- Bei der Analyse von Algorithmen begegnen häufig **Rekurrenzen**
 >	- z.B. erfüllt die Laufzeit von `Quicksort` mit dem `Select`-Algorithmus die Rekurrenz $$\mathcal T_{n} = O(n) + 2 \mathcal{T}_{\left\lfloor  \frac{n}{2}  \right\rfloor }$$
->⮩ das ***"Master-Baiter-Theorem"*** erlaubt es, Rekurrenzen bequem Abzuschätzen
+>⮩ das ***"Master-Theorem"*** erlaubt es, Rekurrenzen bequem Abzuschätzen
 
->[!tip] ***Master_Theorem***
+>[!tip] ***Master Theorem***
 >Seien $a \ge 1, b > 1 \in \mathbb{R}$ und $T: \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$ und $f: \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$ Funktionen, so dass $$\forall x \in \mathbb{R}_{\ge 0} : T(x) = aT\left( \frac{x}{b} \right) + f(x)$$
 >1. falls 
 >   $\exists \epsilon > 0 :  f(x) = O(x^{\log_b (a) - \epsilon}) \implies T(x) = \Theta(x^{\log_{b}(a)})$
