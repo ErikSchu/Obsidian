@@ -17,7 +17,7 @@
 >   $\exists \epsilon, x_{0} > 0, c < 1 : af( \frac{x}{b}) \le cf(x)$ mit $x > x_{0} \implies T(x) = \Theta(f(x))$
 
 >[!tip] Lemma 
->Seien $a \ge 1, b > 1 \in \mathbb{R}, f : \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}, T: \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$ , s.d. $$T(x) = \begin{cases} \Theta (1) & \text{falls} 0 \le x \le 1, \\ aT( \frac{x}{b}) + f(x) & \text{sonst.} \end{cases}$$ Dann gilt $$T(x) = \Theta(x^{\log_{b}(a)}) + \sum _{0 \le j \le \log_{b}(x)} a^j f\left( \frac{x}{b^i} \right).$$ 
+>Seien $a \ge 1, b > 1 \in \mathbb{R}, f : \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}, T: \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$ , s.d. $$T(x) = \begin{cases} \Theta (1) & \text{falls } 0 \le x \le 1, \\ aT( \frac{x}{b}) + f(x) & \text{sonst.} \end{cases}$$ Dann gilt $$T(x) = \Theta(x^{\log_{b}(a)}) + \sum _{0 \le j \le \log_{b}(x)} a^j f\left( \frac{x}{b^i} \right).$$ 
 
 >[!tip] Lemma
 >Seien $a \ge 1, b > 1 \in \mathbb{R}, f: \mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$ und $$g(x) = \sum _{0 \le j \le \log_{b}(x)} a^j f\left( \frac{x}{b^i} \right) \space (x \ge 1).$$
