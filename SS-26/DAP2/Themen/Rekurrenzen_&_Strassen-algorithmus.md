@@ -11,7 +11,7 @@
 >   $\exists \epsilon > 0 :  f(x) = O(x^{\log_b (a) - \epsilon}) \implies T(x) = \Theta(x^{\log_{b}(a)})$
 >   ___
 >2. falls 
->   $\exists \Theta (x^{\log_{b}(a)} \log^k(x)) \implies T(x) = \Theta (x^{\log _{b}(a)\log^{k+1}(x)})$
+>   $\exists f(x) = \Theta (x^{\log_{b}(a)} \log^k(x)) \implies T(x) = \Theta (x^{\log _{b}(a)\log^{k+1}(x)})$
 >   ___
 >3. falls 
 >   $\exists \epsilon, x_{0} > 0, c < 1 : af( \frac{x}{b}) \le cf(x)$ mit $x > x_{0} \implies T(x) = \Theta(f(x))$
