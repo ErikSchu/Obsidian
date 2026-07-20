@@ -14,10 +14,25 @@
 >		- Ladestrategie
 >		- Ersetzungsstrategie
 
-# Motivatio
+# Motivation
 ## Lokalität der Speicherzugriffe
 
 - Instruktionen benötigen nur wenige Speicherseiten
 - **Lokalität** auch über längere Zeiträume
 	- Instruktionen werden *z.B.* eine nach der anderen ausgeführt
-	- kann ausgenutzt weden, falls fw
+	- kann ausgenutzt weden, falls Speicher nicht reicht
+		- *z.B.* “Overlay-Technik”
+
+## Idee “Virtueller Speicher”
+
+- ***Entkopplung*** Speicherbedarf $\Longleftrightarrow$ verfügbarer Hauptspeicher
+	- Prozesse benötigen nicht alle Speicherstellen **gleich häufig**
+		- bestimmte Befehle werden selten oder gar nicht benutzt (*z.B.* Fehlerbehandlungen)
+		- bestimmte Datenstrukturen werden nicht voll belegt
+	- Prozesse benötigen evtl. mehr Speicher als im Hauptspeicher vorhanden
+
+- ***IDEE:***
+	- **Vortäuschen** eines größeren *Arbeitsspeichers*
+	- **Einblenden** aktuell benötigter Speicherbereiche
+	- **Auslagern** nicht benötigter Bereiche
+	- Abfangen von Zugriffen auf nicht eingeblendete Bereiche, **einlagern** der benötigten Bereiche auf Anforderung
