@@ -62,4 +62,26 @@ Reaktion auf Seitenfehler *(page fault)*
 		- *Annahme:* 
 		  Zeit zum Einlagern einer Seite vom Hintergrundspeicher entspricht 25 ms (8 Latenz + 15 ms Positionierung + 1 ms Übertragung),
 		  normale Zugriffszeit: 100 ns
-		- *effektive Zugriffszeit:* 
+		- *effektive Zugriffszeit:* $$(1-p) \cdot 100 + p \cdot 25000000 = 100 + 24999900 \cdot p$$
+- **Seitenfehlerrate muss extrem niedrig sein**
+
+## Weitere Eigenschaften
+
+- ***Prozesserzeugung***
+	- **Copy-on-Write**
+		- auch bei *paging* MMU leicht zu realisieren
+		- feinere Granulatität als Segmentierung
+	- Programmausführung und Laden erfolgen verschränkt
+		- benötigte Seiten werden erst nach und nach geladen
+
+- ***Sperren von Seiten***
+	- notwendig bein E/A-Operationen 
+
+## Segmentumlagerung
+Prinzipiell möglich, hat aber Nachteile 
+
+- **Grobe Granularität**
+	- z.B. Code-, Daten-, Stack-Segment
+- **Schwierige Hauptspeicherverwaltung**
+	- Alle freien Seitenrahmen gleich gut für ausgelagerte Seiten.
+	  Bei der Einlag
