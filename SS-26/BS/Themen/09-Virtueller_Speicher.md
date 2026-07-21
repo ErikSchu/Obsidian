@@ -105,7 +105,17 @@ ___
 
 - ***Problem:*** Welche Seite soll ausgewählt werden?
 
-## Ersetzungsstrategien 
+#### Ersetzungsstrategien 
 
 - ***Referenzfolge***
 	- **Speicherzugriffsverhalten** eines Prozesses → Folge von Seitennummern
+	- Ermittlung von Referenzfolgen z.B. durch Aufzeichnung der zugegriffenen Adressen
+		- Reduktion der aufgezeichneten Sequenz auf Seitennummern
+		- Zusammenfassung von unmittelbar folgenden Zugriffen auf die Seite
+	- *z.B.* $1, 2,3 , 4, 1, 2, 5, 1, 2, 3, 4, 5$
+
+## FIFO
+
+- **älteste Seite wird ersetzt**
+- Notwendige Zustände:
+	- Alter bzw. Einlagerungszeitpunkt für jeden Seitenrahmen 
