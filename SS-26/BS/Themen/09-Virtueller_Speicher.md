@@ -41,3 +41,25 @@ ___
 
 # Demand Paging
 
+#### Seitenumlagerung
+Bereitstellung von Seiten auf Anforderung
+![[Pasted image 20260721082405.png]]
+
+#### Seitenfehler
+Reaktion auf Seitenfehler *(page fault)*
+![[Pasted image 20260721082617.png]]
+![[Pasted image 20260721082542.png]]
+![[Pasted image 20260721082641.png]]
+![[Pasted image 20260721082658.png]]
+
+## Kosten der Seitenumlagerung 
+
+- ***Performanz von Demand Paging***
+	- **ohne Seitenfehler**
+		- effektive Zugriffszeit zwischen 10 und 200 Nanosekunden
+	- **mit Seitenfehler**
+		- $p$ sei Wahrscheinlichkeit für Seitenfehler
+		- *Annahme:* 
+		  Zeit zum Einlagern einer Seite vom Hintergrundspeicher entspricht 25 ms (8 Latenz + 15 ms Positionierung + 1 ms Übertragung),
+		  normale Zugriffszeit: 100 ns
+		- *effektive Zugriffszeit:* 
