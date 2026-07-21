@@ -98,4 +98,14 @@ ___
 	- Veränderung erfordert **Auslagerung, falls Seite geändert** wurde 
 
 - ***Vorgang:***
-	- Seitenfehler (*)
+	- Seitenfehler (*page fault*): Trap in das Betriebssystem
+	- Auslagern einer Seite, falls kein freier Seitenrahmen verfügbar 
+	- Einlagerung der benötigten Seite
+	- Wiederholung des Zugriffs
+
+- ***Problem:*** Welche Seite soll ausgewählt werden?
+
+## Ersetzungsstrategien 
+
+- ***Referenzfolge***
+	- **Speicherzugriffsverhalten** eines Prozesses → Folge von Seitennummern
