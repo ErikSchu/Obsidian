@@ -84,4 +84,18 @@ Prinzipiell möglich, hat aber Nachteile
 	- z.B. Code-, Daten-, Stack-Segment
 - **Schwierige Hauptspeicherverwaltung**
 	- Alle freien Seitenrahmen gleich gut für ausgelagerte Seiten.
-	  Bei der Einlag
+	  Bei der Einlagerung von Segmenten ist die Speichersuche schwieriger.
+- **Schwierigere Hintergrundspeicherverwaltung**
+	- Hintergrundspeicher ist wie Seitenrahmen in Blöche strukturiert (2er-Potenzen)
+$\implies$ ***In der Praxis hat ich Demand Paging durchgesetzt***
+
+___
+
+# Seitenersetzung 
+
+- Eine **Seite muss verdrängt** werden, falls *kein freier Seitenrahmen* vorhanden
+	- Auswahl von Seiten, die nicht geändert wurden (*dirty bit* in der ST)
+	- Veränderung erfordert **Auslagerung, falls Seite geändert** wurde 
+
+- ***Vorgang:***
+	- Seitenfehler (*)
