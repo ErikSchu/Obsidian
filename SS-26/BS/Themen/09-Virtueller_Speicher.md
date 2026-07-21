@@ -36,3 +36,8 @@
 	- **Einblenden** aktuell benötigter Speicherbereiche
 	- **Auslagern** nicht benötigter Bereiche
 	- Abfangen von Zugriffen auf nicht eingeblendete Bereiche, **einlagern** der benötigten Bereiche auf Anforderung
+
+___
+
+# Demand Paging
+
