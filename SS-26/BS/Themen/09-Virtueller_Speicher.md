@@ -118,4 +118,8 @@ ___
 
 - **älteste Seite wird ersetzt**
 - Notwendige Zustände:
-	- Alter bzw. Einlagerungszeitpunkt für jeden Seitenrahmen 
+	- Alter bzw. Einlagerungszeitpunkt für jeden Seitenrahmen
+- Ablauf der Ersetzungen (9 Einlagerungen) ![[Pasted image 20260721091612.png]]
+- Größerer Hauptspeicher mit 4 Seitenrahmen (10 Einlagerungen!)
+- FIFO-Anomalie (Beledys Anomalie, 1969) ![[Pasted image 20260721092035.png]]
+
