@@ -115,7 +115,6 @@ ___
 	- *z.B.* $1, 2,3 , 4, 1, 2, 5, 1, 2, 3, 4, 5$
 
 ## FIFO
-
 - **älteste Seite wird ersetzt**
 - Notwendige Zustände:
 	- Alter bzw. Einlagerungszeitpunkt für jeden Seitenrahmen
@@ -123,3 +122,8 @@ ___
 - Größerer Hauptspeicher mit 4 Seitenrahmen (10 Einlagerungen!)
 - FIFO-Anomalie (Beledys Anomalie, 1969) ![[Pasted image 20260721092035.png]]
 
+## Optimale Seitenersetzungsstrategie
+- ***Vorwärtsabstand***
+	- Ersetze die Seite die am längsten wnich referenziert **wird**
+	- Strategie OPT (oder MIN) ist optimal (bei fester Seitenrahmenzahl):
+	  → 
