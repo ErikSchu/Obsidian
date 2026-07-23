@@ -138,4 +138,23 @@ ___
 >	→ Suche nach Strategien , die **möglichst nahe an OPT kommen**
 >		- z.B. Last Recently used (LRU)
 
-### Last
+### Last Recently Used (*LRU*)
+- ***Rückwertsabstand***
+	- Zeitdauer seit dem letzten Zugriff auf die Seite
+- LRU-Strategie (*10 Einlagerungen*)
+	- Wähle den Seitenrahmen mit dem größten Rückwertsabstand ![[Pasted image 20260723103734.png]]
+- Vergrößerung des Hauptspeichers (4 Seitenrahmen):
+  *8 Einlagerungen*  ![[Pasted image 20260723103809.png]]
+
+- **Keine Anomalie**
+	- Allgemein gilt: Es gibt eine Klasse von Algorithmen (*Stack Algorithmen*), bei denne keine Anomalie auftritt:
+		- Bei den Stack-Algorithmen ist bei $k$ Rahmen zu jedem Zeitpunkt eine Teilmenge der seiten eingelagert, die bei $k+1$ Rahmen zum gleichen Zeitpunkt eingelagert wären
+		- *LRU:* Es sind immer die letzten $k$ benutzten Seiten eingelagert.
+		- *OPT:* Es sind die $k$ bereits benutzten Seiten eingelagert, die als nächstes zugegriffen werden 
+- ***Problem:***
+	- Implementation von LRU **nicht ohne Hardwareunterstütung** möglich. 
+	- Es muss *jeder Speicherzugriff* berücksichtigt wede.
+
+- **Hardwareunterstützung**
+	- CPU besitzt einen Zähler, der bei jedem Speicherzugriff inkrementiert wird
+	- bei jedem Zugriff wird der aktuelle Zählerwert in den jeweil
