@@ -216,3 +216,37 @@ ___
 ___
 
 # Seitenzuordnung
+
+## Zuordnung von Seitenrahmen zu Prozessen 
+
+- ***Problem:*** Aufteilen der Seitenrahmen auf die Prozesse
+	- Wie viele eingelagerte Seiten soll man einem Prozess zugestehen?
+	- **Maximum:** begrenzt durch Anzahl der (physischen) Seitenrahmen? 
+	- **Minimum:** abh. von Prozessorarchitektur (mind # Seiten nötig, die theoretisch bei einem Maschienenbefehl benötigt werden (z.B. zwei Seiten für den Befehl, vier Seiten für die adressierten Daten))
+
+- **Gleiche Zuordnung**
+	- \# Prozesse bestimmt die Menge, die ein Prozess bekommt
+
+- **Größenabhängige Zuordnung**
+	- Größe des Programms fließt in die zugeteilte Menge der Seitenrahmen ein
+
+- ***Anforderung von Seiten***
+	- **Lokal:** Prozess ersetzt nur immer seine eigenen Seiten
+		- Seitenehler-Verhalten liegt nur in der Verantwortung des Prozesses
+		- Keine Interferenz zwischen Prozessen
+		- Auslagerung unter Umständen unnötig (global ungenutze Seiten)
+	- **Global:** Prozess ersetzt auch Seiten anderer Prozesse
+		- Ungenutzte Seitenrahmen anderer Prozesse können verwendet werden
+		- Interferenz zwischen Prozessen (Seitehfehler-Verhalten)
+
+## Seitenflattern (***Thrashing***)
+
+- Ausgelagerte Seite wird gleich wieder angesprochen: 
+	- Prozess verbringt mehr Zeit mit dem Warten auf das Beheben von Seitenfehlern, als mit der eigentlichen Ausführung. ![[Pasted image 20260723113218.png]]
+
+- ***Ursachen:***
+	- Prozess ist nahe am Seitenminimum 
+	- Zu viele Prozesse gleichzeitig im System
+	- Schlechte ersetzungsstrategie 
+
+→ **Lokale Seitenanfrooorderung** behebt *Th*
