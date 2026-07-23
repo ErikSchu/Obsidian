@@ -182,4 +182,29 @@ ___
 		- ist das Referenzbit `1`, so wird es auf 0 gesetzt (zweite Chance)
 		- ist das Referenzbit `0`, so wird die Seite ersetzt
 
--  Implementierung mit umlaufendem Zeiger (*Clock*)
+-  ***Implementierung*** mit **umlaufendem Zeiger** (*Clock*)![[Pasted image 20260723105634.png]]
+	- an der Zeigerposition wird das Referenzbit getestet
+		- falls `1`, wird es gelöscht
+		- falls `0`, wurde ersetzbare Seite gefunden
+		- Zeiger wird weitergestellt; falls keine Seite gefunden: Wiederholung
+	- falls alle Referenzbits auf $1$ stehen wird *Second Chance* → *FIFO*
+
+- Ablauf bei drei Seitenrahmen (*9 Einlagerungen*) ![[Pasted image 20260723105742.png]]
+- Vergrößerung des Hauptspeichers (4 Seitenrahmen): *10 Einlagerungen*![[Pasted image 20260723105842.png]]
+
+- Es kann auch zur ***FIFO-Anomalie*** kommen:
+	- alle Ref’bits `1` → Entscheidung nach FIFO
+	→ Im Normalfall kommt man aber LRU nahe.
+
+- **Erweiterung:**
+	- ***Modifikationsbit*** kann zusätzlich berücksichtigt werden (*Dirty Bit*)
+	- Drei Klassen: $(0,0), (1, 0), (1, 1)$ mit $(\text{Referenzbit}, \text{Modifikaitonsbit})$
+	- Suche nach der niedrigsten Klasse (Einsatz in MacOS)
+
+## Diskussion: ***Freiseitenpuffer***
+
+***Freisetenpuffer*** beschleunigt die Seitenfehlerbehandlung
+
+- Statt eine Seite zu ersetzen, wird permanent eine Menge freier Seiten gehalten
+	- **Auslagerung geschieht im Voraus**
+	- Effizienter: Ersetzun
