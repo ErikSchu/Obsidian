@@ -249,4 +249,34 @@ ___
 	- Zu viele Prozesse gleichzeitig im System
 	- Schlechte ersetzungsstrategie 
 
-→ **Lokale Seitenanfrooorderung** behebt *Th*
+→ **Lokale Seitenanfrooorderung** behebt *Thrashing* zwischen Prozessen
+→ Zuteilung einer genügend großen Zahl von Rahmen behebt Prozess-lokales *Thrashing* → **Begrenzung der Prozessanzahl**
+
+#### 1. Lösung: *Auslagerung von Prozessen*
+- inaktiver Prozess benötigt keinen Seitenrahmen
+	- Seitenrahmen teilt sich auf weniger Prozesse auf
+	- Verbindung mit *Scheduling* nötig 
+		- Verhindern von Aushungerung 
+		- Erzielen kurzer Reaktionszeiten ![[Pasted image 20260723113624.png]]
+
+#### 2. Lösung: *Arbeitsmengenmodell*
+- Seitenmenge , die ein Prozess wirklich Braucht (**Working Set**)
+	- Kann nur angenähert werden, da üblicherweise nicht vorhersehbar
+- Annäherung durch Betrachten der letzten $\Delta$ Seiten, die Angesprochen wurden 
+	- geeignete Wahl von $\Delta$
+		- *zu groß:* Überlappung von lokalen Zugriffsmustern
+		- *zu klein:* Arbeitsmenge enthält nicht alle nötigen Seiten ![[Pasted image 20260723113940.png]]
+	- *Hinweis:* $\Delta >$ Arbeitsmenge, da Seiten i.d.R. mehrfach hintereinander angesprochen werden 
+>[!example] Beispiel: Arbeitsmengen bei verschiedenen $\Delta$
+>![[Pasted image 20260723114124.png]]
+
+##### Diskussion
+- Annäherung der Zugriffe durch die Zeit
+	- Bestimmtes Zeitintervall ist ungefähr Proportional zur Anzahl von Speicherzugriffen 
+- Virtuelle Zeit des Prozesses muss gemessen werden
+	- Nur die Zeit relevant, in der der Prozess im Zustand `RUNNING` ist
+	- Verwalten virtueller Uhren pro Prozess
+
+##### Arbeitsmengenbestimmung mit Zeitgeber
+- Annäherung der Arbeitsmenge mit
+	- 
