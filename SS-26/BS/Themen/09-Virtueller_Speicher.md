@@ -105,7 +105,7 @@ ___
 
 - ***Problem:*** Welche Seite soll ausgewählt werden?
 
-#### Ersetzungsstrategien 
+## Ersetzungsstrategien 
 
 - ***Referenzfolge***
 	- **Speicherzugriffsverhalten** eines Prozesses → Folge von Seitennummern
@@ -114,7 +114,7 @@ ___
 		- Zusammenfassung von unmittelbar folgenden Zugriffen auf die Seite
 	- *z.B.* $1, 2,3 , 4, 1, 2, 5, 1, 2, 3, 4, 5$
 
-## FIFO
+### FIFO
 - **älteste Seite wird ersetzt**
 - Notwendige Zustände:
 	- Alter bzw. Einlagerungszeitpunkt für jeden Seitenrahmen
@@ -122,8 +122,20 @@ ___
 - Größerer Hauptspeicher mit 4 Seitenrahmen (10 Einlagerungen!)
 - FIFO-Anomalie (Beledys Anomalie, 1969) ![[Pasted image 20260721092035.png]]
 
-## Optimale Seitenersetzungsstrategie
-- ***Vorwärtsabstand***
-	- Ersetze die Seite die am längsten wnich referenziert **wird**
-	- Strategie OPT (oder MIN) ist optimal (bei fester Seitenrahmenzahl):
-	  → 
+> [!note] ### Optimale Seitenersetzungsstrategie
+>- ***Vorwärtsabstand***
+>	- Ersetze die Seite die am längsten wnich referenziert **wird**
+>	- Strategie OPT (oder MIN) ist optimal (bei fester Seitenrahmenzahl):
+>	  →*Minimale Anzahl von Umlagerungen* (hier 7)
+>		- Wähle die Seite mit dem größten Vorwärtsabstand![[Pasted image 20260723102603.png]]
+>	- Verhrößerung des Hauptspeichers ($ Seitenrahmen)
+>	  → *6 Einlagerungen*
+>		- keine Anomalie ![[Pasted image 20260723102712.png]]
+>___
+>- Implementierung von OPT leider ***praktisch unmöglich***
+>	- Referenzfolge müsste *vorher bekannt* sein
+>	- OPT ist *nur zum Vergleich von Strategien* brauchbar
+>	→ Suche nach Strategien , die **möglichst nahe an OPT kommen**
+>		- z.B. Last Recently used (LRU)
+
+### Last
