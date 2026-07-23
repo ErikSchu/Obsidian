@@ -115,12 +115,14 @@ ___
 	- *z.B.* $1, 2,3 , 4, 1, 2, 5, 1, 2, 3, 4, 5$
 
 ### FIFO
+
 - **älteste Seite wird ersetzt**
 - Notwendige Zustände:
 	- Alter bzw. Einlagerungszeitpunkt für jeden Seitenrahmen
 - Ablauf der Ersetzungen (9 Einlagerungen) ![[Pasted image 20260721091612.png]]
 - Größerer Hauptspeicher mit 4 Seitenrahmen (10 Einlagerungen!)
 - FIFO-Anomalie (Beledys Anomalie, 1969) ![[Pasted image 20260721092035.png]]
+
 
 > [!note] ### Optimale Seitenersetzungsstrategie
 >- ***Vorwärtsabstand***
@@ -139,6 +141,7 @@ ___
 >		- z.B. Last Recently used (LRU)
 
 ### Last Recently Used (*LRU*)
+
 - ***Rückwertsabstand***
 	- Zeitdauer seit dem letzten Zugriff auf die Seite
 - LRU-Strategie (*10 Einlagerungen*)
@@ -157,4 +160,26 @@ ___
 
 - **Hardwareunterstützung**
 	- CPU besitzt einen Zähler, der bei jedem Speicherzugriff inkrementiert wird
-	- bei jedem Zugriff wird der aktuelle Zählerwert in den jeweil
+	- bei jedem Zugriff wird der aktuelle Zählerwert in den jeweiligen Seitendeskriptor geschrieben
+	- Auswahl der Seite mit dem kleinsten Zählerstand (→ Suche)
+	  
+	- **Aufwändige Implementierung:**
+		- viele zusätzliche Speicherzugriffe
+		- hoher SPeicherplatzbedarf
+		- Minimum-Suche in der Seitenfehler-Behandlung
+
+### Second chance (*Clock*)
+
+- ***Einsazt von Referenzbits***
+	- **im Seitendeskriptor** automatisch durch Hardware gesetzt, wenn die Seite zugegriffen wird
+		- *einfacher* zu implementieren
+		- *weniger* zusätzliche Speicherzugriffe
+		- moderne Prozessoren bzw. MMUs unterstüzten Refeerenzbits (z.B. x86: access bit)
+
+- ***Ziel:*** Annäherung von LRU
+	- bei einer frisch eingelagerten Seite wird das Referenzbit zunächst auf 1 gesetzt
+	- wird eine Opferseite gesucht, so werden die Seitenrahmen reihum inspiziert
+		- ist das Referenzbit `1`, so wird es auf 0 gesetzt (zweite Chance)
+		- ist das Referenzbit `0`, so wird die Seite ersetzt
+
+-  Implementierung mit umlaufendem Zeiger (*Clock*)
