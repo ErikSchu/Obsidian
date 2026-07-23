@@ -207,4 +207,12 @@ ___
 
 - Statt eine Seite zu ersetzen, wird permanent eine Menge freier Seiten gehalten
 	- **Auslagerung geschieht im Voraus**
-	- Effizienter: Ersetzun
+	- Effizienter: Ersetzungszeit besteht im Wesentlichen nur aus Einlagerungszeit
+
+- Behalten der Seitenzahloordnung auch nach der Auslagerung 
+	- Wird die Seite doch noch benutzt, bevor sie durch eine andere ersetzt wird, kann sie mit hoher Effizienz wiederverwendet werden.
+	- Seite wird aus Freiseitenpuffer ausgetragen und wieder dem entsprechenden Prozesszugeordnet.
+
+___
+
+# Seitenzuordnung
