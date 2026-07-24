@@ -296,4 +296,7 @@ ___
 → ***Ineffizient***
 - große Mengee von Seiten zu betrachten
 
-##### Arbeitsmengenbestimmung mit WS
+##### Arbeitsmengenbestimmung mit WSClock
+- **Algorithmus** WSClock (working set clock)
+	- Arbeitet wie Clock
+	- Seite wird nur dann ersetzt
