@@ -15,5 +15,6 @@
   "templater-obsidian",
   "obsidian-contextual-typography",
   "obsidian-smart-typography",
-  "code-runner"
+  "code-runner",
+  "better-export-pdf"
 ]

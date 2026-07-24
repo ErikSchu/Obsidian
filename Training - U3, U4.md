@@ -9,18 +9,18 @@
 > * **Definition:** Employment alongside attending school (e.g., barista, gift shop assistant, tour guide helper, cashier).
 > * **Key Concepts:** Teenagers usually earn **minimum wage** (lowest legal hourly rate), work fixed **working hours** after school or on weekends, gain **work experience**, and must maintain a healthy **balance** between school and work.
 
-### Task 1.1: Argumentative Writing
+### Task 1: Argumentative Writing
 *Write 2–3 complete English sentences for each question below. Integrate the key vocabulary from the fact sheet above.*
 
 1. **Why do many teenagers in the USA choose to have a part-time job?**  
    *(Focus on: money, independence, work experience)*
-   * ____________________________________________________________________________________
-   * ____________________________________________________________________________________
+   * 
+   * 
 
 2. **What are the main challenges of holding a job while attending high school?**  
    *(Focus on: stress, grades, work-life balance)*
-   * ____________________________________________________________________________________
-   * ____________________________________________________________________________________
+   * 
+   * 
 
 ---
 
@@ -36,7 +36,7 @@
 > | **Culture** | **School Spirit** (Prom, Homecoming, Sports events) | **Assembly** (morning gathering), House System |
 > | **Qualifications** | High School Diploma, SATs / ACTs | **GCSEs** (Year 11), **A-Levels** (Year 13) |
 
-### Task 2.1: Comparative Sentences
+### Task 2: Comparative Sentences
 *Write three comparative sentences contrasting the US and UK school systems. Use linking words such as **whereas**, **in contrast to**, or **while**.*
 
 > [!example] Model Example
@@ -74,7 +74,7 @@
 > * **Pünktlich:** Punctual
 > * **Fähigkeiten:** Skills / Qualifications
 
-### Task 3.1: Debugging Informal Register
+### Task 3: Debugging Informal Register
 *The following sentences are taken from cover letters but contain inappropriate informal language. Rewrite them using formal business register.*
 
 1. **Informal:** *Hey, I want that job in your shop because I need cash.*  
@@ -109,21 +109,7 @@ Grand Canyon Tourism Board
 
 Dear Mr. Taylor,
 
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
-
-___________________________________________________________________________________________
+ [...]
 
 Yours sincerely,
 
