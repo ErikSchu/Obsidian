@@ -1,149 +1,130 @@
 ## 1. The Southwest of the USA & Part-Time Jobs
 
->[!info] Facts & key terms
->- The Southwest:
-> 	 - Climate & Landscape: Mostly arid (sehr trocken) and hot. Famous for deserts, red rocks, and iconic National Parks (e.g., Grand Canyon, Zion, Death Valley).
->	- Culture & Economy: High influence of Native American and Hispanic culture. Driven heavily by tourism, service industries, and agriculture.
->  ___
->- Student & Part-time Jobs:
->    - Definition: A job alongside high school (e.g., barista, gift shop assistant, tour guide helper, cashier).
->	- Key Aspects: Teenagers usually earn minimum wage (gesetzlicher Mindestlohn), work fixed working hours after school or on weekends, gain work experience, and must find a balance between school and work.
+> [!info] Fact Sheet: The Southwest & Student Jobs
+> **The Southwest:**
+> * **Climate & Landscape:** Mostly **arid** (extremely dry) and hot. Famous for deserts, red rock formations, and iconic **National Parks** (e.g., Grand Canyon, Zion, Death Valley).
+> * **Culture & Economy:** Strong influence of Native American and Hispanic cultures. The economy is heavily driven by tourism, service industries, and agriculture.
+>
+> **Student & Part-time Jobs:**
+> * **Definition:** Employment alongside attending school (e.g., barista, gift shop assistant, tour guide helper, cashier).
+> * **Key Concepts:** Teenagers usually earn **minimum wage** (lowest legal hourly rate), work fixed **working hours** after school or on weekends, gain **work experience**, and must maintain a healthy **balance** between school and work.
 
+### Task 1.1: Argumentative Writing
+*Write 2–3 complete English sentences for each question below. Integrate the key vocabulary from the fact sheet above.*
 
-### Task 1.1 - Writing
+1. **Why do many teenagers in the USA choose to have a part-time job?**  
+   *(Focus on: money, independence, work experience)*
+   * ____________________________________________________________________________________
+   * ____________________________________________________________________________________
 
-Form 2-3 sentences  for each of the following questions unsing the vocabulary from above. 
-1. Why do many teenagers in the USA want to have a part-time job?  
-    (Tipp: Geh auf money, independence und experience ein.)
-    - 
-    -   
-    
+2. **What are the main challenges of holding a job while attending high school?**  
+   *(Focus on: stress, grades, work-life balance)*
+   * ____________________________________________________________________________________
+   * ____________________________________________________________________________________
 
-2. What are the main problems or challenges of having a job while going to high school?  
-    (Tipp: Geh auf stress, grades und work-life balance ein.)
-    
-
--   
-    
--   
-    
+---
 
 ## 2. School Systems: USA vs. UK
 
-### 2.1 Info-Block: Der direkte Vergleich
+> [!abstract] Comparison: US High School vs. UK Secondary School
+> 
+> | Category | USA (High School) | UK (Secondary School) |
+> | :--- | :--- | :--- |
+> | **Clothing** | No uniform (Casual clothing) | **School Uniform** is strictly compulsory |
+> | **School Types** | Middle School $\rightarrow$ **High School** | Primary School $\rightarrow$ **Secondary School** |
+> | **Curriculum** | Core subjects + **Electives** (e.g., Drama, Journalism) | Standard national curriculum focusing on **GCSEs** |
+> | **Culture** | **School Spirit** (Prom, Homecoming, Sports events) | **Assembly** (morning gathering), House System |
+> | **Qualifications** | High School Diploma, SATs / ACTs | **GCSEs** (Year 11), **A-Levels** (Year 13) |
 
-|   |   |   |
-|---|---|---|
-|Kategorie|USA (High School)|UK (Secondary School)|
-|Kleidung|No uniform (Casual clothing)|School Uniform is strictly compulsory|
-|Schultypen|Middle School $\rightarrow$ High School|Primary School $\rightarrow$ Secondary School|
-|Fächerwahl|Core subjects + Electives (Wahlfächer wie Drama, Journalism)|Standard curriculum, focus on GCSEs|
-|Kultur|School Spirit (Prom, Homecoming, Football games)|Assembly (Morgenappell/Versammlung), House system|
-|Abschlüsse|High School Diploma, SATs / ACTs|GCSEs (Year 11), A-Levels (Year 13)|
+### Task 2.1: Comparative Sentences
+*Write three comparative sentences contrasting the US and UK school systems. Use linking words such as **whereas**, **in contrast to**, or **while**.*
 
-### 2.2 Aufgabenblock
+> [!example] Model Example
+> *While US students can choose various electives, UK students follow a fixed national curriculum for their GCSEs.*
 
-#### Aufgabe 2.1: Vergleichende Absätze (Comparative Writing)
+1. *(Clothing / Uniforms):* _________________________________________________________________
+2. *(Qualifications / Exams):* _________________________________________________________________
+3. *(School Culture / Spirit):* ________________________________________________________________
 
-Schreibe drei Sätze, in denen du das US-amerikanische und das britische Schulsystem miteinander vergleichst. Verwende dazu die Überleitungswörter whereas, in contrast to oder while.
+---
 
-- Beispiel: While US students can choose electives, UK students have a fixed national curriculum for their GCSEs.
-    
+## 3. Written Applications (Cover Letter)
 
-1. (Kleidung/Uniform): _________________________________________________________________
-    
-2. (Abschlüsse/Exams): _________________________________________________________________
-    
-3. (Schulkultur/Spirit): ________________________________________________________________
-    
+> [!note] Blueprint: Formal Cover Letter
+> A formal English application (**Cover Letter**) follows a strict logical structure:
+> 
+> 1. **Header:** Your contact details, recipient's details, date.
+> 2. **Salutation:** `Dear Hiring Manager,` or `Dear Mr./Ms. [Last Name],`
+> 3. **Reason for Writing:** State the position you are applying for and where you found the job ad.  
+>    * *Example:* "I am writing to apply for the position of... as advertised on..."
+> 4. **Current Situation & Education:** State your current school and grade level.  
+>    * *Example:* "Currently, I am attending 10th grade at..."
+> 5. **Skills & Experience:** Explain why you are qualified. Highlight key strengths.  
+>    * *Example:* "My main strengths are reliability, teamwork, and communication skills."
+> 6. **Motivation & Availability:** Explain why you want the job and when you can work.  
+>    * *Example:* "I am available on weekends and after school."
+> 7. **Formal Sign-off:** Request an interview and close formally.  
+>    * *Example:* "I look forward to hearing from you soon. Yours sincerely,"
 
-## 3. Written Application (Cover Letter)
+> [!tip] Key Formal Vocabulary
+> * **Anschreiben:** Cover Letter / Application
+> * **Lebenslauf:** CV (Curriculum Vitae) / Resume
+> * **Bewerben um:** To apply for
+> * **Zuverlässig:** Reliable
+> * **Pünktlich:** Punctual
+> * **Fähigkeiten:** Skills / Qualifications
 
-### 3.1 Info-Block: Der Bauplan einer formellen Bewerbung
+### Task 3.1: Debugging Informal Register
+*The following sentences are taken from cover letters but contain inappropriate informal language. Rewrite them using formal business register.*
 
-Eine englische Bewerbung (Cover Letter) folgt einem strikten, logischen Aufbau:
+1. **Informal:** *Hey, I want that job in your shop because I need cash.*  
+   $\rightarrow$ **Formal:** ___________________________________________________________________
 
-  
-  
-  
+2. **Informal:** *I'm super good at talking to people and stuff.*  
+   $\rightarrow$ **Formal:** ___________________________________________________________________
 
-[Your Name & Address]  
-[Employer's Name & Address]  
-[Date]  
-  
-Dear Hiring Manager, / Dear Mr/Ms [Last Name],  
-  
-1. REASON FOR WRITING:  
-  Sage genau, für welche Stelle du dich bewirbst und wo du die Anzeige gesehen hast.  
-  -> "I am writing to apply for the position of... as advertised on..."  
-  
-2. CURRENT SITUATION & EDUCATION:  
-  Wer bist du aktuell? Welche Schule besuchst du?  
-  -> "Currently, I am attending 10th grade at..."  
-  
-3. SKILLS & WORK EXPERIENCE:  
-  Warum bist du geeignet? Welche Stärken (Skills) und Erfahrungen bringst du mit?  
-  -> "In my free time, I have gained experience in..."  
-  -> "My main strengths are teamwork, reliability, and good communication skills."  
-  
-4. MOTIVATION & AVAILABILITY:  
-  Warum willst du den Job und wann kannst du arbeiten?  
-  -> "My goal is to gain hands-on experience in..."  
-  -> "I am available on weekends and after school."  
-  
-5. FORMAL CLOSING:  
-  Formelle Verabschiedung und Aufforderung zur Rückmeldung.  
-  -> "I look forward to hearing from you soon."  
-  -> "Yours sincerely," (wenn Name bekannt) OR "Yours faithfully," (wenn Name unbekannt)  
-   
-[Signature]  
-  
+3. **Informal:** *Write me back soon, bye!*  
+   $\rightarrow$ **Formal:** ___________________________________________________________________
 
-#### Important Formal Register (Vokabel-Box):
+---
 
-- Anschreiben: Cover Letter / Application
-    
-- Lebenslauf: CV (Curriculum Vitae) / Resume
-    
-- Bewerben um: to apply for
-    
-- Zuverlässig: reliable
-    
-- Pünktlich: punctual
-    
-- Fähigkeiten: skills / qualifications
-    
+### Task 3.2: Full Cover Letter Writing Task
 
-### 3.2 Aufgabenblock
+> [!example] Job Advertisement
+> **Grand Canyon Visitor Center** is looking for a seasonal **Part-Time Assistant (m/f/d)**.  
+> * **Tasks:** Assisting tourists, selling entry tickets, maintaining the gift shop.  
+> * **Requirements:** Strong communication skills, interest in nature/national parks, reliability.  
+> * **Contact:** Mr. John Taylor, Grand Canyon Tourism Board.
 
-#### Aufgabe 3.1: Fehleranalyse (Debugging Formal Register)
+*Write a complete formal cover letter (approx. 80–120 words) based on the job advertisement above.*
 
-Die folgenden Sätze stammen aus Bewerbungsschreiben, enthalten aber unpassende Umgangssprache (Informal Language). Formuliere sie in formelles Englisch (Formal Register) um.
+```markdown
+[Your Name]
+[Your Address]
 
-1. Informal: Hey, I want that job in your shop because I need cash.  
-    $\rightarrow$ Formal: ___________________________________________________________________
-    
-2. Informal: I'm super good at talking to people and stuff.  
-    $\rightarrow$ Formal: ___________________________________________________________________
-    
-3. Informal: Write me back soon, bye!  
-    $\rightarrow$ Formal: ___________________________________________________________________
-    
+[Date]
 
-#### Aufgabe 3.2: Freie Schreibaufgabe (Full Writing Task)
+Mr. John Taylor
+Grand Canyon Tourism Board
 
-Verfasse eine vollständige Bewerbung (Cover Letter) basierend auf der folgenden Stellenanzeige.
+Dear Mr. Taylor,
 
-Job Ad:
+___________________________________________________________________________________________
 
-Grand Canyon Visitor Center is looking for a seasonal Part-Time Assistant (m/f/d).
+___________________________________________________________________________________________
 
-Tasks: Helping tourists, selling tickets, maintaining the gift shop.
+___________________________________________________________________________________________
 
-Requirements: Good communication skills, interest in nature/national parks, reliability.
+___________________________________________________________________________________________
 
-Send your application to: Mr. John Taylor, Grand Canyon Tourism Board.
+___________________________________________________________________________________________
 
-Dein Text (ca. 80–120 Wörter):
+___________________________________________________________________________________________
 
-**
+___________________________________________________________________________________________
+
+___________________________________________________________________________________________
+
+Yours sincerely,
+
+[Signature / Your Name]
