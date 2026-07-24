@@ -299,4 +299,8 @@ ___
 ##### Arbeitsmengenbestimmung mit WSClock
 - **Algorithmus** WSClock (working set clock)
 	- Arbeitet wie Clock
-	- Seite wird nur dann ersetzt
+	- Seite wird nur dann ersetzt, wenn sie *nicht zur Arbeitsmenge ihres Prozesses gehört* oder der Prozess deaktiviert ist. 
+- Bei Zurücksetzen des Referenzbits wird die virtuelle Zeit des jeweiligen Prozesses Eingetragen, die z.B. im PCB gehalten und fortgeschrieben wird. 
+- Bestimmung der Arbeitsmenge erfolgt durch **Differenzbildung** von virtueller Zeit des Prozesses und Zeitstempel in den Seitenrahmen. ![[Pasted image 20260724092627.png]]
+
+### Arbeitsmengenprobleme
