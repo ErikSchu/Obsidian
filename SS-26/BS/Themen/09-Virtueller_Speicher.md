@@ -304,3 +304,30 @@ ___
 - Bestimmung der Arbeitsmenge erfolgt durch **Differenzbildung** von virtueller Zeit des Prozesses und Zeitstempel in den Seitenrahmen. ![[Pasted image 20260724092627.png]]
 
 ### Arbeitsmengenprobleme
+- ***Speicherplatzbedarf*** für Zeitstempel
+- Zuordnung zu einem Prozess nicht immer möglich
+	- gemeinsam genutzte Seiten in modernen Betriebssystemen eher die Regel als die Ausnahme
+		- Shared Libraries
+		- Gemeinsame Seiten im Datensegment (Shared Memory)
+
+#### Lösung 3: *Thrashing kann durch direkte Steuerung der Seitenfehlerrate leicher vermieden werden*
+- Messung Pro Prozess
+	- $\text{Rate < Schwellenwert}$: Menge der Seitenrahmen verkleinern
+	- $\text{Rate > Schwellenwert}$: Menge der Seitenrahmen vergrößern
+
+___
+# Ladestrategie
+
+- ***Auf Anforderung Laden***
+	- immer sicher
+
+- ***Im Voraus laden***
+	- **Schwierig:** Ausgelagerte Seiten werde neigentlich nicht gebraucht.
+	- Oftmals löst eine Maschieninstruktion *mehrere Seitenfehler* aus.
+		- Durch Interpretation des Befehls beim ersten Seitenfehler können die benötigten anderen Seiten im Voraus eingelagert werden
+		- Weitere Seitenfehler werden verhindert
+	- Komplettes WS bei Prozesseinlagerung im Voraus laden
+	- Sequentielle Zugriffsmuster erkennen und Folgeseiten vorab laden
+
+___
+
