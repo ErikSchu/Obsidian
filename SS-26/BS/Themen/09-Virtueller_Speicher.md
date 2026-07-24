@@ -331,3 +331,14 @@ ___
 
 ___
 
+>[!summary] Zusammenfassung
+>- Virtueller Speicher ermöglicht Nutzung großer logischer Adressräume trotz Speicherbeschränkung
+>___
+>- Hat aber seinen Preis:
+>	- Aufwand in der *Hardware*
+>	- *Komplexe* Algorithmen im Betriebssystem
+>	- Effekte wie *“Thrashing”*
+>	- *Zeitverhalten* nicht vorhersagba
+>___
+>- Einfache (Spezialzweck-)Systeme, die dies nicht benötigen, sollten besser darauf verzichten.
+
