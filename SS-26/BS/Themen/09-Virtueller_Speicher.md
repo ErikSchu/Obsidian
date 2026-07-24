@@ -279,4 +279,21 @@ ___
 
 ##### Arbeitsmengenbestimmung mit Zeitgeber
 - Annäherung der Arbeitsmenge mit
-	- 
+	- Referenzbit
+	- Altersangabe pro Seite (Zeitintervall ohne Benutzung)
+	- Timer-Interrupt (durch Zeitgeber)
+- **Algorithmus:**
+	- durch regelmäßugen Interrupt wird mittels Ref’bit die Altersangabe fortgeschrieben:
+		- ist Ref’bit gesetzt (Seite wurde benutzt), wird das Alter auf Null gesetzt;
+		- ansonsten wird Altersangabe erhöht.
+		- Es werden nur die Seiten des gerade laufenden Prozesses “gealtert”
+	- Seiten mit Alter $> \Delta$ sind nicht mehr in der Arbeitsmenge des jeweiligen Prozesses.
+
+→ ***Ungenau***
+- System ist aber nicht emfindlich gegen diese Ungenauigkeit
+- Verringerung der Zeitintervalle: höhere Aufwannd, genauere Messung
+
+→ ***Ineffizient***
+- große Mengee von Seiten zu betrachten
+
+##### Arbeitsmengenbestimmung mit WS
