@@ -4,7 +4,7 @@
   "accentColor": "#4f38ff",
   "baseFontSize": 22,
   "nativeMenus": true,
-  "cssTheme": "",
+  "cssTheme": "Prism",
   "enabledCssSnippets": [
     "dark-pdf"
   ],

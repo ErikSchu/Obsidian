@@ -23,7 +23,7 @@ Gegeben ist ein Array $\mathbf{A} = (A_{1}, \dots, A_{n})$ mit vergleichbaren El
 >5. Wende `Select` rekursiv an, um einen Median $m$ von $\mathbf{m} = (m_{1}, \dots, m_{N})$ zu finden.
 >6. Bestimme $\mathbf{K} = (K_{1}, \dots, K_{n'}); \ \mathbf{M} = (M_{1}, \dots, M_{n''}); \ \mathbf{G} = (G_{1}, \dots, G_{n'''})$, die die Elemente von $\mathbf{A}$ kleiner/gleich/größer $m$ enthalten.
 >7. Falls $n' \ge l$, führe `Select(K, l)` aus;
->8. sonst, falls $n' + n'' \ge l$, gib$m$ aus;
+>8. sonst, falls $n' + n'' \ge l$, gib $m$ aus;
 >9. sonst führe `Select(G, l-n'-n'')` aus.
 
 >[!tip] Satz 
@@ -35,7 +35,7 @@ $\implies$ es gibt einen eineacheren randomisierten Algorithmus für dieses Prob
 $$\text{Probleme}^{n^{n^{n}}}$$
 $$\mathbf{\boxed{67}}$$
 $$\begin{pmatrix} B & I & T & T & E \\ H & I & L & F & E \end{pmatrix}$$
-$$\lim_{ n \to \infty } \int_{0} ^{\infty^2} \text{Janiß} \ d\text{dick} = \sum_{\text{Eichel}} ^\text{Holzbrett} \text{Fabienne <3}$$
+$$\lim_{ n \to \infty } \int_{0} ^{\infty^2} \text{Janiß} \ \text{dick} = \sum_{\text{Eichel}} ^\text{Holzbrett} \text{Fabienne <3}$$
 $$\begin{align}
 \text{ ElectroBoom} = O(\emptyset) & \Longleftrightarrow \sqrt{ \text{Benji Haase} } = e^\text{Pferdeschwanz} \space | \space \boxed{}^2 \\
 & \Longleftrightarrow \text{Benji Haase} = (e^\text{Pferdeschwanz})^2
