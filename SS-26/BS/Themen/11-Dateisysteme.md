@@ -241,4 +241,6 @@ ___
 
 ## Journaled File Systems
 
-- Zusätzlich zum Schreiben der (Meta-)Daten
+- Zusätzlich zum Schreiben der (Meta-)Daten (z.B. Inodes) wird ein Protokoll der Änderungen geführt
+	- Alle Änderungen treten als Teil von Transaktionen auf. 
+	- Beis
