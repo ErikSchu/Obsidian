@@ -55,4 +55,20 @@
 	- Ungünstig im Zusammenhang mit *Paging*:
 	  Seite würde immer aus Teilen von *zwei Plattenblöcken* bestehen
 - **Fehleranfälligkeit**
-	- Datei ist nicht restaurierbar, falls einmal Verzeigerung fehlerhaft
+	- Datei ist nicht restaurierbar, falls einmal *Verzeigerung fehlerhaft*
+- **Schlechter direkter Zugriff** auf bestimmte Dateiposition
+- **Häufiges Positionieren** des Schreib-/Lesekopfs bei verstreuten Datenblöcken
+
+### FAT *(File Allocation Table)*
+- Verkettung wird in **seperaten Plattenblöcken** gespeichert
+![[Pasted image 20260802125515.png]]
+- ***Vorteile***
+	- kompletter Inhalt des Datenblocks ist nutzbar
+	- mehrfache Speicherung der FAT möglich → Einschränkung der Fehleranfälligkeit
+
+#### Probleme
+- **Zusätzliches Laden** mindestens eines Blocks
+	- Caching der FAT zur Effizienzsteigerung nötig
+- Laden unbenötigter Informationen
+	- FAT enthält Verkettung für alle Dateien
+- **Aufwändige Suche** nach dem zugehlrigen 
