@@ -126,5 +126,18 @@ ___
 - ***Bitvektoren*** zeigen für jeden Block Belegungen an
 - oder ***verkettete Listen*** repräsentieren freie Blöcke
 	- Verkettung kann in den freien Blöcken vorgenommen werden.
-	- **Optimierung:** Aufeinanderfolgende Blöcke werden nicht einzeln aufgenommen, sondern am Stück verwaltet
-	- **Optimierung:** Ein freier Blocj enthält viele Blocknummern weiterer freier Blöcke, und evtl. die Blocknummer eines weitern Blocks mit den Nummern freier Blöcke. 
+	- **Optimierung:** Aufeinanderfolgende Blöcke werden nicht einzeln aufgenommen, sondern am Stück verwaltet.
+	- **Optimierung:** Ein freier Blocj enthält viele Blocknummern weiterer freier Blöcke, und evtl. die Blocknummer eines weitern Blocks mit den Nummern freier Blöcke.
+- ***Baumsequentielle Speicherung*** freier Blockfolgen
+	- erlaubt schnelle Suche nach freier Blockfolge bestimmter Größe
+	- Anwendung z.B. im SGI XFS
+
+___
+
+# Verzeichnisse 
+
+## Verzeichnis als Liste 
+
+- Einträge gleicher Länge hintereinander in einer Liste, z.B. 
+	- **FAT** *File systems* (**VFAT** nutzt mehrere Einträge für lange Dateinamen) ![[Pasted image 20260802133937.png]]
+	- **UNIX** *System V.3* ![[Pasted image 20260802134122.png]]
