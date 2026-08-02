@@ -112,6 +112,19 @@
 - Wird bei Datenbanken zum effizienten Auffinden eines Datensatzes mit Hilfe eines Schlüssels eingesetzt
 	- Schlüsselraum darf dünn besetzt sein
 - Kann auch verwendet werden, im Datei-*Chunks* mit bestimmtem Datei-*Offset* aufzufinden
+	- z.B. NTFS, ReiserFS, Btrfs, IBMs JFS2-Dateisystem (B$^+$-Baum)
+	![[Pasted image 20260802132432.png]]
 
 ___
 
+# Freispeicherverwaltung
+
+![[Pasted image 20260802132659.png]]
+
+Ähnlich wie Verwaltung von freiem Hauptspeicher 
+
+- ***Bitvektoren*** zeigen für jeden Block Belegungen an
+- oder ***verkettete Listen*** repräsentieren freie Blöcke
+	- Verkettung kann in den freien Blöcken vorgenommen werden.
+	- **Optimierung:** Aufeinanderfolgende Blöcke werden nicht einzeln aufgenommen, sondern am Stück verwaltet
+	- **Optimierung:** Ein freier Blocj enthält viele Blocknummern weiterer freier Blöcke, und evtl. die Blocknummer eines weitern Blocks mit den Nummern freier Blöcke. 
