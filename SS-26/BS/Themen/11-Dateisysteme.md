@@ -214,5 +214,31 @@ ___
 	- und nach jedem **Schreibauruf im Modus `O_SYNC`** (siehe `open(2)`).
 
 - ***Adressierung:***
-	- erfolgt für jeden Block übre ein Tupel 
+	- erfolgt für jeden Block übre ein Tupel $(\text{Gerätenummer, Blocknummer})$
+	- Über die Adresse wird ein Hash-Wert gebildet, der eine der möglichen Pufferlisten auswählt 
 
+#### Aufbau
+![[Pasted image 20260802163754.png]]![[Pasted image 20260802163814.png]]
+
+___
+
+# Dateisysteme mit Fehlererholung
+
+- **Mögliche Fehler:**
+	- Stromausfall (oder dummer Benutzer schaltet das Gerät einfach aus)
+	- Systemabsturz
+
+- **Auswirkungen auf das Dateisystem:** *inkonsistente Metadaten*
+	- z.B. Katalogeintrag fehlt zur Datei oder umgekehrt
+	- z.B. Block ist benutzt, aber nicht als belegt markiert
+
+- ***Reperaturprogramme***
+	- Programme wie `chkdsk`, `scandisk` oder `fsck` können inkonsistente Metadaten repariern
+
+- ***Probleme:***
+	- Datenverlust bei Reperatur möglich
+	- lange Laufzeiten der Reperaturprogramme bei großen Platten
+
+## Journaled File Systems
+
+- Zusätzlich zum Schreiben der (Meta-)Daten
