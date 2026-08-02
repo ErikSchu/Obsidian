@@ -196,6 +196,23 @@ ___
 ## UNIX Block Buffer Cache
 
 - Pufferspeicher **für Plattenblöcke im Hauptspeicher**
+	
 	- *Verwaltung mit Algorithmen* ähnlich wie bei Seitenverwaltung (Speicher)
-	- ***Read ahead:*** beim sequentiellen Lesen wird auch der Transfer von Folgeblöcken angestoßen
-	- ***Lazy write:*** Block wird nicht sofort auf Platte geschrieben (erlaubt Optimierung )
+	  
+	- ***Read ahead:*** beim sequentiellen Lesen wird auch der **Transfer von Folgeblöcken** angestoßen
+	  
+	- ***Lazy write:*** Block wird **nicht sofort auf Platte** geschrieben (erlaubt Optimierung der Schreibzugriffe und blockiert den Schreiber nicht)
+	  
+	- Verwaltung freier Blöcke in einer ***Freiliste:***
+		- Kandidaten für Freiliste werden nach *LRU-Verfahren* bestimmt
+		- Bereits freie, aber noch nicht anderweitig genutzte Blöcke können **reaktiviert** werden (*Reclaim*)
+
+- ***Schreiben*** erfolgt, wenn …
+	- **keine freien Puffer** mehr vorhanden sind,
+	- **regelmäßig vom System** (`fsflush`-Prozess, `update`-Prozess),
+	- beim **Systemaufruf `sync()`**, 
+	- und nach jedem **Schreibauruf im Modus `O_SYNC`** (siehe `open(2)`).
+
+- ***Adressierung:***
+	- erfolgt für jeden Block übre ein Tupel 
+
