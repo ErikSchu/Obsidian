@@ -141,3 +141,8 @@ ___
 - Einträge gleicher Länge hintereinander in einer Liste, z.B. 
 	- **FAT** *File systems* (**VFAT** nutzt mehrere Einträge für lange Dateinamen) ![[Pasted image 20260802133937.png]]
 	- **UNIX** *System V.3* ![[Pasted image 20260802134122.png]]
+- ***Probleme:*** 
+	- Suche nach bestimmtem Eintrag muss linear erfolgen
+	- Bei Sortierung der Liste: Schnelles Suchen, Aufwand beim Einfügen
+
+### Einsatz von *Hash*-Funktionen
