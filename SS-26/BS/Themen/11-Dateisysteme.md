@@ -146,3 +146,19 @@ ___
 	- Bei Sortierung der Liste: Schnelles Suchen, Aufwand beim Einfügen
 
 ### Einsatz von *Hash*-Funktionen
+
+- Funktion bildet Dateinamen auf einen Index in die Katalogliste ab
+	- schneller Zugriff auf den EIntrag möglich (kein lineares Suchen)
+- Einfaches (aber schlechtes) Beispiel: $\Sigma \text{ mod } N$![[Pasted image 20260802161401.png]]
+- ***Probleme:***
+	- Kollisionen 
+	  (mehrere Dateinamen werden auf denselben Eintrag abgebildet)
+	- Anpassung der Listengröße, wenn Liste voll
+
+### Variabel lange Listenelemente
+
+- Beispiel: 4.2 BSD, System V Rel. 3, u.a. ![[Pasted image 20260802161554.png]]
+- ***Probleme:***
+	- Verwaltung von freien Einträgen in der Liste
+	- Speicherverschnitt (Kompaktifizieren, etc.)
+
