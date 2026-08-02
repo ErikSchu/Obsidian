@@ -86,4 +86,32 @@
 > 		- feste Größe: **innerhalb** einer Folge (interner)
 > 		- variable Größe: **außerhalb** der Folgen (externer)
 >___
-> 
+> - Wird eingesetzt, bringt aber keinen fundamentalen Fortschritt
+
+
+## Indiziertest Speichern
+
+- ***Spezieller Plattenblock*** (Indexblock) enthält Blocknummern der Datenblöcke einer Datei:![[Pasted image 20260802131449.png]]
+- **Problem:** Feste Anzahl von Blöclen im Indexblock
+	- Verschnitt bei kleinen Dateien
+	- erweiterung nötig für große Dateien 
+
+### Unix-Inode
+![[Pasted image 20260802131623.png]]
+
+### Diskussion
+- Einsatz von **mehreren Stufen** der Indizierung
+	- Inode benötigt sowieso einen Block auf der Platten 
+	  (Verschnitt unproblematisch bei kleinen Dateien)
+	- durch mehrere Stufen der Indizierung auch größere Dateien adressierbar
+- ***Nachteil:*** mehrere Blöcke müssen geladen werden (nur bei langen Dateien)
+
+
+## Baumsequentielle Speicherung
+
+- Wird bei Datenbanken zum effizienten Auffinden eines Datensatzes mit Hilfe eines Schlüssels eingesetzt
+	- Schlüsselraum darf dünn besetzt sein
+- Kann auch verwendet werden, im Datei-*Chunks* mit bestimmtem Datei-*Offset* aufzufinden
+
+___
+
