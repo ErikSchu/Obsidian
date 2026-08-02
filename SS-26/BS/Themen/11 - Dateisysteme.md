@@ -49,3 +49,10 @@
 		- wenn Spurnummer == 0 → letzter Block
 		- 254 Bytes Nutzdateien 
 	→ Datei kann **vergrößert und verkleinert** werden
+
+#### Probleme
+- **Speicher für Verzeigerung** geht von Nutzerdaten im Block ab
+	- Ungünstig im Zusammenhang mit *Paging*:
+	  Seite würde immer aus Teilen von *zwei Plattenblöcken* bestehen
+- **Fehleranfälligkeit**
+	- Datei ist nicht restaurierbar, falls einmal Verzeigerung fehlerhaft
