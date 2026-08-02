@@ -241,6 +241,32 @@ ___
 
 ## Journaled File Systems
 
-- Zusätzlich zum Schreiben der (Meta-)Daten (z.B. Inodes) wird ein Protokoll der Änderungen geführt
+- Zusätzlich zum Schreiben der (Meta-)Daten (z.B. Inodes) wird ein **Protokoll der Änderungen** geführt
 	- Alle Änderungen treten als Teil von Transaktionen auf. 
-	- Beis
+	- Beispiele für ***Transaktionen*** :
+		- Erzeugen, Löschen, Erweitern, Verkürzen von Dateien 
+	- Verändern von Dateiattributen
+	- Umbennen einer Datei
+	- Protokollieren aller Änderunge am Deteisystem zusätzlich in einer Protokolldatei (**Log File**)
+
+- ***Bootvorgang***
+	- Abgleich der Protokolldatei mit den aktuellen Änderungen → Vermeidung von Inkonsistenzen
+
+##### Protokoll
+- Für jeden Einzelvorgang einer Transaktion wird zunächst ein **Protokolleintrag** erzeugt und dannach die **'Änderung am Dateisystem** vorgenommen.
+- Dabei gilt: 
+	- Der Protokolleintrag wird immer *vor* der eigentlichen Änderung aud Platte geschrieben
+		- Wurde etwas auf Platte geändert, steht auch der Protokolleintrag dazu auf der Platte
+
+##### Erholung
+- **Beim Bootvorgang wird überprüft**, ob die protokollierten Änderungen vorhanden sind:
+	- Transaktionen kann wiederholt bzw. abgeschlossen werden, falls ale Protokolleinträge vorhanden → *Redo*
+	- Angefangene, aber nicht beendete Transaktionen werden rückgängig gemacht → *Undo*
+
+##### Ergebnis
+- **Vorteile:**
+	- eine Transaktion ist entweder vollständig durchgeführt oder garnicht
+	- Benutzer kann ebenfalls Transaktionen über mehrere Dateizugriffe definieren, wenn diese ebenfalls im Log erfasst werden
+	- keine inkonsistenten Metadaten möglich
+	- Hochfahren eines abgestürzten Systems benötigt nur den relativ kurzen Durchgang durch das Log-File
+		- Die Alternative `chksdk` benötig
