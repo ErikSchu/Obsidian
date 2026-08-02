@@ -71,4 +71,19 @@
 	- Caching der FAT zur Effizienzsteigerung nötig
 - Laden unbenötigter Informationen
 	- FAT enthält Verkettung für alle Dateien
-- **Aufwändige Suche** nach dem zugehlrigen 
+- **Aufwändige Suche** nach dem zugehörigen Datenblock bei bekannter Position in der Datei
+- **Häufiges Positionieren** des Schreib-, Lesekopfs bei verstreuten Datenblöcken 
+
+>[!note] ### Diskussion: *Chunks*/*Extents*/*Clusters*
+>- ***Variation:***
+>	- Unterteilen einer Datei in kontinuierlich **gespeicherte Folgen von Blöcken** (*Chunk*, *Extend* oder *Cluster* genannt)
+>	- Reduziert die Zahl der Positionierungsvorgänge
+>	- Blocksuche wird linear in Abhängigkeit von der Chunk-Größe beschleunigt
+>___
+> - ***Probleme:***
+> 	- zusätzliche Verwaltungsinformationen
+> 	- Verschnitt
+> 		- feste Größe: **innerhalb** einer Folge (interner)
+> 		- variable Größe: **außerhalb** der Folgen (externer)
+>___
+> 
