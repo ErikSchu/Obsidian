@@ -162,3 +162,40 @@ ___
 	- Verwaltung von freien Einträgen in der Liste
 	- Speicherverschnitt (Kompaktifizieren, etc.)
 
+___
+
+# Dateisysteme
+
+## UNIX System V File System
+
+- Blockorganisation ![[Pasted image 20260802161723.png]]
+	- **Boot Block** enthält Informationen zum Laden des Betriebssystems
+	- **Super Block** enthält Verwaltungsinformationen für ein Dateisystem 
+		- \#Blöcke, \#Inodes
+		- \#Liste freier Blöcke und freier Inodes
+		- Attribute (z.B. Modifies flag)
+
+## BSD 4.2 *(Berkley Fast File System)*
+
+- Blockorganisatoin ![[Pasted image 20260802162046.png]]
+	- **Kopie des Super Blocks** in jeder Zylindergruppe
+	- Eine Datei wird möglichst innerhalb einer Zylindergruppe gespeichert
+	- Verzeichnisse werden verteilt, Dateien eines V. bleiben zusammen
+- ***Vorteil:*** kürzere Positionierungszeiten
+
+## Linux ext2/3/4 File System
+
+- Blockorganisation ![[Pasted image 20260802162305.png]]
+	- ähnliches Layout wie BSD Fast File System 
+	- Blockgruppen unabhängig von Zylindern
+
+___
+
+# Pufferspeicher
+
+## UNIX Block Buffer Cache
+
+- Pufferspeicher **für Plattenblöcke im Hauptspeicher**
+	- *Verwaltung mit Algorithmen* ähnlich wie bei Seitenverwaltung (Speicher)
+	- ***Read ahead:*** beim sequentiellen Lesen wird auch der Transfer von Folgeblöcken angestoßen
+	- ***Lazy write:*** Block wird nicht sofort auf Platte geschrieben (erlaubt Optimierung )
