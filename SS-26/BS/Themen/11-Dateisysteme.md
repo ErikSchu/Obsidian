@@ -269,4 +269,29 @@ ___
 	- Benutzer kann ebenfalls Transaktionen über mehrere Dateizugriffe definieren, wenn diese ebenfalls im Log erfasst werden
 	- keine inkonsistenten Metadaten möglich
 	- Hochfahren eines abgestürzten Systems benötigt nur den relativ kurzen Durchgang durch das Log-File
-		- Die Alternative `chksdk` benötig
+		- Die Alternative `chksdk` benötigt viel Zeit bei großen Platten
+- **Nachteile:**
+	- ineffizienter, da zusätzliches Log-File geschrieben wird
+		- daher meist nur *Metadata Journaling*, kein *Full Journaling*
+- *Beispiele:* NTFS, ext3/ext4, ReiserFS
+
+___
+
+>[!note] # Zusammenfassung: Dateisysteme
+>… sind eine **Betriebssystemabstraktion**
+>	- Speicherung logisch zusammenhängender Informationen als Datei
+>	- Meist hierarchische Verzeichnisstruktur, um Dateien zu ordnen
+>___
+>… werden durch **Hardware beeinflusst**
+>- Minimierung der Positionierungszeiten bei Platten
+>- Gleichmäßige “Abnutzung” bei FLASH-Speicher
+>- Keine Buffer-Cache bei RAM-Disks
+>___
+>…werden durch das **Anwendungsprofils beeinflusst**
+>- Blockgröße
+>	- zu klein → Verwaltungsstrukturen können zu Performance-Verlust führen
+>	- zu groß → Verschnitt führt zu Plattenplatzverspeicherung
+>- Aufbau von Verzeichnissen
+>	- keine Hash-Funktionen → langwierige Suche
+>	- mit Hash-Funktion → mehr Aufwand bei der Verwaltung
+
