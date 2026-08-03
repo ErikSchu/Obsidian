@@ -17,11 +17,11 @@
 3. **hybrid**
 
 ## Geräteprogrammierung – 3 Varianten
-| | Prinzip | CPU-Last |
-|---|---|---|
-| **Polling** | aktives Warten auf `READY` | hoch (belegt CPU) |
-| **Unterbrechung** | CPU wartet nicht, weckt Prozess | mittel |
-| **DMA** | Controller macht Transfer selbst | gering |
+|                   | Prinzip                          | CPU-Last          |
+| ----------------- | -------------------------------- | ----------------- |
+| **Polling**       | aktives Warten auf `READY`       | hoch (belegt CPU) |
+| **Unterbrechung** | CPU wartet nicht, weckt Prozess  | mittel            |
+| **DMA**           | Controller macht Transfer selbst | gering            |
 
 ## Unterbrechungen (Diskussion)
 - **Kontextsicherung:** CPU sichert nur Minimum (Status, Rücksprungadr.); alle veränderten Register müssen von der Routine gesichert werden
