@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "-path:copilot -path:\"[stuff]\"  ",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
@@ -15,31 +15,31 @@
       }
     },
     {
-      "query": "tag:#WRuMS  ",
+      "query": "tag:#bs OR tag:#RvS  ",
       "color": {
         "a": 1,
-        "rgb": 11218687
+        "rgb": 16767524
       }
     },
     {
-      "query": "tag:#dap1 OR tag:#dap2",
+      "query": "tag:#dap1 OR tag:#dap2 OR tag:#Logik  ",
       "color": {
         "a": 1,
-        "rgb": 2380031
+        "rgb": 4090085
+      }
+    },
+    {
+      "query": "tag:#WRuMS  ",
+      "color": {
+        "a": 1,
+        "rgb": 5104127
       }
     },
     {
       "query": "tag:#lina1 OR tag:#lina2  ",
       "color": {
         "a": 1,
-        "rgb": 65378
-      }
-    },
-    {
-      "query": "tag:#bs OR tag:#RvS  ",
-      "color": {
-        "a": 1,
-        "rgb": 16746496
+        "rgb": 5100348
       }
     }
   ],
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.15739317208908354,
-  "close": false
+  "scale": 0.27676405280858535,
+  "close": true
 }
