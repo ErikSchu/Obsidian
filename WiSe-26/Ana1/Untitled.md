@@ -1,4 +1,4 @@
 ---
-datum: "   10.10.2026"
+datum: '   <% tp.date.now("DD.MM.YYYY") %>'
 tags: []
 ---
