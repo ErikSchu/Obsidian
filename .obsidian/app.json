@@ -16,5 +16,7 @@
   },
   "showInlineTitle": false,
   "strictLineBreaks": false,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "foldHeading": true,
+  "foldIndent": true
 }
