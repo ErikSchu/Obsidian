@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:copilot -path:\"[stuff]\"  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#dap1 OR tag:#dap2",
@@ -15,16 +15,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.00366282789507,
   "lineSizeMultiplier": 0.496185220729367,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.43905940411189265,
-  "close": false
+  "scale": 0.12152143255336237,
+  "close": true
 }
