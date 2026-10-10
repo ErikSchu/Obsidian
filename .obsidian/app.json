@@ -14,5 +14,7 @@
     "margin": "2",
     "downscalePercent": 100
   },
-  "showInlineTitle": true
+  "showInlineTitle": false,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible"
 }
