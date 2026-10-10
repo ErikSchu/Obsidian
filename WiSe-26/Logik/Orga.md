@@ -8,13 +8,11 @@
 Die Veranstaltung _Logik für Informatik_ hat ziemlich viele Komponenten, die Sie beim Lernen unterstützen sollen, die Sie jedoch _nicht_ alle nutzen müssen.
 
 Die wesentlichen Lehrinhalte werden auf drei Arten angeboten:
-
 - in der **Vorlesung** (in Präsenz, montags 10-12),
 - durch das **Folienskript**,
 - durch zusätzliche **Lehrvideos** für die meisten Kapitel, die auf den gleichen oder sehr ähnlichen Folien basieren.
 
 Die Veranstaltung bietet verschiedene Formen der Vermittlung von Lehrinhalten an:
-
 - In der **Vorlesung** werden die wesentlichen Lehrinhalte vorgestellt.
 - Im **Tutorium** wird Vorlesungsstoff wiederholt und anhand von Beispielaufgaben vertieft.
 - In den (kleineren) **Übungsgruppen** werden Warm-up-Aufgaben zur Vorbereitung auf die Übungsblätter bearbeitet und besprochen.
@@ -23,31 +21,21 @@ Die Veranstaltung bietet verschiedene Formen der Vermittlung von Lehrinhalten an
 
 Genauere Informationen zu diesen Elementen finden Sie weiter unten in diesem Moodle-Raum. **Bitte beachten Sie, dass die Teilnahme an all diesen Elementen freiwillig ist.** Bitte wählen Sie diejenigen Elemente aus, die Ihnen sinnvoll erscheinen.
 
-  
-
 Die Globalübung beginnt erst am 11.11.26.
 
-  
-
 Um die Inhalte zu lernen gibt es viele Übungsaufgaben, die auf verschiedene Arten bereitgestellt und besprochen werden. Hier gibt es
-
 - **Übungsaufgaben** der **Übungsblätter**: Sie müssen zur Erreichung der Studienleistung bearbeitet werden. Sie werden von den Studierenden bis zum Abgabetermin bearbeitet und abgegeben. Danach werden **Beispiellösungen** dazu bereitgestellt, die in der **Globalübung** besprochen werden.  
-    
 - **Warm-up-Aufgaben**: sie werden in (kleineren) Übungsgruppen bearbeitet und besprochen. Diese Übungsgruppen finden 14-tägig statt. Eine Anmeldung ist notwendig.  
-    
 - **Interaktiv**e **Übungsaufgaben**: sie werden im Interaktiven Lernsystem **Iltis** bereitgestellt. Einige dieser Aufgaben sind für die Studienleistung relevant.  
-    
 - Weitere Beispielaufgaben werden im **Tutorium** besprochen, das einerseits der Wiederholung des Vorlesungsstoffes und andererseits der Vorbereitung auf die Übungsblätter dient.
 - In jeder zweiten Woche hat der **Helpdesk** geöffnet.
 
 Die Veranstaltung ist inhaltlich in drei Bereiche unterteilt: Aussagenlogik, Modallogik, Prädikatenlogik. Jeder Bereich umfasst drei bis sechs Kapitel der Vorlesung. Jeder Bereich ist nochmals zwei- oder dreigeteilt: Grundlagen, (Erfüllbarkeit), Vertiefung.  
 
 Zu jedem Teilbereich wird es hier in Moodle einen Abschnitt mit allen Materialien geben:
-
 - Folienskript
 - Vorlesungsvideos
 - Interessante Links  
-    
 
 Die Materialien werden wöchentlich kapitelweise freigeschaltet. Zur Vorbereitung auf eine Vorlesung können Sie das bereitgestellte Gesamtskript von 2024/25 verwenden.
 
@@ -55,7 +43,6 @@ Vorlesungsvideos gibt es zu den meisten Kapiteln mit Ausnahme eines neueren Kapi
 
 ### Tutorium
 In den Tutorien
-
 - wird Vorlesungsstoff **wiederholt** und
 - es werden Beispielaufgaben besprochen.
 
@@ -63,15 +50,9 @@ Zu jedem Kapitel der Vorlesung findet ein Tutorium statt, am Freitag der gleiche
 
 Während der ersten Semesterwochen (voraussichtlich bis einschließlich 4.11.) wird das Tutorium außerdem mittwochs, 16:15 Uhr angeboten. Zu diesen Terminen wird der gleiche Stoff wie am Freitag besprochen.
 
-  
-
 Die Räume finden sich in der Terminübersicht.  
-
   
-
 Die jeweils besprochenen Beispielaufgaben werden in Moodle bereitgestellt.
-
-  
 
 Das erste Tutorium findet am Mittwoch, den 14.10., sowie am Freitag, den 16.10.2026 statt.
 
@@ -97,9 +78,7 @@ Die Globalübung findet erstmalig am Mittwoch, den 11.11. statt.
 
 ### Übungsblätter und Studienleistung
 #### Übungsblätter
-
 Es wird insgesamt sechs (6) reguläre Übungsblätter mit Punkten geben.
-
 - Das erste Übungsblatt wird am 12.10.2026 veröffentlicht.
 - Die meisten Blätter umfassen drei Aufgaben und es können 15 Punkte erreicht werden.
 - Blatt 1 enthält eine zusätzliche Aufgabe zu LaTeX, mit der 3 _zusätzliche_ Punkte erreicht werden können.
@@ -117,12 +96,10 @@ Es wird insgesamt sechs (6) reguläre Übungsblätter mit Punkten geben.
 - Die Übungsblätter werden alle zwei Wochen montags bereit gestellt. Der Abgabetermin ist dann dienstags in der übernächsten Woche.
 
 #### Beispiellösungen
-
 - Beispiellösungen zu den Übungsblättern werden (in der Woche nach dem Abgabetermin) in Moodle bereitgestellt.
 - Außerdem werden die Lösungen in der Globalübung erläutert.
 
 #### Plagiate
-
 - Es ist natürlich erlaubt, gemeinsam mit anderen nach Lösungen zu Übungsaufgaben zu suchen. Das Aufschreiben der Lösung muss dann aber einzeln erfolgen, insbesondere die Begründungen und Beschreibungen.
 - Das Abschreiben von Texten aus Beispiellösungen ist auch ein Plagiat.
 - Wenn mehrere Abgaben bei einer Aufgabe offensichtlich voneinander abgeschriebene Lösungen enthalten, erhalten alle Abgaben 0 Punkte für diese Aufgabe.
@@ -131,30 +108,24 @@ Es wird insgesamt sechs (6) reguläre Übungsblätter mit Punkten geben.
 - Bitte beachten Sie: wenn wir einen Plagiat-Fall finden, behalten wir uns vor, auch ältere Abgaben nochmal anzuschauen. Sollten sich dabei weitere Fälle finden, wenden wir die obigen Regeln entsprechend auch rückwirkend an.
 
 #### Studienleistung
-
 - Für die Studienleistung müssen 36 von 90+3 Punkten der Übungsblätter erreicht werden. 
 
 ### Prüfungen 
 #### Voraussetzungen
-
 Studierende können an den Prüfungen teilnehmen, wenn sie eine gültige Studienleistung haben oder bereits einen Prüfungsversuch für das Modul unternommen haben.
 
   
 
 #### Klausurtermine
-
 Die  voraussichtlichen Termine (Stand: 6.10.2026) sind:  
-
 - **1. Klausur:** Freitag, 19.2.2027, 9:00 - 11:00 (Anmeldung bis 12.2.)  
-    
 - **2. Klausur:** Freitag, 2.4.2027, 12:00 - 14:00 (Anmeldung bis 26.3.)
-
+- 
 Die Bearbeitungszeit beträgt 2 Stunden (120 Minuten).
 
 Falls Sie einen **Nachteilsausgleich** geltend machen wollen, müssen Sie uns dies aus organisatorischen Gründen bis spätestens zum letzten möglichen Anmeldetag mitteilen. Lieber aber deutlich vorher.  
 
 ##### Erlaubte Hilfsmittel
-
 Erlaubt ist ein DIN-A4-Blatt, das beidseitig beschriftet werden kann. Darauf sind ausschließlich selbst erstellte handschriftliche Notizen zugelassen. 
 
 Ausgedruckte Blätter sind nicht erlaubt, auch nicht wenn der Inhalt per Hand geschrieben ist.  
@@ -164,3 +135,19 @@ Auf Vorder- und Rückseite ist, etwas abgesetzt und gut erkennbar, Ihr Name und 
 Außer normalen Brillen sind keine Hilfsmittel zum Lesen erlaubt.
 
 ### Frage-Antwort-Forum
+Im [Frage-Antwort-Forum](https://logik.qanda.cs.tu-dortmund.de/) können Fragen zu allem, was die Veranstaltung betrifft, gestellt und beantwortet werden:
+- Organisation
+- Technik
+- Vorlesung
+- Übung (außer Lösungen zu aktuellen Blättern)
+
+Fragen können in Kategorien eingeordnet und mit Schlagwörtern (_tags_) versehen werden. Außerdem kann für Fragen votiert werden. Diese Möglichkeiten erhöhen die Übersicht und erleichtern das Finden bereits gestellter Fragen. Bitte nutzen Sie daher diese Möglichkeit.
+
+**Hinweise:**
+- Das mehrfache Stellen einer Frage sollte der Übersichtlichkeit halber vermieden werden.  
+    Beispielsweise kann dazu vor dem Stellen einer Frage die Suchfunktion benutzt werden.
+- Für das Frage-Antwort-Forum ist eine [Registrierung](https://logik.qanda.cs.tu-dortmund.de/users/register) nötig.  
+    - Der Benutzername ist frei wählbar. Es gibt _keine_ Klarnamenpflicht.
+    - Die Registrierung ist nur mit einer E-Mail-Adresse der TU Dortmund möglich.  
+        In begründeten Fällen (z.B. für Schülerstudierende) können Ausnahmen hinzugefügt werden. Schreiben in diesem Fall bitte eine E-Mail an logik-team@ls1.cs.uni-dortmund.de.
+    - Die E-Mail-Adresse kann weder von anderen Studierenden noch von Lehrenden eingesehen werden.
