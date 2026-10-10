@@ -8,38 +8,38 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#rs OR tag:#etkt OR tag:#HaPra  ",
+      "color": {
+        "a": 1,
+        "rgb": 16744801
+      }
+    },
+    {
+      "query": "tag:#WRuMS  ",
+      "color": {
+        "a": 1,
+        "rgb": 11218687
+      }
+    },
+    {
       "query": "tag:#dap1 OR tag:#dap2",
       "color": {
         "a": 1,
-        "rgb": 8078079
+        "rgb": 2380031
       }
     },
     {
       "query": "tag:#lina1 OR tag:#lina2  ",
       "color": {
         "a": 1,
-        "rgb": 1934933
+        "rgb": 65378
       }
     },
     {
-      "query": "tag:#rs OR tag:#etkt OR tag:#HaPra  ",
+      "query": "tag:#bs OR tag:#RvS  ",
       "color": {
         "a": 1,
-        "rgb": 16737280
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
+        "rgb": 16746496
       }
     }
   ],
