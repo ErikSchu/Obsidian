@@ -1,8 +1,4 @@
 ---
-kurs:
-dozent:
-themengebiet:
-datum:
+datum: "{{date:YYYY-MM-DD}}"
 tags: []
 ---
-
