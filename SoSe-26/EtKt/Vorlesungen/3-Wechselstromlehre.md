@@ -1,4 +1,5 @@
 ## Wechselspannung & Wechselstrom
+#etkt
 
 - **Drossel "L"** (Induktivität) \[L\] = *Henry* (H)
 - **Kondensator "C"** (Kapazität) \[C\] = *Farad* (F)

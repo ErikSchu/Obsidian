@@ -1,4 +1,4 @@
-*16.04.2026*
+*16.04.2026* #etkt
 
 ![[ETKT_02_Physikalische Größen 1.pdf]]
 

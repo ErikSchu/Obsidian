@@ -1,4 +1,4 @@
-e#etkt
+#etkt
 
 # Zählpfeilsysteme
 ## Zählpfeile
