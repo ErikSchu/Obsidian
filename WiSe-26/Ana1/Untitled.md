@@ -1,4 +1,5 @@
 ---
-datum: "   {{date:YYYY-MM-DD}}"
+datum: "10.10.2026"
 tags: []
+zusammenfassung:
 ---

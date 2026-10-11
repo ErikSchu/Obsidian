@@ -1,5 +1,5 @@
 ---
-datum: "   {{date:YYYY-MM-DD}}"
+datum: "{{date:DD.MM.YYYY}}"
 tags: []
 zusammenfassung:
 ---
