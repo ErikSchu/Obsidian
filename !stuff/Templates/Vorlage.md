@@ -1,5 +1,5 @@
 ---
 datum: "{{date:DD.MM.YYYY}}"
 tags: []
-zusammenfassung:
+smry:
 ---
