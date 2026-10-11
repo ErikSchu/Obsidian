@@ -95,7 +95,7 @@ public:
 ```
 
 ##### ResizableArrays in der C++ STL 
-- ***Standart Template Library*** (STL) stellt häufig benötigte Datenstrukturen und Algorithmen zur verfügung
+- ***Standart Template Library*** (STL) stellt häufig benötigte Datenstrukturen und [[Algorithmus|Algorithmen]] zur verfügung
 - Unser **dap1::ResizableArray** heißt dort **std::vector**
 	⤷ benutzbar über `#include <vector>`
 - unser (rudimentär) implementiertes *Array* heißt **std::array**

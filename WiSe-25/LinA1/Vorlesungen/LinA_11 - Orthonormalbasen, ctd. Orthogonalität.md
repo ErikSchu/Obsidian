@@ -51,7 +51,7 @@ Nach (b) sind die Koordinaten eines Vektors in einer Orthonormalbasis die Skalar
 >Ist $A \subset \mathbb{R}^n$ eine Teilmenge, dann schreiben wir: $$A^{\perp} = \{ \vec{v} \in \mathbb{R}^n \ | \ \forall \ \vec{a} \in A : \langle \vec{a}, \vec{v} \rangle = 0 \}.$$
 
 > [!note] 8.13 Lemma
-> Für jede Teilmenge $A \subset \mathbb{R}^n$ ist $A^\perp$ ein lin. Unterraum von $\mathbb{R}^n$.
+> Für jede Teilmenge $A \subset \mathbb{R}^n$ ist $A^\perp$ ein lin. [[6.1_Lineare-Unterräume|Unterraum]] von $\mathbb{R}^n$.
 
 #### BEWEIS 
 ![[Pasted image 20251124211701.png]]

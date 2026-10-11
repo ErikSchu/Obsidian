@@ -9,9 +9,9 @@ https://ls2-web.cs.tu-dortmund.de/~mamicoja/dap2/slides/lec_quicksort.pdf
 - **antisymmetrisch:** $l_{i} \leq l_{j}$ und $l_{j} \leq l_{i} \implies l_{i} = l_{j}$
 - Zugriff auf eine **Funktion, die zwei Elemente vergleicht
  
-*z.B.:* genze, rationale oder reelle Zahlen mit der gewöhnlichen Ordnung // Zeichenketten in alphabetischer Ordnung, //  Punkte im $\mathbb{R}²$  mit lexikographischer Ordnung // ...
+*z.B.:* genze, rationale oder [[13.2_Rationale-und-reelle-Zahlen|reelle Zahlen]] mit der gewöhnlichen Ordnung // Zeichenketten in alphabetischer Ordnung, //  Punkte im $\mathbb{R}²$  mit lexikographischer Ordnung // ...
 
-- **Laufzeit** ist hier die *Anzahl der Vergleiche*  → Algorithmus darf dabei Elemente nur miteinander vergelchen ⇒ anwendbar auf beliebige vergleichbare Objekte
+- **Laufzeit** ist hier die *Anzahl der Vergleiche*  → [[Algorithmus]] darf dabei Elemente nur miteinander vergelchen ⇒ anwendbar auf beliebige vergleichbare Objekte
 
 
 >[!TIP] Algorithmus
@@ -19,7 +19,7 @@ https://ls2-web.cs.tu-dortmund.de/~mamicoja/dap2/slides/lec_quicksort.pdf
 >	1. falls $l_{i}<l_{1}$, füge $l_{i}$ der Liste *K* hinzu.
 >	2. falls $l_{i}>l_{1}$, füge $l_{i}$  der Liste *G* hinzu.
 >	3. falls $l_{i}=l_{1}$, füge $l_{i}$  der Liste *M* hinzu.
->2. Wende Quicksort rekursiv an, um *K* und *G* zu sortieren.
+>2. Wende Quicksort [[Rekursion|rekursiv]] an, um *K* und *G* zu sortieren.
 >3. Gib *K* , *M* , *G* aus.
 
 ⤷ *rekursiv* und nontschalant

@@ -184,7 +184,7 @@ ___
 
 ## [[Rekursion]]
 
-Funktionen können *sich selbst aufrufen* ("**rekursive Funktionen**")
+Funktionen können *sich selbst aufrufen* ("**[[Rekursion|rekursive]] Funktionen**")
 - in jedem Funktionsaufruf *neue lokale Variablen* (auch die Rückgabewerte!)
 - Rückgabewerte werden (wie gewohnt) vom Aufrufer verarbeitet
 

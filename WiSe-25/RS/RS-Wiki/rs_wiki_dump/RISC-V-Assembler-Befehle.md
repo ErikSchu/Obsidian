@@ -24,7 +24,7 @@
 
 ## Simulation des RISC-V-Befehlssatzes mit RARS
 
-Simulator **RARS** (erfordert Java)
+Simulator **RARS** (erfordert [[Java]])
 Warum **Simulation statt ausführung des Intel-Befehlssatzes**?
 - Möglichkeit der Benutzung des RISC-V-Befehlssatzes
 - Keine Gefährdung des laufenden Systems

@@ -2,7 +2,7 @@
 ## Suchbäume und [[Rekursion]]
 
 > [!warning] Wiederholung
-> Ein **binärer Suchbaum** über *Schlüssel* vom Typ $T$ ist ein Baum für den gilt:
+> Ein **[[Binäre-Suchbäume|binärer Suchbaum]]** über *Schlüssel* vom Typ $T$ ist ein Baum für den gilt:
 > - Jeder knoten hat maximal 2 Kinder, die mit ` left_ ` und ` right_ ` bezeichnet werden.
 > - Der Schlüssel ` T cont_ ` in *jedem* Knoten $v$ ist *größer* als alle Schlüssel im linken Teilbaum $B_{\text{left\_}}$ und *kleiner* als alle Schlüssel im rechten Teilbaum $B_{\text{right\_}}$.
 
@@ -26,7 +26,7 @@ ___
 >5. falls ` x < current->cont_ `: setze ` current = current->left_` und gehe zu 2. (suche weiter im *linken Teilbaum*)
 >6. sonst: setze ` current = current->right_ ` und gehe zu 2. (suche weiter im *rechten Teilbaum*)
 >___
->Oder ***rekursiv*** formuliert als $\text{find}(x,B_{current})$:
+>Oder ***[[Rekursion|rekursiv]]*** formuliert als $\text{find}(x,B_{current})$:
 >	1. falls ` current == nullptr`: gib **false** zurück (baum leer ⇒ nicht gefunden)
 >	2. falls ` x = current->cont_ `: gib **true** zurück (gefunden!)
 >	3. falls ` x < current->cont_ `: gib das Ergebnis von $\text{find}(x, B_{current->left\_})$ zurück
@@ -42,7 +42,7 @@ Die Sortierung der Schlüssel ist leicht, obwohl die Baumknoten nicht linear ang
 > ___
 > $\leadsto$ das *Minimum* steht "ganz links", das *Maximum* "ganz rechts"
 
-- Sortierte Reihenfolge als **rekursiver** Algorithmus
+- Sortierte Reihenfolge als **rekursiver** [[Algorithmus]]
 	- gib die sortierte Reihenfolge des *linken Teilbaums* der Wurzel aus (falls linker Teilbaum existiert)
 	- gib den Schlüssel der *Wurzel* aus
 	- gib die sortierte Reihenfolge des *rechten Teilbaums* der Wurzel aus (falls rechter Teilbaum existiert)

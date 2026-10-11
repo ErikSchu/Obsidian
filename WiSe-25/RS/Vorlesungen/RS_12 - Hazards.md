@@ -1,6 +1,6 @@
 #rs
 ## Hazards
-sind Abweichungen zwischen Modell und Realität // ärgerlich, aber unvermeidlich // auch für technisch Realisierte Schaltnetze gültig
+sind Abweichungen zwischen Modell und Realität // ärgerlich, aber unvermeidlich // auch für technisch Realisierte [[Schaltnetze]] gültig
 
 **Zentrale Frage:** Was passiert, wenn die Eingabe wechselt? → Die Ausgabe kann wechseln.
 

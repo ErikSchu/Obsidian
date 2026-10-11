@@ -3,7 +3,7 @@
 
 **Ziel:** Rationale Zahlen $q \in \mathbb{Q}$ repräsentieren können mit
 - fester Repräsentationslänge von **$l$ Bits**
-- fester Position des Kommas (**Festkommadarstellung**)
+- fester Position des Kommas (**[[Repraesentation_rationaler_Zahlen_(Festkomma)|Festkommadarstellung]]**)
 
 Bispiele für **$l$ = 8** bei **3 Nachkommastellen**
 - 10,34 → 00010,340
@@ -67,8 +67,8 @@ $$
 **Festlegung**
 - Führende 1 der Mantisse wird nicht mit abgespeichert: **Implizite 1**
 - Mantisse in Binärkodierung als _Festkommazahlen_ mit Ziffern **ausschließlich hinter dem Ko=(0001 \ 0101)_{2} = mma**
-- Exponent in Exzessdarstellung mit Bias $b=2^{le-1}+1$
-c.f. (Klasse **Formatter** von Java oder **printf** von C)
+- Exponent in [[Exzessdarstellung]] mit Bias $b=2^{le-1}+1$
+c.f. (Klasse **Formatter** von [[Java]] oder **printf** von C)
 
 ![[Pasted image 20251021165314.png]]
 

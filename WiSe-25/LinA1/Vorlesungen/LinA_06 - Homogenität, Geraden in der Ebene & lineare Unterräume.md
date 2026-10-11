@@ -70,7 +70,7 @@ aus m gleichungen in n Unbekannten. Sind $\vec{u}, \vec{v} \in \mathbb{R}^n$ zwe
 ![[Pasted image 20251105114612.png]]
 Außerdem ist für jede Lösung $\vec{u}$ und jedes $c \in \mathbb{R}$ auch $c \vec{u}$ wieder eine Lösung. Denn es gilt
 ![[Pasted image 20251105114755.png]]
-Damit ein **Lösungsraum** auch ein **linearer Unterraum** ist, muss er diese drei Eigenschaften haben.
+Damit ein **Lösungsraum** auch ein **linearer [[6.1_Lineare-Unterräume|Unterraum]]** ist, muss er diese drei Eigenschaften haben.
 
 Eine Teilmenge $U \subset \mathbb{R}^n$ ist ein (linearer) Unterraum mit den Eigenschaften:
 - **(NL)** $U \ne \emptyset$

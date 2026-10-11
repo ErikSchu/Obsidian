@@ -5,7 +5,7 @@ ___
 # Suchbäume (und [[Rekursion]])
 
 >[!question] Quiz einfügen ` BST<int> `
->Betrachten Sie den binären Suchbaum links mit $5$ Knoten. Welcher Suchbaum ergibt sich, wenn die Elemente $11,3,i$ in dieser Reihenfolge eingefügt werden?
+>Betrachten Sie den [[Binäre-Suchbäume|binären Suchbaum]] links mit $5$ Knoten. Welcher Suchbaum ergibt sich, wenn die Elemente $11,3,i$ in dieser Reihenfolge eingefügt werden?
 >___
 >![[Pasted image 20260113122415.png]]
 >___
@@ -18,7 +18,7 @@ Algorithmische Idee:
 - eigentlich wie bei der **Suche** 
 - wenn einzufügendes *Element $x$ nicht gefundnen* wurde (wir sind an einem Blatt), erzeuge **neuen Knoten** und setze den *richtigen Zeiger vom Elternknoten*
 
-Kannn **rekursiv** formuliert werden, einfacher ist aber iterativ.
+Kannn **[[Rekursion|rekursiv]]** formuliert werden, einfacher ist aber iterativ.
 
 ```cpp
 // Insert x into this BST:

@@ -36,7 +36,7 @@ ___
 
 **5. Erweiterte Themen**
 - Hashing
-- String-Algorithmen
+- String-[[Algorithmus|Algorithmen]]
 - Einfache parallele Progrmmierung (?)
 
 ___

@@ -1,6 +1,6 @@
 #lina1
 ## 1. Linearer Unterraum
-Ein **Linearer Unterraum** $U$ (auch Vektorraum genannt) ist eine Teilmenge des $\mathbb{R}^n$, die drei fundamentale Eigenschaften erfüllt. Man kann darin beliebig addieren und skalieren, ohne die Menge zu "verlassen".
+Ein **Linearer [[6.1_Lineare-Unterräume|Unterraum]]** $U$ (auch [[15.1_Vektorräume|Vektorraum]] genannt) ist eine Teilmenge des $\mathbb{R}^n$, die drei fundamentale Eigenschaften erfüllt. Man kann darin beliebig addieren und skalieren, ohne die Menge zu "verlassen".
 
 **Definition:** Eine Teilmenge $U \subseteq \mathbb{R}^n$ heißt linearer Unterraum, wenn gilt:
 1. **(NUL) $\vec{0} \in U$** (Der Nullvektor ist enthalten. In deinen Notizen steht $\vec{u} \neq \emptyset$, aber Lemma 6.1 stellt klar, dass $\vec{0}$ immer drin sein muss). 
@@ -81,7 +81,7 @@ $$c_1\vec{v}_1 + \dots + c_m\vec{v}_m = \vec{0}$$
 
 #### Anwendbare Formel für Unabhängigkeit:
 
-Um $(\vec{v}_1, \dots, \vec{v}_m)$ auf lineare Unabhängigkeit zu prüfen, löst man die Gleichung:
+Um $(\vec{v}_1, \dots, \vec{v}_m)$ auf [[15.3_Lineare-Unabhängigkeit_Basen_und_Dimensionen|lineare Unabhängigkeit]] zu prüfen, löst man die Gleichung:
 
 $$c_1\vec{v}_1 + \dots + c_m\vec{v}_m = \vec{0}$$
 

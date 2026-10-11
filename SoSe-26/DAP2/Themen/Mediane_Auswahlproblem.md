@@ -20,7 +20,7 @@ Gegeben ist ein Array $\mathbf{A} = (A_{1}, \dots, A_{n})$ mit vergleichbaren El
 >2. Unterteile $\mathbf{A}$ in $k = \left\lfloor  \frac{n}{5}  \right\rfloor$ Teilarrays $T_{1}, \dots, T_{\left\lfloor  \frac{n}{5}  \right\rfloor}$ zu $5$ Elementen und, falls $n$ nicht durch $5$ teilbar, weiteres Teilarray $T_{\left\lfloor  \frac{n}{5}  \right\rfloor + 1}$.
 >3. Setze $N = \left\lfloor  \frac{n}{5}  \right\rfloor$, falls $n$ durch $5$ teilbar ist, und sonst $N = \left\lfloor  \frac{n}{5}  \right\rfloor+1$.
 >4. Finde in jedem dieser Teilarray $T_{i}$ den Median $m_{i}$.
->5. Wende `Select` rekursiv an, um einen Median $m$ von $\mathbf{m} = (m_{1}, \dots, m_{N})$ zu finden.
+>5. Wende `Select` [[Rekursion|rekursiv]] an, um einen Median $m$ von $\mathbf{m} = (m_{1}, \dots, m_{N})$ zu finden.
 >6. Bestimme $\mathbf{K} = (K_{1}, \dots, K_{n'}); \ \mathbf{M} = (M_{1}, \dots, M_{n''}); \ \mathbf{G} = (G_{1}, \dots, G_{n'''})$, die die Elemente von $\mathbf{A}$ kleiner/gleich/größer $m$ enthalten.
 >7. Falls $n' \ge l$, führe `Select(K, l)` aus;
 >8. sonst, falls $n' + n'' \ge l$, gib $m$ aus;
@@ -30,7 +30,7 @@ Gegeben ist ein Array $\mathbf{A} = (A_{1}, \dots, A_{n})$ mit vergleichbaren El
 >`Select(A, l)` hat die **Laufzeit $O(n)$**.
 
 $\implies$ `Select` bestimmt das $l$-te Element in linearer Zeit
-$\implies$ es gibt einen eineacheren randomisierten Algorithmus für dieses Problem, der dem [[Quicksort]] ähnelt, aber nur "einen Zweig verfolgt".
+$\implies$ es gibt einen eineacheren randomisierten [[Algorithmus]] für dieses Problem, der dem [[Quicksort]] ähnelt, aber nur "einen Zweig verfolgt".
 
 $$\text{Probleme}^{n^{n^{n}}}$$
 $$\mathbf{\boxed{67}}$$

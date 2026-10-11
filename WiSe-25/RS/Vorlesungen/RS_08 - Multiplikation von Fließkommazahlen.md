@@ -2,7 +2,7 @@
 ### Darstellung nach IEEE-754
 - $s$ Vorzeichenbit
 - $m$ Mantisse (Binärdarstellung, inkl. impliziter 1)
-- $e$ Exponent (Exzessdarstellung, $b = 2^{l-1}-1$)
+- $e$ Exponent ([[Exzessdarstellung]], $b = 2^{l-1}-1$)
 $$
 \begin{align}
 & x = (-1)^{s_x} * m_x * 2^{e_x} \\
@@ -71,9 +71,9 @@ Unter *Auslöschung* (bzw. cancellation) versteht man in der Numerik den Verlust
 
 ## Einleitung & Systematischer Entwurf
 
-**Schaltnetz-Entwurf bisher**
+**[[Schaltnetze|Schaltnetz]]-Entwurf bisher**
 - ad hoc
-- Normalformen
+- [[Normalformen]]
 
 **Wunsch**
 - Systematisierung

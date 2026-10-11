@@ -8,7 +8,7 @@
 	- nicht alle Sprachkonstrukte
 	- bei mehreren Möglichkeiten oft Beschränkung auf die einfachste
 - Trotzdem: maschinennah (was passiert unter der Haube?)
-	- evtl. trotzdem sinnvoll für diejenigen, die schon programmieren können (z.B. in Java)
+	- evtl. trotzdem sinnvoll für diejenigen, die schon programmieren können (z.B. in [[Java]])
 - viel Live-Coding
 	- damit Sie sehen, wie ein Programm entsteht
 
@@ -36,7 +36,7 @@
 - **Keine** "Einführung in die Informatik" (eher durch paralleles Hören von RS)
 - Wer Bits/Bytes/ASCII nicht kennt: https://www.youtube.com/watch?v=2WtPyqwTLKM
 - Kein vollständiger C(++)-Kurs
-- Keine vollständige Einführung in Algorithmen und Datenstrktiuren (→DAP2)
+- Keine vollständige Einführung in [[Algorithmus|Algorithmen]] und Datenstrktiuren (→DAP2)
 - keine Softwareentwicklung (→SWT/SP)
 
 ## Was ist ein [[Algorithmus]]?

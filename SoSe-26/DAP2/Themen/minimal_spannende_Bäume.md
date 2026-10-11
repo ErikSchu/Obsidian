@@ -17,7 +17,7 @@ ___
 
 → Jeder zusammenhängende Graph besitzt einen spannenden Baum
 → In einem gewichteten Graphen sind wir interessiert an einem *minimalen* spannenden Baum
-→ dazu der ***Greedy-Algorithmus***
+→ dazu der ***Greedy-[[Algorithmus]]***
 
 >[!def] Definition
 >- ein **gewichteter Graph** ist ein Graph $G = (V, E)$ zusammen mit einer Funktion $c : E \to \mathbb{Q}_{\ge 0}$.

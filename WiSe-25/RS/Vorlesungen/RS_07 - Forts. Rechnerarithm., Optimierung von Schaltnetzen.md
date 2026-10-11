@@ -39,18 +39,18 @@ $\vdots$
 # Addition ganzer Zahlen
 
 **Addition positiver, ganzer Zahlen**
-- Einerkomplement
-- Zweierkomplement
-- Vorzeichenbetragsdarstellung    
+- [[Einerkomplement]]
+- [[Zweierkomplement]]
+- [[Vorzeichenbetragsdarstellung]]    
 -  Addition einfach, da Zahlen binär dargestellt werden, evtl. Überträge beachten
 
-**Addition von Zahlen in Exzessdarstellung**
+**Addition von Zahlen in [[Exzessdarstellung]]**
 - Für Exzessdarstellung funktioniert Addierer selbst bei positiven Zahlen **nicht** $$x+y=(b+x)+(b+y)= (b+x+y)+b$$
 → Exzessdarstellung fürs Rechnen **weitgehend ungeeignet**, nur günstig für Vergleiche.
 
 # Addition ganzer Zahlen
 
-**Warum ist die Addition ganzer Zahlen wichtig?**
+**Warum ist die [[Addition_ganzer_Zahlen|Addition ganzer Zahlen]] wichtig?**
 **Beobachtung** Niemand muss subtrahieren!
 - Statt “x-y” einfach “x + (-y)” rechnen!
 - **Idee** **Ersetze** Subtraktion durch

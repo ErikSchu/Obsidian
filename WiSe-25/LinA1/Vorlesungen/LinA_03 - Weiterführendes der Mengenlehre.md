@@ -76,7 +76,7 @@ $$Die Abbildung g durch f ist hiermit eindeutig bestimmt.
 
 ![[Pasted image 20251024102601.png]]
 
-**Def.:** Es sei $f: X \to Y$ eine *Bijektion*. Die eindeutig bestimmte Abbildung $g:X\to Y$ aus 2.7 heißt **Umkehrabbildung** oder **Inverse** von $f$ und wird mit $f^{-1}$ bezeichnet. Sie erfüllt also $$
+**Def.:** Es sei $f: X \to Y$ eine *Bijektion*. Die eindeutig bestimmte Abbildung $g:X\to Y$ aus 2.7 heißt **[[10.2_Umkehrabbildung-und-Invertierung|Umkehrabbildung]]** oder **Inverse** von $f$ und wird mit $f^{-1}$ bezeichnet. Sie erfüllt also $$
 f^{-1} \circ f = id_{X} \ \ und \ \ f \circ f^{-1} = id_{Y}.
 $$
 ### Unterschied Umkehrabbildung - Urbildoperator

@@ -1,7 +1,7 @@
 #bs 
 
 >[!note] #### Wiederholung
->- Bei der Speicherverwaltung arbeitet das Betriebssystem eng mit der Hardware zusammen
+>- Bei der [[08-Speicherverwaltung|Speicherverwaltung]] arbeitet das Betriebssystem eng mit der Hardware zusammen
 >	- **Segmentierung** und/oder **Seitenadressierung**
 >	- Durch implizite Indirektion beim Speicherzugriff können Programme und Daten unter Kontrolle des Betriebssystems im laufenden Betrieb beliebig verschoben werden
 >___
@@ -26,7 +26,7 @@
 ## Idee “Virtueller Speicher”
 
 - ***Entkopplung*** Speicherbedarf $\Longleftrightarrow$ verfügbarer Hauptspeicher
-	- Prozesse benötigen nicht alle Speicherstellen **gleich häufig**
+	- [[03-Prozesse|Prozesse]] benötigen nicht alle Speicherstellen **gleich häufig**
 		- bestimmte Befehle werden selten oder gar nicht benutzt (*z.B.* Fehlerbehandlungen)
 		- bestimmte Datenstrukturen werden nicht voll belegt
 	- Prozesse benötigen evtl. mehr Speicher als im Hauptspeicher vorhanden
@@ -150,7 +150,7 @@ ___
   *8 Einlagerungen*  ![[Pasted image 20260723103809.png]]
 
 - **Keine Anomalie**
-	- Allgemein gilt: Es gibt eine Klasse von Algorithmen (*Stack Algorithmen*), bei denne keine Anomalie auftritt:
+	- Allgemein gilt: Es gibt eine Klasse von [[Algorithmus|Algorithmen]] (*Stack Algorithmen*), bei denne keine Anomalie auftritt:
 		- Bei den Stack-Algorithmen ist bei $k$ Rahmen zu jedem Zeitpunkt eine Teilmenge der seiten eingelagert, die bei $k+1$ Rahmen zum gleichen Zeitpunkt eingelagert wären
 		- *LRU:* Es sind immer die letzten $k$ benutzten Seiten eingelagert.
 		- *OPT:* Es sind die $k$ bereits benutzten Seiten eingelagert, die als nächstes zugegriffen werden 

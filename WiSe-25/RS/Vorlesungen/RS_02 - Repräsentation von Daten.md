@@ -1,7 +1,7 @@
 #rs 16.10.2025
 https://rs.cs.tu-dortmund.de/RS1/V02-handout.html
 
-*Alles, was wir wissen, können wir aufschreiben. → Repräsentation von Texten ist zentral.*
+*Alles, was wir wissen, können wir aufschreiben. → [[Repraesentation_von_Texten|Repräsentation von Texten]] ist zentral.*
 ## Räpresentation von Texten
 ### Naiver Ansatz
 - Codierung A → 0, B →1, ... ⇨ Dannach Binärcodierung
@@ -40,7 +40,7 @@ https://rs.cs.tu-dortmund.de/RS1/V02-handout.html
 ![[Pasted image 20251021111626.png]]
 *ISO 8859-1 (8 Bit)*
 
-- **Unicode:** z.B. von Java verwendet
+- **Unicode:** z.B. von [[Java]] verwendet
 	- Aktueller Standart: Unicode 17.0 (Stand: 09.09.2025)
 	- 16 Bit (max. 65536 Zeichen)
 	- Verwaltet vom Unicode-Konsortium: http://www.unicode.org
@@ -71,10 +71,10 @@ Feste Repräsentationslänge $\mathscr{l}$
 ### Fragen
 - Wie kann man **Zahlenbereiche** verwenden?
 - Wie könne nwir **positive & negativ**e Zahlen unterscheiden?
-	- Vorzeichenbetragsdarstellung
-	- Exzessdarstellung
-	- Einerkomplement
-	- Zweierkomplement 
+	- [[Vorzeichenbetragsdarstellung]]
+	- [[Exzessdarstellung]]
+	- [[Einerkomplement]]
+	- [[Zweierkomplement]] 
 
 ### Vorzeichenbetragsmethode/-darstellung
 - erstes Bit vorziehen

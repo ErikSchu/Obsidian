@@ -37,7 +37,7 @@ Alles, was wir wissen, können wir aufschreiben. Daher ist die Repräsentation v
 
 ## 3. Unicode
 
-* Der **aktuelle Standard** (z.B. von Java, Webseiten, modernen Betriebssystemen verwendet).
+* Der **aktuelle Standard** (z.B. von [[Java]], Webseiten, modernen Betriebssystemen verwendet).
 
 * Verwaltet vom Unicode-Konsortium.
 

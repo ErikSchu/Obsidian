@@ -81,7 +81,7 @@ void sort(int array[], int length) {
 	- Laufzeit wird hier mit der **Anzahö der Word-RAM-Operationen** gleichgesetzt (#Schritte)
 	- pro Vergleichopseration werden (bei Selection Sort) maximal konstant viele andere elementare Word-RAM-Operationen ausgeführt
 		- z.B. *Zuweisungen* (`min_pos_so_far = 1`), *Erhöhung von Zählern* (`++i`), weitere *Vergleiche* (`i < length`), *Sprünge* (versteckt bei den Wiederholungsanweisungen / bedingten Anweisungen)
-	- da Selection Sort $\frac{n^2-n}{2}$ viele Vergleichsoperationen macht, macht der gesamte Algorithmus C mak so viele Schritte (Für eine Konstante C, die uns nicht näher interessiert).
+	- da Selection Sort $\frac{n^2-n}{2}$ viele Vergleichsoperationen macht, macht der gesamte [[Algorithmus]] C mak so viele Schritte (Für eine Konstante C, die uns nicht näher interessiert).
 
 > [!TIP] Operationsanzahl
 >  Selection-Sort sortiert ein Array der Länge $n$ mit $C \cdot n^2$ Operationen (für eine nicht näher bestimmte Konstnatne $C$).

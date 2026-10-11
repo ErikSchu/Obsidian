@@ -49,7 +49,7 @@ template <typename T> class ResizableArray {
 >[!success] Um das Problem zu lösen:
 >1. Entweder die Funktion `T print_arr(ResizableArray<T> a)` so ändern, dass ein ==***Zeiger***== auf das übergebene Objekt *(hier das `ResizableArray`)* übergeben wird
 >   `void print_arr(dap1::ResozableArray<int>* a) {}`
->   - nur der Zeiger wird kopiert $\leadsto$ vgl. Parameterübergabe von Arrays $\leadsto$ **Destruktor wird *nicht* aufgerufen**, wenn die (kopierte) Zeigervariable out of scope fällt
+>   - nur der Zeiger wird kopiert $\leadsto$ vgl. [[C++_Parameterübergabe_&_Const-Correctness|Parameterübergabe]] von Arrays $\leadsto$ **Destruktor wird *nicht* aufgerufen**, wenn die (kopierte) Zeigervariable out of scope fällt
 >   - Für ***Zeigervariablen*** auf Objekte gilt:
 > 	  - um das Objekt selbst anzusprechenm muss sie mit n ***⋆-Operator*** dereferenziert** werden
 > 		  - z.B. `(*a).get_size()` für Zugriff auf Memberfunktion `get_size()`

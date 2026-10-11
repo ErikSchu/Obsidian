@@ -1,7 +1,7 @@
 #dap1
 #### [[Algorithmus]]
 ## Was ist eine Datenstruktur?
-- Form der Speicherung bzw. Organisation von Daten in einem Computer, so dass bestimmte Aufgaben (Algorithmen) schnell und/oder platzeffizient ausgeführt werden können.
+- Form der Speicherung bzw. Organisation von Daten in einem Computer, so dass bestimmte Aufgaben ([[Algorithmus|Algorithmen]]) schnell und/oder platzeffizient ausgeführt werden können.
 	- Datenstrukturdesign geht Hand in Hand mit Algorithmendesign
 	- Untersch. Algorithmen verlangen unterschiedliche Datenstrukturen
 	- Oft eine Abwägung (**Tradeoff**) zw. **Platz** und **Zugriffszeit**

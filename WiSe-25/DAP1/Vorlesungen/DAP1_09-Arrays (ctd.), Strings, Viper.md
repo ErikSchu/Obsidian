@@ -8,7 +8,7 @@
     enthalten Zufallswerte (wie bei Variablendeklarationen)
 ```
 
-- Bei der Parameterübergabe von Arrays an Funktionen mit `void f(int array[])` wird die Anfangsadresse des Arrays (als Kopie) übergeben
+- Bei der [[C++_Parameterübergabe_&_Const-Correctness|Parameterübergabe]] von Arrays an Funktionen mit `void f(int array[])` wird die Anfangsadresse des Arrays (als Kopie) übergeben
     -  Funktionen können übergebene Arrays verändern
     - verhindern mit dem Schlüsselwort `const`: `void f(int const array[])`
 
@@ -23,7 +23,7 @@
 ## Sieb des Eratosthenes (VL07)
 
 - **Eingabe:** $n \in \mathbb{N}$
-- **Ausgabe:** alle Primzahlen $\leq n$ 
+- **Ausgabe:** alle [[12.5_Primzahlen|Primzahlen]] $\leq n$ 
 
 - **algorithmische Idee:**
 	- besuche die Primzahlen der Reihe nach

@@ -5,7 +5,7 @@
     * **Negative Zahlen ($z < 0$):**
         1.  Nimm den Betrag $|z|$.
         2.  Stelle ihn binär dar.
-        3.  Invertiere alle Bits (Einerkomplement).
+        3.  Invertiere alle Bits ([[Einerkomplement]]).
         4.  Addiere 1.
 
 > [!EXAMPLE] Beispiel: $z = -3$ mit $\ell = 4$

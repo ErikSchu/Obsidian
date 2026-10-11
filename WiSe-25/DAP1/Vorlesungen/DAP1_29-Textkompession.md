@@ -52,7 +52,7 @@ Ein ***Trie*** ist ein gewurzelter Baum
 
 #### Ist das reversibel (d.h. dekomprimierbar)?
 
-Ja! Einfach den Algorithmus simulieren!
+Ja! Einfach den [[Algorithmus]] simulieren!
 >[!question] Quiz
 >Welcher String wird durch $$(0,m), (0,i), (0,s), (3,i), (3,s), (2,p), (0, p), (2, 0)$$LZ78-komprimiert (Eingabe ohne das 0-Byte am Ende)?
 >⇒ `mississippi`

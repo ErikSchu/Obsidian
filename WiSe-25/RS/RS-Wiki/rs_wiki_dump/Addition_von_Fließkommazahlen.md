@@ -3,7 +3,7 @@
 ##### Darstellung gemäß [[Repräsentation Rationaler Zahlen|IEEE 754-1985]]
 - ` s `   **Vorzeichenbit**
 - ` m `   **Mantisse** (Binärdarstellung, *inklusive* impliziter $1$)
-- ` e `   **Exponent** (Exzessdarstellung, $b=2^{l_{e}-1}-1$)
+- ` e `   **Exponent** ([[Exzessdarstellung]], $b=2^{l_{e}-1}-1$)
 
 $$\begin{align}
 & x & =(-1)^{s_{x}} \cdot m_{x} \cdot 2^{e_{x}}y \\
@@ -47,7 +47,7 @@ ___
 >[!example] Beispiele
 >$m_{y} = 1.01010000000000000000000$
 >Vorzeichenerweiterung: $01.01010000000000000000000$
->Einerkomplement + $10.10110000000000000000000$
+>[[Einerkomplement]] + $10.10110000000000000000000$
 >___
 >Wie berechnen wir $-m_{y}2^{e_{y}-e_{x}}$?
 >⤷ Mantisse verschieben, vorne mit Einsen füllen

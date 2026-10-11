@@ -38,7 +38,7 @@ Der **Begriff "Verklemmung"** bezeichnet in der Informatik $$\begin{align}
 >___
 >Erst wenn zur Laufzeit die ***hinreichende Bedungung*** eintritt, liegt tatsächlich eine Verklemmung vor:
 >4. Zirkuläres Warten (==**circular wait**==)
-> 	  geschlossene Kette wechselseitig wartender Prozesse
+> 	  geschlossene Kette wechselseitig wartender [[03-Prozesse|Prozesse]]
 
 
 ## (nicht-) konsumierbare Betriebsmittel
@@ -53,7 +53,7 @@ Der **Begriff "Verklemmung"** bezeichnet in der Informatik $$\begin{align}
 ***Konsumierbare Betriebsmittel***
 - häufig im Laufenden system erzeugt (produziert) und zerstört (konsumiert)
 - **Bsp.:** Unterbrechungsanforderungen, Signale, Nachrichten, Daten von Eingabegeräten
-- Typische Zugriffssynchronisation: *einseitige Synchronisation*
+- Typische Zugriffssynchronisation: *einseitige [[05-Synchronisation|Synchronisation]]*
 
 #### Wiederverwendbare Betriebsmittel
 
@@ -129,7 +129,7 @@ ___
  1. nicht-blockierende Verfahren verwenden
  2. Betriebsmittelanforderungen unteilbar (atomar) auslagern
  3. Betriebsmittelentzug durch **Virtualisierung** ermöglichen
-	 - virtueller Speicher / -Geräte / -Prozessoren
+	 - [[09-Virtueller_Speicher|virtueller Speicher]] / -Geräte / -Prozessoren
 
 ***Direkte Methoden*** entkräften *Bedingung 4*
 4. lineare/totale Ordnung von Betriebsmittelklassen einführen:

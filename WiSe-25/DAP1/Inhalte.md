@@ -2,7 +2,7 @@
 ### Programmiersprachen
 Einführung in die strukturierte, imperative und objekt­orientierte Programmierung; informelle, exemplarische Diskussion von Syntax und Semantik einer Programmiersprache
 ### Algorithmen 
-elementare arithmetische Algorithmen, Sortieren von Feldern, Verwalten von Listen, Verwalten und Traversieren von Bäumen mit verschiedenen Strategien, Suchen und Sortieren mit Bäumen, elementare Algorithmen auf Graphen, elementare Hashverfahren, Algorithmen auf Zeichenketten, Laufzeit und Speicherbedarf von Algorithmen
+elementare arithmetische [[Algorithmus|Algorithmen]], Sortieren von Feldern, Verwalten von Listen, Verwalten und Traversieren von Bäumen mit verschiedenen Strategien, Suchen und Sortieren mit Bäumen, elementare Algorithmen auf Graphen, elementare Hashverfahren, Algorithmen auf Zeichenketten, Laufzeit und Speicherbedarf von Algorithmen
 ### Datenstrukturen
 Felder und Zeichenketten, Listen, Bäume, Graphen, implizite Datenstrukturen, Hashtabellen
 ### Objektorientierte Software

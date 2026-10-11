@@ -1,12 +1,12 @@
 #rs
 ## Addition *positiver* [[Repräsentation ganzer Zahlen|ganzer Zahlen]] 
 - Einerkomlement
-- Zweierkomplement
+- [[Zweierkomplement]]
 - [[Vorzeichenbetragsdarstellung]]
 	⤷ Addition einfach, da Zahlen binär dargestellt werden, evtl. Überträge beachten
 
 ##### Addition von Zahlen in [[Exzessdarstellung]]
-Für Exzessdarstellung funktioniert Addierer *selbst bei positiven Zahlen **nicht***. $$x+y=(b+x)+(b+y)=(b+y+x)+b$$→ Exzessdarstellung fürs Rechnen **weitgehend ungeeignet**, nur günstig für Vergleiche.
+Für [[Exzessdarstellung]] funktioniert Addierer *selbst bei positiven Zahlen **nicht***. $$x+y=(b+x)+(b+y)=(b+y+x)+b$$→ Exzessdarstellung fürs Rechnen **weitgehend ungeeignet**, nur günstig für Vergleiche.
 
 ___
 

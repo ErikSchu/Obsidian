@@ -8,7 +8,7 @@ Eine **Boolesche Algebra** ist eine spezielle algebraische Struktur, welche die 
 
 ### Entsprechungen zur Aussagenlogik
 
-| Aussagenlogik | Boolesche Algebra ($B=\{0, 1\}$) |
+| [[Aussagenlogik]] | Boolesche Algebra ($B=\{0, 1\}$) |
 | :--- | :--- |
 | FALSCH | 0 |
 | WAHR | 1 |

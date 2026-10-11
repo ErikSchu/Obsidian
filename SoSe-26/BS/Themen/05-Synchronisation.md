@@ -40,11 +40,11 @@ void enqueue (struct list *list, struct element *item) {
 - ***Gemeinsamer Speicher*** zur Kommunikation zwischen Prozessen
 	- Systeme mit **Shared Memory**-Dienst
 
-- ***Leicht-*** oder ***federgewichtige*** Prozesse 
+- ***Leicht-*** oder ***federgewichtige*** [[03-Prozesse|Prozesse]] 
 	- Nebenläufiger Zugriff auf dieselben Variablen 
 
 - ***Betriebssystemdaten***, die gebraucht werden, um den Zugriff von Prozessen auf unteilbare Betriebsmittel zu koordinieren
-	- Dateisystemstrukturen, **Prozesstabelle**, Speicherverwaltung, ...
+	- Dateisystemstrukturen, **Prozesstabelle**, [[08-Speicherverwaltung|Speicherverwaltung]], ...
 	- **Geräte** (Terminal, Drucker, Netzwerkschnittstellen, ...)
 
 - ***Ähnlicher Sonderfall: Unterbrechungssynchronisation***
@@ -86,7 +86,7 @@ ___
 	- Beim Verlassen des kritischen Abschnittes verfällt seine Wartenummer 
 
 ***PROBLEM:***
-Der Algorithmus *kann nicht garantieren*, dass seine *Wartenummer nur an einen Prozess vergeben wird*. 
+Der [[Algorithmus]] *kann nicht garantieren*, dass seine *Wartenummer nur an einen Prozess vergeben wird*. 
 	In diesem Fall entscheidet eine Prozess-ID die Priorität
 
 ```c
@@ -269,7 +269,7 @@ ___
    - `signal` zeigt das Eintreten eines Signals/einer Bedingung an und deblockiert ggf. (genau einen oder alle) darauf blockierte Prozesse 
 
 - Sprachgestützter Mechanismus:
-  Concurrent Pascal, PL/I, CHILL, ..., **Java**.
+  Concurrent Pascal, PL/I, CHILL, ..., **[[Java]]**.
 
 ##### Beispielcode
 ```Pseudo-Code

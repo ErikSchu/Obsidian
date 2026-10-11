@@ -1,7 +1,7 @@
 #bs **13.05.2026**
 
 >[!info] Wiederhohlung
->- ***Prozesse:*** ==die== zentrale **Abstraktion** für Aktivitäten in heutigen betriebssystemen 
+>- ***[[03-Prozesse|Prozesse]]:*** ==die== zentrale **Abstraktion** für Aktivitäten in heutigen betriebssystemen 
 >	- *Konzeptionell unabhängig ve sequentielle Kontrollflüsse* (Folge von CPU- und E/A-Stößen)
 >	- Tatsächlich findet ein **Multiplexing** der CPU statt
 >- ***UNIX-Systeme*** stellen diverse **System Calls** zur verfügung, um Prozesse zu erzeugen, zu verwalten und miteinander zu verknüpfen 

@@ -13,7 +13,7 @@ tags:
 >	- Schaffung von *Abstraktionen*, die Anwendungen einfachen & effizienten Umgang mit Betriebsmitteln erlauben
 >___
 >- **Bisher:**
->	- *Prozesse*
+>	- *[[03-Prozesse|Prozesse]]*
 >	- *Arbeitsspeicher*
 >___
 >- **Jetzt:** *E/A-Greäte*

@@ -20,7 +20,7 @@ von $x, y \in \mathbb{Z}$, $x \ne 0$, ist die größte Zahl $z \in \mathbb{N}$, 
 
 >[!note] Definition
 >- eine Zahl $z \in \mathbb{Z} \text{\\} \{ -1, 1 \}$ heißt **irreduzibel**, falls $y \not{|} z$ für alle $1 < y < \lvert z \rvert$
->- Mit $\mathbb P$ wird die Menge aller Primzahlen bezeichnet
+>- Mit $\mathbb P$ wird die Menge aller [[12.5_Primzahlen|Primzahlen]] bezeichnet
 >___
 >$\to$ jede Primzahl ist irreduzibel
 >$\to$ jede Zahl $z > 1$ besitzt einen irreduziblen Teiler
@@ -68,7 +68,7 @@ Gegeben seien $x \in \mathbb{Z}$ und $l, m \in \mathbb{N}$ suchen wir $z \in \ma
 
 >[!note] Fermat-Faktorieiserung *nicht klausurrelevant*
 >- gegeben $x \in \mathbb{Z}$ ist das Ziel, die Primfaktorzerlegung vom $x$ zubestimmen
->- dafür ist derzeit kein effizienter (nicht-quanten) Algorithmus bekannt
+>- dafür ist derzeit kein effizienter (nicht-quanten) [[Algorithmus]] bekannt
 >- wir lernen aber einen Algorithmus kennen, der für Zahlen $x = pq$ mit $p, q$ prim und $\lvert p-q \rvert$ "klein" gut funktioniert
 >  
 >  **Eingabe:** ungerade zusammengesetzte Zahl $n > 1$.

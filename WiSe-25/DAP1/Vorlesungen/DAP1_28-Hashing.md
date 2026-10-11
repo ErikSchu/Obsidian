@@ -20,7 +20,7 @@ Annahme $T$ = `int`
 Anforderungen an die Hashfunktion $h$:
 - soll mögl. *gleichmäßig* übre $[0, m-1]$ **streuen**
 - soll mögl. **zufällig** sein 
-- wir nutzen: $h(x) = ((a \cdot x) \text{ mod } p) \text{ mod } m$ für eine Primzahl $p \ge m$ und ein zufälliges $a \in [1, p-1]$
+- wir nutzen: $h(x) = ((a \cdot x) \text{ mod } p) \text{ mod } m$ für eine [[12.5_Primzahlen|Primzahl]] $p \ge m$ und ein zufälliges $a \in [1, p-1]$
 
 Trotzdem: ***Kollisionen** unvermeidbar* $(h(x) = h(y) \text{ für } x \ne y)$
 

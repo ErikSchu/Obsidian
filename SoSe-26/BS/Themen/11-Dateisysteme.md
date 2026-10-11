@@ -5,7 +5,7 @@
 >	- Vergaltung der Betriebsmittel
 >	- Schaffung von Abstraktionen, die Anwendungen einen einfachen und effizienten Umgang mit Betriebsmitteln erlauben
 >- Bisher
->	- **Prozesse**
+>	- **[[03-Prozesse|Prozesse]]**
 >	- **Arbeitsspeicher**
 >	- **E/A-Geräte** (insb. Blockorientiert)
 >- Heute: **Dateisysteme**
@@ -35,7 +35,7 @@
 - **Finden des freien Platzes** auf der Festplatte
 	- Menge aufeinanderfolgender & freier Plattenblöcke
 - **Fragmentierungsproblem**
-	- Verschnitt: nicht nutzbare Plattenblöcke; analog zur Speicherverwaltung
+	- Verschnitt: nicht nutzbare Plattenblöcke; analog zur [[08-Speicherverwaltung|Speicherverwaltung]]
 - Größe bei neuen Dateien oft nicht im Voraus bekannt
 - **Erweitern** ist problematisch
 - **Umkopieren**, falls kein freier angrenzender Block mehr verfügbar
@@ -197,7 +197,7 @@ ___
 
 - Pufferspeicher **für Plattenblöcke im Hauptspeicher**
 	
-	- *Verwaltung mit Algorithmen* ähnlich wie bei Seitenverwaltung (Speicher)
+	- *Verwaltung mit [[Algorithmus|Algorithmen]]* ähnlich wie bei Seitenverwaltung (Speicher)
 	  
 	- ***Read ahead:*** beim sequentiellen Lesen wird auch der **Transfer von Folgeblöcken** angestoßen
 	  

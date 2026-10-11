@@ -2,7 +2,7 @@
 
 - Ermittlung kürzester Pfade
 - effiziente Implementation mittels *priority queues*
-- Expliziter Algorithmus für das travelling salesman problem
+- Expliziter [[Algorithmus]] für das travelling salesman problem
 
 >[!info] Das kürzeste-Pfade-Problem
 >- Gegeben ein *gewichteter Graph* $G, c$

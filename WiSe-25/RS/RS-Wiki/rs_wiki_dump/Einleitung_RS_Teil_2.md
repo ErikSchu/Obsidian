@@ -35,7 +35,7 @@
 | -------------------------------------------- | ------------------------------- | ------------------ | ----- |
 | Übliche Programmiersprache                   | `for`, `while`, `if`            | Compiler           | DAP   |
 | ***Assemblerprogramm-Ebene***                | `bne x1,x2,loop`                | Compiler/Assembler | RS2   |
-| Maschinenprogramm-Ebene/Befehlsschnittstelle | `01010...10₂`                   | Assembler          | RS2   |
+| Maschinenprogramm-Ebene/[[Befehlsschnittstelle]] | `01010...10₂`                   | Assembler          | RS2   |
 | Reg-Transfer-Verhaltensebene                 | `Reg[2]:=Reg[3]`                | –                  | RS2   |
 | Reg-Transfer-Strukturebene                   | Addierer, Multiplexer, Register | –                  | RS2   |
 | Gatter-Ebene                                 | `f=a ∨ bc`                      |                    | RS1   |

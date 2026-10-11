@@ -4,7 +4,7 @@
 ## a.
 Die ganze Dezimalzahl $(-96)_{10}$ soll mit acht bits repräsentiert werden.
 
-**Vorzeichenbetragsdarstellung:**
+**[[Vorzeichenbetragsdarstellung]]:**
 $(1110 \ 0000)_2$
 
 **Einerkomplementdarstellung:**
@@ -13,7 +13,7 @@ $(1001 \ 1111)_{2}$
 **Zweierkomplementdarstellung:**
 $(1010 \ 0000)_{2}$
 
-**Exzessdarstellung mit Bias 127:**
+**[[Exzessdarstellung]] mit Bias 127:**
  $(0001 \ 0101)_{2}$
 
 ## b.

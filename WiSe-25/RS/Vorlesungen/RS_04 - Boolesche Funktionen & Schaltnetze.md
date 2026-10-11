@@ -261,7 +261,7 @@ Die Darstellung einer booleschen Funktion f als Disjunktion all ihrer Minterme z
 
 Die Darstellung einer booleschen Funktion f als XOR-Verknüpfung all ihrer Minterme zu einschlägigen Indizes heißt **Ringsummen-Normalform (RNF).**
 
-**Anmerkung:** Normalformen sind **eindeutig**.
+**Anmerkung:** [[Normalformen]] sind **eindeutig**.
 
 ![[Pasted image 20251023112757.png]]
 

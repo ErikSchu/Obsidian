@@ -29,7 +29,7 @@ Zahlen werden **transportiert**, **verarbeitet**, und **weitergegeben**, wobe
 
 #### Problem
 - Wie repräsentiert man mit nur zwei Grundzuständen…
-    - … Zahlen? Natürliche Zahlen? Ganze oder reelle Zahlen?
+    - … Zahlen? Natürliche Zahlen? Ganze oder [[13.2_Rationale-und-reelle-Zahlen|reelle Zahlen]]?
     - … Texte?
     - … andere Daten?
 - Wie repräsentieren wir eigentlich Zahlen?
@@ -39,7 +39,7 @@ Zahlen werden **transportiert**, **verarbeitet**, und **weitergegeben**, wobe
 
 #### Lösung: Stellenwertsysteme
 - 10 Ziffern {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}$_{10}$ oder 2 Ziffern {0, 1}$_{2}$
-- Frage: Muss das Zahlensystem so aussehen?
+- Frage: Muss das [[Zahlensysteme_&_Umrechnung|Zahlensystem]] so aussehen?
 - Behauptung: Es geht mit jeder Basis $(b \in \mathbb{N}\setminus \{1\})$
 
 - **Basis b**

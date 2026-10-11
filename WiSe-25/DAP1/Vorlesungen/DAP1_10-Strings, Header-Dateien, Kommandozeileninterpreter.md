@@ -124,7 +124,7 @@ int str_comp (char const s[], char const [t]) {
 
 ### Äquivlente Formulierung
 
-- **char** `string[]` entspricht **char**** bei Parameterübergabe
+- **char** `string[]` entspricht **char**** bei [[C++_Parameterübergabe_&_Const-Correctness|Parameterübergabe]]
 	- beide übergeben Adresse des Strings
 
 - analog: **char const** `string[]` entspricht **char const**** string

@@ -10,7 +10,7 @@ Sophie Germain (1776–1831)*
 
 - **Analytische Geometrie:** LinA ist als Vorlesung aus ihr entstanden. Diese Art der Geometrie hat nicht mehr den Stellenwert von früher. Es ist aber wichtig, mit der linearen Albegra zusammen auch due geometrische Anschauung zu entwickeln.
 
-- **Stukturmathematik:** Kennzeichen moderner Mathematik ist der abstrakte Umgang mit Ihren Objekten. Bspw. sind Vektren nicht einfach als Liste von Zahlen, sondern werden zu "Elementen eines Vektorraums" **abstrahiert**, die bestimmten **Axiomen** genügen. Diese Abstraktionen sind erfahrungsgemäß schwierig und mit hohem Lernaufwand verbunden. Jedoch werden dadurhc grundlegende Ideen klarer und viele modernere Methoden überhaupt erst verständlich.
+- **Stukturmathematik:** Kennzeichen moderner Mathematik ist der abstrakte Umgang mit Ihren Objekten. Bspw. sind Vektren nicht einfach als Liste von Zahlen, sondern werden zu "Elementen eines [[15.1_Vektorräume|Vektorraums]]" **abstrahiert**, die bestimmten **Axiomen** genügen. Diese Abstraktionen sind erfahrungsgemäß schwierig und mit hohem Lernaufwand verbunden. Jedoch werden dadurhc grundlegende Ideen klarer und viele modernere Methoden überhaupt erst verständlich.
 
 ___
 

@@ -14,7 +14,7 @@ für alle $\vec{x}, \vec{y} \in \mathbb{R}^n$ und alle $c \in \mathbb{R}$. Das f
 >1. $\forall \ \vec{x}, \vec{y} \in \mathbb{R}^n: \varphi(\vec{x} + \vec{y}) = \varphi(\vec{x}) + \varphi (\vec{y})$ **(Additivität)**
 >2. $\forall \ \vec{x} \in \mathbb{R}^n, c \in \mathbb{R}: \varphi(c \vec{x}) = c \cdot \varphi(\vec{x})$ **(Homogenität)**
 
-Ist $\varphi:\mathbb{R}^n \rightarrow \mathbb{R}^m$ eine lineare Abbildung und $c_{1}\vec{v_{1}} + \dots + c_{k}\vec{v}_{k}$ eine Linearkombination von Vektoren $v_{1}, \dots, \vec{v_{k}} \in \mathbb{R}^n$, dann können wir die Liniarität von $\varphi$ mehrfach anwendne und bekommen
+Ist $\varphi:\mathbb{R}^n \rightarrow \mathbb{R}^m$ eine [[16.1_Grundlagen-linearer-Abbildungen|lineare Abbildung]] und $c_{1}\vec{v_{1}} + \dots + c_{k}\vec{v}_{k}$ eine Linearkombination von Vektoren $v_{1}, \dots, \vec{v_{k}} \in \mathbb{R}^n$, dann können wir die Liniarität von $\varphi$ mehrfach anwendne und bekommen
 ![[Pasted image 20251124221049.png]]
 
 Man kann die lineare Abbildung $\varphi$ also *aus der Linearkombination herausziehen* und in sie*hineinziehen*.

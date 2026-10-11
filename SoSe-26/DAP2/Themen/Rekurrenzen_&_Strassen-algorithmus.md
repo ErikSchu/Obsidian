@@ -2,7 +2,7 @@
 
 >[!question] Motivation
 >- Bei der Analyse von Algorithmen begegnen häufig **Rekurrenzen**
->	- z.B. erfüllt die Laufzeit von `Quicksort` mit dem `Select`-Algorithmus die Rekurrenz $$\mathcal T_{n} = O(n) + 2 \mathcal{T}_{\left\lfloor  \frac{n}{2}  \right\rfloor }$$
+>	- z.B. erfüllt die Laufzeit von `Quicksort` mit dem `Select`-[[Algorithmus]] die Rekurrenz $$\mathcal T_{n} = O(n) + 2 \mathcal{T}_{\left\lfloor  \frac{n}{2}  \right\rfloor }$$
 >⮩ das ***"Master-Theorem"*** erlaubt es, Rekurrenzen bequem Abzuschätzen
 
 >[!tip] ***Master Theorem***
@@ -36,7 +36,7 @@ Für zwei $n \times n$-Matrizen $A = (a_{ij})_{i, j = 1, \dots, n}, \space B = (
 
 **Angenommen** $n = 2^t (t  \in \mathbb{N})$
 ⮩ *divide & conquer:* zerlege $A, B, C$ in Untermatrizen der Göße $\frac{n}{2} \times \frac{n}{2}$: $$A = \begin{pmatrix} A_{11} & A_{12} \\ A_{21} & A_{22}\end{pmatrix} \ \ \ B = \begin{pmatrix} B_{11} & B_{12} \\ B_{21} & B_{22} \end{pmatrix} \ \ \ C = \begin{pmatrix} C_{11} & C_{12} \\ C_{21} & C_{22} \end{pmatrix}$$
-⮕ berechnen nun *rekursiv* die sieben Produkte $$\begin{align}
+⮕ berechnen nun *[[Rekursion|rekursiv]]* die sieben Produkte $$\begin{align}
 & P_{1} = (A_{11} + A_{22})(B_{11} + B_{22}) \\
 & P_{2} = (A_{21} + A_{22})B_{11} \\
 & P_{3} = A_{11} (B_{12}- B_{22}) \\

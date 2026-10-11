@@ -14,7 +14,7 @@
 >[!info] Definition: Zusammenhangskomponenten
 >Sei $G = (V,E)$ ein Graph und $u, v, w \in V$.
 >- ***Relation $\sim_{G}$:*** Definiere $$u \sim_{G} v \Longleftrightarrow \text{ex. Weg von u nach v}$$
->- $\sim_{G}$ ist eine Äquivalenzrelation, d.h.:
+>- $\sim_{G}$ ist eine [[12.7_Äquivalenzrelationen|Äquivalenzrelation]], d.h.:
 >	- **Reflexiv:** $u \sim_{G} u$
 >	- **Symmetrisch:** $v \sim_{G} u \Leftrightarrow u \sim_{G} v$
 >	- **Transitiv:** $u \sim_{G} v \land v \sim_{G} w \implies u \sim_{G}w$
@@ -58,7 +58,7 @@
 >***Spannender Baum*** eines Graphen $G = (V, E)$ ist ein Untergraph $G' = (V, E')$ von $G$ mit derselben Knotenmenge wie $G$, der ein Baum ist. 
 
 >[!tip] Lemma
->Jeder zusammenhängende Graph enthält einen spannenden Baum.
+>Jeder zusammenhängende Graph enthält einen [[minimal_spannende_Bäume|spannenden Baum]].
 
 ___
 
@@ -79,7 +79,7 @@ ___
 - $p(v)$: Der Vorgängerknoten. Startet bei $\emptyset$ (leer). Das brauchst du zwingend, wenn du am Ende nicht nur die Distanz wissen, sondern den genauen Pfad im Graphen zurückverfolgen willst.
 - $\delta v$: Die Menge der direkten Nachbarn (Adjazenzliste) des Knotens $v$.
 
-- **Grün:** Knoten ist unentdeckt. Der Algorithmus war noch nie dort.    
+- **Grün:** Knoten ist unentdeckt. Der [[Algorithmus]] war noch nie dort.    
 - **Gelb:** Knoten wurde entdeckt und liegt in der Warteschlange $Q$. Seine eigenen Nachbarn wurden aber noch nicht geprüft.
 - **Rot:** Knoten ist komplett abgearbeitet. Er wurde aus $Q$ entnommen und seine Kanten wurden untersucht.
 

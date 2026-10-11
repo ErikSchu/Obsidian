@@ -19,7 +19,7 @@ Ferner definiere folgendes als den *eingehenden* und den *ausgehenden Grad* von 
 #### Breitensuche
 
 - wir haben `BFS` für ungerichtete Graphen kennengelernt
-- der Algorithmus überträgt sich auf gerichtete Graphen indem in der Hauptschleife (8) nur $u \in \partial^-v$ in die Warteschlange eingefügt werden
+- der [[Algorithmus]] überträgt sich auf gerichtete Graphen indem in der Hauptschleife (8) nur $u \in \partial^-v$ in die Warteschlange eingefügt werden
 - der Algorithmus bestimmt dann kürzeste *gerichtete* Pfade in $G$
 
 ___

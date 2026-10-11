@@ -37,7 +37,7 @@ Da $\vec{u_{1}}, \dots , \vec{u}_{k}$ ein Erzeugendensystem ist und $\vec{w_{1}}
 ---
 
 > [!TIP] 7.13 Satz (Basisergänzungssatz)
-> Es seien $U, V \subset \mathbb{R}^n$ zwei lineare Unterräume mit $U \subset V$. Ist $\vec{u_{1}}, \dots \vec{u_{m}}\in U$ eine Basis von U, dann gibt es $k \in \mathbb{N}_{0}$ derart, dass das System $\vec{u_1}, \dots, \vec{u_{m}}, \vec{v_{1}}, \dots, \vec{v_m}$ eine Basis von $V$ ist. 
+> Es seien $U, V \subset \mathbb{R}^n$ zwei [[6.1_Lineare-Unterräume|lineare Unterräume]] mit $U \subset V$. Ist $\vec{u_{1}}, \dots \vec{u_{m}}\in U$ eine Basis von U, dann gibt es $k \in \mathbb{N}_{0}$ derart, dass das System $\vec{u_1}, \dots, \vec{u_{m}}, \vec{v_{1}}, \dots, \vec{v_m}$ eine Basis von $V$ ist. 
 
 **Beweis:**
 ![[Pasted image 20251118215932.png]]

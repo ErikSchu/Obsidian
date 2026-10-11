@@ -242,7 +242,7 @@ Linux implementiert **POSIX-Threads** in Form der `pthread`-Bibilothek. Möglich
 
 Universelle Funktion, parametrisiert durch ***flags***
 - `CLONW_VM` **Addressraum** gemeinsam nutzen
-- `CLONE_FS` Information über **Dateisystem** teilen
+- `CLONE_FS` Information über **[[11-Dateisysteme|Dateisystem]]** teilen
 - `CLONE_FILES` **Dateideskriptoren** (*offene Dateien*) teilen
 - `CLONE_SIGHAND` Gemeinsame **Signalbehandlungstabelle**
 

@@ -35,5 +35,5 @@ Speicher ist oft in **Worten** organisiert (z.B. 4 Bytes / 32 Bit).
     * Folgen des *gleichen* Datentyps.
     * **Problem:** Wie erkennt man das Ende der Folge?
         * **Lösung 1:** Feste, vorab vereinbarte Anzahl (z.B. in C: `int a[10]`).
-        * **Lösung 2:** Die Länge am Anfang der Folge speichern (z.B. Java-Arrays).
+        * **Lösung 2:** Die Länge am Anfang der Folge speichern (z.B. [[Java]]-Arrays).
         * **Lösung 3:** Ein spezielles Endezeichen verwenden (z.B. `\0` bei C-Strings).

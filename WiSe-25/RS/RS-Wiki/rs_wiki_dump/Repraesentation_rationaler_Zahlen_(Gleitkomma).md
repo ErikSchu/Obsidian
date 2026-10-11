@@ -40,7 +40,7 @@ Eine 32-Bit-Zahl wird aufgeteilt in:
 
 ### Berechnung des Werts
 
-**1. Exponent (Exzessdarstellung):**
+**1. Exponent ([[Exzessdarstellung]]):**
 * Der gespeicherte 8-Bit-Exponent $E$ ist eine vorzeichenlose Zahl (0-255).
 * Um negative Exponenten zu erlauben, wird ein **Bias** (eine Verschiebung) verwendet.
 * Bias (für 32-Bit): $b = 2^{8-1} - 1 = 127$

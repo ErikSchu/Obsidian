@@ -50,7 +50,7 @@
 ![[Pasted image 20260716132058.png]]
 - färbe Elternknoten und die Tante schwarz
 - färbe die Großeltern $u$ ror 
-- führe die Wiederherstellung rekursiv für $u$ aus 
+- führe die Wiederherstellung [[Rekursion|rekursiv]] für $u$ aus 
 
 ##### Fall 2:
 ![[Pasted image 20260716132114.png]]

@@ -71,11 +71,11 @@ $$
 **b)** Festkomma-Betragszahl: 101,011 $(5.375)_{10}$
 **c)** Vorzeichen-Betragszahl: 10 1001 $(-9)_{10}$
 **d)** Vorzeichen-Betragszahl: 00 1010 $(10)_{10}$
-**e)** Einerkomplement: 11 1000 $(-7)_{10}$
+**e)** [[Einerkomplement]]: 11 1000 $(-7)_{10}$
 **f)** Einerkomplement: 00 0111 $(7)_{10}$
-**g)** Zweierkomplement: 00 0100 $(4)_{10}$
+**g)** [[Zweierkomplement]]: 00 0100 $(4)_{10}$
 **h)** Zweierkomplement: 11 0011 $(-13)_{10}$
-**i)** Exzessdarstellung (Bias 8): 00 0101 $(-3)_{10}$
+**i)** [[Exzessdarstellung]] (Bias 8): 00 0101 $(-3)_{10}$
 **j)** Exzessdarstellung (Bias 8): 10 0011 $(27)_{10}$
 
 ## 1.4 Zeichenkodierung

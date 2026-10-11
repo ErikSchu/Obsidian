@@ -6,7 +6,7 @@ Dienstag, 04.11.2025
 **Eingabe:** ein $n \in \mathbb{R}$
 **Ausgabe:** $\leq n$
 - algoritgmische **Idee:**
-	- besuche Primzahlen der Reihe nach
+	- besuche [[12.5_Primzahlen|Primzahlen]] der Reihe nach
 		- Beginn bei 2
 	- wenn Primzahl $i$ gefunden: besuche alle Vielfachen $2i, 3i, 4i, \dots$
 		- diese sind **keine** Primzahlen → markieren

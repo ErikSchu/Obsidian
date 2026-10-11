@@ -109,7 +109,7 @@ ___
 
 >[!example] .
 >*Eingabe:* eine natürliche Zahk $n$.
->*Aufgabe:* erzeuge eun Array $A[0, p-1]$, dass alle $p$ Primzahlen $\le n$ enthält.
+>*Aufgabe:* erzeuge eun Array $A[0, p-1]$, dass alle $p$ [[12.5_Primzahlen|Primzahlen]] $\le n$ enthält.
 
 ```cpp
 int n;

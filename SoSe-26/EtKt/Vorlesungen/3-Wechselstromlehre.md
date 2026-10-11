@@ -64,7 +64,7 @@ Im eingeschwungenen Zustand lassen sich zeitveränderliche Spannunt / Ströme **
 
 
 ***Efektivwert***
-- Quadratischer Mittelwert einer Wechselgröße, der angibt, welche Gleichspannund oder welcher Gleichstrom die gleiche Wärmeleistung an einem ohmschen Verbraucher erzeugt. 
+- Quadratischer Mittelwert einer Wechselgröße, der angibt, welche Gleichspannund oder welcher [[2-Gleichstromlehre|Gleichstrom]] die gleiche Wärmeleistung an einem ohmschen Verbraucher erzeugt. 
 - $230 V$ Netzt bezieht sich auf Effektivwert → Spiezenwert $\hat{u} = 235V$
 - bei harmonischen (sin, cos) Spannungne sind Spitzenwert $\hat{u}$ und Effektivwert $U$ mit $\sqrt{ 2 }$ verknüpft $$\hat{u} = U \sqrt{ 2 }$$
 - ... und analog gilt dies auch für Ströme

@@ -23,7 +23,7 @@
 
 ### Effiziente Algorithmen
 - $\tau_{M}(n)$ ist die *maximale Laufzeit* vom $M$ auf einer Eingabe der Länge $\le n$: $$\tau_{M}(n) = \text{max} \{ \tau_{m} (e) : \log_{2}(2 + \lvert e \rvert ) \le n \}$$
-- Der **Algorithmus** $M$ ist *effizient*, wenn es eine Zahl $l > 0$ gibt, sodass $$\tau_{M}(n) = O(n^l)$$
+- Der **[[Algorithmus]]** $M$ ist *effizient*, wenn es eine Zahl $l > 0$ gibt, sodass $$\tau_{M}(n) = O(n^l)$$
 
 >[!tip] Die Klasse $P$
 >- $f : \mathbb{Z} \to \mathbb{Z}$ heißt ***effizient berechenbar***, wenn es einen effizienten Algorithmus gibt, der für alle $e \in \mathbb{Z}$ bei Eingabe $e$ den wert $f(e)$ ausgibt

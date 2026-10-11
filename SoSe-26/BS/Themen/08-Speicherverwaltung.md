@@ -4,7 +4,7 @@
 >- Das Betriebssystem hat folgende Aufgaben:
 >	- Verwaltung der Betriebsmittel des Rechners 
 >	- Schaffung von Abstraktionen, die Anwendungen und einen einfachen und effizienten Umgang mit Betriebsmitteln erlauben
->- Bisher: **Prozesse**
+>- Bisher: **[[03-Prozesse|Prozesse]]**
 >	- Konzept zur Abstraktion von der realen CPU
 >- Nun: **Speicher** 
 >	- Verwaltung von Haupt- und Hintergrundspeicher 

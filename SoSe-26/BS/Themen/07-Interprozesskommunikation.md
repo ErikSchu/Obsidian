@@ -2,13 +2,13 @@
 
 ## Wdh.
 
-- Prozesse können **miteinander intaragieren**
-	- aufeinander warten (*Synchronisation*)
+- [[03-Prozesse|Prozesse]] können **miteinander intaragieren**
+	- aufeinander warten (*[[05-Synchronisation|Synchronisation]]*)
 	- Dateien austauschen (*Kommunikation*)
 
 - **Wartemechanismen**
 	- sind notwendig für kontrollierte Kommunikation
-	- können zu Verklemmungen führen
+	- können zu [[06-Verklemmungen|Verklemmungen]] führen
 
 ___
 
@@ -165,7 +165,7 @@ ___
 	- Nun muss man noch das eine Ende an einen anderen Prozess weitergeben
 
 - ***Benannte Pipes***
-	- Pipes können auch als **Spezialdateien ins Dateisystem** gelegt werden: ` int mkfifo (<Dateiname>, mode_t mode) `
+	- Pipes können auch als **Spezialdateien ins [[11-Dateisysteme|Dateisystem]]** gelegt werden: ` int mkfifo (<Dateiname>, mode_t mode) `
 	- Standartfunktion zum Öffnen, Lesen, Schreiben & Schließen können verwednet werden
 		- Normale Dateizugriffsrechte regeln, wie die Pipe benutzt werden darf.
 

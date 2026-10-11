@@ -18,7 +18,7 @@ Eigene **Datenstruktur** für **boolsche Funktionen**
 1. Festlegung einer **Variablenordnung $\pi$** 
    z.B. $(x_{3}, x_{1}, x_{2}, x_{4})$ bei 4-stelluger Funktion
    
-2. OBDD bauen aus
+2. [[OBDDs|OBDD]] bauen aus
 	- **Knoten** für Varieblen & Konstanten
 	- **Kanten**, die zwei Knoten verbinden
 

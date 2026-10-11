@@ -76,7 +76,7 @@ ___
 
 - ***Unterscheidung*** zwischen *Befehlen*, *Programmen*, *Sprachen*
 
-- Exemplatische ***Betrachtung*** der *RISC-V-Assembler- & Maschienensprache*
+- Exemplatische ***Betrachtung*** der *[[RISC-V-Assembler-Befehle|RISC-V-Assembler]]- & Maschienensprache*
 	- `add`-, `lw`-, `sw`-Befehle; RT-Semantik
 	- Speichermodell 
 	- Darstellung von Befehlen

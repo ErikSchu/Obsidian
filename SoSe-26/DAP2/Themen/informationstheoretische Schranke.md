@@ -8,7 +8,7 @@ https://ls2-web.cs.tu-dortmund.de/~mamicoja/dap2/slides/lec_inf.pdf
 >- wir haben Zugruff auf eine Funktion, die zwei Elemente $l_{i}, l_{j}$ vergleicht 
 
 >[!question] Frage
->Quicksort hat eine Laufzeit von $O(n \log n)$
+>[[Quicksort]] hat eine Laufzeit von $O(n \log n)$
 > ⤷ geht es besser?
 
 
@@ -21,10 +21,10 @@ Gerne würde ich auch meine Reifen bei Ihnen wechseln lassen, was Sie laut Ihrer
 Allerdings wäre es mir wichtig, dass ich meine Winterreifen bei Ihnen einlagern kann, da ich selbst keine Lagerungsmöglichkeit habe.
 Ist das möglich bzw. bieten Sie das an?
 
-LG Erik Schulzer Algorithmus greift auf seine Eingabe *nur* durch Vergleichsanfragen zu
+LG Erik Schulzer [[Algorithmus]] greift auf seine Eingabe *nur* durch Vergleichsanfragen zu
 - die Eingabe einer solchen Anfrage ist in Paar von Listenelementen
 - die Antwort ist entweder < oder = oder >
-- **Beispiele:** Quick-, Merge-, Heapsort
+- **Beispiele:** Quick-, Merge-, [[Heapsort_priority-queues|Heapsort]]
 
 
 >[!TIP] **Satz**

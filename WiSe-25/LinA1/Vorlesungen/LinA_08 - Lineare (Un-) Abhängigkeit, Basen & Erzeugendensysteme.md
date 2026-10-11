@@ -37,7 +37,7 @@ Das LGS hat nur die triviale Lösung $\iff$ die einzige Lösung $x_i=0$ für all
 ## §7.2 Basen
 
 ### Definition
-Es sei $U \subseteq \mathbb{R}^n$ ein linearer Unterraum.
+Es sei $U \subseteq \mathbb{R}^n$ ein linearer [[6.1_Lineare-Unterräume|Unterraum]].
 
 ***(a)*** Ein System $(\vec{v}_1, \dots, \vec{v}_m)$ von Vektoren aus $U$ mit $U = \text{Lin}(\vec{v}_1, \dots, \vec{v}_m)$ heißt ein **Erzeugendensystem** von $U$.
 

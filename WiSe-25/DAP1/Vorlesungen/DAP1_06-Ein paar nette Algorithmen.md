@@ -12,7 +12,7 @@
 ## Beispiel: Binärdarstellung im 2er-Komplement
 
 **Eingabe:** ein $a \in \mathbb{N}$
-**Ausgabe:** Binärdarstellung ($a_{l-1}, \dots, a_{1}, a_{0}$) von $a$ im $l$-Bit Zweierkomplement
+**Ausgabe:** Binärdarstellung ($a_{l-1}, \dots, a_{1}, a_{0}$) von $a$ im $l$-Bit [[Zweierkomplement]]
 Es muss also gelten: $a=-a_{l-1}2^{l-1}+\sum_{i=0}^{l-2}a_{i}2^i$, uns somit auch $-2^l \leq a < 2^{l-1}$
 
 - drucke zunächst das "Vorzeichenbit" $a_{l-1}$ unt transferiere $a$ ggf. ins Nichtnegative
@@ -50,7 +50,7 @@ void print_twos_complement(int zahl, int bits) {
 *Eine Natürliche Zahl $n$ ist genau dann prim, wenn sie nicht das Produkt von 2 natürlichen Zahlen kleiner als $n$ ist.
 
 - überprüfe für alle Zahlen $i$ mit $2 \leq i < n$, ob $i$ die Zahl $n$ teilt:
-	- falls $i$ eine Teiler von $n$ ist: Ergebnis `false`; beende Algorithmus
+	- falls $i$ eine Teiler von $n$ ist: Ergebnis `false`; beende [[Algorithmus]]
 - falls keines der getesteten $i$ ein Teiler von $n$ ist: Ergebnis ist true
 
 - es reicht, alle Zahlen $2 \leq i \leq \sqrt{n}$ zu testen
@@ -89,7 +89,7 @@ bool is_prime(int n) {
     - u.a. für Sichtbarkeits-/Gültigkeitsbereich von Variablen!
 - **Bedingte Anweisung** `if ( Bedingung ) { Block }`: führe `Block` nur aus, falls `Bedingung` wahr (eigentlich: Wert des Ausdrucks `Bedingung` nicht 0) ist
 - **Wiederholungsanweisungen** `while (...)`, `for (...)`
-- **Funktionen**, Parameterübergabe, Rückgabewerte
+- **Funktionen**, [[C++_Parameterübergabe_&_Const-Correctness|Parameterübergabe]], Rückgabewerte
 - Ein-/Ausgabe (`printf()`, `scanf()`) nach `#include <cstdio>`
     - Für Ein-/Ausgabe von Variablen **Platzhalter** benutzen (`%i`, `%lf`, `%c`)
 

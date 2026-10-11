@@ -24,7 +24,7 @@ https://sys-sideshow.cs.tu-dortmund.de/lehre/ss26/bs/decker/02-Abstraktionen-dec
 >[!TIP] Das Betriebssystem wird immer komplexer
 >- Umgang mit nebenläufigen I/O-Aktivitäten
 >- **Verwaltung des Arbeitsspeichers** für mehrere Programme
->- Interne verwaltung von *Programmen in Ausführung* (**Prozesse**)
+>- Interne verwaltung von *Programmen in Ausführung* (**[[03-Prozesse|Prozesse]]**)
 >- **Prozessorzuteilung** (scheduling)
 >- Mehrbenutzerbetrieb: **Sicherheit** und Abrechnung (accounting)
 
@@ -66,7 +66,7 @@ ___
 - Grundsätzliche Fragestellungen
 	- Welche Arten von Ereignissen führen zur *Veränderung*?
 	- In welcher *Reihenfolge* sollen Prozesse Ablaufen?
-- Ziele eines **Scheduling-Algorithmus**
+- Ziele eines **Scheduling-[[Algorithmus]]**
 	- benutzerorientiert, z.B. kurze Antwortzeiten
 	- systemorientiert, z.B. optimale CPU-Auslastung
 	⤷ es können nie alle Bedürfnisse erfüllt swerden
@@ -101,7 +101,7 @@ print("Ich mag dich.\n");
   ...
   ```
   ⤷ wenn sich ein Prozess zwischen (un)lock befindet, kann der andere lock nicht passieren bis der kritische Abschnitt wieder frei ist
-	⤷ Problem: Verklemmungen (Deadlocks) → vgl. Rechts vor Links
+	⤷ Problem: [[06-Verklemmungen|Verklemmungen]] (Deadlocks) → vgl. Rechts vor Links
 
 #### Interprozesskommunikation
 ... ermöglicht Zusammenarbeit mehrerer Prozesse

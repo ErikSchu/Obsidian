@@ -38,7 +38,7 @@ Die Aussage $P \implies Q$ ist logisch äquivalent zu ihrer **Kontraposition** $
 
 #### Reihenfolge ist entscheidend!
 
-Die Bedeutung einer Aussage ändert sich komplett, wenn man die Reihenfolge der Quantoren vertauscht.
+Die Bedeutung einer Aussage ändert sich komplett, wenn man die Reihenfolge der [[Quantoren]] vertauscht.
 
 - $\forall x \in \mathbb{R} \ \exists n \in \mathbb{N}: n > x$ (Wahr: Zu jeder reellen Zahl gibt es eine größere natürliche Zahl).
 
@@ -63,7 +63,7 @@ Eine einzelne lineare Gleichung hat die Form:
 
 $$a_1x_1 + a_2x_2 + \dots + a_nx_n = b$$
 
-wobei die $a_i$ und $b$ gegebene reelle Zahlen sind und die $x_i$ die Unbekannten.
+wobei die $a_i$ und $b$ gegebene [[13.2_Rationale-und-reelle-Zahlen|reelle Zahlen]] sind und die $x_i$ die Unbekannten.
 
 #### Drei Lösungsfälle für eine Gleichung:
 

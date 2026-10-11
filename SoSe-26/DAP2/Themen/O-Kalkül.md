@@ -13,7 +13,7 @@ https://ls2-web.cs.tu-dortmund.de/~mamicoja/dap2/slides/lec_O.pdf
 | ***$\sim$***         | Fast identisch                | Zeige, dass der Grenzwert $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 1$ ist.       |
 
 ## Ziel
-- es gilt, die Laufzeit von Algorithmen auf großen Eingaben zu analysieren
+- es gilt, die Laufzeit von [[Algorithmus|Algorithmen]] auf großen Eingaben zu analysieren
 - wir interessieren uns als für “Größenordnungen”
 - dazu führen wir einen geeigneten Formalismus ein
 	⬇⬇⬇⬇

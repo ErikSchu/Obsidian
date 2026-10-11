@@ -6,11 +6,11 @@ Wir beschreiben Sichten auf Rechenanlagen, die verschiedenen Abstraktionsebenen 
 
 - Darstellung von Informationen in Rechnern  
 - Boolesche Funktionen, Repräsentationen und Realisierung  
-- Schaltnetze  
+- [[Schaltnetze]]  
 - endliche Automaten  
 - Schaltwerke  
 - Hardware-Komponenten zur Realisierung von Prozessoren,  
-- die Befehlsschnittstelle,  
+- die [[Befehlsschnittstelle]],  
 - Assemblerprogrammierung,  
 - exemplarische Realisierung eines Prozessors aus Hardware-Komponenten,  
 - die Speicherarchitektur,  
