@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "tag:#lina1 OR tag:#lina2  ",
+      "query": "tag:#lina1 OR tag:#lina2  Or tag:#Ana1  ",
       "color": {
         "a": 1,
         "rgb": 5100348
@@ -54,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.2561996495742916,
-  "close": true
+  "close": false
 }
