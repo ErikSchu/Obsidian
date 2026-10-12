@@ -9,7 +9,8 @@ smry:
 
 - ***Präzision:***
 	  ![[Pasted image 20261012105543.png]]
-
+	- Formale Logik hat eine eindeutige Semantik, was erlaubt Zusammenhänge präzise zu beschreiben.
+	- (1), (2): *Prädikatenlogik*, (3): *[[Aussagenlogik]]*
 
 - ***Struktur von Zusammenhängen***
 ___
