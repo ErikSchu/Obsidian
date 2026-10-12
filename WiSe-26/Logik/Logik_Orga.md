@@ -4,6 +4,19 @@
 - **Globalübung:** Mittoch 16:00 - 18:00, OH 12 E.003 (online Donnerstag 14:00 - 16:00)
 - **Tutorium:** Freitag 10:00 - 12:00, OH 14 E23
 
+>[!example] Beispiel Prädikatlogik (kurz FO)
+>*Beantwortung einer einer Frage mit ==logischen Methoden==*
+>1. Fragestellung
+>   2. Übersetzung in logische Fragestellung
+>   3. Lösung mit methoden der Logik
+>   4. Rückübertragung der Logik
+
+>[!example] Beispiel formales System
+>z.B. Klimasteuerung
+>![[Pasted image 20261012102536.png]]
+>⤷ *Temporal-/Modallogiken:* Formalisierung der Eigenschaft durch eine logische Formel $\varphi$, die überprüft, ob das Formale Modell $M$ die Formel erfüllt
+
+- **Aussagenlogik**
 
 ___
 ### Überblick
@@ -43,6 +56,7 @@ Die Materialien werden wöchentlich kapitelweise freigeschaltet. Zur Vorbereitun
 
 Vorlesungsvideos gibt es zu den meisten Kapiteln mit Ausnahme eines neueren Kapitels. Die Videos wurden von **Prof. Thomas Zeume**, der früher in unserer AG war, und jetzt Professor an der RUB ist, erstellt. Sie basieren auf den Folien, die unsere Arbeitsgruppe in den letzten Jahren in der Vorlesung eingesetzt hat.
 
+___
 ### Tutorium
 In den Tutorien
 - wird Vorlesungsstoff **wiederholt** und
@@ -58,6 +72,7 @@ Die jeweils besprochenen Beispielaufgaben werden in Moodle bereitgestellt.
 
 Das erste Tutorium findet am Mittwoch, den 14.10., sowie am Freitag, den 16.10.2026 statt.
 
+___
 ### Übungsgruppen
 In den Übungsgruppen werden unter Leitung der Tutor:innen Warm-Up-Aufgaben in Kleingruppen gerechnet und besprochen. Dort werden jedoch keine Lösungen zu Übungsaufgaben besprochen. Die Warm-Up-Aufgaben haben keinen Einfluss auf die Studienleistung.
 
@@ -67,6 +82,7 @@ Der Übungsgruppenbetrieb beginnt am 21. Oktober 2026.
 
 Die genauen Termine der Übungsgruppen und die Gruppenzuteilung werden Sie nach Abschluss der Gruppenwahl unter "Aktuelles" finden.
 
+___
 ### Globalübung
 In der Globalübung werden nach dem jeweiligen Abgabetermin Beispiellösungen zu den Übungsblättern besprochen.
 
@@ -78,6 +94,7 @@ Die genauen Termine finden Sie auch in der Terminübersicht.
 
 Die Globalübung findet erstmalig am Mittwoch, den 11.11. statt.
 
+___
 ### Übungsblätter und Studienleistung
 #### Übungsblätter
 Es wird insgesamt sechs (6) reguläre Übungsblätter mit Punkten geben.
@@ -112,6 +129,7 @@ Es wird insgesamt sechs (6) reguläre Übungsblätter mit Punkten geben.
 #### Studienleistung
 - Für die Studienleistung müssen 36 von 90+3 Punkten der Übungsblätter erreicht werden. 
 
+___
 ### Prüfungen 
 #### Voraussetzungen
 Studierende können an den Prüfungen teilnehmen, wenn sie eine gültige Studienleistung haben oder bereits einen Prüfungsversuch für das Modul unternommen haben.
@@ -136,6 +154,7 @@ Auf Vorder- und Rückseite ist, etwas abgesetzt und gut erkennbar, Ihr Name und 
 
 Außer normalen Brillen sind keine Hilfsmittel zum Lesen erlaubt.
 
+___
 ### Frage-Antwort-Forum
 Im [Frage-Antwort-Forum](https://logik.qanda.cs.tu-dortmund.de/) können Fragen zu allem, was die Veranstaltung betrifft, gestellt und beantwortet werden:
 - Organisation
