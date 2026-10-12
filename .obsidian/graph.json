@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:\"!stuff\" -path\"Anhänge\"",
+  "search": "-path:\"!stuff\" -path:\"Anhänge\"",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -53,6 +53,6 @@
   "repelStrength": 9.31983012087553,
   "linkStrength": 1,
   "linkDistance": 249,
-  "scale": 0.3360292665445364,
+  "scale": 0.33843913830584904,
   "close": false
 }
