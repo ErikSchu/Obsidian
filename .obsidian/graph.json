@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-path:\"!stuff\" -path:\"Anhänge\"",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#rs OR tag:#etkt OR tag:#HaPra  ",
@@ -44,7 +44,7 @@
     }
   ],
   "collapse-display": true,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 0.982,
   "lineSizeMultiplier": 1.12226069911794,
@@ -53,6 +53,6 @@
   "repelStrength": 9.31983012087553,
   "linkStrength": 1,
   "linkDistance": 249,
-  "scale": 0.33843913830584904,
+  "scale": 0.2882577542007241,
   "close": false
 }
