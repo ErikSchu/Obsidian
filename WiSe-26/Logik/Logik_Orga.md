@@ -3,6 +3,8 @@
 - **Vorlesung:** Montag 10:00 - 12:00, HG 2 HS 3
 - **Globalübung:** Mittoch 16:00 - 18:00, OH 12 E.003 (online Donnerstag 14:00 - 16:00)
 - **Tutorium:** Freitag 10:00 - 12:00, OH 14 E23
+- Klausurzettel A4 doppelseitig
+- **Studienleistung:** $\ge$ 36 von 90 Punkten in 6 Aufgabenblättern
 
 ![[Pasted image 20261012104536.png]]
 
@@ -149,7 +151,7 @@ Studierende können an den Prüfungen teilnehmen, wenn sie eine gültige Studien
 Die  voraussichtlichen Termine (Stand: 6.10.2026) sind:  
 - **1. Klausur:** Freitag, 19.2.2027, 9:00 - 11:00 (Anmeldung bis 12.2.)  
 - **2. Klausur:** Freitag, 2.4.2027, 12:00 - 14:00 (Anmeldung bis 26.3.)
-- 
+
 Die Bearbeitungszeit beträgt 2 Stunden (120 Minuten).
 
 Falls Sie einen **Nachteilsausgleich** geltend machen wollen, müssen Sie uns dies aus organisatorischen Gründen bis spätestens zum letzten möglichen Anmeldetag mitteilen. Lieber aber deutlich vorher.  
