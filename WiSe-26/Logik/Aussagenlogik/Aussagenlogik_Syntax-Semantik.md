@@ -6,13 +6,17 @@ smry:
 ---
 # 1. Einführende Beispiele
 ## Gründe für Formale Logik
+
 >[!example] Präzision
-![[Pasted image 20261012105543.png]]
-> - Formale Logik hat eine eindeutige Semantik, was erlaubt Zusammenhänge präzise zu beschreiben.
+>1. Keine zwei Spieler haben in allen Spielen gleich gut gespielt
+>2. Jede Speicherstelle wird vor der Verwendung initialisiert
+>3. Ich fahre im März oder April nach Spanien
+> - Formale Logik hat eine **eindeutige Semantik**, was erlaubt Zusammenhänge präzise zu beschreiben.
 > - (1), (2): *Prädikatenlogik*, (3): *[[Aussagenlogik]]*
 
 >[!example] Struktur von Zusammenhängen
-> ![[Pasted image 20261012112300.png]]
+>1. Wenn der zug zu Spät kommt und keinen Taxis am Bahnhof sind, kommt Jane zu spät zu ihrem Termin (Zug ist zu spät und Jane ist pünktlich, also sind Taxis am Bahnhof)
+>2. Falls es regnet und John seinen Schirm nicht dabei hat, wird er nass. 
 > - Die Argumentation ist unabhängig vom Inhalt der Aussagen (1) - (3)
 > - Es kommt nur auf den logischen Zusammenhang an
 
