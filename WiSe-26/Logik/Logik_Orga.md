@@ -16,7 +16,13 @@
 >![[Pasted image 20261012102536.png]]
 >⤷ *Temporal-/Modallogiken:* Formalisierung der Eigenschaft durch eine logische Formel $\varphi$, die überprüft, ob das Formale Modell $M$ die Formel erfüllt
 
-- **Aussagenlogik**
+- ***Aussagenlogik:*** z.B.: $(S \land C) \to E$
+- ***Modallogik:*** übergänge zwischen Versch Welten
+- ***Prädikatlogik:***  Elementaraussagen mittels Quantoren
+
+>[!TIP] Hauptbegriffe der Vorlesung
+>1. ***Modellbezeichnung:*** Zum Testen ob ein System die Fragliche Eigenschaft hat, muss überprüft weren, ob die Struktur ein **Modell** der Formel ist, die Systemeigenschaften spezifiziert
+>2. ***Semantisches Folgern:*** Folgern neues Wissens $\psi$ aus einer WIssensbasis $$
 
 ___
 ### Überblick
