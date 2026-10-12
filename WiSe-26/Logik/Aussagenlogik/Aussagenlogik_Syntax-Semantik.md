@@ -29,10 +29,11 @@ Abstraktion ***"Aussage"***: **etwas, das ==wahr== oder ==falsch== sein kann**
 
 ### Syntax
 Verwendung ***aussagenlogischer Variablen*** der Art $A, B, C$ sowie $A_{i}$ für alle $i \in \mathbb{N}$
-$\underline{AV}$ bezeichnet die Menge aller aussagenlogischer Variablen
+$AV$ bezeichnet die Menge aller aussagenlogischer Variablen
 
 >[!def] **Syntax** Aussagenlogischer Formeln 
->TODO
+>Die Menge $AL$ der **aussagenlogischen Formeln** ist die kleinste Menge, die die folgenden Eigenschaften hat:
+>1. $\top$ *(wahr)* und $\bot$ *(falsch)* sind in $AL$
 
 ...
 
@@ -47,6 +48,10 @@ entspr. Bedeutung einer Formel.
 $X$ ist hier eine "Meta-Variable", die für eine beliebige aussagenlogische Variable steht. 
 Die Semantik von $\varphi$ ordnet jeder passenden Bekegung $\alpha$ einen Wahrheitswert  
 
+>[!def] Semantik aussagenlogischer Formeln
+
 TODO
 
->[!bsp]
+>[!bsp] Beispiel
+
+Implikationen/Äquivalenzen
