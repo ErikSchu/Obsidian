@@ -34,6 +34,12 @@ $AV$ bezeichnet die Menge aller aussagenlogischer Variablen
 >[!def] **Syntax** Aussagenlogischer Formeln 
 >Die Menge $AL$ der **aussagenlogischen Formeln** ist die kleinste Menge, die die folgenden Eigenschaften hat:
 >1. $\top$ *(wahr)* und $\bot$ *(falsch)* sind in $AL$
+>2. Jede Variable aus $AV$ ist in $AL$
+>3. Sind $\varphi_{1}, \varphi_{2}$ in $AL$, so auch
+>	- $\neg \varphi_{1}$  *(Negaytion)*
+>	- $(\varphi_{1} \land \varphi_{2})$ *(Konjunktion)*
+>	- $
+>	- $
 
 ...
 
