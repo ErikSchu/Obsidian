@@ -69,6 +69,10 @@ entspr. Bedeutung einer Formel.
 >  ⤷ Schreibweise ==$\alpha \vDash \varphi$== *("Modell-Relation")*
 
 
+- ***Klammern weglassen***, wenn dadurch keine Missverständnisse entstehen (insb. äußerste Klammern)
+- Vereinbarung weiterer **logischer Operatoren**
+	- ==$\varphi_{1} \to \varphi_{2}$==
+
 
 TODO
 
