@@ -4,6 +4,8 @@
 - **Globalübung:** Mittoch 16:00 - 18:00, OH 12 E.003 (online Donnerstag 14:00 - 16:00)
 - **Tutorium:** Freitag 10:00 - 12:00, OH 14 E23
 
+
+___
 ### Überblick
 Die Veranstaltung _Logik für Informatik_ hat ziemlich viele Komponenten, die Sie beim Lernen unterstützen sollen, die Sie jedoch _nicht_ alle nutzen müssen.
 
