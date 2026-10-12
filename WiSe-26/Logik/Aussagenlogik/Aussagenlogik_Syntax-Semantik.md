@@ -16,12 +16,12 @@ smry:
 
 >[!example] Struktur von Zusammenhängen
 >1. Wenn der zug zu Spät kommt und keinen Taxis am Bahnhof sind, kommt Jane zu spät zu ihrem Termin (Zug ist zu spät und Jane ist pünktlich, also sind Taxis am Bahnhof)
->2. Falls es regnet und John seinen Schirm nicht dabei hat, wird er nass. 
-> - Die Argumentation ist unabhängig vom Inhalt der Aussagen (1) - (3)
-> - Es kommt nur auf den logischen Zusammenhang an
+>2. Falls es regnet und John seinen Schirm nicht dabei hat, wird er nass (es regnet aber John wird nicht nass, also hat er einen Schirm dabei)
+> - Die Argumentation ist unabhängig vom Inhalt der Aussagen; Es kommt nur auf den logischen Zusammenhang an
 
 >[!example] Problemlösen
->![[Pasted image 20261012112529.png]]
+> - "Jan oder Anna werden zur Party gehen" / "Entweder Patrick oder Jan wird zur Party gehen" / "Entweder Anna oder Patrick wird zur Party gehen"
+>   $$(J \lor A) \land (P \leftrightarrow \neg J) \land (\neg A \leftrightarrow \neg \neg P)$$
 >- Logische Formalisierung erlaubt die Anwendung systematischer Methoden zur Lösung von Problemen
 
 ___
@@ -45,10 +45,6 @@ $AV$ bezeichnet die Menge aller aussagenlogischer Variablen.
 >	- $(\varphi_{1} \lor \varphi_{2})$ *(Diskunktion)*
 >
 >(dabei sind (1) und (2) **atomar**)
-
-
-
-...
 
 ### Semantik
 entspr. Bedeutung einer Formel.
