@@ -54,10 +54,12 @@ entspr. Bedeutung einer Formel.
 >- Eine **Wahrheitsbelegung** ist eine partielle Funktion $\alpha: AV \to \{ 0,1 \}$
 >- Eine Belegung $\alpha$ heißt **passend** für eine Formel $\varphi$, wenn $\alpha(X)$ für alle in $\varphi$ vorkommenden Variablen $X$ definiert ist. 
 
-$X$ ist hier eine "Meta-Variable", die für eine beliebige aussagenlogische Variable steht. 
-Die Semantik von $\varphi$ ordnet jeder passenden Bekegung $\alpha$ einen Wahrheitswert  
+- $X$ ist hier eine "**Meta-Variable**", die für eine beliebige aussagenlogische Variable steht. 
+- Die Semantik von $\varphi$ ordnet jeder passenden Belegung $\alpha$ einen Wahrheitswert $[\![ \varphi ]\!]_{\alpha}$ zu.
 
 >[!def] Semantik aussagenlogischer Formeln
+>- Sei $\varphi \in AL$ und $\alpha$ eine zu $\varphi$ passende Belegung. 
+>- Wir definieren ==$[\![\varphi]\!]_{\alpha}$==
 
 TODO
 
