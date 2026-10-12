@@ -62,7 +62,9 @@ entspr. Bedeutung einer Formel.
 >Wir definieren ==$[\![\varphi]\!]_{\alpha}$== induktiv nach der Struktur von $\varphi$:
 >- $[\![\bot]\!]_{\alpha} := 0, [\![\top]\!]_{\alpha} := 1$
 >  $[\![X]\!]_{\alpha} := \alpha(x)$ für Variablen $X \in AV$
->- $[\![\neg \varphi_{1}]\!]_{\alpha} := \begin{cases} 1 \text{ falls } [\![\varphi_{1}]\!] \end{cases}$
+>- $[\![\neg \varphi_{1}]\!]_{\alpha} := \begin{cases} 1 \text{ falls } [\![\varphi_{1}]\!]_{\alpha} = 0 \\ 0 \text{ falls } [\![\varphi_{1}]\!]_{\alpha} = 1 \end{cases}$
+>- $[\![\varphi_{1} \land \varphi_{2}]\!]_{\alpha} := \begin{cases} 1 \text{ falls } [\![\varphi_{1}]\!]_{\alpha} \text{ und } [\![\varphi_{2}]\!]_{\alpha}  \\ 0 \text{ andernfalls} \end{cases}$
+>- $[\![\varphi_{1} \land \varphi_{2}]\!]_{\alpha} := \begin{cases} 1 \text{ falls } [\![\varphi_{1}]\!]_{\alpha} \text{ und } [\![\varphi_{2}]\!]_{\alpha}  \\ 0 \text{ andernfalls} \end{cases}$
 
 TODO
 
