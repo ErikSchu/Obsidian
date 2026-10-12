@@ -1,5 +1,5 @@
 
-## 1. [[Aussagenlogik]]
+## 1. [[WiSe-25/RS/RS-Wiki/rs_wiki_dump/Aussagenlogik]]
 
 ---
 ## 2. [[Boolesche_Algebra]]

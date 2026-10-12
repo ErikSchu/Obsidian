@@ -4,6 +4,8 @@
 - **Globalübung:** Mittoch 16:00 - 18:00, OH 12 E.003 (online Donnerstag 14:00 - 16:00)
 - **Tutorium:** Freitag 10:00 - 12:00, OH 14 E23
 
+![[Pasted image 20261012104536.png]]
+
 >[!example] Beispiel Prädikatlogik (kurz FO)
 >*Beantwortung einer einer Frage mit ==logischen Methoden==*
 >1. Fragestellung
@@ -21,8 +23,9 @@
 - ***Prädikatlogik:***  Elementaraussagen mittels Quantoren
 
 >[!TIP] Hauptbegriffe der Vorlesung
->1. ***Modellbezeichnung:*** Zum Testen ob ein System die Fragliche Eigenschaft hat, muss überprüft weren, ob die Struktur ein **Modell** der Formel ist, die Systemeigenschaften spezifiziert
->2. ***Semantisches Folgern:*** Folgern neues Wissens $\psi$ aus einer WIssensbasis $$
+>1. ***Modellbezeichnung:*** *$(\models)$* Zum Testen ob ein System die Fragliche Eigenschaft hat, muss überprüft weren, ob die Struktur ein **Modell** der Formel ist, die Systemeigenschaften spezifiziert
+>2. ***Semantisches Folgern:*** *$(\models)$* Folgern neues Wissens $\psi$ aus einer WIssensbasis $\Phi$
+>3. ***Syntaktisches Beweisen:*** *$(\vdash)$* mittels semantischem Folgern → Beweis von Formeln aus anderen Formelmengen
 
 ___
 ### Überblick
