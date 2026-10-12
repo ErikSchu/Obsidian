@@ -28,8 +28,8 @@ Abstraktion ***"Aussage"***: **etwas, das ==wahr== oder ==falsch== sein kann**
 	⤷ **Aussagenvariablen** können dabei die Werte `wahr` oder `falsch` annehmen
 
 ### Syntax
-Verwendung ***aussagenlogischer Variablen*** der Art $A, B, C$ sowie $A_{i}$ für alle $i \in \mathbb{N}$
-$AV$ bezeichnet die Menge aller aussagenlogischer Variablen
+Verwendung ***aussagenlogischer Variablen*** der Art $A, B, C$ sowie $A_{i}$ für alle $i \in \mathbb{N}$.
+$AV$ bezeichnet die Menge aller aussagenlogischer Variablen.
 
 >[!def] **Syntax** Aussagenlogischer Formeln 
 >Die Menge $AL$ der **aussagenlogischen Formeln** ist die kleinste Menge, die die folgenden Eigenschaften hat:
