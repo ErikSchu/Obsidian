@@ -58,8 +58,11 @@ entspr. Bedeutung einer Formel.
 - Die Semantik von $\varphi$ ordnet jeder passenden Belegung $\alpha$ einen Wahrheitswert $[\![ \varphi ]\!]_{\alpha}$ zu.
 
 >[!def] Semantik aussagenlogischer Formeln
->- Sei $\varphi \in AL$ und $\alpha$ eine zu $\varphi$ passende Belegung. 
->- Wir definieren ==$[\![\varphi]\!]_{\alpha}$==
+>Sei $\varphi \in AL$ und $\alpha$ eine zu $\varphi$ passende Belegung. 
+>Wir definieren ==$[\![\varphi]\!]_{\alpha}$== induktiv nach der Struktur von $\varphi$:
+>- $[\![\bot]\!]_{\alpha} := 0, [\![\top]\!]_{\alpha} := 1$
+>  $[\![X]\!]_{\alpha} := \alpha(x)$ für Variablen $X \in AV$
+>- $[\![\neg \varphi_{1}]\!]_{\alpha} := \begin{cases} 1 \text{ falls } [\![\varphi_{1}]\!] \end{cases}$
 
 TODO
 
