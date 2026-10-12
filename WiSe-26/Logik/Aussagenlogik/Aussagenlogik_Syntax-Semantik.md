@@ -38,8 +38,11 @@ $AV$ bezeichnet die Menge aller aussagenlogischer Variablen
 >3. Sind $\varphi_{1}, \varphi_{2}$ in $AL$, so auch
 >	- $\neg \varphi_{1}$  *(Negaytion)*
 >	- $(\varphi_{1} \land \varphi_{2})$ *(Konjunktion)*
->	- $
->	- $
+>	- $(\varphi_{1} \lor \varphi_{2})$ *(Diskunktion)*
+>
+>(dabei sind (1) und (2) **atomar**)
+
+
 
 ...
 
