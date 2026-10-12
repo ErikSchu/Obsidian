@@ -23,6 +23,17 @@ smry:
 ___
 # 2. Syntax und Semantik der Aussagenlogik
 
-## Aussagen und Aussagenvariablen
+### Aussagen und Aussagenvariablen
+Abstraktion ***"Aussage"***: **etwas, das ==wahr== oder ==falsch== sein kann**
+	⤷ **Aussagenvariablen** können dabei die Werte `wahr` oder `falsch` annehmen
 
-- Abstraktion ***"Aussage"***: *etwas, das ==wahr== oder ==falsch== sein kann* 
+### Syntax
+Verwendung ***aussagenlogischer Variablen*** der Art $A, B, C$ sowie $A_{i}$ für alle $i \in \mathbb{N}$
+$\underline{AV}$ bezeichnet die Menge aller aussagenlogischer Variablen
+
+>[!TIP] **Syntax** Aussagenlogischer Formeln 
+>TODO
+
+...
+
+### Semantik
