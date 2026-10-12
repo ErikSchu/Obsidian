@@ -1,0 +1,29 @@
+/* Definition */
+.callout[data-callout="def"] {
+  --callout-color: 68, 138, 255;
+  --callout-icon: lucide-book-open;
+}
+
+/* Satz */
+.callout[data-callout="satz"] {
+  --callout-color: 0, 255, 117;
+  --callout-icon: lucide-sigma;
+}
+
+/* Lemma */
+.callout[data-callout="lem"] {
+  --callout-color: 236, 64, 122;
+  --callout-icon: lucide-puzzle;
+}
+
+/* Korollar */
+.callout[data-callout="kor"] {
+  --callout-color: 118, 255, 0;
+  --callout-icon: lucide-corner-down-right;
+}
+
+/* Beispiel */
+.callout[data-callout="bsp"] {
+  --callout-color: 76, 175, 80;
+  --callout-icon: lucide-flask-conical;
+}

@@ -6,7 +6,7 @@ smry:
 ---
 # 1. Einführende Beispiele
 ## Gründe für Formale Logik
->[!bsp] Präzision
+>[!example] Präzision
 ![[Pasted image 20261012105543.png]]
 > - Formale Logik hat eine eindeutige Semantik, was erlaubt Zusammenhänge präzise zu beschreiben.
 > - (1), (2): *Prädikatenlogik*, (3): *[[Aussagenlogik]]*
