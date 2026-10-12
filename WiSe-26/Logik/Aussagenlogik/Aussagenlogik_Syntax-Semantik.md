@@ -31,9 +31,22 @@ Abstraktion ***"Aussage"***: **etwas, das ==wahr== oder ==falsch== sein kann**
 Verwendung ***aussagenlogischer Variablen*** der Art $A, B, C$ sowie $A_{i}$ für alle $i \in \mathbb{N}$
 $\underline{AV}$ bezeichnet die Menge aller aussagenlogischer Variablen
 
->[!TIP] **Syntax** Aussagenlogischer Formeln 
+>[!def] **Syntax** Aussagenlogischer Formeln 
 >TODO
 
 ...
 
 ### Semantik
+entspr. Bedeutung einer Formel.
+*Wenn* jeder Variable ein Wahrheitswert zugewiesen ist, *dann* kann auch einer aussagenlogischen Formel ihr Wahrheitswert zugewiesen werden
+
+>[!def] Wahrheitsbelegung
+>- Eine **Wahrheitsbelegung** ist eine partielle Funktion $\alpha: AV \to \{ 0,1 \}$
+>- Eine Belegung $\alpha$ heißt **passend** für eine Formel $\varphi$, wenn $\alpha(X)$ für alle in $\varphi$ vorkommenden Variablen $X$ definiert ist. 
+
+$X$ ist hier eine "Meta-Variable", die für eine beliebige aussagenlogische Variable steht. 
+Die Semantik von $\varphi$ ordnet jeder passenden Bekegung $\alpha$ einen Wahrheitswert  
+
+TODO
+
+>[!bsp]
