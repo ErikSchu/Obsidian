@@ -51,7 +51,7 @@ entspr. Bedeutung einer Formel.
 *Wenn* jeder Variable ein Wahrheitswert zugewiesen ist, *dann* kann auch einer aussagenlogischen Formel ihr Wahrheitswert zugewiesen werden
 
 >[!def] Wahrheitsbelegung
->- Eine **Wahrheitsbelegung** ist eine partielle Funktion $\alpha: AV \to \{ 0,1 \}$
+>- Eine **Wahrheitsbelegung** ist eine partielle Funktion $\alpha: AV \rightharpoonup \{ 0,1 \}$
 >- Eine Belegung $\alpha$ heißt **passend** für eine Formel $\varphi$, wenn $\alpha(X)$ für alle in $\varphi$ vorkommenden Variablen $X$ definiert ist. 
 
 - $X$ ist hier eine "**Meta-Variable**", die für eine beliebige aussagenlogische Variable steht. 
@@ -71,11 +71,8 @@ entspr. Bedeutung einer Formel.
 
 - ***Klammern weglassen***, wenn dadurch keine Missverständnisse entstehen (insb. äußerste Klammern)
 - Vereinbarung weiterer **logischer Operatoren**
-	- ==$\varphi_{1} \to \varphi_{2}$==
-
-
-TODO
-
->[!bsp] Beispiel
-
-Implikationen/Äquivalenzen
+	- $\underline{\varphi_{1} \to \varphi_{2}}$ für $\neg \varphi_{1} \lor \varphi_{2}$
+	- $\underline{\varphi_{1} \leftrightarrow \varphi_{2}}$ für $(\varphi_{1} \land \varphi_{2}) \lor (\neg \varphi_{1} \land \neg \varphi_{2})$
+- Weitere **Vereinbarungen**
+	- $AL$ bezeichnet die definierte *Formelmenge* (s.o.)
+	- Anwendung obiger Vereinbarungen bei verwendung von "aussagenlogische Formeln" anstatt "$AL$"
