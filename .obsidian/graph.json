@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "-path:\"!stuff\" -path:\"Anhänge\"",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
