@@ -61,6 +61,10 @@ smry:
 > ⤷ bzw. Merkmale
 > ![[Pasted image 20261015094914.png]]
 > ![[Pasted image 20261015094930.png]]
+> ⤷;1 bedeutet, dass wir das erste Merkmal betrachten
 > ![[Pasted image 20261015094955.png]]
 > ![[Pasted image 20261015095016.png]]
+> ⤷ zusätzlich ordinale Ordnung
+
+- ***Absolute Häufigkeit*** $N_{j}$ von $x(j) = N(x(j)) = \sum^N_{i=1} d_{i}(j)$, mit $d_{i}(j) := \mathbb 1 _{x(e_{i}) = x(j)}$![[Pasted image 20261015095932.png]]
 
