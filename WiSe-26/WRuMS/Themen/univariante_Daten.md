@@ -51,4 +51,16 @@ smry:
 	- $N$ ist die Stichprobengröße
 	- $M_{N} = \{ e_{1}, \dots, e_{N} \}$ ist die Population bestehend aus Objekten $e_{1}, \dots, e_{N}$
 	- $X$ ist ein nominales / ordinales Merkmal
-	- $W_{X} = \{  x(j) \vert j = 1, \dots, J \} = \{ x(1) \}$
+	- $W_{X} = \{  x(j) \vert j = 1, \dots, J \} = \{ x(1), \dots, x(J) \}$ ist der Wertebereich von $X$ mit Merkmalsausprägungen $x(j) = 1, \dots, J$, wobei $J$ die Anzahl der Auspräungen ist
+	- falls $X$ ordinal, gilt $x(1) < x(2) < \dots < x(J)$
+	- $D_{N} = \{ x_{n} \vert n = 1, \dots, N \} = \{ x_{1}, \dots, x_{N} \}$ ist die Urliste der Messung von $X$ in der Population $M_{N}$, d.h. $x_{n} = X(e_{n}), n = 1, \dots, N$
+
+>[!example] Beispiel: Bearbeitung von Softwareaufgaben
+> ![[Pasted image 20261015094846.png]]
+> ![[Pasted image 20261015094859.png]]
+> ⤷ bzw. Merkmale
+> ![[Pasted image 20261015094914.png]]
+> ![[Pasted image 20261015094930.png]]
+> ![[Pasted image 20261015094955.png]]
+> ![[Pasted image 20261015095016.png]]
+
