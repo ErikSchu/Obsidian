@@ -20,7 +20,6 @@
 - Montag, 18:00 - 19:30 Uhr, SRG 1 2.009 (2.11., 16.11., 30.11., 14.12., 11.1., 25.1., 1.2.)
 - Dienstag, 16:15 - 17:45 Uhr, SRG 1 2.008 (3.11., 17.11., 1.12., 15.12., 12.1., 26.1., 2.2.)
 - In beiden Terminen werden die gleichen Inhalte besprochen.
-- 
 
 ##### Aufgaben
 - Alle zwei Wochen am Donnerstag wird ein neues Übungsblatt veröffentlicht, das sich mit dem Vorlesungsstoff der selben und der folgenden Woche beschäftigt. Die Übungsaufgaben sollen *allein oder in sinnvollen Kleingruppen* bearbeitet werden. Die Lösungen der Übungsblätter werden in den Übungen besprochen und außerdem hochgeladen. 
