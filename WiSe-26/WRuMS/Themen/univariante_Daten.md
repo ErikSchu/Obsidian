@@ -18,7 +18,7 @@ smry:
 
 ### Skalentypen
 
-- ***Qualitativ:*** 
+- ***Qualitativ:*** (immer Diskret)
 	- **Nominal:** gleich/verschieden, *z.B. Farbe, Form*
 	- **Ordinal:** größer/kleiner, *z.B. Linienart*
   
@@ -34,3 +34,21 @@ smry:
 
 - ***Stetig:***  ==überabzählbar unendlich== viele *z.B. Breite, Höhe (wenn beliebig fein gemessen)*, immer **unendlich viele Möglichkeiten**, welche Ausprägung es haben kann (unendlich viele zwischen $x_{1}$ und $x_{2}$)
   ⤷ $(x_{1}, x_{2}) \space [x_{1}, x_{2}]$
+
+### Niveaus
+
+![[Pasted image 20261015093313.png]]
+⤷ **Skalenniveau** von links nach rechts immer höher
+
+- Unter Inkaufnahme von *Informationsverlust* können Merkmale ***in andere Skalenniveaus überführt*** und entsprechend analysiert werden
+	- **stetig** $\to$ **diskret** (runden, *genaue Werte* gehen verloren)
+	- **diskret quantitativ** $\to$ **ordinal** (*Abstände* gehen verloren)
+	- **ordinal** $\to$ **nominal** (*Ordnung* geht verloren)
+
+## 2.2 Tabellarische & grafische Darstellung univ. Daten
+
+- ***Qualitative Daten***
+	- $N$ ist die Stichprobengröße
+	- $M_{N} = \{ e_{1}, \dots, e_{N} \}$ ist die Population bestehend aus Objekten $e_{1}, \dots, e_{N}$
+	- $X$ ist ein nominales / ordinales Merkmal
+	- $W_{X} = \{  x(j) \vert j = 1, \dots, J \} = \{ x(1) \}$
