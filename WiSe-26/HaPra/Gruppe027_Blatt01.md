@@ -1,4 +1,5 @@
-## 1.3 (a)
+## 1.3
+###### (a)
 - `ghdl -s` "syntax":
   Prüft den Code auf grammatikalische und strukturelle RIchrigkeit, ohne Objektdateien zu erzeugen oder die interne Bibliotheksdatenbank zu aktualisieren.
 - `ghdl -a`  "analysis": 
@@ -14,4 +15,9 @@
  ___
 
 ## 1.4
-### (a)
+###### (a)
+`not_gate` und `not_result` haben immer den gleichen Wert wie das Signal `c`.
+###### (b)
+`c` hat den gleichen Wert wie `u`.
+###### (c)
+Da dem Python-Skript, 
