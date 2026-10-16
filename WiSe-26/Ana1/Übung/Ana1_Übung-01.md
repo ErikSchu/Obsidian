@@ -29,4 +29,6 @@ Z.z. $\underline{\forall n \in \mathbb{N} : \sum ^n _{k=1} k^2 = \frac{1}{3} n^3
 ⤷ beweise oder wiederlege
 
 a) $\forall m \in \mathbb{N} : m \text{ ungerade} \implies m^2 \text{ gerade}.$ $$m \text{ ungerade} \implies m = 2n +1 (n \in \mathbb{N}) \\ m^2 = (2n+1)^2 = 4n^2 + 4n + 1 \\ \text{Der Ausdruck ist nicht zwangsläufig gerade, die Aussage stimmt nicht.} \\ \text{ Gegenbeispiel: } 3^2 = 9, \text{3 und 9 sind beide ungerade.}$$
-b) $\forall m \in \mathbb{N} : m^2 \text{ ungerade} \implies m \text{ ungerade}.$ $$m^2 \text{ ungerade} \implies m^2 = 2n + 1 (n \in \mathbb{N}) \\ m = \sqrt{ m^2 } = \sqrt{  }$$
+b) $\forall m \in \mathbb{N} : m^2 \text{ ungerade} \implies m \text{ ungerade}.$ $$m^2 \text{ ungerade} \implies m^2 = 2n + 1 (n \in \mathbb{N}) \\ m = \sqrt{ m^2 } = \sqrt{ 2n + 1 }$$
+c) $\forall A, B, C: (A \cup B) \setminus C = (A \setminus C) \cup (B \setminus C)$ $$\text{Gilt aufgrund des Distributivgesetzes.}$$
+d) $\forall A, B, C : (A \cup B)  \setminus C = A \cup (B \setminus C)$ $$\text{Nach (c) gilt: } A, B, C: (A \cup B) \setminus C = (A \setminus C) \cup (B \setminus C). \\ \text{Die Aussage ist also falsch. Gegenbeispiel:} \\ \text{Sei}$$
