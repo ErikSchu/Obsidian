@@ -2,7 +2,7 @@
 datum: 16.10.2026
 tags:
   - Ana1
-smry:
+smry: Induktionsbeweise, Beweisen/Wiederlegen
 ---
 ## Aufgabe 1
 ⤷ Induktion
@@ -26,5 +26,7 @@ Z.z. $\underline{\forall n \in \mathbb{N} : \sum ^n _{k=1} k^2 = \frac{1}{3} n^3
   ___
 
 ## Aufgabe 2
+⤷ beweise oder wiederlege
 
-  
+a) $\forall m \in \mathbb{N} : m \text{ ungerade} \implies m^2 \text{ gerade}.$ $$m \text{ ungerade} \implies m = 2n +1 (n \in \mathbb{N}) \\ m^2 = (2n+1)^2 = 4n^2 + 4n + 1 \\ \text{Der Ausdruck ist nicht zwangsläufig gerade, die Aussage stimmt nicht.} \\ \text{ Gegenbeispiel: } 3^2 = 9, \text{3 und 9 sind beide ungerade.}$$
+b) $\forall m \in \mathbb{N} : m^2 \text{ ungerade} \implies m \text{ ungerade}.$ $$m^2 \text{ ungerade} \implies m^2 = 2n + 1 (n \in \mathbb{N}) \\ m = \sqrt{ m^2 } = \sqrt{  }$$
