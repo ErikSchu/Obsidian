@@ -1,1 +1,1 @@
-$$a \equiv = (\text{mod }n)$$
+$$a \equiv b (\text{mod }n)$$
