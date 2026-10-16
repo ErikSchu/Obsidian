@@ -16,8 +16,10 @@
 
 ## 1.4
 ###### (a)
-`not_gate` und `not_result` haben immer den gleichen Wert wie das Signal `c`.
+`not_gate` und `not_result` haben immer den gleichen Wert wie das Signal `c`. 
+
+![[Pasted image 20261016150629.png]]
 ###### (b)
-`c` hat den gleichen Wert wie `u`.
+Das Signal `c` hat durchgängig gleichen Wert `u` ("undefiniert") und reagiert nicht auf das Signal `a`, das bei $10\text{ ns}$ von $0$ auf $1$ wechselt. Im ersten Durchlauf hingegen, war `c` die Inverse von `a`.
 ###### (c)
-Da dem Python-Skript, 
+Da dem Python-Skript dieses Mal die Datei `notgate.vhdl` nicht übergeben wurde, existiert in der Simulation die Komponente `not_g` nicht, weswegen `c` den undefinierten Anfangswert beibehält.
