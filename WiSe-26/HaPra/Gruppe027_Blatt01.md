@@ -12,3 +12,6 @@
 - `gtkwave testbench.vcd` startet das Programm gtkwave und öffnet die Datei testbench.vcd, die davor erzeugt wurde. Dabei zeigt gtkwave nur an, was die vorherige Simulation aufgezeichnet hat. 
   ![[Pasted image 20261016141603.png]]
  ___
+
+## 1.4
+### (a)
