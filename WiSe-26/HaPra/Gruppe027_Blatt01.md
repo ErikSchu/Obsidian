@@ -4,4 +4,11 @@
 - `ghdl -a`  "analysis": 
   Analysiert den Code auf Syntaxfehler und kompiliert ihn. 
 - `ghdl -e` "elaboration":
-  Zwischen Analyse (a) und eigentlicher Simulation (r). Elaboriert angegebene Entities (hier 'test_f)
+  Zwischen Analyse (a) und eigentlicher Simulation (r). Elaboriert angegebene Entities (hier 'test_file'). Dabei werden alle Komponenten zu einem Gesamtmodell zusammengesetzt.
+- `ghdl -r` "run":
+  Elaborierte Simulation wird ausgefühlt.
+	⤷ `-- vcd = testbench.vcd` "value change dump": 
+	  Standartformat für Wellenformen
+- `gtkwave testbench.vcd` startet das Programm gtkwave und öffnet die Datei testbench.vcd, die davor erzeugt wurde. Dabei zeigt gtkwave nur an, was die vorherige Simulation aufgezeichnet hat. 
+  ![[Pasted image 20261016141603.png]]
+ ___
