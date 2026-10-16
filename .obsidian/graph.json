@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-path:\"!stuff\" -path:\"Anhänge\"",
   "showTags": true,
   "showAttachments": false,
