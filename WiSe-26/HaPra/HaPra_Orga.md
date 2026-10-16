@@ -8,3 +8,4 @@ Passcode: 677420
 ![[Pasted image 20261016121919.png]]
 ![[Pasted image 20261016122105.png]]
 ![[Pasted image 20261016122530.png]]
+![[Pasted image 20261016122750.png]]
