@@ -1,3 +1,7 @@
+# Gruppe 027 - Blatt 1
+Fabio Viegas da Silva
+Erik Schulze
+
 ## 1.3
 ###### (a)
 - `ghdl -s` "syntax":
